@@ -1,0 +1,106 @@
+/***********************************************************************/
+/***************************** Color Picker ****************************/
+/***********************************************************************/
+.color-wrapper{
+    position:relative;
+    width:100%;
+    margin:20px auto;
+    overflow: inherit !important;
+}
+
+.color-wrapper p{ margin-bottom:5px; }
+
+input.call-picker{
+    border:1px solid #aaa;
+    color:#666;
+    background: rgb(235, 235, 228);
+    text-transform:uppercase;
+    float:left;
+    outline:none;
+    padding:10px;
+    width:110px;
+}
+
+.color-picker{
+    width:97%;
+    background:#f3f3f3;
+    /*border:5px solid #fff;*/
+    padding: 7px 0 7px 3%;
+    box-shadow:0px 0px 3px 1px #ddd;
+    position:absolute;
+    top:45px;
+    left:2px;
+    z-index: 10;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.color-holder{
+    background:#fff;
+    cursor:pointer;
+    border:1px solid #aaa;
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:5px;
+}
+
+.color-picker .color-item{
+    cursor:pointer;
+    width:20px;
+    height:20px;
+    list-style-type:none;
+
+    margin:2px;
+    border:1px solid #ddd;
+}
+
+.color-picker .color-item:hover{
+    border:1px solid #666;
+    opacity:0.8;
+    -moz-opacity:0.8;
+    filter:alpha(opacity=8);
+}
+@media (max-width: 767px){
+    .color-picker {
+        width: 96%;
+        padding: 7px 2%;
+    }
+}
+/***********************************************************************/
+/***********************************************************************/
+ul.dropdown-menu>li{
+    position: relative;
+}
+ul.sub-menu{
+    list-style: none;
+    display: none;
+    position: absolute;
+    background: #55a32a;
+    width: 190px;
+    padding: inherit;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+ul.sub-menu>li{
+    padding: 5px 25px;
+    display: block;
+}
+ul.sub-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+ul.dropdown-menu>li:hover .sub-menu{
+    display: block;
+    top :0px;
+    left:140px;
+}
+ul.sub-menu>li:hover{
+    background: #35661a;
+    display: block;
+    
+}

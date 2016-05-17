@@ -119,11 +119,12 @@
 						<div class="collapse navbar-collapse" id="sidebar-nav-collapse-4">
 						  	<ul class="nav navbar-nav">
 						  		<li>
-						  			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						  			<p>Sed ut perspiciatisaaaa unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 						        </li>
 						  	</ul>
 						</div>
 					</nav>
+
 				</div><!-- sidebar-left -->
 			</div>
 

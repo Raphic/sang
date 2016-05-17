@@ -124,6 +124,29 @@
 						  	</ul>
 						</div>
 					</nav>
+					<hr style="margin: 0;">
+					<nav class="sidebar-nav navbar navbar-default">
+						<div class="navbar-header">
+						  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-nav-collapse-5" aria-expanded="false">
+							    <span class="sr-only">Toggle navigation</span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+						  	</button>
+						  	<span class="navbar-brand"><strong>Đang lọc theo</strong></span>
+						</div>
+
+						<div class="collapse navbar-collapse color-wrapper" id="sidebar-nav-collapse-5">
+						  	<ul class="nav navbar-nav">
+						  		<li>
+						  			<input type="text" name="custom_color" readonly placeholder="#ffffff" id="pickcolor" class="call-picker">
+								    <div class="color-holder call-picker"></div>
+								    <div class="color-picker" id="color-picker" style="display:none" ></div>
+						        </li>
+						        <script src="js/colorpicker.js"></script>
+						  	</ul>
+						</div>
+					</nav>
 				</div><!-- sidebar-left -->
 			</div>
 

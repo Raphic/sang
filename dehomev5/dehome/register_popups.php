@@ -119,6 +119,13 @@
 								<div class="input-group">
 			                  		<p class="clearfix text-center"><input type="text" class="form-control" placeholder="Địa chỉ email của bạn"></p>
 			                  		<p class="clearfix text-center"><input type="password" class="form-control" placeholder="Password. (Must be 8 Characters)"></p>
+			                  		<p class="clearfix text-center">
+			                  			<select class="form-control">
+										  <option value="Chủ nhà"selected>Chủ nhà</option>
+										  <option value="Chuyên gia - Nhà thầu">Chuyên gia - Nhà thầu</option>
+										  <option value="Showrom - Cửa hàng">Showroom - Cửa hàng</option>
+										</select>
+									</p>
 			                  		<p class="clearfix text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 			                  		<p class="clearfix text-center"><button class="btn btn-default" type="button">Gửi yêu cầu</button></p>
 				                </div>

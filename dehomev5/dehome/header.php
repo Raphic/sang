@@ -14,9 +14,11 @@
     <link href="resources/fontAwesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/sub_main.css" rel="stylesheet">
 
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
   </head>
   <body>
     <br>
@@ -60,11 +62,52 @@
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="header-left-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Tìm Photo</a>
+                      <ul class="sub-menu">
+                          <li><a href="#">Nhà Phố</a></li>
+                          <li><a href="#">Biệt Thự</a></li>
+                          <li><a href="#">Nội Thất</a></li>
+                          <li><a href="#">Phòng Khách</a></li>
+                          <li><a href="#">Bếp</a></li>
+                          <li><a href="#">Phòng Ngủ</a></li>
+                          <li><a href="#">Phòng Bé Trai</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tìm Chuyên Gia</a>
+                      <ul class="sub-menu">
+                          <li><a href="#">Thiết Kế & Thi Công</a></li>
+                          <li><a href="#">Thầu Xây Thô</a></li>
+                          <li><a href="#">Thầu Nội Thất</a></li>
+                          <li><a href="#">Thi Công Cảnh Quan</a></li>
+                          <li><a href="#">Nhà Thầu Điện Lạnh</a></li>
+                          <li><a href="#">Tất Cả Nhà Thầu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Showroom</a>
+                      <ul class="sub-menu">
+                          <li><a href="#">Trang Trí Nội Thất</a></li>
+                          <li><a href="#">TVật Liệu Hoàn Thiện</a></li>
+                          <li><a href="#">Vật Liệu Thô</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bài Viết</a>
+                      <ul class="sub-menu">
+                          <li><a href="#">Kiến Trúc</a></li>
+                          <li><a href="#">Nội Thất</a></li>
+                          <li><a href="#">Trang Trí</a></li>
+                          <li><a href="#">Cảnh Quan</a></li>
+                          <li><a href="#">Xây Dựng</a></li>
+                          <li><a href="#">Vật Liệu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Gốc Tư Vấn</a>
+                      <ul class="sub-menu">
+                        <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                        <li><a href="#">Hỏi Chuyên Gia</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li> -->
                   </ul>
                 </div>
               </div><!-- header-left-menu -->
