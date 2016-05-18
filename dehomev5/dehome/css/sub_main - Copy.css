@@ -70,32 +70,48 @@ div.nav input.call-picker{
 /***********************************************************************/
 /***************************** Menu ****************************/
 /***********************************************************************/
-.main-menu{
-    margin: auto 15px;
-    padding: inherit;
+ul.dropdown-menu>li{
+    position: relative;
+    -webkit-transition:all 0.6s;
+    transition:all 0.6s;
 }
-.main-menu .navbar-brand{
+ul.sub-menu{
+    list-style: none;
     display: none;
-}
-.main-menu .navbar-default .navbar-collapse{
-    border:none;
-}
-.main-menu .navbar{
-    min-height: inherit;
-}
-.main-menu .nav-pills>li.active>a{
+    width: 190px;
+    position: absolute;
     background: #55a32a;
-    margin-bottom: inherit;
+    padding: inherit;
+    padding-top:5px;
+    padding-bottom: 5px;
+    z-index: 1002;
 }
-.main-menu .nav-pills>li.active>a:hover{
+ul.sub-menu>li{
+    padding: 5px 25px;
+    opacity: 0;
+}
+ul.sub-menu>li:hover{
     background: #35661a;
+    display: block;
 }
-.main-menu .navbar-collapse{
-    margin-right: -30px;
-    margin-left: -30px;
+ul.sub-menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
 }
-.main-menu .nav-pills>li+li{
-    margin-left: inherit;
+ul.dropdown-menu>li:hover .sub-menu{
+    display: block;
+    opacity: 1;
+    top :0px;
+    left:140px;
+    -webkit-transition:all 0.6s;
+    transition:all 0.6s;
+}
+ul.dropdown-menu>li:hover ul.sub-menu>li{
+    opacity: 1;
+    -webkit-transition:all 0.6s;
+    transition:all 0.6s;
+    display: block;
 }
 /***********************************************************************/
 /***************************** Info Acc ****************************/
@@ -254,8 +270,49 @@ display: inline-block;
         width: 25px;
         height: 25px;
     }
-    .main-menu .navbar-brand{
+    .dropdown-menu{
+        width: 100%;
+        max-height: 300px;
+        overflow: auto;
+    }
+    .dropdown-menu>li>a{
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: solid 2px #35661a;
+        margin-left: 5px;
+    }
+    ul.sub-menu{
+        width: auto;
+        position: inherit;
+        background: transparent;
         display: block;
+        opacity: 1;
+        top :0px;
+        left:2%;
+        width: 96%;
+        -webkit-transition:all 0.6s;
+        transition:all 0.6s;
+    }
+    ul.sub-menu li{
+        list-style-type: disc;
+        opacity: 1;
+    }
+    ul.sub-menu a{
+        color: #888;
+    }
+    ul.dropdown-menu>li:hover .sub-menu{
+        display: block;
+        opacity: 1;
+        top :0px;
+        left:2%;
+        width: 96%;
+        -webkit-transition:all 0.6s;
+        transition:all 0.6s;
+    }
+    ul.sub-menu>li:hover a{
+        color: #fff;
+        -webkit-transition:all 0.6s;
+        transition:all 0.6s;
     }
     .info-acc{
         position: relative;
