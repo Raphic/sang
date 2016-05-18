@@ -98,6 +98,6 @@
 					</div>
 				</div><!-- row -->
 			</div><!-- container -->
-		</div><!-- footer -->
+		</div><!-- footer -->  	
   	</body>
 </html>

@@ -18,7 +18,6 @@
 
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
   </head>
   <body>
     <br>
@@ -45,10 +44,28 @@
             </div>
             <div class="col-sm-2 col-md-3">
               <div class="header-login clearfix">
-                <a href="#">
+                <a id="userbox" href="#">
                   <img src="resources/userIcon.png"> Đăng nhập
                 </a>
               </div><!-- header-login -->
+              <div id="userpanel">
+                <ul>
+                  <li>Hello, sangdoan1</li>
+                  <li><a href="#">Notifications</a></li>
+                  <li><a href="#">Bids Balance <span class="clo_red bold">(79,205)</span></a></li>
+                  <li><a href="#">SMS &amp; Email Settings</a></li>
+                  <li><a href="#">My Profile</a></li>
+                  <li><a href="http://bid4real.com/suggestions.htm">Make a Suggestion</a></li>
+                  <li><a href="javascript:__doPostBack('Logout$btLogout','')" id="Logout_btLogout">Logout</a></li>
+                </ul>
+              </div>
+              <script type="text/javascript">
+                  $(document).ready(function () {
+                      $("#userbox").click(function () {
+                          $("#userpanel").toggle(200);
+                      });
+                  });
+              </script>
             </div>
           </div><!-- header-top -->
         </div><!-- row -->
@@ -149,4 +166,4 @@
           </div><!-- header-bottom -->
         </div><!-- row -->
       </div>
-    </div><!-- header -->
+    </div><!-- header -->   

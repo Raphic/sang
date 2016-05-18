@@ -86,6 +86,17 @@
 						<option>Vietnam</option>
 					</select>
           		</div>
+          		<div class="form-group">
+          			<label for="">Color</label>
+				  	<div class="nav">
+				  		<li>
+				  			<input type="text" name="custom_color" readonly placeholder="#ffffff" id="pickcolor" class="call-picker">
+						    <div class="color-holder call-picker"></div>
+						    <div class="color-picker" id="color-picker" style="display:none" ></div>
+				        </li>
+				        <script src="js/colorpicker.js"></script>
+				  	</div>
+				</div>
 			</div>
 			<div class="col-xs-12 text-center">
 				<br>

@@ -6,7 +6,7 @@
 			<div class="col-xs-12">
 				<div class="accout-cover clearfix">
 					<img src="resources/accountCover.png">
-
+					
 					<button class="btn btn-default change-cover" data-toggle="modal" data-target="#change-avatar">Đổi cover</button>
 
 					<div class="change-avatar-popup modal fade" id="change-avatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -73,6 +73,19 @@
 						<a href="#" class="change-avatar">Đổi Avatar</a>
 					</div><!-- avatar -->
 				</div><!-- account-avatar -->
+				<div class="info-acc">
+					<a href="#" class="name-acc">Tên Acc AAAAAA</a>
+					<div>
+						<p>Showroom -Cửa Hàng</p>
+						<div class="rating-stars">
+	                        <span class="fa fa-star-o"></span>
+	                        <span class="fa fa-star-o"></span>
+	                        <span class="fa fa-star-o"></span>
+	                        <span class="fa fa-star-o"></span>
+	                        <span class="fa fa-star-o"></span>
+	                    </div>
+					</div>
+				</div>
 			</div>
 			<div class="col-xs-12 col-sm-3 col-sm-push-6 col-md-push-7">
 				<div class="account-socials clearfix">
@@ -97,16 +110,19 @@
 						<div class="collapse navbar-collapse" id="account-nav">
 						  	<ul class="nav navbar-nav">
 						  		<li class="active">
-						  			<a href="#">Overview</a>
+						  			<a href="#">Thông Tin Chung</a>
 						        </li>
 						        <li>
-						  			<a href="#">Projects</a>
+						  			<a href="#">Sản Phẩm</a>
 						        </li>
 						        <li>
-						  			<a href="#">Overview</a>
+						  			<a href="#">Đánh Giá</a>
 						        </li>
 						        <li>
-						  			<a href="#">Projects</a>
+						  			<a href="#">Yêu Thích</a>
+						        </li>
+						        <li>
+						  			<a href="#">Hoạt Động</a>
 						        </li>
 						  	</ul>
 						</div>

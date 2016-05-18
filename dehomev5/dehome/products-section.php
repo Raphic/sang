@@ -21,18 +21,17 @@
 				<a href="#">
 					<img src="resources/imageDemo.png" class="img-responsive">
 				</a>
-
-        <a href="vnexpress.net" style="height:100%; width:100%; display:block">
-        <div class="grid grid-popup">
-					<div class="actions-center">
-						<a href="#" class="action-1"><i class="fa fa-plus"></i></a>
-						<a href="#" class="action-2"><i class="fa fa-envelope-o"></i></a>
-					</div><!-- actions-center -->
-					<div class="action-bottom">
-						<a href="#">Xem chi tiết</a>
-					</div><!-- action-bottom -->
-				</div><!-- grid-popup -->
-        </a>
+		        <a href="vnexpress.net" style="height:100%; width:100%; display:block">
+			        <div class="grid grid-popup">
+						<div class="actions-center">
+							<a href="#" class="action-1"><i class="fa fa-plus"></i></a>
+							<a href="#" class="action-2"><i class="fa fa-envelope-o"></i></a>
+						</div><!-- actions-center -->
+						<div class="action-bottom">
+							<a href="#">Xem chi tiết </a>
+						</div><!-- action-bottom -->
+					</div><!-- grid-popup -->
+		        </a>
 			</div><!-- product-image -->
 
 			<div class="col-xs-12 visible-xs grid"><br></div>
@@ -44,7 +43,7 @@
 				<div class="product-content-owner">
 					<a href="#">
 						<img src="resources/userIcon.png" class="list">
-						Tên người tạo dự án
+						Tên người tạo dự án 
 					</a>
 					<span class="owner-rating list">
 						<?php  for ($j=0; $j < 5; $j++) { ?>
