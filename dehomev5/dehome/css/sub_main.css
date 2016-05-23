@@ -288,6 +288,11 @@ display: inline-block;
 /***********************************************************************/
 /***********************************************************************/
 /***********************************************************************/
+@media (min-width: 1100px){
+    .product-detail-slider .actions-center{
+        bottom: 20%;
+    }
+}
 @media (max-width: 767px){
     .color-picker {
         width: 96%;
@@ -345,7 +350,7 @@ display: inline-block;
         overflow: inherit;
     }
     .product-detail-slider .actions-center{
-        bottom: 2%;
+        bottom: 3.5%;
     }
     .product-fixed{
         position: relative;
