@@ -36,6 +36,9 @@ a[href^="tel:"] {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border:none;
 }
 h1 {
   position: relative;
@@ -84,25 +87,33 @@ h4 {
   height: 15px;
   background: #debc12;
   border-radius: 10px;
-  margin: 20px 1px;
+  margin: 20px 0px;
+  width: 100%;
+}
+.hr:nth-child(3){
+  margin-top: 30px;
 }
 /* Main menu styles
 ========================================================*/
+body{
+  width: 1200px;
+  margin: 0px auto;
+  background: url(../img/bg_main.jpg) no-repeat;
+  background-position: center top;
+}
 #content{
   min-height: 500px;
+  width: 1000px;
   background-color:  rgba(141, 207, 244, 0.75);
-  opacity: 0.6;
   border: solid 2px #bde6ff;
   border-radius: 20px;
-}
-section{
-  padding: 0px 100px;
+  margin: 0px auto;
+  padding: 20px 0px 30px 0px;
 }
 /* Login
 ========================================================*/
 .login{
   background: url(../img/bg_login.png) no-repeat;
-  margin-top: 20px;
   margin-left: -3px;
   
 }
@@ -132,35 +143,41 @@ section{
   justify-content:         space-between;
   font-family: Roboto;
 }
+a{
+  text-decoration: none;
+}
 .main_login label{
   color:  #2f2f2f;
   display: block;
   text-align: left;
   margin-left: 45px;
+  margin-top: 5px;
   font-size: 14px;
   font-weight: 300;
 }
 .main_login input{
   display: inline-block;
-  border-width: 1px;
-  border-color:  #e6e6e6;
-  border-style: solid;
+  border:solid 1px #e6e6e6;
   background-color:  #fbfafa;
   padding: 10px;
 }
 .main_login  form{
   text-align: center;
 }
+.main_login button{
+  background: inherit;
+}
 .form_coordinator{
   background: url(../img/bg_coordinator.png) no-repeat;
   height: 390px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 .form_coordinator>p{
   color:  #314396;
   font-size: 18px;
   text-align: center;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
 }
 .form_coordinator{
   width: 314px;
@@ -168,13 +185,14 @@ section{
 .form_coordinator input{
   width: 225px;
 }
-.form_coordinator button{
+.form_coordinator button a.button{
   border: none;
+  display: block;
   border-radius: 6px;
   border-bottom:  solid 3px #00355f; 
   background-color:  #01589d;
   width: 226px;
-  height: 38px;
+  padding: 8px;
   color:  #ffc60b;
   font-size: 18px;
   font-weight: 300;
@@ -184,9 +202,10 @@ section{
 .form_registration{
   background: url(../img/bg_registration.png) no-repeat;
   height: 580px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
-.form_registration p:nth-child(1), .form_login p{
+.form_registration p:nth-child(1), 
+.form_login p{
   color:  #4a8c35;
   font-size: 18px;
   font-weight: 500;
@@ -208,13 +227,44 @@ section{
 .form_registration form input{
   width: 271px;
 }
-.form_registration form button , .form_login form button{
+.form_registration .capcha{
+  height: 80px;
+  width: 271px;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  border:solid 1px #e6e6e6;
+  background-color:  #fbfafa;
+}
+.form_registration .capcha div,
+.form_registration .capcha b,
+.form_registration .capcha img{
+  display: inline-block;
+  clear: both;
+  float: inherit;
+  vertical-align: middle;
+}
+.form_registration .capcha>div{
+  margin-right: 60px;
+}
+.form_registration .capcha div.check_capcha{
+  background: #fff;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #c1c1c1;
+}
+.form_registration .capcha div.check_capcha:hover{
+  cursor: pointer;
+}
+.form_registration form button a.button , 
+.form_login form button a.button{
   border: none;
+  display: block;
   border-radius: 6px;
   background-color:  #6bd04e;
   width: 272px;
-  height: 38px;
-  color:  rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  color:  rgba(255, 255, 255, 0.7);
   font-size: 18px;
   font-weight: 300;
   text-align: center;
@@ -223,16 +273,176 @@ section{
 }
 .form_login{
   background: url(../img/bg_fr_login.png) no-repeat;
-  padding-top: 40px;
+  padding-top: 53px;
+  margin-top: 7px;
 }
 .form_login form{
   width: 317px;
 }
+.form_login p{
+  margin-bottom: 35px;
+}
 .form_login input{
   width: 225px;
 }
-.form_login form button{
+.form_login form button a.button{
   width: 226px;
+}
+.form_coordinator button a.button:hover ,
+.form_registration form button a.button:hover ,
+.form_login form button a.button:hover,
+.form_coordinator button a.button:focus ,
+.form_registration form button a.button:focus ,
+.form_login form button a.button:focus{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  border-top:  solid 3px #4a8c35;
+  border-bottom:  none;
+  opacity: .6
+}
+.form_coordinator button a.button:hover,
+.form_coordinator button a.button:focus{
+  transition: all 0.3s;
+  border-top: solid 3px #00355f;
+  border-bottom:  none;
+}
+
+/* Home
+========================================================*/
+.home{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-family: Rockwell;
+}
+.home_menu{
+  background: url(../img/bg_home_menu.png) no-repeat;
+  min-height: 515px;
+  width: 250px;
+  margin-left: 20px;
+  padding: 0px 10px;
+  display: inline-block;
+  text-align: center;
+}
+.home_menu .logo{
+  display: inline-block;
+  padding-top: 10px;
+}
+.home_menu>ul{
+  text-align: left;
+  list-style: none;
+  margin-top: 80px;
+}
+.home_menu>ul li{
+  border-bottom: 1px solid #b2d3d1;
+}
+.home_menu>ul li:last-child{
+  border-bottom: none;
+}
+.home_menu>ul li.active{
+  background: url(../img/menu_actvie.png) no-repeat left center;
+}
+.home_menu>ul a{
+  color:  #006d68;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+}
+.home_menu>ul a:hover,
+.home_menu>ul a:focus,
+.home_menu>ul li.active a{
+  color: #0172bc;
+}
+.home_slider{
+  text-align: center;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+.home_slider .box{
+  color:  #000000;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 10px;
+  border: solid 2px #ffffff;
+  background-color:  #debc12;
+  width: 313px;
+  height: 44px;
+  margin: 0px auto;
+}
+.home_slider .box1{
+  border-radius: 10px;
+  border: solid 2px  #ffffff;
+  background-color:  #7cc623;
+  width: 313px;
+  height: 44px;
+  color:  rgba(255, 255, 255, 0.9);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: -15px;
+}
+.home_slider div p{
+  margin-top: 4px;
+}
+.home_slider .slider{
+  margin-top: 20px;
+  padding: 3px;
+  border-radius: 10px;
+  background-color:  #ffffff;
+  height: 290px;
+}
+.home_slider .slider iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+/* Fundraising
+========================================================*/
+.home_fundraising{
+  border-radius: 10px;
+  background-color:  #ffffff;
+  width: 667px;
+  margin-right: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.home_fundraising p.title{
+  color:  #0071bc;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.home_fundraising .main_text{
+  text-align: left;
+}
+.home_fundraising .main_text .first_text,
+.home_fundraising .main_text .second_text{
+  font-size: 18px;
+  color: #605e5e;
+  font-weight: bold;
+ 
+}
+.home_fundraising .main_text .first_text{
+  text-shadow: 0px 3px 4px #666;
+}
+.home_fundraising .main_text>p{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.main_text>ul{
+  display: block;
+  margin-left: 50px;
 }
 /*========================================================
                     FOOTER styles
@@ -252,7 +462,7 @@ footer .main_footer{
   display: -ms-flex;
   display: flex;
   -webkit-justify-content: space-between;
-  justify-content:         space-between;
+  justify-content: space-between;
 }
 footer .main_footer div{
   display: inline-block;
@@ -271,7 +481,6 @@ footer .main_footer div p{
 
 }
 @media only screen and (max-width: 979px) {
-  nav {
 
 }
 @media only screen and (max-width: 767px) {

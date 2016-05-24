@@ -33,8 +33,8 @@
 						<input type="email" name="email" placeholder="" required>
 						<label>Coordinator Password</label>
 						<input type="password" name="password" placeholder="" required>
-						<button>First Time FC Login</button>
-						<button>All later FC Login Enter</button>
+						<button><a class="button" href="#">First Time FC Login</a></button>
+						<button><a class="button" href="#">All later FC Login Enter</a></button>
 					</form>
 				</div>
 				<div class="form_registration">
@@ -50,12 +50,14 @@
 						<input type="email" name="email" placeholder="" required>
 						<label>Choose a Password</label>
 						<input type="password" name="password" placeholder="" required>
-						<div>
-							<div></div>
-							<p>I'm not robot</p>
-							<img src="img/">
+						<div class="capcha">
+							<div>
+								<div class="check_capcha"></div>
+								<b>I'm not robot</b>
+							</div>
+							<img src="img/img_capcha.png">
 						</div>
-						<button>Submit</button>
+						<button><a class="button" href="#">Submit</a></button>
 					</form>
 					
 				</div>
@@ -66,27 +68,13 @@
 						<input type="email" name="email" placeholder="" required>
 						<label>Family password</label>
 						<input type="password" name="password" placeholder="" required>
-						<button>Submit</button>
+						<button><a class="button" href="#">Submit</a></button>
+					</form>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--========================================================
-														FOOTER 
-	=========================================================-->
-	<div class="hr"></div>
-	<footer>
-		<div class="main_footer">
-			<div>
-				<a href="#"><img src="img/icon_fb.png"></a>
-				<a href="#"><img src="img/icon_gg.png"></a>
-				<a href="#"><img src="img/icon_youtube.png"></a>
-			</div>
-			<div>
-				<p>PledgeBidder.com 6549 Mission Gorge Road, #270 San Diego, CA 92120<br>Need help?  Use the Contact Us button or call 1-877-900-4233</p>
-			</div>
-		</div>
-	</footer>
-</body>
-</html>
+	<?php
+	    include 'include/footer.php';
+	?>
