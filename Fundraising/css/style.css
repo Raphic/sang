@@ -444,6 +444,184 @@ a{
   display: block;
   margin-left: 50px;
 }
+/* Mail
+========================================================*/
+.mail{
+  margin-bottom: -30px;
+}
+.mail .header{
+  height: 70px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-family: Rockwell;
+}
+.mail .header .left{
+  background: url(../img/mail_logo.png) no-repeat;
+  width: 300px;
+  height: inherit;
+  margin-left: -4px;
+}
+.mail .header .left img{
+  width: 100px;
+  display: block;
+  margin: 7px auto;
+}
+.mail .header .right{
+  background: url(../img/bg_mail.png) no-repeat;
+  width: 620px;
+  height: inherit;
+  margin-right: -4px;
+}
+.mail .header .right img, .mail .header .right p{
+  display: inline-block;
+}
+.mail .header .right img{
+  margin: 6px 25px 0px 60px;
+}
+.mail .header .right p{
+  color:  #2f2f2f;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: text-bottom;
+}
+.mail .header .right p span{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.mail .main{
+  margin: 35px 25px 25px 10px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.mail .main .left{
+  border: solid 3px #fff;
+  background-color: #f5c92b;
+  width: 280px;
+  height: 410px;
+  padding: 25px;
+}
+.mail .main .left img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.mail .main .left p{
+  font-family: Roboto;
+  color:  #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mail .main .right{
+  border-radius: 10px;
+  background-color:  #ffffff;
+  width: 648px;
+  padding: 30px 15px 40px 30px;
+}
+.mail .main .right .top,
+.mail .main .right .bottom{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.mail .main .right .top p{
+  font-family: Roboto;
+  color:  #717171;
+  font-size: 12px;
+  font-weight: 400;
+}
+.mail .main .right .top img{
+  width: 147px;
+}
+.mail .main .right .bottom {
+  margin-top: 15px;
+}
+.mail .main .right .bottom .main_replay{
+  width: 420px;
+}
+.mail .main .right .bottom .main_replay .replay{
+  background-color:  #ffffff;
+  border: 1px #0071bc solid;
+  border-top: 40px #0071bc solid;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  color:  #717171;
+  padding: 15px 20px;
+}
+.mail .main .right .bottom .main_replay .replay p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2em;
+}
+.mail .main .right .bottom .main_replay .replay input[type=checkbox]{
+  width: 35px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: bottom;
+  
+}
+.mail .main .right .bottom .main_replay .replay .count{
+  margin-bottom: 20px;
+  position: relative;
+}
+.mail .main .right .bottom .main_replay .replay .count p{
+  display: inline-block;
+}
+.mail .main .right .bottom .main_replay .replay .count img{
+  width: 130px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 40px;
+}
+.mail .main .right .bottom .main_replay .replay .count>input[type=text]{
+  width: 60px;
+  height: 25px;
+  position: absolute;
+  right: 56px;
+  top: 10px;
+}
+.mail .main .right .bottom .main_replay .button{
+  display: block;
+  margin: 25px auto 0px auto;
+  border-radius: 10px;
+  border: solid 2px #ffffff;
+  background-color: #7cc623;
+  width: 161px;
+  height: 44px;
+  font-family: Rockwell;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 1.2% 13%;
+}
+.mail .main .right .bottom .main_replay img{
+  display: block;
+  width: 197px;
+  margin: 0px auto;
+}
+.mail .main .right .bottom .main_replay>p{
+  color:  #1c1b1b;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+}
+.mail .main .right .bottom .salary{
+  background:  #0071bc;
+  width: 147px;
+  text-align: center;
+  padding-top: 15px;
+}
+.mail .main .right .bottom .salary ul{
+  list-style: none;
+  color:  #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-block;
+  text-align: left;
+}
 /*========================================================
                     FOOTER styles
 =========================================================*/

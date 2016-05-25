@@ -18,21 +18,6 @@
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript">
-			$(document).ready(function(){				
-				jQuery('#camera_wrap').camera({
-						loader: false,
-						pagination: false,
-						thumbnails: false,
-						height: '40.833333333%',
-						fx: 'simpleFade',
-						rows: '1',
-						slicedCols: '1',
-						slicedRows: '1',
-						caption: false
-					});		
-			 });
-		</script>
 	<?php
 	    include 'include/footer.php';
 	?>
