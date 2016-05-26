@@ -80,6 +80,9 @@ h4 {
   display: -ms-flex;
   display: flex;
 }
+ul{
+  list-style: none;
+}
 /*========================================================
 										HEADER styles
 =========================================================*/
@@ -331,7 +334,6 @@ a{
 }
 .home_menu>ul{
   text-align: left;
-  list-style: none;
   margin-top: 80px;
 }
 .home_menu>ul li{
@@ -618,12 +620,13 @@ a{
   padding-top: 15px;
 }
 .mail .main .right .bottom .salary ul{
-  list-style: none;
-  color:  #ffffff;
   font-size: 12px;
   font-weight: 400;
   display: inline-block;
   text-align: left;
+}
+.mail .main .right .bottom .salary ul>li>a{
+  color:  #ffffff;
 }
 /* Mail 2
 ========================================================*/
@@ -757,6 +760,349 @@ a{
   font-weight: 400;
   line-height: 30px;
   padding-top: 5px;
+}
+/* FF - Preview
+========================================================*/
+.ff_menu{
+
+}
+.ff_menu ul li{
+
+}
+.ff_menu ul li a{
+  display: block;
+  background-color:  rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.47);
+  width: 282px;
+  font-family: Rockwell;
+  color:  #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  border-left: solid 3px #fff;
+}
+.ff_menu ul li a:hover,
+.ff_menu ul li a:focus{
+  background-color:  rgba(255, 255, 255, 0.6);
+}
+.ff_menu ul li a.active{
+  background-color:  #98ce80;
+  color: #fff;
+}
+.ff{
+  padding-right: 30px !important;
+  padding-bottom: 0px !important;
+}
+.ff p{
+  font-family: Roboto;
+  color:  #717171;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.2em;
+}
+.ff .ff_title{
+  font-family: Rockwell;
+  color:  #0071bc;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ff .ff_preview_main{
+  border: 4px #3fbcef solid;
+  background-color:  #ffffff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.48);
+  margin-top: 10px;
+  padding-bottom: 90px;
+  background: url(../img/bg_ff_preview_main.png) no-repeat bottom;
+}
+.ff .ff_preview_main .ff_preview_top{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  background: url(../img/bg_ff_preview_top.jpg) no-repeat top center;
+  padding: 30px 0px 0px 20px;
+}
+.ff .ff_preview_main .ff_preview_top img:first-child{
+  width: 110px;
+  height: 100%;
+}
+.ff .ff_preview_main .ff_preview_top img:last-child{
+  width: 75px;
+  height: 100%;
+  margin: 35px 20px;
+}
+.ff .ff_preview_main .greeting{
+  font-size: 14px;
+}
+.ff .ff_preview_main p{
+  margin: 15px 10px 15px 20px;
+  
+}
+.ff .ff_preview_main .button_mypledgepage{
+  text-align: center;
+}
+.ff .ff_preview_main .button_mypledgepage>a{
+  border-radius: 10px;
+  display: block;
+  border: solid 2px #ffffff;
+  background-color:  #debc12;
+  width: 313px;
+  height: 44px;
+  font-family: Rockwell;
+  color:  #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 5px;
+  margin: 40px auto 0px;
+}
+.ff .button_navigation{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.ff .button_navigation a{
+  display: block;
+  border-radius: 10px;
+  border: solid 2px #ffffff;
+  background-color:  #7cc623;
+  height: 44px;
+  font-family: Rockwell;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+.ff .button_navigation img{
+  width: 100%;
+}
+.ff .button_navigation .button_back,
+.ff .button_navigation .button_next{
+  width: 153px;
+  text-align: center;
+}
+.ff .button_navigation .button_send_request a{
+  font-size: 20px;
+}
+/* FF - Upload Photo
+========================================================*/
+.ff_upload_main{
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: -25px;
+}
+.ff_upload_main input[type=file]{
+  border-width: 1px;
+  border-color:  #e6e6e6;
+  border-style: solid;
+  background-color:  #fbfafa;
+  width: 350px;
+  padding: 8px;
+}
+.ff_upload_main input[type="button"]{
+  border-radius: 6px;
+  background-color:  #01589d;
+  width: 81px;
+  font-family: Roboto;
+  color:  #ffc60b;
+  font-size: 18px;
+  font-weight: 300;
+  height: 38px;
+  border-bottom: solid 3px #00355f;
+}
+.ff_upload_main input[type="button"]:hover{
+  cursor: pointer;
+}
+.ff_upload_main div.loadding_bar{
+  border-radius: 6px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  border: 1px #e6e6e6 solid;
+  background-color:  #ffffff;
+  width: 433px;
+  height: 15px;
+  margin: 12px auto 22px auto;
+}
+.ff_upload_main div.loadding_bar:after{
+  content: "";
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  background-color:  #00a8ec;
+  position: absolute;
+  display: block;
+  width: 5%;
+  height: 100%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  z-index: -1;
+}
+.ff_upload_main div.loadding_bar:hover:after {
+  width: 70%;
+}
+/* FF - Upload Photo
+========================================================*/
+.ff_edit_main{
+
+}
+.ff_edit_main table tr td{
+  vertical-align: baseline;
+  color:  #000000;
+  font-size: 18px;
+  font-weight:400;
+  text-align: left;
+}
+.ff_edit_main table tr td:last-child{
+  color:  #717171;
+  display: block;
+  margin-left: 60px;
+}
+/* FF - Post FB
+========================================================*/
+.ff_post_fb{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.ff_post_fb .post_fb_left{
+  width: 300px;
+}
+.ff_post_fb .post_fb_right{
+  width: 270px;
+}
+/* FF - Enterfundraising
+========================================================*/
+.ff_enterfundraising{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.ff_enterfundraising input[type=text]{
+  border: 1px #e6e6e6 solid;
+  background-color:  #fbfafa;
+  width: 300px;
+  padding-left: 5px;
+  height: 35px;
+}
+.style_select{
+    border-width: 1px #e6e6e6 solid;
+    width: 270px;
+    border-radius: 3px;
+    overflow: hidden;
+    background:url("../img/arrow_drop.png")no-repeat 235px 50%;
+    background-color:  #fbfafa;
+}
+.style_select:focus{
+  outline: none;
+}
+.style_select select{
+  width: 100%;
+  padding-left: 5px;
+  height: 35px;
+  background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+/* FF - Enterfundraising
+========================================================*/
+.ff_monitor{
+  margin-top: 20px;
+}
+.ff_monitor table tr th{
+  text-align: left;
+}
+.ff_monitor table tr td:first-child{
+  margin-left: inherit;
+}
+.ff_monitor table tr td input[type="text"]{
+  border: 1px #e6e6e6 solid;
+  background-color:  #fbfafa;
+  width: 125px;
+  padding-left: 5px;
+  height: 35px;
+}
+.ff_monitor table tr td .style_select{
+  width: 155px;
+  background:url("../img/arrow_drop.png")no-repeat 120px 50%;
+}
+.ff_monitor table tr td:nth-child(3) .style_select{
+  width: 100px;
+  background:url("../img/arrow_drop.png")no-repeat 65px 50%;
+}
+.ff_monitor table tr td:nth-child(4) input[type="text"]{
+  width: 100px;
+}
+.ff_monitor table tr td:nth-child(4) input[type="button"]{
+  border-radius: 6px;
+  background-color:  #01589d;
+  width: 72px;
+  height: 38px;
+  border-bottom: solid 3px #00355f; 
+  color:  #ffc60b;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.ff_monitor table tr td:nth-child(4) input[type="button"]:hover{
+  cursor: pointer;
+}
+.ff_monitor_bottom{
+  border-radius: 10px;
+  background-color:  #e4f7f5;
+  margin: 0px 30px 30px 10px;
+  padding: 50px 5px 20px 30px;
+}
+.ff_monitor_bottom>table{
+  width: 100%;
+  text-align: left;
+}
+.ff_monitor_bottom>table tr th{
+  text-decoration: underline;
+}
+.ff_monitor_bottom>table tr:last-child{
+  text-align: center;
+  font-weight: bold;
+}
+/* FF - Enterfundraising
+========================================================*/
+.ff_enterfamilyfriends{
+  margin-top: 30px;
+}
+.ff_enterfamilyfriends table{
+  width: 100%;
+  text-align: left;
+}
+.ff_enterfamilyfriends table input{
+  width: 100%;
+  border: 1px #e6e6e6 solid;
+  background-color:  #fbfafa;
+  height: 35px;
+  padding-left: 5px;
+}
+.ff_enterfamilyfriends table tr:last-child td:last-child{
+  color:  #de9d12;
+  font-size: 12px;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.ff_enterfamilyfriends table tr:last-child td:last-child input[type=button]{
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  padding-left: inherit;
+  border: none;
+  background: url(../img/button_add.png) no-repeat;
+  vertical-align: middle;
+  
 }
 /*========================================================
                     FOOTER styles

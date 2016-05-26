@@ -33,17 +33,17 @@
 							</div>
 							<div class="salary">
 								<ul>
-									<li>Smith Family  $150</li>
-									<li>Anonomous  $75</li>
- 									<li>Gregory Family $50</li>
- 									<li>Jim Smith  $45</li>
- 									<li>Jim Smith  $45</li>
- 									<li>Willy's Car Wash $40</li>
- 									<li>Uncle Ben  $35</li>
- 									<li>Grandma $30 </li>
- 									<li>Auntie Emma $25</li>
- 									<li>Anonomous  $20</li>
- 									<li>Anonomous  $15</li>
+									<li><a href="#">Smith Family  $150</a></li>
+									<li><a href="#">Anonomous  $75</a></li>
+ 									<li><a href="#">Gregory Family $50</a></li>
+ 									<li><a href="#">Jim Smith  $45</a></li>
+ 									<li><a href="#">Jim Smith  $45</a></li>
+ 									<li><a href="#">Willy's Car Wash $40</a></li>
+ 									<li><a href="#">Uncle Ben  $35</a></li>
+ 									<li><a href="#">Grandma $30</a></li>
+ 									<li><a href="#">Auntie Emma $25</a></li>
+ 									<li><a href="#">Anonomous  $20</a></li>
+ 									<li><a href="#">Anonomous  $15</a></li>
 								</ul>
 							</div>
 						</div>
