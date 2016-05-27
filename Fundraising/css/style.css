@@ -230,7 +230,7 @@ a{
 .form_registration form input{
   width: 271px;
 }
-.form_registration .capcha{
+.capcha{
   height: 80px;
   width: 271px;
   margin-top: 10px;
@@ -239,24 +239,24 @@ a{
   border:solid 1px #e6e6e6;
   background-color:  #fbfafa;
 }
-.form_registration .capcha div,
-.form_registration .capcha b,
-.form_registration .capcha img{
+.capcha div,
+.capcha b,
+.capcha img{
   display: inline-block;
   clear: both;
   float: inherit;
   vertical-align: middle;
 }
-.form_registration .capcha>div{
+.capcha>div{
   margin-right: 60px;
 }
-.form_registration .capcha div.check_capcha{
+.capcha div.check_capcha{
   background: #fff;
   width: 28px;
   height: 28px;
   border: 2px solid #c1c1c1;
 }
-.form_registration .capcha div.check_capcha:hover{
+.capcha div.check_capcha:hover{
   cursor: pointer;
 }
 .form_registration form button a.button , 
@@ -296,7 +296,8 @@ a{
 .form_login form button a.button:hover,
 .form_coordinator button a.button:focus ,
 .form_registration form button a.button:focus ,
-.form_login form button a.button:focus{
+.form_login form button a.button:focus,
+{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -306,12 +307,29 @@ a{
   opacity: .6
 }
 .form_coordinator button a.button:hover,
-.form_coordinator button a.button:focus{
+.form_coordinator button a.button:focus,
+.fc_login_firsttime .right .main_login_firsttime form input[type=button]:hover,
+.fc_login_firsttime .right .main_login_firsttime form input[type=button]:focus,
+.fc_pledgesheetentry .search_tab input[type="button"]:hover,
+.fc_pledgesheetentry .search_tab input[type="button"]:focus,
+.fc_pledgesheetentry input[type="button"]:hover,
+.fc_pledgesheetentry input[type="button"]:focus{
   transition: all 0.3s;
   border-top: solid 3px #00355f;
   border-bottom:  none;
 }
-
+.ff_monitor table tr td:nth-child(4) input[type="button"]:hover,
+.ff_monitor table tr td:nth-child(4) input[type="button"]:focus,
+.fc_pledgesheetentry.step3 a.back_teacher:hover,
+.fc_pledgesheetentry.step3 a.back_teacher:focus,
+.ff .button_navigation .button_back:hover, 
+.ff .button_navigation .button_back:focus,
+.ff .button_navigation .button_next:hover,
+.ff .button_navigation .button_next:focus,
+.ff .button_navigation .button_send_request a:hover,
+.ff .button_navigation .button_send_request a:focus{
+  opacity: .6
+}
 /* Home
 ========================================================*/
 .home{
@@ -1002,6 +1020,7 @@ a{
   outline: none;
 }
 .style_select select{
+  border: 1px #e6e6e6 solid;
   width: 100%;
   padding-left: 5px;
   height: 35px;
@@ -1011,7 +1030,7 @@ a{
        -moz-appearance: none;
             appearance: none;
 }
-/* FF - Enterfundraising
+/* FF - Monitor
 ========================================================*/
 .ff_monitor{
   margin-top: 20px;
@@ -1040,7 +1059,9 @@ a{
 .ff_monitor table tr td:nth-child(4) input[type="text"]{
   width: 100px;
 }
-.ff_monitor table tr td:nth-child(4) input[type="button"]{
+.ff_monitor table tr td:nth-child(4) input[type="button"],
+.fc_pledgesheetentry input[type="button"],
+.fc_login_firsttime .right .main_login_firsttime form input[type=button]{
   border-radius: 6px;
   background-color:  #01589d;
   width: 72px;
@@ -1050,7 +1071,9 @@ a{
   font-size: 18px;
   font-family: Roboto;
 }
-.ff_monitor table tr td:nth-child(4) input[type="button"]:hover{
+.ff_monitor table tr td:nth-child(4) input[type="button"]:hover,
+.fc_pledgesheetentry input[type="button"],
+.fc_login_firsttime .right .main_login_firsttime form input[type=button]{
   cursor: pointer;
 }
 .ff_monitor_bottom{
@@ -1114,14 +1137,18 @@ a{
   padding: 0px 35px;
 }
 .fc_menu ul{
+  margin-top: 60px;
 }
 .fc_menu>ul li:last-child{
   border-bottom:1px solid #b2d3d1;
 }
 /* FC - Report
 ========================================================*/
-.fc_report{
+.fc_report,
+.fc_downloadform{
   margin-top: 50px;
+  color:  #717171;
+  font-size: 18px;
 }
 .fc_report>div p{
   color:  #717171;
@@ -1137,16 +1164,22 @@ a{
 /* FC - Reminder
 ========================================================*/
 .fc_reminder{
-
+  margin-top: 30px;
 }
 .fc_reminder a{
   color: #000;
+  display: block;
 }
 .fc_reminder .send_request{
   display: block;
 }
+.fc_reminder .send_request input[type=checkbox]{
+  vertical-align: middle;
+  margin-right: 5px;
+}
 .fc_reminder .reminder{
   width: 100%;
+  margin-top: 15px;
 }
 .fc_reminder .reminder .calendar{
   width: 290px;
@@ -1166,6 +1199,9 @@ a{
   font-weight: bold;
   height: 30px;
 }
+.fc_reminder .reminder .calendar table tr th a{
+  color: #fff;
+}
 .fc_reminder .reminder .calendar table tr.things th{
   background:#99ce80;
   font-weight: normal;
@@ -1175,16 +1211,329 @@ a{
   border: 1px solid #fff;
   height: 35px;
 }
+.fc_reminder .reminder .calendar table tr td.active{
+  background: #cbcbcb;
+}
+.fc_reminder .reminder .calendar table tr td.other_month a{
+  color: #999;
+}
+.fc_reminder .reminder .calendar table tr td:hover{
+  background: #ccc;
+}
 .fc_reminder .reminder .calendar table tr td:first-child{
   border-left: none;
 }
-.fc_reminder .reminder .calendar table tr td a{
-  display: block;
-}
+
 .fc_reminder .reminder .fc_reminder_text{
   width: 275px;
   display: inline-block;
   vertical-align: top;
+}
+/* FC - DownLoadForm
+========================================================*/
+.fc_downloadform table tr td a{
+  display: block;
+  margin-right: 30px;
+}
+/* FC - Dash Board
+========================================================*/
+.fc_dashboard{
+  margin-top: 30px;
+  border-bottom: 25px solid #2B6CA3; 
+}
+.fc_dashboard a{
+  color: #000;
+}
+.fc_dashboard table{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse; 
+}
+.fc_dashboard table tr th{
+  background: #CCCCCC;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid #fff;
+}
+.fc_dashboard table tr th:first-child{
+  border-left: none;
+}
+.fc_dashboard table tr th>a{
+  height: 9px;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.fc_dashboard table tr th>div{
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+}
+.fc_dashboard table tr th>div>a{
+  display: block;
+  height: 9px;
+  margin-top: 1px;
+}
+.fc_dashboard table tr{
+  background: #BAE9FF;
+}
+.fc_dashboard table tr.pear{
+  background: #97DEFF;
+}
+.fc_dashboard table tr td{
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid #fff;
+}
+.fc_dashboard table tr td:first-child{
+  border-left: none;
+}
+.fc_dashboard table tr:last-child td{
+  border-bottom: none;
+}
+/* FC - Pledge Sheet Entry
+========================================================*/
+.fc_pledgesheetentry{
+  width: 100%;
+  font-family: Roboto;
+  color:  #717171;
+  font-size: 14px
+}
+.fc_pledgesheetentry .search_tab{
+  padding: 5px 10px;
+  margin: 25px auto 35px auto;
+  background: #debc12;
+  border-radius: 6px;
+}
+.fc_pledgesheetentry .search_tab img{
+  width: 64px;
+  vertical-align: middle;
+}
+.fc_pledgesheetentry .search_tab span{
+  font-family: Rockwell;
+  color:  rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 700;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.fc_pledgesheetentry .search_tab input[type="text"]{
+  border: 1px #e6e6e6 solid;
+  background-color:  #fbfafa;
+  width: 260px;
+  height: 35px;
+  vertical-align: middle;
+  margin: 0px 20px;
+  padding-left: 5px;
+}
+.fc_pledgesheetentry .search_tab input[type="button"]{
+  width: inherit;
+  padding: 0px 20px;
+  vertical-align: middle;
+}
+.fc_pledgesheetentry .info{
+  margin-left: 50px;
+  width: 400px;
+}
+.fc_pledgesheetentry .info table{
+  width: 100%;
+}
+.fc_pledgesheetentry .info table tr:first-child td:first-child{
+  font-family: Roboto;
+  color:  #717171;
+  font-size: 24px;
+  font-weight: 400;
+}
+/* FC - Pledge Sheet Entry - Step 2
+========================================================*/
+.fc_pledgesheetentry.step2 .search_tab{
+  padding: 5px 5px;
+  margin-bottom: 15px;
+}
+.fc_pledgesheetentry.step2 .search_tab>img,
+.fc_pledgesheetentry.step3 .search_tab:first-child img{
+  width: 34px;
+}
+.fc_pledgesheetentry.step2 .search_tab>span,
+.fc_pledgesheetentry.step3 .search_tab:first-child span{
+  width: inherit;
+}
+.fc_pledgesheetentry a.back_teacher{
+  display: inline-block;
+  color:  rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 6px;
+  background-color:  #006d68;
+  width: 147px;
+  padding: 2px 5px;
+  float: right;
+  vertical-align: middle;
+}
+.fc_pledgesheetentry.step2 input[type=text]{
+  border: 1px  #e6e6e6 solid;
+  background-color:  #fbfafa;
+  width: 240px;
+  height: 35px;
+  padding-left: 5px;
+}
+.fc_pledgesheetentry.step2 table{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.fc_pledgesheetentry.step2 .info{
+  margin-left: inherit;
+}
+/* FC - Pledge Sheet Entry - Step 3
+========================================================*/
+.fc_pledgesheetentry.step3 .search_tab{
+  margin-bottom: 15px;
+}
+.fc_pledgesheetentry.step3 .search_tab:nth-child(2){
+  margin-top: 20px
+}
+.fc_pledgesheetentry.step3 .search_tab:first-child div:last-child img{
+  width: 28px;
+  margin-top: 10px;
+  vertical-align: -7px;
+}
+.fc_pledgesheetentry.step3 .search_tab:nth-child(2) table{
+  width: 100%;
+  text-align: left;
+}
+.fc_pledgesheetentry.step3 .search_tab:nth-child(2) input[type=text]{
+  width: 220px;
+  margin:inherit;
+}
+.fc_pledgesheetentry.step3 a.back_teacher{
+  float: none;
+}
+/* FC - Login First Time
+========================================================*/
+.fc_login_firsttime{
+  margin: 40px 20px 15px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.fc_login_firsttime .fc_menu_login{
+  width: 280px;
+  margin-top: 40px;
+}
+.fc_login_firsttime .fc_menu_login ul{
+  list-style: none;
+}
+.fc_login_firsttime .fc_menu_login ul li a{
+  font-family: Rockwell;
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+  background: url(../img/fc/bg_login_first.png) no-repeat;
+  margin-bottom: 10px;
+  padding: 23px;
+}
+
+.fc_login_firsttime .right{
+  border-radius: 10px;
+  background-color:  #ffffff;
+  width: 648px;
+  padding: 20px;
+  font-family: Roboto;
+  color:  #2f2f2f;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.fc_login_firsttime .right .main_login_firsttime{
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #de9d12;
+  background-color:  #0f7b35;
+  min-height: 300px;
+  position: relative;
+  margin-top: 35px;
+  padding: 20px 15px;
+  color: #fff;
+  font-weight: normal;
+}
+.fc_login_firsttime .right .main_login_firsttime .scotch_left,
+.fc_login_firsttime .right .main_login_firsttime .scotch_right{
+  position: absolute;
+  top: -40px;
+  left: -30px;
+}
+.fc_login_firsttime .right .main_login_firsttime .scotch_right{
+  left: inherit;
+  right: -30px;
+}
+.fc_login_firsttime .right .main_login_firsttime p.title_login_firsttime{
+  font-family: Rockwell;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.fc_login_firsttime .right .main_login_firsttime form{
+  margin-top: 20px;
+}
+.fc_login_firsttime .right .main_login_firsttime form p{
+  margin: 15px auto 5px auto
+}
+.fc_login_firsttime .right .main_login_firsttime form input[type=text]{
+  border: 1px #e6e6e6 solid;
+  background-color:  #fbfafa;
+  width: 300px;
+  height: 35px;
+  vertical-align: bottom;
+  padding-left: 5px;
+}
+.fc_login_firsttime .right .main_login_firsttime form input[type=radio]{
+  margin-left: 30px;
+  vertical-align: middle;
+}
+.fc_login_firsttime .right .main_login_firsttime form .style_select{
+  width: 300px;
+  background:#fbfafa url("../img/arrow_drop.png")no-repeat 264px 50%;
+}
+.fc_login_firsttime .right .main_login_firsttime form .double{
+  display: inline-block;
+}
+.fc_login_firsttime .right .main_login_firsttime form .double [type=text]{
+  width: 140px;
+}
+.fc_login_firsttime .right .main_login_firsttime form .double .style_select{
+  width: 140px;
+  height: 35px;
+  background:#fbfafa url("../img/arrow_drop.png")no-repeat 104px 50%;
+}
+.fc_login_firsttime .right .main_login_firsttime form div .double:nth-child(1){
+  margin-right: 15px;
+}
+.fc_login_firsttime .right .main_login_firsttime form input.double{
+  width: 141px;
+}
+.fc_login_firsttime .right .main_login_firsttime form .add_login{
+  margin: 10px 5px 0px 190px;
+  color: #de9d12;
+}
+.fc_login_firsttime .right .main_login_firsttime form .add_login img{
+  vertical-align: middle;
+}
+.fc_login_firsttime .right .main_login_firsttime form .capcha{
+  width: 300px;
+  color: #000;
+}
+.fc_login_firsttime .right .main_login_firsttime form .capcha>div{
+  margin-left: 20px;
+  margin-right: 80px;
+}
+.fc_login_firsttime .right .main_login_firsttime form input[type=button]{
+  width: 300px;
+  margin-top: 10px;
 }
 /*========================================================
                     FOOTER styles

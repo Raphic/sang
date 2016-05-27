@@ -17,9 +17,9 @@ Please check how you want reminders sent, then on which two days you want them s
 								<div class="calendar">
 									<table>
 										<tr>
-											<th><</th>
+											<th><a href="#"><</a></th>
 											<th colspan="5">SEPTEMBER</th>
-											<th>></th>
+											<th><a href="#">></a></th>
 										</tr>
 										<tr class="things">
 											<th>S</th>
@@ -53,7 +53,7 @@ Please check how you want reminders sent, then on which two days you want them s
 											<td><a href="#">16</a></td>
 											<td><a href="#">17</a></td>
 											<td><a href="#">18</a></td>
-											<td><a href="#">19</a></td>
+											<td class="active"><a href="#">19</a></td>
 											<td><a href="#">20</a></td>
 											<td><a href="#">21</a></td>
 										</tr>
@@ -70,10 +70,10 @@ Please check how you want reminders sent, then on which two days you want them s
 											<td><a href="#">29</a></td>
 											<td><a href="#">30</a></td>
 											<td><a href="#">31</a></td>
-											<td><a href="#">1</a></td>
-											<td><a href="#">2</a></td>
-											<td><a href="#">3</a></td>
-											<td><a href="#">4</a></td>
+											<td class="other_month"><a href="#">1</a></td>
+											<td class="other_month"><a href="#">2</a></td>
+											<td class="other_month"><a href="#">3</a></td>
+											<td class="other_month"><a href="#">4</a></td>
 										</tr>
 									</table>
 								</div>
