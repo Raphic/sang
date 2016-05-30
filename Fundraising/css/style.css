@@ -1,6 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-
 /*========================================================
 										Main variables
 =========================================================*/
@@ -87,11 +85,13 @@ ul{
 										HEADER styles
 =========================================================*/
 .hr{
+  width: 1200px;
   height: 15px;
+  display: block;
   background: #debc12;
   border-radius: 10px;
-  margin: 20px 0px;
-  width: 100%;
+  margin: 20px auto;
+  
 }
 .hr:nth-child(3){
   margin-top: 30px;
@@ -99,7 +99,6 @@ ul{
 /* Main menu styles
 ========================================================*/
 body{
-  width: 1200px;
   margin: 0px auto;
   background: url(../img/bg_main.jpg) no-repeat;
   background-position: center top;
@@ -296,8 +295,7 @@ a{
 .form_login form button a.button:hover,
 .form_coordinator button a.button:focus ,
 .form_registration form button a.button:focus ,
-.form_login form button a.button:focus,
-{
+.form_login form button a.button:focus{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -327,7 +325,9 @@ a{
 .ff .button_navigation .button_next:hover,
 .ff .button_navigation .button_next:focus,
 .ff .button_navigation .button_send_request a:hover,
-.ff .button_navigation .button_send_request a:focus{
+.ff .button_navigation .button_send_request a:focus,
+.ff_upload_main input[type="button"]:hover,
+.ff_upload_main input[type="button"]:focus{
   opacity: .6
 }
 /* Home
@@ -352,7 +352,7 @@ a{
 }
 .home_menu>ul{
   text-align: left;
-  margin-top: 80px;
+  margin-top: 130px;
 }
 .home_menu>ul li{
   border-bottom: 1px solid #b2d3d1;
@@ -409,8 +409,10 @@ a{
   margin: 0px auto;
   margin-top: -15px;
 }
-.home_slider div p{
+.home_slider div a{
   margin-top: 4px;
+  display: block;
+  color: #fff;
 }
 .home_slider .slider{
   margin-top: 20px;
@@ -1135,6 +1137,7 @@ a{
   margin-left: -5px;
   margin-top: -35px;
   padding: 0px 35px;
+  font-family: Rockwell;
 }
 .fc_menu ul{
   margin-top: 60px;
@@ -1150,8 +1153,11 @@ a{
   color:  #717171;
   font-size: 18px;
 }
-.fc_report>div p{
-  color:  #717171;
+.fc_downloadform a,
+.fc_report>div a{
+  color: #717171;
+}
+.fc_report>div a{
   font-size: 18px;/
   font-weight: 400;
   display: inline-block;
@@ -1384,6 +1390,9 @@ a{
   width: 100%;
   text-align: left;
   margin-bottom: 10px;
+}
+.fc_pledgesheetentry.step2 table a{
+  color: #717171;
 }
 .fc_pledgesheetentry.step2 .info{
   margin-left: inherit;

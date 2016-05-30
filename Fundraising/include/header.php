@@ -22,10 +22,10 @@
 		<div id="content">
 			<div class="home flex">
 				<div class="home_menu">
-					<a href="index.php"><img class="logo" src="img/home_logo.png"></a>
+					<a href="index.html"><img class="logo" src="img/home_logo.png"></a>
 					<ul>
 						<li><a href="#">FAQ</a></li>
-						<li class="active"><a href="HomeFundraisingTypes.php">Fundraising Types</a></li>
+						<li class="active"><a href="HomeFundraisingTypes.html">Fundraising Types</a></li>
 						<li><a href="#">Contact Us</a></li>
 						<li><a href="#">Auction Rewards</a></li>
 						<li><a href="#">Qualify Here</a></li>

@@ -23,7 +23,7 @@
 			<div class="mail">
 				<div class="header flex">
 					<div class="left">
-						<a href="index.php"><img src="img/home_logo.png"></a>
+						<a href="index.html"><img src="img/home_logo.png"></a>
 					</div>
 					<div class="right">
 						<img src="img/icon_login.png">
