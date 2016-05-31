@@ -7,6 +7,8 @@
 	<link rel="icon" href="#" type="image/x-icon">
 
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/accordion.js"></script> 
 </head>
 <body>
 	<!--========================================================
@@ -32,19 +34,59 @@
 						<li><a href="#">Schedule a Fundraising<br>Webinar</a></li>
 					</ul>
 				</div>
-				<div class="home_slider">
-					<div class="box">
-						<a href="#">Schedule a Fundraising Webinar</a>
+				<div class="right ff ask">
+					<p class="ff_title">Frequently Asked Questions</p>
+					<div class="asked accordion">
+						<div class="question accordion-section">
+							<a class="accordion-section-title" href="#accordion-1">
+								Can our school use PledgeBidder to raise money for 6th Grade Camp
+							</a>
+							<span id="userbox" class="fa fa-angle-down" aria-hidden="true"></span>
+							<div id="accordion-1" class="answered accordion-section-content">
+								<p>Yes as long as your school or parent group is qualifiel Non-profit organization under 501 of the Federad tax code</p>
+								<a href=""><span class="fa fa-facebook" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-google" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-twitter" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<div class="question accordion-section">
+							<a class="accordion-section-title" href="#accordion-2">
+								Can our school use PledgeBidder to raise money for 6th Grade Camp
+							</a>
+							<span id="userbox" class="fa fa-angle-down" aria-hidden="true"></span>
+							<div id="accordion-2" class="answered accordion-section-content">
+								<p>Yes as long as your school or parent group is qualifiel Non-profit organization under 501 of the Federad tax code</p>
+								<a href=""><span class="fa fa-facebook" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-google" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-twitter" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<div class="question accordion-section">
+							<a class="accordion-section-title" href="#accordion-3">
+								Can our school use PledgeBidder to raise money for 6th Grade Camp
+							</a>
+							<span id="userbox" class="fa fa-angle-down" aria-hidden="true"></span>
+							<div id="accordion-3" class="answered accordion-section-content">
+								<p>Yes as long as your school or parent group is qualifiel Non-profit organization under 501 of the Federad tax code</p>
+								<a href=""><span class="fa fa-facebook" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-google" aria-hidden="true"></span></a>
+								<a href=""><span class="fa fa-twitter" aria-hidden="true"></span></a>
+							</div>
+						</div>
 					</div>
-					<img src="img/liftedshadow_medium.png">
-					<div class="box1">
-						<a href="#">Qualify Here</a>
-					</div>
-					<img src="img/liftedshadow_medium.png">
-					<div class="slider">
-			          	<iframe src="https://www.youtube.com/embed/7YrkF0oX9Go" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<img src="img/liftedshadow_medium1.png">
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$(".accordion-section-title").on('click',function(){
+							if($("#userbox").attr('data-click-state') == 1) {
+								$("#userbox").attr('data-click-state', 0)
+								$("#userbox").removeClass('rotate_asked');
+							} else {
+								$("#userbox").attr('data-click-state', 1)
+								$("#userbox").addClass('rotate_asked');
+								}
+							});
+						});
+					</script>
 				</div>
 			</div>
 		</div>

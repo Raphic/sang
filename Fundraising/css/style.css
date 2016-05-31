@@ -1,3 +1,4 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 /*========================================================
 										Main variables
@@ -23,7 +24,23 @@ body {
   min-width: 300px;
   background: #fff;
   color: #1d1819;
-  font: 14px/24px 'Open Sans', Arial, sans-serif;
+  font: 12px/22px 'Open Sans', Arial, sans-serif;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
 }
 a[href^="tel:"] {
   color: inherit;
@@ -66,9 +83,9 @@ h4 {
 }
 @font-face {
   font-family: 'Rockwell';
-  src: url('..font/Rockwell.woff') format('woff'),
-       url('..font/Rockwell.ttf') format('truetype'),
-       url('..font/Rockwell.svg#Rockwell') format('svg');
+  src: url('../font/Rockwell.woff') format('woff'),
+       url('../font/Rockwell.ttf') format('truetype'),
+       url('../font/Rockwell.svg#Rockwell') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -85,7 +102,7 @@ ul{
 										HEADER styles
 =========================================================*/
 .hr{
-  width: 1200px;
+  
   height: 15px;
   display: block;
   background: #debc12;
@@ -312,10 +329,10 @@ a{
 .fc_pledgesheetentry .search_tab input[type="button"]:focus,
 .fc_pledgesheetentry input[type="button"]:hover,
 .fc_pledgesheetentry input[type="button"]:focus,
-.ff_enterfundraising .button_add input[type=button]:hover,
-.ff_enterfundraising .button_add input[type=button]:focus,
 .fc_contact input[type=button]:hover,
-.fc_contact input[type=button]:focus{
+.fc_contact input[type=button]:focus,
+.ff_enterfundraising .button_add input[type=button]:hover,
+.ff_enterfundraising .button_add input[type=button]:focus{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -373,7 +390,7 @@ a{
 .home_menu>ul a{
   color:  #006d68;
   font-size: 18px;
-  font-weight: bold;
+
   line-height: 30px;
   text-align: left;
   display: block;
@@ -544,7 +561,8 @@ a{
   font-size: 18px;
   font-weight: 400;
 }
-.mail .main .right{
+.mail .main .right,
+.home .right{
   border-radius: 10px;
   background-color:  #ffffff;
   width: 648px;
@@ -724,7 +742,9 @@ a{
   margin: 5px auto 10px auto;
 }
 .main_mail2 form table tr input{
-  border: 1px  #e6e6e6 solid;
+  border-width: 1px;
+  border-color:  #e6e6e6;
+  border-style: solid;
   background-color:  #fbfafa;
   width: 133px;
   height: 35px;
@@ -743,7 +763,9 @@ a{
   margin-bottom: 15px;
 }
 .main_mail2 .congratulations form input[type=text]{
-  border-width: 1px #e6e6e6 solid;
+  border-width: 1px;
+  border-color:  #e6e6e6;
+  border-style: solid;
   background-color:  #fbfafa;
   width: 170px;
   height: 35px;
@@ -1053,12 +1075,12 @@ table.mail3 tr td:first-child input[type=text]{
   height: 35px;
 }
 .style_select{
-  border-width: 1px #e6e6e6 solid;
-  width: 250px;
-  border-radius: 3px;
-  overflow: hidden;
-  background:url("../img/arrow_drop.png")no-repeat 215px 50%;
-  background-color:  #fbfafa;
+    border-width: 1px #e6e6e6 solid;
+    width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    background:url("../img/arrow_drop.png")no-repeat 215px 50%;
+    background-color:  #fbfafa;
 }
 .style_select:focus{
   outline: none;
@@ -1586,7 +1608,7 @@ table.mail3 tr td:first-child input[type=text]{
   width: 300px;
   margin-top: 10px;
 }
-/* FC - Login First Time
+/* FC - Contact
 ========================================================*/
 .fc_contact{
   margin-bottom: 40px;
@@ -1612,16 +1634,64 @@ table.mail3 tr td:first-child input[type=text]{
   margin-right: 70px;
   float: right;
 }
-.fc_contact input[type=button]:hover{
+.fc_contact input[type=button]:hover,
+.fc_contact input[type=button]:focus{
   border-bottom: none;
   border-top: solid 3px #4a8c35;
+}
+/* Asked
+========================================================*/
+.home .ask{
+    margin-right: 20px;
+}
+.asked{
+  font-family: Roboto; 
+}
+.asked .question{
+  border-bottom: 2px solid #737272;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.asked .question .accordion-section-title,
+.asked .question span{
+  color: #F76108;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.asked .question .accordion-section-title{
+  width: 570px;
+  line-height: 1.5em;
+  cursor: inherit;
+}
+.asked .question .answered{
+  display: none;
+  width: 570px;
+  margin-top: 20px;
+}
+.asked .question .answered p,
+.asked .question .answered a span{
+  color: #31BDFF;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+.asked .question .answered a span{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.rotate_asked{
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
 }
 /*========================================================
                     FOOTER styles
 =========================================================*/
 footer{
-  width: 1200px;
-  margin: 0 auto;
   padding: 0px 100px 15px;
   font-family: Rockwell;
   color:  #000000;
