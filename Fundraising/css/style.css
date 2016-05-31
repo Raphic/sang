@@ -311,7 +311,14 @@ a{
 .fc_pledgesheetentry .search_tab input[type="button"]:hover,
 .fc_pledgesheetentry .search_tab input[type="button"]:focus,
 .fc_pledgesheetentry input[type="button"]:hover,
-.fc_pledgesheetentry input[type="button"]:focus{
+.fc_pledgesheetentry input[type="button"]:focus,
+.ff_enterfundraising .button_add input[type=button]:hover,
+.ff_enterfundraising .button_add input[type=button]:focus,
+.fc_contact input[type=button]:hover,
+.fc_contact input[type=button]:focus{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
   transition: all 0.3s;
   border-top: solid 3px #00355f;
   border-bottom:  none;
@@ -586,6 +593,11 @@ a{
   vertical-align: bottom;
   
 }
+.mail .main .right .bottom .main_replay .replay a img{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px 0px 20px 10px;
+}
 .mail .main .right .bottom .main_replay .replay .count{
   margin-bottom: 20px;
   position: relative;
@@ -606,7 +618,8 @@ a{
   right: 56px;
   top: 10px;
 }
-.mail .main .right .bottom .main_replay .button{
+.mail .main .right .bottom .main_replay .button,
+.button_returnoledge a{
   display: block;
   margin: 25px auto 0px auto;
   border-radius: 10px;
@@ -619,7 +632,8 @@ a{
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
-  padding: 1.2% 13%;
+  padding-top: 1.2%;
+  text-align: center;
 }
 .mail .main .right .bottom .main_replay img{
   display: block;
@@ -647,6 +661,14 @@ a{
 }
 .mail .main .right .bottom .salary ul>li>a{
   color:  #ffffff;
+}
+.mail .main .right .bottom .salary>p{
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  line-height: 1.2em;
 }
 /* Mail 2
 ========================================================*/
@@ -702,9 +724,7 @@ a{
   margin: 5px auto 10px auto;
 }
 .main_mail2 form table tr input{
-  border-width: 1px;
-  border-color:  #e6e6e6;
-  border-style: solid;
+  border: 1px  #e6e6e6 solid;
   background-color:  #fbfafa;
   width: 133px;
   height: 35px;
@@ -723,9 +743,7 @@ a{
   margin-bottom: 15px;
 }
 .main_mail2 .congratulations form input[type=text]{
-  border-width: 1px;
-  border-color:  #e6e6e6;
-  border-style: solid;
+  border-width: 1px #e6e6e6 solid;
   background-color:  #fbfafa;
   width: 170px;
   height: 35px;
@@ -780,6 +798,30 @@ a{
   font-weight: 400;
   line-height: 30px;
   padding-top: 5px;
+}
+/* Mail 3
+========================================================*/
+table.mail3{
+  text-align: left;
+  width: 100%;
+}
+table.mail3 input[type=text]{
+  width:60px;
+  height: 35px;
+  background:#eef2f5;
+  padding-left: 5px;
+}
+table.mail3 tr td:first-child input[type=text]{
+  width: 180px;
+}
+.button_returnoledge{
+  float: right;
+}
+.button_returnoledge a{
+  width: 310px;
+}
+.mail .main .right .bottom .main_replay .replay.mail3 p{
+  line-height: 1.2em;
 }
 /* FF - Preview
 ========================================================*/
@@ -1006,17 +1048,17 @@ a{
 .ff_enterfundraising input[type=text]{
   border: 1px #e6e6e6 solid;
   background-color:  #fbfafa;
-  width: 300px;
+  width: 250px;
   padding-left: 5px;
   height: 35px;
 }
 .style_select{
-    border-width: 1px #e6e6e6 solid;
-    width: 270px;
-    border-radius: 3px;
-    overflow: hidden;
-    background:url("../img/arrow_drop.png")no-repeat 235px 50%;
-    background-color:  #fbfafa;
+  border-width: 1px #e6e6e6 solid;
+  width: 250px;
+  border-radius: 3px;
+  overflow: hidden;
+  background:url("../img/arrow_drop.png")no-repeat 215px 50%;
+  background-color:  #fbfafa;
 }
 .style_select:focus{
   outline: none;
@@ -1063,7 +1105,9 @@ a{
 }
 .ff_monitor table tr td:nth-child(4) input[type="button"],
 .fc_pledgesheetentry input[type="button"],
-.fc_login_firsttime .right .main_login_firsttime form input[type=button]{
+.fc_login_firsttime .right .main_login_firsttime form input[type=button],
+.ff_enterfundraising .button_add input[type=button],
+.fc_contact input[type=button]{
   border-radius: 6px;
   background-color:  #01589d;
   width: 72px;
@@ -1072,10 +1116,6 @@ a{
   color:  #ffc60b;
   font-size: 18px;
   font-family: Roboto;
-}
-.ff_monitor table tr td:nth-child(4) input[type="button"]:hover,
-.fc_pledgesheetentry input[type="button"],
-.fc_login_firsttime .right .main_login_firsttime form input[type=button]{
   cursor: pointer;
 }
 .ff_monitor_bottom{
@@ -1492,7 +1532,9 @@ a{
 .fc_login_firsttime .right .main_login_firsttime form p{
   margin: 15px auto 5px auto
 }
-.fc_login_firsttime .right .main_login_firsttime form input[type=text]{
+.fc_login_firsttime .right .main_login_firsttime form input[type=text],
+.fc_contact input,
+.fc_contact textarea{
   border: 1px #e6e6e6 solid;
   background-color:  #fbfafa;
   width: 300px;
@@ -1544,10 +1586,42 @@ a{
   width: 300px;
   margin-top: 10px;
 }
+/* FC - Login First Time
+========================================================*/
+.fc_contact{
+  margin-bottom: 40px;
+}
+.fc_contact input,
+.fc_contact textarea{
+  display: block;
+  width: 515px;
+  margin-bottom: 5px;
+}
+.fc_contact textarea{
+  min-height: 120px;
+}
+.fc_contact div{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.fc_contact input[type=button]{
+  color: #fff;
+  background:#6bd04e;
+  border-bottom: solid 3px #4a8c35;
+  margin-right: 70px;
+  float: right;
+}
+.fc_contact input[type=button]:hover{
+  border-bottom: none;
+  border-top: solid 3px #4a8c35;
+}
 /*========================================================
                     FOOTER styles
 =========================================================*/
 footer{
+  width: 1200px;
+  margin: 0 auto;
   padding: 0px 100px 15px;
   font-family: Rockwell;
   color:  #000000;
