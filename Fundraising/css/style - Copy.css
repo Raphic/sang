@@ -887,7 +887,7 @@ table.mail3 tr td:first-child input[type=text]{
   text-align: left;
   line-height: 1.2em;
 }
-.home_fundraising .ff_title, .ff .ff_title{
+.ff .ff_title{
   font-family: Rockwell;
   color:  #0071bc;
   font-size: 30px;
@@ -1125,9 +1125,7 @@ table.mail3 tr td:first-child input[type=text]{
 .ff_monitor table tr td:nth-child(4) input[type="text"]{
   width: 100px;
 }
-
-
-.home_fundraising .fc_contact input[type="button"],.ff_monitor table tr td:nth-child(4) input[type="button"],
+.ff_monitor table tr td:nth-child(4) input[type="button"],
 .fc_pledgesheetentry input[type="button"],
 .fc_login_firsttime .right .main_login_firsttime form input[type=button],
 .ff_enterfundraising .button_add input[type=button],
@@ -1556,10 +1554,9 @@ table.mail3 tr td:first-child input[type=text]{
 .fc_login_firsttime .right .main_login_firsttime form p{
   margin: 15px auto 5px auto
 }
-.fc_contact{font: 12px/22px "Open Sans",Arial,sans-serif; text-align:left
-}
 .fc_login_firsttime .right .main_login_firsttime form input[type=text],
-.fc_contact input,.fc_contact textarea{
+.fc_contact input,
+.fc_contact textarea{
   border: 1px #e6e6e6 solid;
   background-color:  #fbfafa;
   width: 300px;
@@ -1622,20 +1619,6 @@ table.mail3 tr td:first-child input[type=text]{
   width: 515px;
   margin-bottom: 5px;
 }
-
-.home_fundraising .fc_contact input, .home_fundraising .fc_contact textarea{ display: block;
-  width: 550px;
-  margin-bottom: 5px;
-}
-
-.qualifyform input, .qualifyform textarea{ display: block;
-  width: 100%!important;
-  margin-bottom: 5px;
-}
-.qualifyform input[type="button"]{ margin:0!important}
-
-
-
 .fc_contact textarea{
   min-height: 120px;
 }
