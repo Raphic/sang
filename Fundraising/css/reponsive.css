@@ -1,0 +1,544 @@
+@import "../css/slicknav.min.css";
+/*========================================================
+										menu variables
+=========================================================*/
+.slicknav_menu,
+.show_640{
+    display:none;
+  }
+@media only screen and (max-width: 1024px) {
+  body{
+    height: auto;
+  }
+  section{
+    margin: 0px 30px;
+    overflow: hidden;
+  }
+  footer{
+    padding: 0px 30px 10px;
+  }
+  #content{
+    width: 100%;
+  }
+  .fc_pledgesheetentry .search_tab input[type="text"]{
+    width: 220px;
+  }
+  .fc_pledgesheetentry .search_tab span{
+    width: 80px;
+  }
+  .fc_reminder .reminder .fc_reminder_text{
+    width: 235px;
+  }
+  .fc_reminder p{
+    text-align: justify;
+  }
+  .ff_monitor table tr td input[type="text"]{
+    width: 110px;
+  }
+  .ff_monitor table tr td .style_select{
+    width: 125px;
+    background-position: 100% 50%;
+  }
+  .ff_monitor table tr td:nth-child(4) input[type="text"]{
+    width: 90px;
+  }
+}
+ 
+@media only screen and (max-width: 980px) {
+   header{
+    margin-top:80px;
+  }
+  .mail .header{
+    display: block;
+    height: auto;
+  }
+  .mail .header .left{
+    height: 70px;
+    margin:0px auto 10px;
+  }
+  .mail .header .left img{
+    padding-top: 7px;
+  }
+  .mail .header .right{
+    margin: auto;
+  }
+  .slicknav_menu {
+    display:block;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 5;
+    /*background-color: rgba(141, 207, 244, 0.75);*/
+  }
+  .slicknav_menu .logo{
+    display: none;
+  }
+  #content{
+    padding: 2%;
+  }
+  #menu_main{
+    display: none;
+  }
+  .mail .main .right, 
+  .home .right,
+  .asked .question .answered,
+  .mail .main,
+  .fc_login_firsttime .right,
+  .home_fundraising{
+    width: 100%;
+  }
+  .mail .main .right, 
+  .home .right{
+    min-height: 500px;
+  }
+  .home .ask{
+    margin-right: inherit;
+  }
+  .asked .question .accordion-section-title{
+    width: 97%;
+  }
+  .login{
+    margin-left: -2.4%;
+    margin-bottom: 5%;
+  }
+  .mail,
+  .mail .main{
+    margin: inherit;
+  }
+  .mail .main{
+    margin-top: 2%;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea,
+  .fc_login_firsttime .right .main_login_firsttime form input[type=button]{
+    width: 100% !important;
+  }
+  .fc_contact input[type=button]{
+    margin-right:inherit;
+  }
+  .fc_dashboard{
+    margin: 3% auto;
+  }
+  .fc_login_firsttime{
+    margin: 0px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form input[type=text]{
+    width: 90% !important;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .double{
+    width: 45.5%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .double .style_select{
+    width: 91%;
+    background-position: 100% 50%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 75%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .capcha{
+    display: block;
+    margin:10px auto;
+  }
+  .fc_pledgesheetentry .search_tab input[type="text"]{
+    width: 55% !important;
+    margin: 0px 1%;
+  }
+  .fc_pledgesheetentry .search_tab input[type="button"]{
+    float: right;
+    margin-top: 6px;
+  }
+  .fc_reminder .reminder .fc_reminder_text{
+    width: 50%;
+  }
+  .ff_edit_main table{
+    width: 100%;
+  }
+  .ff_enterfamilyfriends{
+    margin-top: inherit;
+  }
+  .style_select{
+    width: 100%;
+    background-position: 100% 50%;
+    margin: 0 2%;
+  }
+  .ff_monitor table{
+    width: 100%;
+  }
+  .ff_monitor table tr td:nth-child(4) input[type="text"]{
+    width: 60% !important;
+  }
+  .ff_monitor_bottom{
+    margin: inherit;
+    margin-top: 20px;
+  }
+  .home_fundraising{
+    margin-right: inherit;
+  }
+  .home_slider{
+    width: 100%;
+    margin-right: inherit;
+  }
+  .mail .main .right .bottom .main_replay .replay .count>input[type=text]{
+    width: 60px !important;
+  }
+  .mail .main .right{
+    padding:10px;
+    margin-right: 10px !important;
+  }
+}
+ 
+@media only screen and (max-width: 800px) {
+ 
+}
+ 
+@media only screen and (max-width: 780px) {
+ 
+}
+ 
+@media only screen and (max-width: 768px) {
+  section{
+    margin: 0px;
+  }
+  .asked .question .accordion-section-title{
+    width: 95%;
+  }
+  footer .main_footer,
+  footer .main_footer div,
+  footer .main_footer div p{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  footer .main_footer div p{
+    margin-top: 10px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 70%;
+  }
+  .fc_pledgesheetentry .search_tab input[type="text"]{
+    width: 50% !important;
+  }
+  .fc_reminder .reminder .fc_reminder_text{
+    width: 40%;
+  }
+  .fc_reminder .reminder .calendar{
+    margin-right: 2%;
+  }
+  .ff_monitor table tr td:nth-child(4) input[type="text"]{
+    width: 51% !important;
+  }
+}
+@media only screen and (max-width: 720px) {
+ 
+}
+ 
+@media only screen and (max-width: 640px) {
+ .mail .header .right{
+  width: 100%;
+  background-position: left center;
+ }
+ .fc_login_firsttime .right .main_login_firsttime form .double{
+    width: 45%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 65%;
+  }
+  .fc_pledgesheetentry .search_tab input[type="text"]{
+    width: 40% !important;
+  }
+  .fc_reminder .reminder .fc_reminder_text{
+    width: 35%;
+  }
+  .mail .main .right, .home .right{
+    padding: 10px !important;
+  }
+  .ff_monitor table tr td,
+  .ff_monitor table tr th{
+    display: block;
+  }
+  .hide_640{
+    display: none;
+  }
+  .show_640{
+    display: block;
+    margin: 10px auto 5px;
+  }
+  .ff_monitor table tr td .style_select,
+  .ff_monitor table tr td:nth-child(3) .style_select{
+    margin: inherit;
+    width: 100%;
+    background-position: 100% 50%;
+  }
+  .ff_monitor table tr td:nth-child(4) input[type="text"],
+  .ff_monitor table tr td:nth-child(4) input[type="button"]{
+    width: 100% !important;
+    display: block;
+  }
+  .ff_monitor table tr td:nth-child(4) input[type="button"]{
+    margin-top: 10px;
+  }
+  .post_fb_left p{
+    text-align: justify;
+  }
+  .post_fb_right img{
+    width: 100%;
+  }
+}
+ 
+@media only screen and (max-width: 600px) {
+ 
+}
+ 
+@media only screen and (max-width: 568px) {
+  #content{
+    border-radius: 10px;
+  }
+  .mail .header .right{
+    background-position: right center;
+  }
+  .mail .header .right img{
+    margin: 6px 10px 0px 4%;
+ }
+ .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 60%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form input[type=radio]{
+    margin-left: 15px !important;
+  }
+  .fc_pledgesheetentry .search_tab input[type="text"]{
+    width: 100% !important;
+    margin:10px 0px 5px;
+  }
+  .fc_pledgesheetentry .search_tab input[type="button"]{
+    float: inherit;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .fc_pledgesheetentry .info{
+    width: 100%;
+    margin-left: 3%;
+  }
+  .fc_reminder .reminder{
+    margin-bottom: 20px;
+  }
+  .fc_reminder .reminder .calendar,
+  .fc_reminder .reminder .fc_reminder_text{
+    width: 100%;
+    display: block;
+    margin: inherit;
+  }
+  .ff_enterfamilyfriends table tr:last-child td:last-child{
+    padding-left: inherit;
+    font-size: 10px;
+  }
+  .ff_enterfamilyfriends table tr:last-child td:last-child input[type=button]{
+    background-size: contain;
+    width: 19px;
+  }
+}
+ 
+@media only screen and (max-width: 563px) {
+ 
+}
+ 
+@media only screen and (max-width: 549px) {
+ 
+}
+ 
+@media only screen and (max-width: 534px) {
+ 
+}
+ 
+@media only screen and (max-width: 480px) {
+  footer{
+    line-height: 1.2em;
+    font-size: 12px;
+  }
+  .login img{
+    margin:auto 3%;
+  }
+  .login p{
+    font-size: 20px;
+  }
+  .login p span{
+    font-size: 16px;
+  }
+  .mail .header .right p{
+    font-size: 18px;
+  }
+  .mail .header .right p span{
+    font-size: 15px;
+  }
+  .mail .main .right, .home .right{
+    padding: 3%;
+  }
+  .ff{
+    padding-right: 3% !important;
+  }
+  .asked .question{
+    margin-top: 15px;
+    padding-bottom: 5px;
+  }
+  .asked .question .answered,
+  .asked .question .answered a span,
+  .asked .question .answered p{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+ .asked .question .accordion-section-title{
+    width: 93.5%;
+  }
+  .home_fundraising .ff_title, .ff .ff_title{
+    font-size: 25px;
+  }
+  .asked .question .accordion-section-title, .asked .question span{
+    font-size: 15px;
+  }
+  .fc_contact input[type=button]{
+    width: 100%;
+    float: none;
+  }
+  .fc_login_firsttime .right{
+    padding: 15px 5px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime{
+    border-width: 5px;
+    padding: 15px 5px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .double{
+    width: 42%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .double .style_select{
+    width: 84%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 60%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .capcha{
+    width: 90%;
+    margin: inherit;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .capcha>div{
+    margin-left: 3%;
+    margin-top: 15px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .capcha img{
+    position: absolute;
+    right: 20%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime p.title_login_firsttime{
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form input[type=text]{
+    width: 85% !important
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .style_select{
+    width: 85%;
+    background-position: 100% 50%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form>p>span{
+    display: block;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form input[type=radio]{
+    margin-left: 5px !important;
+  }
+  .fc_pledgesheetentry.step2 .search_tab{
+    height: 70px;
+    text-align: center;
+  }
+  .fc_pledgesheetentry a.back_teacher{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .fc_report>div img{
+    margin: 5px 1px;
+    vertical-align: middle;
+  }
+  .ff .button_navigation img{
+    display: block;
+    margin-top: 0px;
+  }
+  .ff_edit_main table tr td:last-child{
+    margin-left: 3%;
+  }
+  .ff_enterfundraising input[type=text]{
+    width: 53% !important;
+  }
+  .ff_upload_main input[type="button"],
+  .ff_upload_main input[type=file],
+  .ff_upload_main div.loadding_bar{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .home_fundraising{
+    padding: 10px;
+  }
+  .home_fundraising .fc_contact input[type="button"]{
+    width: 100%;
+  }
+  .main_text>ul{
+    margin-left: 4%;
+  }
+}
+ 
+@media only screen and (max-width: 360px) {
+  .mail .header .right img{
+    margin: 6px 5px 0px 2%;
+  }
+ .mail .header .right p,
+ .login p{
+    font-size: 17px;
+  }
+  .fc_dashboard table tr th{
+    font-size: 11px;
+  }
+  .fc_dashboard table tr td{
+    padding: 2%;
+  }
+  .fc_report, 
+  .fc_downloadform,
+  .login p span{
+   font-size: 15px; 
+  }
+  .fc_downloadform table tr td a{
+    margin-right: inherit;
+    margin-left: 6px;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .add_login{
+    margin-left: 40%;
+  }
+  .fc_login_firsttime .right .main_login_firsttime form .capcha{
+    width: 95%;
+  }
+  .ff_enterfamilyfriends table tr:last-child td:last-child input[type=button]{
+    width: 15px;
+  }
+  .ff_enterfamilyfriends table tr:last-child td:last-child{
+    font-size: 9px;
+  }
+  .ff .ff_preview_main .button_mypledgepage>a{
+    width: 100%;
+  }
+  .ff .ff_preview_main .button_mypledgepage>img,
+  .home_slider .box1,
+  .home_slider .box{
+    width: 100%;
+  }
+}
+ 
+@media only screen and (max-width: 338px) {
+ 
+}
+ 
+@media only screen and (max-width: 330px) {
+ 
+}
+ 
+@media only screen and (max-width: 320px) {
+ 
+}

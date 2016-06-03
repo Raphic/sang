@@ -4,9 +4,14 @@
 	<title>Home</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="#" type="image/x-icon">
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reponsive.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 <body>
 	<!--========================================================
@@ -32,7 +37,7 @@
 					</div>
 				</div>
 				<div class="main flex">
-					<div class="ff_menu">
+					<div id="menu_main" class="ff_menu">
 						<ul>
 							<li><a href="ff_enterfundraising.html">Enter Fundraising Participants</a></li>
 							<li><a href="ff_upload_photo.html">Upload Photo</a></li>
@@ -49,7 +54,7 @@
 Below is the status of your email pledge requests and Facebook post.  If a family or friend has not opened your pledge request email it may have gone into their spam folder. In that case we recommend that you either call them or text them to ask that they look for your email.</p>
 						<div class="ff_monitor">
 							<table  Cellspacing="6px">
-								<tr>
+								<tr class="hide_640">
 									<th>Name</th>
 									<th>Status</th>
 									<th>Source</th>
@@ -57,9 +62,11 @@ Below is the status of your email pledge requests and Facebook post.  If a famil
 								</tr>
 								<tr>
 									<td>
+										<p class="show_640">Name</p>
 										<input type="text" name="" value="" placeholder="Ex: Bill Jones">
 									</td>
 									<td>
+										<p class="show_640">Status</p>
 										<div class="style_select">
 											<select>
 												<option value="">Request Sent</option>
@@ -70,6 +77,7 @@ Below is the status of your email pledge requests and Facebook post.  If a famil
 										</div>
 									</td>
 									<td>
+										<p class="show_640">Source</p>
 										<div class="style_select">
 											<select>
 												<option value="">Email</option>
@@ -80,6 +88,7 @@ Below is the status of your email pledge requests and Facebook post.  If a famil
 										</div>
 									</td>
 									<td>
+										<p class="show_640">Pledged</p>
 										<input type="text" name="" value="" placeholder="">
 										<input type="button" onclick="" value="Filter">
 									</td>
