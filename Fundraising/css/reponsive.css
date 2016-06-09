@@ -42,11 +42,58 @@
   .ff_monitor table tr td:nth-child(4) input[type="text"]{
     width: 90px;
   }
+  .form_coordinator,
+  .form_registration,
+  .form_login{
+    background-size: contain;
+    height: auto;
+    width: 30%;
+    padding:5% 3.5%;
+  }
+  .form_registration{
+    width: 38%;
+    padding: 5% 5% 2% 3.5%;
+  }
+  .form_coordinator>p{
+    display: block;
+  }
+  .form_registration form,
+  .form_login form,
+  .form_coordinator input,
+  .form_registration form input,
+  .form_login input,
+  .form_coordinator button a.button,
+  .form_registration form button a.button, 
+  .form_login form button a.button,
+  .capcha{
+    width: 100%;
+    
+  }
+  .capcha>div{
+    margin-right: 4%;
+  }
+  .main_login label,
+  .form_registration form label{
+    margin-left: inherit;
+    padding-left: inherit;
+  }
+  .form_login p{
+    margin-bottom: 8%;
+  }
+  .mail .main .left, 
+  .bottom_mail2{
+    width: 30%;
+  }
+  .mail .main .right{
+    width: 68%;
+  }
 }
- 
 @media only screen and (max-width: 980px) {
    header{
     margin-top:80px;
+  }
+  header.none_menu{
+    margin-top: inherit;
   }
   .mail .header{
     display: block;
@@ -68,7 +115,29 @@
     width: 100%;
     top: 0px;
     z-index: 5;
-    /*background-color: rgba(141, 207, 244, 0.75);*/
+    background-color: rgba(141, 207, 244, 0.9);
+    box-shadow: 1px 1px 10px #666;
+  }
+  .slicknav_btn{
+    background-color: #01589d;
+  }
+  .slicknav_nav a{
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2em;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .slicknav_nav a:hover,
+  .slicknav_nav a:focus{
+    background: #debc12;
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
   }
   .slicknav_menu .logo{
     display: none;
@@ -107,6 +176,7 @@
   }
   .mail .main{
     margin-top: 2%;
+    display: block;
   }
   input[type=text],
   input[type=email],
@@ -126,6 +196,7 @@
   }
   .fc_login_firsttime .right .main_login_firsttime form input[type=text]{
     width: 90% !important;
+    margin-top: 5px;
   }
   .fc_login_firsttime .right .main_login_firsttime form .double{
     width: 45.5%;
@@ -186,6 +257,59 @@
   .mail .main .right{
     padding:10px;
     margin-right: 10px !important;
+  }
+  .main_login{
+    display: block;
+  }
+  .form_coordinator, 
+  .form_registration, 
+  .form_login{
+    width: 100%;
+    background: inherit;
+    background: #fff;
+    border-radius: 10px;
+    border: solid 7px  rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+  }
+  .form_coordinator button,
+  .form_registration form button, 
+  .form_login form button{
+    width: 100%;
+  }
+  .capcha>div{
+    margin-right: 40%;
+  }
+  .mail .main .left, 
+  .bottom_mail2{
+    width: 100%;
+  }
+  .mail .main .right{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .owl-carousel{
+    overflow: hidden;
+    height: 100%;
+  }
+  .owl-carousel .owl-item p{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 50px!important;
+    line-height: 1.2em;
+    color: #fff!important;
+    text-shadow: 2px 2px #000;
+  }
+  .mail .main .right .bottom .main_replay{
+    width: 70%;
+  }
+  .mail .main .right .bottom .main_replay .replay .count>input[type=text]{
+    right: 30px;
+  }
+  .mail .main .right .bottom .main_replay .replay .count img{
+    position: absolute;
+    right: 5px;
+    top:7px;
   }
 }
  
@@ -279,11 +403,20 @@
   .ff_monitor table tr td:nth-child(4) input[type="button"]{
     margin-top: 10px;
   }
+  .ff_monitor_bottom{
+    padding: 20px 5px;
+  }
   .post_fb_left p{
     text-align: justify;
   }
   .post_fb_right img{
     width: 100%;
+  }
+  .mail .main .left, .bottom_mail2{
+    padding: 3%;
+  }
+  .owl-carousel .owl-item p{
+    left: 10%;
   }
 }
  
@@ -336,6 +469,48 @@
   .ff_enterfamilyfriends table tr:last-child td:last-child input[type=button]{
     background-size: contain;
     width: 19px;
+  }
+  .mail .main .right .bottom .main_replay .replay .count>input[type=text]{
+    left: 80px;
+    top:58px;
+  }
+  .mail .main .right .bottom{
+    display: block;
+  }
+  .mail .main .right .bottom .main_replay .replay .count img{
+    position: relative;
+    display: block;
+  }
+  .mail .main .right .bottom .main_replay,
+  .mail .main .right .bottom .salary{
+    width: 100%;
+    height: auto;
+  }
+  .mail .main .right .bottom .salary ul li{
+    display: inline-block;
+    margin: 5px;
+    text-decoration: underline;
+  }
+  .button_returnoledge{
+    float: none;
+  }
+  .mail .main .right .bottom .salary>p{
+    color: #fff;
+    text-align: justify;
+    display: block;
+    margin: 10px 10px 20px;
+  }
+  .main_mail2,
+  .main_mail2 table,
+  .main_mail2 form table tr input,
+  .main_mail2 .congratulations{
+    width: 100%;
+  }
+  .main_mail2>form{
+    margin-left: inherit;
+  }
+  .main_mail2 table{
+    width:
   }
 }
  
@@ -478,11 +653,18 @@
   .home_fundraising{
     padding: 10px;
   }
-  .home_fundraising .fc_contact input[type="button"]{
+  .home_fundraising .fc_contact input[type="button"],
+  .button_returnoledge a{
     width: 100%;
   }
   .main_text>ul{
     margin-left: 4%;
+  }
+  .owl-carousel .owl-item p{
+    font-size: 40px !important;
+  }
+  .button_returnoledge a{
+    font-size: 25px;
   }
 }
  
@@ -528,6 +710,9 @@
   .home_slider .box1,
   .home_slider .box{
     width: 100%;
+  }
+  .capcha>div{
+    margin-right: 30%;
   }
 }
  
