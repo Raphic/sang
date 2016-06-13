@@ -19,7 +19,7 @@ body,main,section,header,h1,h2,h3 {
 	/*background:url(/images/themes/bg-cloud.png) top center no-repeat;*/
 }
 a{text-decoration:none;}
-.width1000px{width:100%; margin:auto; position:relative;}
+.width1000px{width:1242px; margin:auto; position:relative;}
 .main-content{ float:left;}
 .overhidden{ overflow:hidden!important; text-overflow:ellipsis}
 .full100{width:100%}
@@ -30,25 +30,9 @@ a{text-decoration:none;}
 .border-out-bottom{ border: 1px solid #BFBFBF; border-bottom:0;}
 /*.round_top_left_right{border-radius: 8px 8px 0 0;}*/
 .delete_on_title{ position:absolute; top:0; right:10px; width:18px; display:block; font-size:0; cursor:pointer; background:url(/images/themes/delete.png) center center no-repeat}
-.title_box1{
-	padding-left:5%; 
-	height:40px; 
-	line-height:40px; 
-	position:relative;
-}
-.content_box1{
-	padding:30px 15px 15px 15px; 
-	overflow:hidden;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: center; 
-	justify-content: center;
-	-webkit-transition: 0.3s;
-  	transition: 0.3s;
-}
-.content_box2{/*border-radius: 0 0 8px 8px;*/}
+.title_box1{padding-left:15px; height:40px; line-height:40px; position:relative}
+.content_box1{border-radius: 0 0 8px 8px;border: 1px solid #BFBFBF; padding:30px 15px 15px 15px; overflow:hidden}
+.content_box2{border-radius: 0 0 8px 8px;}
 .width120{ width:120px; margin:0 3px;}
 .width70{ width:70px; margin:0 3px;}
 .btn_pop {
@@ -127,18 +111,8 @@ a.icon_myaccount:hover{color:#000;}
     background: rgba(13, 13, 15, 0.9);
     color:#efefef; position: absolute; z-index: 333; top: 0; left: 0; display: none;
 }
-.gridview .auction_item{ 
-	border: 1px solid #f0a229; 
-	float: left; height: 195px; 
-	margin: 0 9px 20px; 
-	position: relative;     
-	text-align: center; width: 222px;
-}
-.gridview .auction_item:hover{
-	-webkit-box-shadow: 0px 0px 5px rgba(240, 162, 41, 0.4);
-	-moz-box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4);
-	 box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4);
-}
+.gridview .auction_item{ border: 1px solid #BFBFBF; border-radius: 8px 8px 8px 8px; float: left; height: 195px; margin: 0 9px 20px; position: relative;     text-align: center; width: 222px}
+.gridview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);-moz-box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4); box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4);}
 .gridview .auction_item .sec1{ width:100%}
 .gridview .auction_item .sec1 h5.auction-item-title {    border-bottom: 1px solid #fff;    height: 22px;    line-height: 22px;    margin: 0 0 5px;    overflow: hidden;    padding: 5px;    width: 212px;	font-size:12px;}
 
@@ -167,8 +141,8 @@ a.icon_myaccount:hover{color:#000;}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/
-.listview .auction_item{ border: 1px solid #f0a229;float: left; height: 150px; margin: 0 9px 20px; position: relative;     text-align: center; width: 1190px}
-.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(240, 162, 41, 0.4);-moz-box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4); box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4);}
+.listview .auction_item{ border: 1px solid #BFBFBF; border-radius: 8px 8px 8px 8px; float: left; height: 150px; margin: 0 9px 20px; position: relative;     text-align: center; width: 1190px}
+.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);-moz-box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4); box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4);}
 .listview .auction_item .sec1{width:55%; position:absolute; left:205px; padding-top:15px}
 .listview .auction_item .sec1 h5.auction-item-title {line-height: 22px;margin: 0 0 5px;overflow: hidden;padding: 5px; font-size:14px; text-align:left}
 .listview .auction_item .sec1 .aution_feature{ margin-bottom:5px;text-align:left}
@@ -438,8 +412,9 @@ a.icon_myaccount:hover{color:#000;}
 
 /* Responsive ---------------------------------------------------------------------------------------- */
 
-@media only screen and ( max-width: 1024px ){
-			.width1000px{margin:auto; position:relative;}
+@media only screen and ( max-width: 1024px )
+		{
+			.width1000px{width:766px; margin:auto; position:relative;}
 			.footer_col{width:175px!important; padding-right:10px!important; padding-left:5px;}
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 224px}
@@ -485,7 +460,7 @@ a.icon_myaccount:hover{color:#000;}
 			/*Edit Form ------------------------END*/
 			
 			/*Search Header ------------------------*/
-			.tfsearch{width:130px;}
+			.tfsearch{width:100px;}
 			/*Search Header ---------------------END*/
 			
 			/*Login page ------------------------*/
@@ -501,10 +476,7 @@ a.icon_myaccount:hover{color:#000;}
 
 @media only screen and ( max-width: 768px )/* http://mattkersley.com/responsive/ */
 		{
-			.rslides{
-				height: 250px;
-			}
-			.width1000px{margin:auto; position:relative;}
+			.width1000px{width:478px; margin:auto; position:relative;}
 			.right-top{width:475px!important; height:auto;margin-top:50px;}
 			.right-top .row_top{ width:100%; height:auto;}
 			.right-top .row_top .col_top{ width:195px!important; height:30px; float:left; margin-right:3px;}
@@ -632,7 +604,7 @@ a.icon_myaccount:hover{color:#000;}
 		
 @media only screen and ( max-width: 480px )
 		{
-			.width1000px{ margin:auto; position:relative;}
+			.width1000px{width:318px; margin:auto; position:relative;}
 			.top1left{ display:none;}
 			.logo{ width:318px; position:static}
 			.logo img{ width:300px;}
