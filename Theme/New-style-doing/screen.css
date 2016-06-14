@@ -12,7 +12,10 @@ body,main,section,header,h1,h2,h3 {
 	width:100%;
 }
 .bg_allpage{
-	background:#fff url('../images/Blue-wide-style/bg_header_all.jpg') no-repeat center top; width: 100%; overflow: hidden;
+	background:#fff url('http://www.upsieutoc.com/images/2016/06/14/Untitledasd-15444a.jpg') no-repeat center top; 
+	width: 100%; 
+	overflow: hidden;
+	background-attachment: fixed;
 }
 .bg_cloud{
 	/*background:url(/images/themes/bg-cloud.png) top center no-repeat;*/
@@ -37,6 +40,7 @@ a{text-decoration:none;}
 }
 .content_box1{
 	padding:30px 15px 15px 15px; 
+	width: 100%;
 	overflow:hidden;
 	display: -webkit-flex;
 	display: flex;
@@ -844,7 +848,13 @@ a.icon_myaccount:hover{color:#000;}
 			
 			/* box left and right ------------------------------ */
 			.boxes_left{float:left; margin-top:15px; margin-left:-25px;}
-			.boxes_right{float:left; margin-left:-10px; margin-top:15px;}
+			.boxes_right{float:left; margin-top:15px; margin-left:-30px;}
+			.boxes_right .content_box1.bg_white{
+				display: block;
+			}
+			.boxes_right .content_box1.bg_white p.vtwitter{
+				text-align: left;
+			}
 			/* box left and right ------------------------------ */
 			
 			/* account section ---------------------------- */
