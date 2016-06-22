@@ -40,7 +40,6 @@ a{text-decoration:none;}
 }
 .content_box1{
 	padding:30px 15px 15px 15px; 
-	width: 100%;
 	overflow:hidden;
 	display: -webkit-flex;
 	display: flex;
