@@ -20,7 +20,7 @@
     -webkit-justify-content: space-between; /* Safari */
     justify-content:         space-between;
     width: 80%;
-    margin: 25px auto;
+    margin: 5px auto;
 }
 .bg_cloud section:nth-child(3){
     clear:both;
@@ -107,7 +107,7 @@
         font-size: 13px;
         font-weight: normal;
         position:absolute;
-        top:75%;
+        top:60%;
         left:5%;
     }
 
@@ -120,7 +120,7 @@
         text-decoration: none;
         display: block;
         position:absolute;
-        top:75%;
+        top:60%;
         right:5%;
     }
     .right-top .top_facelogin{
@@ -146,7 +146,7 @@
         margin-top:3px;
     }
     .right-top .top_facelogin>.col_top>div>a>img{
-        margin-top:19px;
+        margin-top:23px;
         margin-left:4%;
     }
     .right-top:hover .topusename {
