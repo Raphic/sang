@@ -3,8 +3,8 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA vietnam, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Việt Nam">
-      <meta name="description" content="AIA cung cấp các sản phẩm bảo hiểm nhân thọ cho cá nhân và doanh nghiệp. Hãy tìm  hiểu thêm về sản phẩm và dịch vụ của AIA.">
+      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA hatinh, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Ha Tinh">
+      <meta name="description" content="AIA cung cấp các sản phẩm bảo hiểm nhân thọ cho cá nhân và doanh nghiệp. Hãy tìm  hiểu thêm về sản phẩm và dịch vụ của AIA - Chi nhánh Hà Tĩnh">
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">
          function fallbackSvgs() {
@@ -469,6 +469,7 @@
                                                 </h4>
                                                 <div>
                                                    <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
+                                                       <p style="color:#000;">Tầng 4 tòa nhà Viettel, số 16 đường Xô Viết Nghệ Tĩnh, Tp Hà Tĩnh</p>
                                                    </div>
                                                 </div>
                                              </div>
@@ -495,6 +496,7 @@
                                                    <div class="aia-text     bt1 " data-emptytext="Text">
                                                       <h5 class="p2 ">0989 77 66 49
                                                       </h5>
+                                                       <h6 class="p2 " style="color:#000;line-height:1.4em;margin-top:1em;">Chuyên viên tài chính AIA sẽ đến tận nhà tư vấn miễn phí cho bạn.</h6>
                                                    </div>
                                                 </div>
                                              </div>
@@ -524,6 +526,9 @@
                                                 </h4>
                                                 <div>
                                                    <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
+                                                       <a href="mailto:#" style="color:#000;text-decoration: none;">
+                                                           aia.hatinh.2016@gmail.com
+                                                       </a>
                                                    </div>
                                                 </div>
                                              </div>

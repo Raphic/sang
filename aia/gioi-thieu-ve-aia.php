@@ -283,33 +283,25 @@
                                           <div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/doi-ngu-cua-chung-toi.html" target="_self" data-target="#product-category-card-modal-1641252356">
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
                                                                   <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aboutus_leadership-prime1.png" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
                                                          </div>
                                                          <div class="support-block-content">
-                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">ĐỘI NGŨ LÃNH ĐẠO</h4>
+                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">ĐỘI NGŨ LÃNH ĐẠO NĂNG ĐỘNG</h4>
                                                             <div>
                                                                <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
                                                                </div>
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
                                                 </div>
                                              </div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/hop-tac-kinh-doanh.html" target="_self" data-target="#product-category-card-modal-8360542">
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
-                                                            <svg  class="icon icon-l hide-on-fallback icon-responsive" role="img">
-                                                               <g>
-                                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.aia.com.vn/content/dam/aia/icons/icons.svg#aboutus_ourcommiment-prime1"></use>
-                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aboutus_ourcommiment-prime1.png" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
-                                                               </g>
-                                                            </svg>
+                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aboutus_ourcommiment-prime1.png" alt="null" ></image>
                                                          </div>
                                                          <div class="support-block-content">
                                                             <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">Hợp tác kinh doanh</h4>
@@ -319,7 +311,6 @@
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
                                                 </div>
                                              </div>
                                           </div>
@@ -328,38 +319,25 @@
                                           <div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/co-hoi-nghe-nghiep.html" target="_self" data-target="#product-category-card-modal-663391225">
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
-                                                            <svg  class="icon icon-l hide-on-fallback icon-responsive" role="img">
-                                                               <g>
-                                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.aia.com.vn/content/dam/aia/icons/icons.svg#aboutus_careers-prime1"></use>
-                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/Primary/normal/aboutus_careers-prime1.html" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
-                                                               </g>
-                                                            </svg>
+                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/managedcare-prime1.png" alt="null" ></image>
                                                          </div>
                                                          <div class="support-block-content">
-                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">CƠ HỘI NGHỀ NGHIỆP</h4>
+                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">THĂNG TIẾN NGHỀ NGHIỆP</h4>
                                                             <div>
                                                                <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
                                                                </div>
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
                                                 </div>
                                              </div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/sang-tao-de-phuc-vu-tot-hon.html" target="_self" data-target="#product-category-card-modal-663441256">
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
-                                                            <svg  class="icon icon-l hide-on-fallback icon-responsive" role="img">
-                                                               <g>
-                                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.aia.com.vn/content/dam/aia/icons/icons.svg#aia_innovation-prime1"></use>
-                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aia_innovation-prime1.png" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
-                                                               </g>
-                                                            </svg>
+                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aia_innovation-prime1.png" alt="null" ></image>
                                                          </div>
                                                          <div class="support-block-content">
                                                             <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">SÁNG TẠO ĐỂ PHỤC VỤ TỐT HƠN</h4>
@@ -369,7 +347,6 @@
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
                                                 </div>
                                              </div>
                                           </div>
@@ -378,15 +355,9 @@
                                           <div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/gan-ket-cong-dong.html" target="_self" data-target="#product-category-card-modal-1374615033">
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
-                                                            <svg  class="icon icon-l hide-on-fallback icon-responsive" role="img">
-                                                               <g>
-                                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.aia.com.vn/content/dam/aia/icons/icons.svg#csr-prime1"></use>
-                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/csr-prime1.png" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
-                                                               </g>
-                                                            </svg>
+                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/csr-prime1.png" alt="null" ></image>
                                                          </div>
                                                          <div class="support-block-content">
                                                             <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">gắn kết cộng đồng</h4>
@@ -396,30 +367,24 @@
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
+                                             
                                                 </div>
                                              </div>
                                              <div class="supportblockitem section">
                                                 <div class="col-support-block">
-                                                   <a href="gioi-thieu-ve-aia/goc-bao-chi.html" target="_self" data-target="#product-category-card-modal-2007758059">
+                                                  
                                                       <div class="support-block-item">
                                                          <div class="support-block-thumbnail">
-                                                            <svg  class="icon icon-l hide-on-fallback icon-responsive" role="img">
-                                                               <g>
-                                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.aia.com.vn/content/dam/aia/icons/icons.svg#aboutus_mediacenter-prime1"></use>
-                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aboutus_mediacenter-prime1.png" alt="null" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
-                                                               </g>
-                                                            </svg>
+                                                                  <image class="icon icon-l icon-responsive" src="../content/dam/aia/icons/primary/normal/aboutus_mediacenter-prime1.png" alt="null" ></image>
                                                          </div>
                                                          <div class="support-block-content">
-                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">GÓC BÁO CHÍ</h4>
+                                                            <h4 class="support-block-h4 p3 margin-bottom-s margin-bottom-sm-m">LUÔN LUÔN ĐỔI MỚI</h4>
                                                             <div>
                                                                <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
                                                                </div>
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </a>
                                                 </div>
                                              </div>
                                           </div>

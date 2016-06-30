@@ -113,6 +113,7 @@
                                                             </h4>
                                                             <div>
                                                                <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
+                                                                   <p style="color:#000;">Tầng 4 tòa nhà Viettel, số 16 đường Xô Viết Nghệ Tĩnh, Tp Hà Tĩnh</p>
                                                                </div>
                                                             </div>
                                                          </div>
@@ -139,6 +140,7 @@
                                                                <div class="aia-text     bt1 " data-emptytext="Text">
                                                                   <h5 class="p2 ">0989 77 66 49
                                                                   </h5>
+                                                                   <h6 class="p2 " style="color:#000;line-height:1.4em;margin-top:1em;">Chuyên viên tài chính AIA sẽ đến tận nhà tư vấn miễn phí cho bạn.</h6>
                                                                </div>
                                                             </div>
                                                          </div>
@@ -168,6 +170,9 @@
                                                             </h4>
                                                             <div>
                                                                <div class="aia-text cq-text-placeholder-ipe    " data-emptytext="Text">
+                                                                   <a href="mailto:#" style="color:#000;text-decoration: none;">
+                                                                       aia.hatinh.2016@gmail.com
+                                                                   </a>
                                                                </div>
                                                             </div>
                                                          </div>

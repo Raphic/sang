@@ -162,7 +162,7 @@
                </div>
                <div class="row">
                   <div class="col-xs-12 text-center bt5 b5">
-                     Trang tin chính thức của Công ty TNHH Bảo hiểm nhân thọ AIA (Việt Nam) © 2012 Bản quyền thuộc về Tập đoàn AIA (AIA Group Limited) và các chi nhánh.
+                     Trang tin của Công ty TNHH Bảo hiểm nhân thọ AIA (Hà Tĩnh) © 2016 Bản quyền thuộc về Tập đoàn AIA (AIA Group Limited) và các chi nhánh.
                   </div>
                </div>
                <div class="row hidden-sm hidden-xs margin-bottom-xl">
