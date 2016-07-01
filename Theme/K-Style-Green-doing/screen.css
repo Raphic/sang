@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document - Format Frame - Block*/
 html{ background:url('/images/loading.gif') center center no-repeat}
 body{ background:#ffffff}
@@ -12,7 +12,7 @@ body,main,section,header,h1,h2,h3 {
 	width:100%;
 }
 .bg_allpage{
-	background:#fff url('http://www.sksinsuranceagency.com/files/2014/02/Fotolia_2860358_Subscription_XL.jpg') no-repeat center top;
+    background: #edf3f6;
 	width: 100%;
 	background-size: cover;
 	overflow: hidden;
@@ -34,9 +34,8 @@ a{text-decoration:none;}
 /*.round_top_left_right{border-radius: 8px 8px 0 0;}*/
 .delete_on_title{ position:absolute; top:0; right:10px; width:18px; display:block; font-size:0; cursor:pointer; background:url(/images/themes/delete.png) center center no-repeat}
 .title_box1{
-	padding-left:5%; 
-	height:40px; 
-	line-height:40px; 
+	height:40px;
+	line-height:40px;
 	position:relative;
 }
 .content_box1{
@@ -131,28 +130,37 @@ a.icon_myaccount:hover{color:#000;}
     background: rgba(13, 13, 15, 0.9);
     color:#efefef; position: absolute; z-index: 333; top: 0; left: 0; display: none;
 }
-.gridview .auction_item{ 
-	float: left; 
-	height: 195px; 
-	margin: 0 9px 20px; 
-	position: relative;     
-	text-align: center; 
+.gridview .auction_item{
+	float: left;
+	background: #edf3f6;
+	margin: 0 9px 20px;
+	position: relative;
+	text-align: center;
 	width: 222px;
 	-webkit-transition: all ease 0.4s;
-    -moz-transition: all ease .4s;
-    -o-transition: all ease .4s;
-    transition: all ease .4s;
+	-moz-transition: all ease .4s;
+	-o-transition: all ease .4s;
+	transition: all ease .4s;
+	border: 1px solid #eaedee;
 }
 .gridview .auction_item:hover{
-	-webkit-box-shadow: 0px 0px 5px rgba(106, 167, 76, 0.6);
-	-moz-box-shadow:0px 0px 5px rgba(106, 167, 76, 0.6);
-	 box-shadow:0px 0px 5px rgba(106, 167, 76, 0.6);
+	-webkit-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
+	-moz-box-shadow:0px 0px 5px rgba(93, 139, 164, 0.6);
+	 box-shadow:0px 0px 5px rgba(93, 139, 164, 0.6);
+}
+.gridview .auction_item:hover input.buttons.orange{
+	left:2%;
+	opacity:1;
+}
+.gridview .auction_item:hover input.buttons.blue{
+	left:25%;
+	opacity:1;
 }
 .gridview .auction_item .sec1{ width:100%}
-.gridview .auction_item .sec1 h5.auction-item-title {    border-bottom: 1px solid #fff;    height: 22px;    line-height: 22px;    margin: 0 0 5px;    overflow: hidden;    padding: 5px;    width: 212px;	font-size:12px;}
+.gridview .auction_item .sec1 h5.auction-item-title {border-bottom: 1px solid #699bb3;height: 22px;line-height: 22px;margin: 0 auto;overflow: hidden;padding: 5px;width: 85%;font-size:12px;margin-bottom: 7px;}
 
 .gridview .auction_item .sec1 .aution_feature{ margin-bottom:5px;}
-.gridview .auction_item .sec1 .aution_feature .itemfeature{ display:inline-block; cursor:help; height:24px; width:24px; line-height:24px; font-size:11px; margin:0 3px;}
+.gridview .auction_item .sec1 .aution_feature .itemfeature{display:inline-block;cursor:help;height: 32px;width: 32px;line-height: 32px;font-size: 15px;margin: 0 3px;}
 .gridview .auction_item .sec1 .shortdesc{ display:none}
 .gridview .auction_item .sec1 .actioncommand{display:none}
 .gridview .auction_item .sec2 { width:100%}
@@ -170,7 +178,11 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item .sec3 .timer{font-size:18px; text-align:center;top:-70px; left:110px; width:110px; position:absolute;}
 .gridview .auction_item .sec3 .price{font-size:20px; text-align:center;top:-45px; left:110px; width:110px; position:absolute;color:#339933}
 .gridview .auction_item .sec3 .userplay{font-size:14px; text-align:center;top:-20px; left:110px; width:110px; position:absolute;}
-.gridview .auction_item .sec3 .btnbox{ margin-top:10px;}
+.gridview .auction_item .sec3 .btnbox{
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
 .content_box1.bg_white.gridview>div:last-child{
 	width:100%;
@@ -455,7 +467,7 @@ a.icon_myaccount:hover{color:#000;}
 			.footer_col{width:175px!important; padding-right:10px!important; padding-left:5px;}
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 224px}
-			.gridview .auction_item .sec1 h5.auction-item-title {width: 153px}
+			.gridview .auction_item .sec1 h5.auction-item-title {}
 			/* Grid view --------------------------------End */
 			
 			/* List view --------------------------------*/
@@ -521,15 +533,16 @@ a.icon_myaccount:hover{color:#000;}
 				padding-bottom: 20px;
 			}
 			.btseach{
-				height: 32px !important;
+				height: 30px !important;
+				top: -33px;
+				right: 1%;
 			}
 			.bg_cloud section:nth-child(2) .width1000px{
 				margin: 6px auto;
-				width:65%;
 			}
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 202px}
-			.gridview .auction_item .sec1 h5.auction-item-title {width: 192px}
+			.gridview .auction_item .sec1 h5.auction-item-title {}
 			.gridview .auction_item .sec2 .img_auction {width:80px;}
 			.gridview .auction_item .sec2 .img_auction {width:80px;}
 			.gridview .auction_item .sec3 .timer{left:85px;}
@@ -627,7 +640,7 @@ a.icon_myaccount:hover{color:#000;}
 			/*Edit Form ------------------------END*/
 			
 			/*Search Header ------------------------*/
-			.tfsearch{width:355px;border: 1px solid #f0a229;}
+			.tfsearch{width: 60%;top: -33px;right: 8%;}
 			/*Search Header --------------------END*/
 			
 			/* Redeem Card -page */
@@ -646,16 +659,16 @@ a.icon_myaccount:hover{color:#000;}
 			.loginfbbox{right:0!important}
 			/*Login page ---------------------END*/
 			.right-top .labelremember{
-				top: 55%;
 			}
 			.right-top .row_top .col_top:nth-child(2) a{
-				top: 65%;
-				left: 15%;
 			}
 		}
 		
 @media only screen and ( max-width: 480px )
 		{
+			.right-top{
+				width:100%;
+			}
 			.bg_cloud section:nth-child(2) .width1000px{
 				display:block;
 				width:90%;
@@ -663,9 +676,10 @@ a.icon_myaccount:hover{color:#000;}
 			.right-top .row_top:nth-child(2) .col_top{
 				height:10px;
 			}
+
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 180px}
-			.gridview .auction_item .sec1 h5.auction-item-title {width: 170px}
+			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 170px*/}
 			/* Grid view --------------------------------End */
 			
 			/* List view --------------------------------*/			.listview .auction_item{width: 265px; height:370px;text-align:center}
@@ -762,7 +776,7 @@ a.icon_myaccount:hover{color:#000;}
 			/*Edit Form ------------------------END*/
 			
 			/*Search Header ------------------------*/
-			.tfsearch{width:195px;}
+			.tfsearch{/* width:195px; */}
 			.rslides,.rslides_nav {display:none;}
 			/*Search Header ---------------------END*/
 			
@@ -801,12 +815,12 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			/*Footer ---------------------END*/
 			.right-top .labelremember{
-				top: 75%;
-				left: 5%;
+				top: 55%;
+				left: 0%;
 			}
 			.right-top .row_top .col_top:nth-child(2) a{
-				top: 75%;
-				left: : inherit;
+				top: 55%;
+				right: 18%;
 			}
 		}
 		
@@ -818,6 +832,10 @@ a.icon_myaccount:hover{color:#000;}
 				width:95%;
 			}
 			.logo{ width:120px;}
+            .title_box1{
+                text-align: center;
+                margin-bottom: 20px;
+            }
 			/*.logo img{ width:120px;}*/
 			.right-top{width:238px!important; height:auto;}
 			.right-top .row_top{ width:100%; height:auto;}
@@ -835,7 +853,7 @@ a.icon_myaccount:hover{color:#000;}
 				padding: inherit;
 			}
 			.gridview .auction_item{width: 100%;}
-			.gridview .auction_item .sec1 h5.auction-item-title {width: 100%}
+			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 100%*/}
 			.gridview .auction_item .sec2 {
 			    margin-left: 15%;
 			}

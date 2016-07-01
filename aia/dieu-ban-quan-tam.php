@@ -6,7 +6,7 @@
    <!-- /Added by HTTrack -->
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="tiết kiệm nghỉ hưu, tuong lai con tre, chuẩn bị tài chính cho con, kế hoạch hưu trí, đầu tư, bao ve tai chinh, học vấn của con, benh ung thu, tiet kiem mua nha, tich luy tiet kiem, tranh rui ro tai nan, tiet kiem cho con, vuot qua rui ro, bao hiem suc khoe, benh hiem ngheo"/>
+      <meta name="keywords" content="tiết kiệm nghỉ hưu, tuong lai con tre, chuẩn bị tài chính cho con, kế hoạch hưu trí, đầu tư, bao ve tai chinh, học vấn của con, benh ung thu, tiet kiem mua nha, tich luy tiet kiem, tranh rui ro tai nan, tiet kiem cho con, vuot qua rui ro, bao hiem suc khoe, benh hiem ngheo,iaia hatinh,Hà Tĩnh"/>
       <meta name="description" content="Sản phẩm và dịch vụ bảo hiểm của AIA sẽ giúp bạn và gia đình thực hiện những điều mà bạn quan tâm như tương lai con trẻ, tạo dựng tài sản, chăm sóc sức khỏe và vượt qua biến cố.
          "/>
       <meta name="format-detection" content="telephone=no">

@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html  lang="vi" prefix="">
-   <!-- Mirrored from www.aia.com.vn/vi/dieu-ban-quan-tam/tuong-lai-con-tre.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 07:15:58 GMT -->
-   <!-- Added by HTTrack -->
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-   <!-- /Added by HTTrack -->
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="học vấn của con, tiet kiem cho con, tuong lai con tre, chuẩn bị tài chính cho con"/>
+      <meta name="keywords" content="học vấn của con, tiet kiem cho con, tuong lai con tre, chuẩn bị tài chính cho con,aia hatinh,AIA Hà Tĩnh"/>
       <meta name="description" content="Đảm bảo tương lai và cuộc sống tốt đẹp cho con cùng chương trình bảo hiểm của AIA - An phúc thành tài ưu việt và An phúc trọn đời ưu việt."/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA vietnam, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Việt Nam"/>
+      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA hatinh, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Hà Tỉnh"/>
       <meta name="description" content="Thông tin về lãi suất hiện hành áp dụng cho Hợp đồng bảo hiểm được AIA Việt Nam cập nhật liên tục như : Lãi suất đầu tư, lãi suất tạm ứng, lãi suất phí bảo hiểm					"/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

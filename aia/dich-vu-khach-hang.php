@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="danh sách bệnh viện, bảo hiểm nhân thọ, văn phòng AIA, tap doan aia, đường dây nóng, thuật ngữ bảo hiểm, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Việt Nam, đại lý, bao hiem nhan tho, công ty bảo hiểm nhân thọ, AIA vietnam, kênh thanh toán phí, chăm sóc khách hàng"/>
+      <meta name="keywords" content="danh sách bệnh viện, bảo hiểm nhân thọ, văn phòng AIA, tap doan aia, đường dây nóng, thuật ngữ bảo hiểm, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Hà Tĩnh, đại lý, bao hiem nhan tho, công ty bảo hiểm nhân thọ, AIA hatinh, kênh thanh toán phí, chăm sóc khách hàng"/>
       <meta name="description" content="Chúng tôi luôn nỗ lực để đáp ứng nhu cầu ngày càng cao của khách hàng. Những vấn đề và câu hỏi thường gặp sẽ được giải đáp bởi các chuyên gia AIA trong lĩnh vực bảo hiểm."/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

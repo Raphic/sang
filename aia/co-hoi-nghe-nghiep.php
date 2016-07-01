@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, hoc vien ngoai hang, chuyen gia hoach dinh tai chinh, tu van tai chinh, công ty bảo hiểm nhân thọ, AIA vietnam, cong ty bao hiem nhan tho, AIA Việt Nam, dai ly"/>
+      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, hoc vien ngoai hang, chuyen gia hoach dinh tai chinh, tu van tai chinh, công ty bảo hiểm nhân thọ, AIA Ha Tinh, cong ty bao hiem nhan tho, AIA Hà TĨnh, dai ly"/>
       <meta name="description" content="Với chiến lược phát triển đội ngũ nhân tài, AIA luôn tìm kiếm các ứng viên xuất sắc theo những tiêu chuẩn phù hợp với từng vị trí."/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

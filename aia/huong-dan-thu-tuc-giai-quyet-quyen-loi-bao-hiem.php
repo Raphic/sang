@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA vietnam, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Việt Nam"/>
+      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, tap doan aia, công ty bảo hiểm nhân thọ, AIA hatinh, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Hà Tĩnh"/>
       <meta name="description" content="Xem thêm về các hướng dẫn giải quyết quyền lợi bảo hiểm nhân thọ của AIA."/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, Gioi thieu ve AIA, tap doan aia, công ty bảo hiểm nhân thọ, AIA vietnam, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Việt Nam"/>
+      <meta name="keywords" content="bảo hiểm nhân thọ, bao hiem nhan tho, Gioi thieu ve AIA, tap doan aia, công ty bảo hiểm nhân thọ, AIA hatinh, cong ty bao hiem nhan tho, Tập đoàn AIA, AIA Hà Tĩnh"/>
       <meta name="description" content="AIA là tập đoàn bảo hiểm nhân thọ độc lập, có nguồn gốc châu Á lớn nhất thế giới được niêm yết – hoạt động tại 18 thị trường trong khu vực Châu Á – Thái Bình Dương"/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">

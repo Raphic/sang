@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="keywords" content="bao ve suc khoe, benh ung thu, bao hiem suc khoe, benh hiem ngheo"/>
+      <meta name="keywords" content="bao ve suc khoe, benh ung thu, bao hiem suc khoe, benh hiem ngheo,aia,AIA Hà Tĩnh,aia ha tinh,aiaihatinh"/>
       <meta name="description" content="Chăm sóc sức khỏe cho bạn và gia đình bạn cùng các chương trình bảo hiểm của AIA. Sức khoẻ tốt giúp bạn tận hưởng trọn vẹn cuộc sống tươi đẹp."/>
       <meta name="format-detection" content="telephone=no">
       <script type="text/javascript">
