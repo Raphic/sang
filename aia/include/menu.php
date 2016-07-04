@@ -88,7 +88,7 @@
                      </div>
                      <ul class="dropdown-menu navmenu-nav navmenu-dropdown-menu" role="menu">
                         <li>
-                           <a class="h6 b5" href="gioi-thieu-ve-aia/doi-ngu-cua-chung-toi.html">ĐỘI NGŨ CỦA CHÚNG TÔI
+                           <a class="h6 b5" href="gioi-thieu-ve-aia.php">GIỚI THIỆU AIA
                            </a>
                         </li>
                      </ul>

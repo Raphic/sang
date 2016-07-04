@@ -33,7 +33,7 @@
       <link rel="icon" href="http://www.aia.com.vn/favicon.ico">
       <link rel="stylesheet" href="../etc/clientlibs/aia/aia-header.min.12190c80fd91b4eccde98e9ff8b065f8.css" type="text/css"/>
       <script type="text/javascript" src="../etc/clientlibs/aia/aia-header.min.0e0a259e5b0465d894c27c2f951779d0.js"></script>
-      <link rel="canonical" href="dieu-ban-quan-tam.html"/>
+      <link rel="canonical" href="dieu-ban-quan-tam.php"/>
       <link rel="stylesheet" href="../etc/clientlibs/aia/fonts/viet.min.c56fbee827e3700c67855877606d0520.css" type="text/css"/>
       <link rel="stylesheet" href="../etc/clientlibs/aia/fonts/noto-common.min.d50b2173060257804def3128f7c7aeba.css" type="text/css"/>
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -202,7 +202,7 @@
                                              </a>
                                           </div>
                                           <p class="bt5 b6">
-                                             <a href="san-pham/an-toan-tai-chinh.html" class="bt5 b6" aria-hidden="true" tabindex="-1">
+                                             <a href="an-phuc-tron-doi-uu-viet.php" class="bt5 b6" aria-hidden="true" tabindex="-1">
                                              An Phúc Trọn Đời Ưu Việt
                                              </a>
                                           </p>
