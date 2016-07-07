@@ -41,6 +41,7 @@
       <title>AIA | An toàn tài chính | An Phúc Trọn Đời Ưu Việt</title>
    </head>
    <body>
+       <?php include_once("include/analyticstracking.php") ?>
       <div>
          <a id="gotocontent" href="#main" class="lk2 gotocontent" tabindex="1">Vào trang chính</a>
       </div>
