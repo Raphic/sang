@@ -37,7 +37,11 @@ detail .auction_item .Bronze{height: 24px; width:24px; display:block; background
     border-bottom: 2px solid #699bb3;
 }
 .bgsearch{background:#edf3f6;;}
-
+.boxes_right .bg_header_box{
+  border: none;
+  border-bottom: 2px solid #699bb3;
+  margin:inherit;
+}
 /* background -----------------------------------End */
 
 /* Color text ----------------------------------- */
@@ -54,7 +58,7 @@ detail .auction_item .Bronze{height: 24px; width:24px; display:block; background
     text-transform: uppercase;
     margin-left:2%;
 }
-.header2.clo_white{color:#5d8ba4;}
+.header2.clo_white,.header2.clo_white a{color:#5d8ba4;}
 .header3 {font-family:Arial, Helvetica, sans-serif; font-size:16px;}
 .header4 {font-size:12px; font-weight:bold; margin-bottom:20px;}
 .clo_green{color:#85bb23;}
@@ -217,9 +221,6 @@ input.buttons.blue {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     width: 45%;
-    position: absolute;
-    left: -50%;
-    opacity: 0;
 }
 input.buttons.orange:hover {
     border-color: #5d8ba4;
@@ -233,8 +234,6 @@ input.buttons.blue {
     background: #699bb3;
     border-color: #699bb3;
     color: #ebecec;
-    position: relative;
-    left: 75%;
 }
 input.buttons.blue:hover {
     background-color: #ebecec;
@@ -404,6 +403,8 @@ ul.menu_right{
 }
 ul.menu_right li{    
     border-bottom: dotted 1px #BFBFBF;
+    display: block;
+    width: 90%;
 }
 ul.menu_right li a{ color:#16698c; text-decoration:none; display:block; margin:5px 0;}
 ul.menu_right li a:hover{ color:#ef6001;}
