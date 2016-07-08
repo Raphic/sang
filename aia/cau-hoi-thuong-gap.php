@@ -29,7 +29,7 @@
       <link rel="icon" href="http://www.aia.com.vn/favicon.ico">
       <link rel="stylesheet" href="../../etc/clientlibs/aia/aia-header.min.12190c80fd91b4eccde98e9ff8b065f8.css" type="text/css"/>
       <script type="text/javascript" src="../../etc/clientlibs/aia/aia-header.min.0e0a259e5b0465d894c27c2f951779d0.js"></script>
-      <link rel="canonical" href="cau-hoi-thuong-gap.html"/>
+      <link rel="canonical" href="cau-hoi-thuong-gap.php"/>
       <link rel="stylesheet" href="../../etc/clientlibs/aia/fonts/viet.min.c56fbee827e3700c67855877606d0520.css" type="text/css"/>
       <link rel="stylesheet" href="../../etc/clientlibs/aia/fonts/noto-common.min.d50b2173060257804def3128f7c7aeba.css" type="text/css"/>
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -41,6 +41,7 @@
       <title>AIA | FAQ</title>
    </head>
    <body>
+        <?php include_once("include/analyticstracking.php") ?>
       <div>
          <a id="gotocontent" href="#main" class="lk2 gotocontent" tabindex="1">Vào trang chính
          </a>
@@ -678,13 +679,13 @@
                                                                               <p>Tại nhà qua Tư vấn dịch vụ tái tục của AIA Việt Nam.</p>
                                                                            </li>
                                                                         </ol>
-                                                                        <p>Quý khách vui lòng tham khảo thông tin chi tiết <a></a><a></a><a href="cac-kenh-dong-phi-bao-hiem.html">tại đây</a>.</p>
+                                                                        <p>Quý khách vui lòng tham khảo thông tin chi tiết qua số điện thoại 0989 77 66 49.</p>
                                                                         <p><b><u>Lưu ý chung:</u></b></p>
                                                                         <ul>
                                                                            <li>Nhằm đảm bảo kế hoạch tài chính của Quý khách được thực hiện như đã hoạch định ban đầu, Quý khách vui lòng chủ động đóng phí bảo hiểm đúng hạn và đầy đủ theo Quy tắc điều khoản của hợp đồng bảo hiểm ngay cả khi chưa nhận được thư báo, thư nhắc hoặc tin nhắn nhắc đóng phí bảo hiểm từ AIA Việt Nam,</li>
                                                                            <li>Đồng thời, Quý khách vui lòng lưu giữ các Phiếu thu này để tiện việc đối chiếu về sau (nếu cần).</li>
                                                                         </ul>
-                                                                        <p>Trường hợp cần trao đổi thêm, Quý khách vui lòng liên lạc Phòng Dịch Vụ Khách Hàng theo số điện thoại <a></a><a></a><a></a><a href="tel:0838122777">08 3812.2777</a> (từ 8h00 đến 17h30, thứ 2 đến thứ 6 hàng tuần).</p>
+                                                                        <p>Trường hợp cần trao đổi thêm, Quý khách vui lòng liên lạc Phòng Dịch Vụ Khách Hàng theo số điện thoại <a></a><a></a><a></a><a href="tel:0989776649">0989 77 66 49</a> (từ 8h00 đến 17h30, thứ 2 đến thứ 6 hàng tuần).</p>
                                                                         <p> </p>
                                                                      </div>
                                                                   </div>
@@ -983,7 +984,7 @@
                                                             <ul>
                                                                <li>Thông báo cho Đại lý phục vụ để được hỗ trợ hoàn tất thủ tục yêu cầu giải quyết QLBH, hoặc</li>
                                                                <li>Liên hệ với AIA Việt Nam qua số điện thoại của đường dây nóng: 08.38122777 (bấm phím số 9) để được hướng dẫn thủ tục yêu cầu giải quyết QLBH, hoặc</li>
-                                                               <li>Tham khảo thủ tục giải quyết quyền lợi bảo hiểm <a href="huong-dan-thu-tuc-giai-quyet-quyen-loi-bao-hiem.html">tại đây</a><i>.</i></li>
+                                                               <li>Tham khảo thủ tục giải quyết quyền lợi bảo hiểm <a href="huong-dan-thu-tuc-giai-quyet-quyen-loi-bao-hiem.php">tại đây</a><i>.</i></li>
                                                             </ul>
                                                             <p>Sau đó, khách hàng sẽ hoàn tất thủ tục yêu cầu giải quyết QLBH và gửi về cho AIA Việt Nam theo một trong các phương thức sau đây:</p>
                                                             <ul>
@@ -1002,7 +1003,7 @@
                                                          <div id="779137620-1" class="collapsible-table-content collapse" aria-expanded="false" style="height: 0px;">
                                                             <p>Để việc giải quyết QLBH được thực hiện nhanh chóng, chính xác, khách hàng cần:</p>
                                                             <ul>
-                                                               <li>nộp đầy đủ các chứng từ hợp lệ theo hướng dẫn <a target="_blank"></a><a href="http://hkgdcplapp080:4502/sites.html/content/vn/vi/dich-vu-khach-hang/huong-dan-thu-tuc-giai-quyet-quyen-loi-bao-hiem.html">tại đây</a>,</li>
+                                                               <li>nộp đầy đủ các chứng từ hợp lệ theo hướng dẫn <a target="_blank"></a><a href="huong-dan-thu-tuc-giai-quyet-quyen-loi-bao-hiem.php">tại đây</a>,</li>
                                                                <li>cung cấp đầy đủ và chính xác thông tin về sự kiện bảo hiểm,</li>
                                                                <li>cung cấp đầy đủ, chính xác thông tin về người nhận QLBH và phương thức nhận tiền,</li>
                                                                <li>đồng thời, hợp tác với Công ty trong việc hoàn tất các giấy tờ được đề nghị bổ sung.</li>

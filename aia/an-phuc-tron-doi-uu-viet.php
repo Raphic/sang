@@ -29,7 +29,7 @@
       <link rel="icon" href="http://www.aia.com.vn/favicon.ico">
       <link rel="stylesheet" href="../../../etc/clientlibs/aia/aia-header.min.12190c80fd91b4eccde98e9ff8b065f8.css" type="text/css">
       <script type="text/javascript" src="../../../etc/clientlibs/aia/aia-header.min.0e0a259e5b0465d894c27c2f951779d0.js"></script>
-      <link rel="canonical" href="an-phuc-tron-doi-uu-viet.html"/>
+      <link rel="canonical" href="an-phuc-tron-doi-uu-viet.php"/>
       <link rel="stylesheet" href="../../../etc/clientlibs/aia/fonts/viet.min.c56fbee827e3700c67855877606d0520.css" type="text/css">
       <link rel="stylesheet" href="../../../etc/clientlibs/aia/fonts/noto-common.min.d50b2173060257804def3128f7c7aeba.css" type="text/css">
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,9 +38,10 @@
       <script type="text/javascript" src="/etc/clientlibs/aia/ie-fixes.min.js"></script>
       <![endif]-->
       <script src="../../../../assets.adobedtm.com/90c58d4aa8a1b33beefab4bf8138774c1a1a4147/satelliteLib-102328dd03590e6b6bc12f7e8c856676ce3ee71b.js"></script>
-      <title>AIA | An toàn tài chính | An Phúc Trọn Đời Ưu Việt</title>
+      <title>AIA | An Phúc Trọn Đời Ưu Việt</title>
    </head>
    <body>
+       <?php include_once("include/analyticstracking.php") ?>
       <div>
          <a id="gotocontent" href="#main" class="lk2 gotocontent" tabindex="1">Vào trang chính</a>
       </div>

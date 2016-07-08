@@ -30,7 +30,7 @@
       <meta name="google-site-verification" content="MTxK0tA_fhj0bWTKGIPZEjA4nu9y7qahjfshlAIl6Ac"/>
       <link rel="stylesheet" href="../etc/clientlibs/aia/aia-header.min.12190c80fd91b4eccde98e9ff8b065f8.css" type="text/css">
       <script type="text/javascript" src="../etc/clientlibs/aia/aia-header.min.0e0a259e5b0465d894c27c2f951779d0.js"></script>
-      <link rel="canonical" href="index.html"/>
+      <link rel="canonical" href="index.php"/>
       <link rel="stylesheet" href="../etc/clientlibs/aia/fonts/viet.min.c56fbee827e3700c67855877606d0520.css" type="text/css">
       <link rel="stylesheet" href="../etc/clientlibs/aia/fonts/noto-common.min.d50b2173060257804def3128f7c7aeba.css" type="text/css">
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,6 +43,7 @@
       </title>
    </head>
    <body>
+       <?php include_once("include/analyticstracking.php") ?>
       <div>
          <a id="gotocontent" href="#main" class="lk2 gotocontent" tabindex="1">Vào trang chính
          </a>
@@ -259,7 +260,7 @@
                            </h2>
                            <ul class="life-challenges-list">
                               <li class="life-challenge">
-                                 <a target="_self" href="dieu-ban-quan-tam/tuong-lai-con-tre.html" data-target="#btn-modal-1000827236">
+                                 <a target="_self" href="tuong-lai-con-tre.php" data-target="#btn-modal-1000827236">
                                     <h5>Tương lai con trẻ
                                     </h5>
                                     <div class="glyph-r-arrow">
@@ -269,7 +270,7 @@
                                  </a>
                               </li>
                               <li class="life-challenge">
-                                 <a target="_self" href="dieu-ban-quan-tam/tao-dung-tai-san.html" data-target="#btn-modal-1000827235">
+                                 <a target="_self" href="tao-dung-tai-san.phpl" data-target="#btn-modal-1000827235">
                                     <h5>Tạo dựng tài sản
                                     </h5>
                                     <div class="glyph-r-arrow">
@@ -279,7 +280,7 @@
                                  </a>
                               </li>
                               <li class="life-challenge">
-                                 <a target="_self" href="dieu-ban-quan-tam/cham-soc-suc-khoe.html" data-target="#btn-modal-1000827234">
+                                 <a target="_self" href="cham-soc-suc-khoe.php" data-target="#btn-modal-1000827234">
                                     <h5>Chăm sóc sức khỏe
                                     </h5>
                                     <div class="glyph-r-arrow">
@@ -288,18 +289,8 @@
                                     </div>
                                  </a>
                               </li>
-                              <li class="life-challenge">
-                                 <a target="_self" href="dieu-ban-quan-tam/vuot-qua-bien-co.html" data-target="#btn-modal-1000827233">
-                                    <h5>Vượt qua biến cố
-                                    </h5>
-                                    <div class="glyph-r-arrow">
-                                       <image class="icon icon-xs " src="../content/dam/aia/icons/secondary/arrow-2ndg.png" alt="undefined">
-                                       </image>
-                                    </div>
-                                 </a>
-                              </li>
                            </ul>
-                           <a href="dieu-ban-quan-tam.html" target="_self" class="lk1 font-heading" data-target="#">Xem thêm
+                           <a href="dieu-ban-quan-tam.php" target="_self" class="lk1 font-heading" data-target="#">Xem thêm
                            <span class="link-arrow">
                            </span>
                            </a>
