@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 /* CSS Document */
 *{
 	-ms-box-sizing: border-box;
@@ -51,6 +51,7 @@ font-size:1.2em;
 	-webkit-flex-direction: row;
 	flex-direction: row;
 }
+
 .flex-inline{
 	display: inline-flex;
 	display: -webkit-inline-flex;
@@ -253,17 +254,17 @@ footer p{
 /*********************Sell Page********************/
 .search{
    position: relative;
-   margin-bottom: 600px;
+   margin-bottom: 20%;
 }
 .search>img{
     width: 100%;
 }
-.search-frm{
+.search-frm form{
     position: absolute;
     width: 768px;
     background: #fff;
-    bottom: -20%;
-    left: 30%;
+    left: 22%;
+    bottom: -30%;
     padding: 40px 30px;
     box-shadow: 2px 2px 2px 0.00px rgba(0, 0, 0, 0.75)
 }
@@ -271,8 +272,8 @@ label{
     font: 400 12px / 18px Verdana;
 }
 .double{
-    -webkit-justify-content: space-between; /* Safari */
-	justify-content:         space-between;
+    -webkit-justify-content: space-between;
+	justify-content: space-between;
 }
 .box-input{
     margin-top: 5px;
@@ -283,4 +284,74 @@ input{
     background-color: #d7d7d7;
     height: 38px;
     display: block;
+}
+.btn{
+    border: #f6c452 solid 5px;
+    color: #000000;
+    font: 700 18px / 18px Verdana;
+    padding: 10px 25px;
+    margin: 30px 0px 0px;
+    display: inline-block;
+}
+section.tab3{
+    display: block;
+    padding: 60px;
+}
+.article{
+    width: 256px;
+    display: block;
+    margin-bottom: 30px;
+}
+article header{
+    background: transparent;
+    padding: inherit;
+    margin-bottom: 20px;
+}
+h1{
+    font: 700 30px / 15px Verdana;
+    display: inline-block;
+    border-bottom: 2px solid #f6c452;
+    padding-bottom: 15px;
+}
+h2{
+    font: 700 18px / 18px Verdana;
+    margin-bottom: 5px;
+}
+.info-img{
+    position: relative;
+}
+.price{
+    font: 700 14px / 18px Arial;
+    color: #ffffff;
+    background-color: #e9a200;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 20px;
+    right: -2px;
+}
+.info{
+    border-bottom: #f6c452 1px solid;
+    -webkit-justify-content: space-between;
+	justify-content: space-between;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.info p{
+    display: inline-block;
+    font: 400 14px / 18px Arial;
+    vertical-align:text-top;
+}
+.info span{
+    font-size: 18px;
+}
+.font14{
+    font-size: 14px !important;
+    padding-top: 2px;
+}
+.tab-row {
+    -webkit-flex-wrap: wrap; 
+	flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
