@@ -295,17 +295,27 @@ input{
 }
 section.tab3{
     display: block;
-    padding: 60px;
+	width: 1200px;
+	margin: auto;
 }
 .article{
     width: 256px;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 30px;	
+	margin-left: 40px
+}
+ .article:first-child,
+section.tab3.rent .article:nth-child(4n+1){
+	margin-left: 0px;
 }
 article header{
     background: transparent;
     padding: inherit;
     margin-bottom: 20px;
+}
+.tab-row {
+    -webkit-flex-wrap: wrap; 
+	flex-wrap: wrap;
 }
 h1{
     font: 700 30px / 15px Verdana;
@@ -349,9 +359,31 @@ h2{
     font-size: 14px !important;
     padding-top: 2px;
 }
-.tab-row {
-    -webkit-flex-wrap: wrap; 
-	flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+.tab3.sell{
+	margin-top: 50px;
+}
+.tab3.sell .tab-row:last-child{
+	margin-bottom: 50px;
+}
+.tab3.sell h2,
+.rent-page .tab3 h2{
+	width: 968px;
+}
+.article.sell{
+	width: 550px;
+	margin-top: 25px
+}
+.info-text{
+	font: 400 12px / 18px Verdana;
+	text-align: justify;
+}
+.info-sell{
+	margin-top: 30px;
+}
+/*******************Rent****************/
+.rent-page .tab3{
+
+}
+.rent-page .article{
+	width:860px;
 }
