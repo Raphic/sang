@@ -157,3 +157,14 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 (function ($) {
     include('js/jquery.rd-navbar.js');
 })(jQuery);
+/* TouchTouch Gallery
+ ========================================================*/
+;(function ($) {
+    var o = $('.thumb');
+    if (o.length > 0) {
+        include('js/jquery.touch-touch.js');
+        $(document).ready(function () {
+            o.touchTouch();
+        });
+    }
+})(jQuery);
