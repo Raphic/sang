@@ -68,12 +68,17 @@ body{
 		display: block;
 		margin-bottom: 10%;
 	}
-	/*******P R O J E C T**********/
-	.news-other .news-list{
+    /**************R E N T*******************/
+	.news-list{
 		display: block;
 	}
+	.news-text{
+		margin-left: 0px;
+	}
+	/*******P R O J E C T**********/
 	.news-other-info{
 		margin-left: 0px;
+        margin-top: 5%;
 	}
 	.box-news-other .btn{
 		width: 100%;
@@ -163,13 +168,7 @@ body{
 	.search {
 		margin-bottom: 37%;
 	}
-	/**************R E N T*******************/
-	.news-list{
-		display: block;
-	}
-	.news-text{
-		margin-left: 0px;
-	}
+
 	/******P R O J E C T********/
 	/*
 	.tab-page #content {
@@ -295,7 +294,7 @@ body{
 
 @media only screen and (max-width: 534px) {
 	.search {
-		margin-bottom: 105%;
+		margin-bottom: 95%;
 	}
 	.search-frm form{
 		padding: 2% 3%;
@@ -306,18 +305,30 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
-	.search {
+	.home footer{
+		margin-top: 130%;
+	}
+    .search {
 			margin-bottom: 120%;
 		}
 	.article.sell {
 		margin-bottom: 5%;
 	}
+    .content .price{
+        bottom: 8%;
+    }
 }
 
 @media only screen and (max-width: 360px) {
 	.search {
 		margin-bottom: 160%;
 	}
+    .home footer{
+		margin-top: 140%;
+	}
+    .content .price{
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 338px) {
@@ -338,4 +349,8 @@ body{
 		padding: 5px 20px;
 		margin: 10px 0px;;
 	}
+    .content .price{
+        font-size: 16px;
+        padding: 7px 15px;
+    }
 }

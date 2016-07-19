@@ -59,7 +59,8 @@
 .rd-mobilemenu_ul a {
   display: block;
   padding: 14px 25px 16px;
-	color: #fff;
+  color: #fff;
+  text-decoration: none !important;
 }
 .rd-mobilemenu_ul a:hover {
   background: #FFF;
