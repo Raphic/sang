@@ -7,10 +7,6 @@ function isIE() {
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
 };
 
-/* cookie.JS
- ========================================================*/
-include('js/jquery.cookie.js');
-
 /* Easing library
  ========================================================*/
 include('js/jquery.easing.1.3.js');
@@ -25,23 +21,6 @@ include('js/jquery.easing.1.3.js');
 
         $(document).ready(function () {
             $('#stuck_container').TMStickUp({})
-        });
-    }
-})(jQuery);
-
-/* ToTop
- ========================================================*/
-;
-(function ($) {
-    var o = $('html');
-    if (o.hasClass('desktop')) {
-        include('js/jquery.ui.totop.js');
-
-        $(document).ready(function () {
-            $().UItoTop({
-                easingType: 'easeOutQuart',
-                containerClass: 'toTop material-icons-arrow_forward'
-            });
         });
     }
 })(jQuery);

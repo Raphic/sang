@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import "../css/mb-menu.css";
-@import "../css/reponsive.css";
 /* CSS Document */
 *{
 	-ms-box-sizing: border-box;
@@ -177,6 +176,8 @@ img.logo{
     margin: 0px 50px;
 }
 .directional .box-rel img{
+	width: 290px;
+	height: 225px;
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.75);
 }
 .directional .box-btn{
@@ -260,13 +261,16 @@ img.logo{
 footer{
     background: #000000;
     padding: 20px;
+	margin-top: 5%;
 }
 footer p{
     font: italic 700 14px / 18px Verdana;
     color: #575f61;
 }
 .home footer{
-    margin-top: 150px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 /*************************************************/
 /*********************Contents********************/
@@ -284,7 +288,7 @@ footer p{
     position: absolute;
     width: 768px;
     background: #fff;
-    left: 22%;
+    left: 28%;
     bottom: -30%;
     padding: 40px 30px;
     box-shadow: 2px 2px 2px 0.00px rgba(0, 0, 0, 0.75)
@@ -344,6 +348,7 @@ section.tab3{
     display: block;
 	width: 1200px;
 	margin: auto;
+	padding-left: 2%;
 }
 .article{
     width: 256px;
@@ -365,7 +370,7 @@ article header{
 	flex-wrap: wrap;
 }
 h1{
-    font: 700 30px / 15px Verdana;
+    font: 700 30px / 40px Verdana;
     display: inline-block;
     border-bottom: 2px solid #f6c452;
     padding-bottom: 15px;
@@ -438,7 +443,7 @@ h2{
 }
 .tab3.sell h2,
 .rent-page .tab3 h2{
-	width: 968px;
+	width: 160%;
 }
 .article.sell{
 	width: 550px;
@@ -447,12 +452,14 @@ h2{
 .info-text{
 	font: 400 12px / 18px Verdana;
 	text-align: justify;
+	height: 200px;
+	overflow: hidden;
 }
 .info-sell{
 	margin-top: 30px;
 }
 .sell .info-img img{
-	width: 256px;
+	width:100%;
 }
 /*******************Rent****************/
 .content{
@@ -527,7 +534,7 @@ hr.dotted{
 h3{
 	font: 700 18px / 18px Verdana;
 	display: inline-block;
-	padding: 12px 20px 10px;
+	padding: 12px 15px 10px;
 	background-color: #f6c452;
 	color: #000;
 }
@@ -540,6 +547,7 @@ h4{
 .news-list{
 	margin: 15px 0px;
 	color: #000000;
+	display: inline-flex;
 }
 .thumb-news{
 	height: 80px !important;
@@ -561,20 +569,21 @@ h4{
 	content: '';
 }
 /*****************Slider************/
-.thumb.info-img{
+/*.thumb.info-img{
 	width: 800px;
 	height: 550px;
-}
+}*/
 .slider-big{
-	width: 800px;
-	height: 550px;
+	display: block;
+    width: 800px;
+    overflow: hidden;
 }
 .slider-small{
 	margin-top: 1%;
 }
 .slider-small a{
 	width: 25%;
-	height: 100px;
+	/*height: 100px;*/
 	margin-left: 1%;
 }
 .slider-small a:first-child{
@@ -582,7 +591,7 @@ h4{
 }
 .slider-small a img{
 	width: 100%;
-	height: 100px;
+	/*height: 100px;*/
 }
 .thumb,
 .thumb-news{
@@ -656,6 +665,7 @@ h4{
 .tab-page {
 	margin-top: 20px;
 	font: 400 12px / 18px Verdana;
+	position: relative;
 }
 .tab-page  h3{
 	background: transparent;
@@ -667,7 +677,7 @@ h4{
 .tab-page #container input {
 	height: 2.5em;
     visibility: hidden;
-    width: auto;
+    width: 0px;
     display: inline-block;
 }
 .tab-page #container label {
@@ -697,6 +707,7 @@ h4{
 	border-top: 2px #f6c452 solid;
 	margin-top: 4px;
 	padding: 20px 0px;
+	clear: both;
 }
 .tab-page #content div {
 	opacity: 0;
