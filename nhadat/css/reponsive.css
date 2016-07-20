@@ -269,6 +269,10 @@ body{
 	.news-text{
 		font: 700 14px / 25px Verdana;
 	}
+	/*********C O N T A C T*************/
+	.contact-page .search-frm form{
+		top: 100px;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -317,6 +321,10 @@ body{
     .content .price{
         bottom: 8%;
     }
+	/*********C O N T A C T*************/
+	.contact-page .search{
+		height: 840px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
@@ -353,4 +361,8 @@ body{
         font-size: 16px;
         padding: 7px 15px;
     }
+	/*********C O N T A C T*************/
+	.contact-page .search{
+		height: 800px;
+	}
 }

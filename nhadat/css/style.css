@@ -303,12 +303,29 @@ label{
     margin-top: 5px;
     
 }
-input{
+/************Contact***************/
+input,
+textarea{
     width: 320px;
     background-color: #d7d7d7;
     height: 38px;
     display: block;
+	padding: 0 3%;
 }
+.box-textarea,
+textarea{
+	min-height: 120px;
+	width: 100%;
+}
+textarea{
+	font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: Verdana ,sans-serif;
+	padding: 0 1.5%;
+}
+/************ End Contact***************/
 .btn{
     border: #f6c452 solid 5px;
     color: #000000;
@@ -730,4 +747,34 @@ h4{
 }
 .tab-page input.visible {
   visibility: visible !important;
+}
+/**************CONTACT****************/
+.contact-page .search{
+	height: 900px;
+	margin-bottom:inherit;
+}
+.contact-page .search-frm form{
+	bottom: inherit;
+	top: 30%;
+}
+.company{
+	padding-left: 2%;
+}
+.company .name{
+	font-size: 22px;
+	font-weight: 700;
+}
+.company .address{
+	font-size: 18px;
+	font-style: italic;
+}
+.company .tell,
+.company .email{
+	font-size: 20px;
+}
+.company .email a{
+	color:#f6c452 ;
+}
+.map{
+	margin-top: 5%;
 }
