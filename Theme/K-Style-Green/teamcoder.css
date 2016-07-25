@@ -1,5 +1,5 @@
-﻿/*  Define by Team Coder
-    Author: pennyauctionsoftware.com
+/*	Define by Team Coder
+	Author: pennyauctionsoftware.com
 */
 
 .imgDefault {
@@ -95,7 +95,7 @@
     border-right: 1px solid #E7E7E7;
     float: left;
     margin-top: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 10px;
     width: 670px;
 }
 
@@ -208,6 +208,9 @@ label.error {
 .WatchList {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .loading {
     background: url("/images/loading.gif") center center transparent no-repeat;

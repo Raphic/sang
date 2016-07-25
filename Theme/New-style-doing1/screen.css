@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document - Format Frame - Block*/
 html{ background:url('/images/loading.gif') center center no-repeat}
 body{ background:#ffffff}
@@ -39,7 +39,7 @@ a{text-decoration:none;}
 	position:relative;
 }
 .content_box1{
-	padding:30px 15px 15px 15px; 
+	padding:30px 0px 15px; 
 	overflow:hidden;
 	display: -webkit-flex;
 	display: flex;
@@ -135,6 +135,10 @@ a.icon_myaccount:hover{color:#000;}
 	margin: 0 9px 20px; 
 	position: relative;     
 	text-align: center; width: 222px;
+}
+.content_box1.bg_white.gridview>div:last-child {
+    width: 100%;
+    display: block;
 }
 .gridview .auction_item:hover{
 	-webkit-box-shadow: 0px 0px 5px rgba(240, 162, 41, 0.4);

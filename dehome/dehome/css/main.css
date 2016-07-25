@@ -1139,6 +1139,9 @@ body {
 a.title-green{
 	color: #55a32a !important;
 }
+.newslist-author{
+    display: inline-block !important;
+}
 .newslist-catology,
 .newslist-calendar{
 	display: inline-block;

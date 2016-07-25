@@ -42,7 +42,9 @@ a{text-decoration:none;}
 	margin-top:3%;
 }
 .content_box1{
-	padding: 50px 15px 15px 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 50px 10px 15px;
 	overflow:hidden;
 	display: -webkit-flex;
 	width: 100%;
@@ -277,7 +279,7 @@ a.icon_myaccount:hover{color:#000;}
 .detail .auction_item .suspendtemp{
 	top:-10px; height: 100%; border-radius: 0;
 }
-.detail .auction_item{ border: 1px solid #fff; border-radius: 8px 8px 8px 8px; margin:auto; position: relative;     text-align: center; width: 430px}
+.detail .auction_item{ /*border: 1px solid #fff;*/ border-radius: 8px 8px 8px 8px; margin:auto; position: relative;     text-align: center; width: 430px}
 .detail .auction_item .sec1{ width:100%}
 .detail .auction_item .sec1 h5.auction-item-title {    border-bottom: 1px solid #BFBFBF;    height: 43px;    line-height: 22px;    margin: 0 0 5px;    overflow: hidden;    padding: 5px;    width: 163px;	font-size:14px; display:none}
 

@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document - Format Frame - Block*/
 html{ background:url('/images/loading.gif') center center no-repeat}
 body{ background:#ffffff}
@@ -40,7 +40,9 @@ a{text-decoration:none;}
 	position:relative;
 }
 .content_box1{
-	padding:30px 15px 15px 15px;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 50px 15px 15px;
 	overflow:hidden;
 	display: -webkit-flex;
 	width: 100%;

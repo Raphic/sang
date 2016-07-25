@@ -215,30 +215,30 @@ input.buttons.large:hover {
 }
 input.buttons.orange,
 input.buttons.blue {
-    border-color: #ebecec;
-    color: #5d8ba4;
-    background: #ebecec;
+    background: #5d8ba4;
+    border-color: #5d8ba4;
+    color: #ebecec;
     -webkit-transition: 0.4s;
     transition: 0.4s;
     width: 45%;
 }
 input.buttons.orange:hover {
-    border-color: #5d8ba4;
-    background: #5d8ba4;
-    color: #edf3f6;
+    background-color: #ebecec;
+    border: #ebecec;
+    color: #5d8ba4;
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
 
 input.buttons.blue {
-    background: #699bb3;
-    border-color: #699bb3;
-    color: #ebecec;
-}
-input.buttons.blue:hover {
     background-color: #ebecec;
     border: #ebecec;
     color: #5d8ba4;
+}
+input.buttons.blue:hover {
+    border-color: #5d8ba4;
+    background: #5d8ba4;
+    color: #edf3f6;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
