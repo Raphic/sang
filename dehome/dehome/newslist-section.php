@@ -35,7 +35,7 @@
 					</a>
 				</div><!-- product-content-owner -->
 				<div class="product-name list">
-					<h3><a href="#">Người viết : Nguyễn Tử Quảng</a></h3>
+					<h3><a class="newslist-author" href="#">Người viết : Nguyễn Văn A</a></h3>
 				</div><!-- product-name -->
 				<div class="product-excerpt list">
 					<p>Cầu thang này có vai trò hỗ trợ cho cầu thang bên trong nhà. Bạn có thể đi lên ngay phòng khách phía trên thay vì phải đi xuyên qua nhà để xe. Để có thể thiết kế cầu thang ngoài trời, cần một diện tích đủ rộng. Thông thường chỉ thiết kế cầu thang ngoài trời khi có một khoảng sân hoặc vườn trước nhà. Hiếm khi cầu thang trời được thiết kế liền với đường hoặc ngõ vào nhà..</p>

@@ -1,4 +1,4 @@
-﻿/*  Define color and format 
+/*  Define color and format 
     Author: pennyauctionsoftware.com
 */
 
@@ -206,7 +206,7 @@ input.buttons.orange {
     background: #6aa74c;
     -webkit-transition: 0.6s;
     transition: 0.6s;
-    width: 92%;
+    width: 40%;
 }
 input.buttons.orange:hover {
     border-color: #45484D;
