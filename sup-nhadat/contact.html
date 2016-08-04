@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="desktop" lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery.js"></script>
+    <script src="js/smmenu.js"></script>
+</head>
+
+<body>
+	<!--========================================================
+														HEADER 
+	=========================================================-->
+	<header id="header">
+		<div id="stuck_container">
+			<div class="container">
+				<div class="row">
+					<div class="grid_6">
+						<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a> </h1>
+					</div>
+					<div class="grid_6">
+						<nav>
+							<ul class="sf-menu">
+								<li><a href="index.html">Home<strong></strong></a></li>
+								<li><a href="about.html">About<strong></strong></a>
+									<ul class="submenu">
+										<li><a href="#">About I</a>
+											<ul class="submenu2">
+												<li><a href="#">About 1</a></li>
+												<li><a href="#">About 2</a></li>
+											</ul>
+										</li>
+										<li><a href="#">About II</a></li>
+									</ul>
+								</li>
+								<li><a href="service.html">Services<strong></strong></a></li>
+                                <li><a href="gallery.html">Gallery<strong></strong></a></li>
+								<li id="last-li" class="current"><a href="contact.html">Contact Us<strong></strong></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--========================================================
+														CONTENT 
+	=========================================================-->
+	<section id="content">
+		<div class="container">
+			<h2 class="marTop10">How to Find Us</h2>
+			<section class="content_map">
+				<div class="google-map-api"> 
+					<div id="map-canvas" class="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3919.5151481381245!2d106.7044405!3d10.7718008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f41476fee6b%3A0x15de2e5129cc54f!2zVMOyYSBuaMOgIHTDoGkgY2jDrW5oIEJpdGV4Y28sIDIgSOG6o2kgVHJp4buBdSwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1417576356959" width="100%" height="100%" frameborder="0" style="border:0"></iframe></div> 
+				</div> 
+			</section>
+			<p>With an array of reliable shipping solutions available, you can send packages conveniently and confidently. Choose the speed of Compnay Express with the simplicity of Compnay One Rate® pricing, the everyday value of Compnay Ground or one of our flexible options for international shipping. Plus, we’ll pack it for you.</p>
+			<div class="col3">
+				<i class="fa fa-home icon3"></i>
+				<div class="box">
+					<p>Address,<br>address.</p>
+				</div>
+			</div>
+			<div class="col3 v2">
+				<i class="fa fa-phone icon3"></i>
+				<div class="box">
+					<p>+phone number<br>+phone number</p>
+				</div>
+			</div>
+			<div class="col3">
+				<i class="fa fa-envelope icon3"></i>
+				<div class="box">
+					<p><a href="mailto:" class="link">mail@.org</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--========================================================
+														FOOTER 
+	=========================================================-->
+	<footer id="footer">
+		<div class="box-4">
+			<div class="container">
+				<div class="row">
+					<div class="grid_3">
+						<h4 class="wow fadeInLeft">contact us</h4>
+
+						<form id="contact-form">
+							<div class="contact-form-loader"></div>
+							<fieldset>
+								<label class="name  wow fadeInLeft" data-wow-duration="" data-wow-delay="0.0s">
+									<input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*This is not a valid name.</span>
+								</label>
+							 
+								<label class="email  wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">
+									<input type="text" name="email" placeholder="Email:" value="" data-constraints="@Required @Email" />
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*This is not a valid email.</span>
+								</label>
+								<!-- <label class="phone">
+									<input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*This is not a valid phone.</span>
+								</label> -->
+							 
+								<label class="message  wow fadeInLeft" data-wow-duration="" data-wow-delay="0.2s">
+									<textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*The message is too short.</span>
+								</label>
+								<div class="btns  wow fadeInLeft" data-wow-duration="" data-wow-delay="0.3s">
+									<!-- <a href="#" class="more_btn" data-type="reset">Clear</a> -->
+									<a href="#" class="more_btn" data-type="submit">send message</a>
+								</div>
+							</fieldset> 
+							<div class="modal fade response-message">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title">Modal title</h4>
+										</div>
+										<div class="modal-body">
+											You message has been sent! We will be in touch soon.
+										</div>      
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.2s">
+						<h4>Menu</h4>
+						<ul class="list2">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="service.html">Services</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.4s">
+						<h4>how to find us</h4>
+						<ul class="list3">
+							<li><i class="fa fa-map-marker"></i> <span class="list3_txt">Address,<br>address.</span></li>
+							<li><i class="fa fa-phone"></i> <span class="list3_txt">Call us now toll free:phone number</span></li>
+							<li><i class="fa fa-envelope-o"></i> <span class="list3_txt">Email: <a href="mailto:">mail@.org</a></span></li>
+						</ul>
+						<h4 class="marTop6">Follow us</h4>
+						<ul class="list3">
+							<li><i class="fa fa-facebook"></i> <span class="list3_txt"><a href="#" >Facebook</a></span></li>
+							<li><i class="fa fa-twitter"></i> <span class="list3_txt"><a href="#">Twitter</a></span></li>
+							<li><i class="fa fa-rss"></i> <span class="list3_txt"><a href="#">RSS</a></span></li>
+						</ul>
+					</div>
+					<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.6s">
+						<h4>About US</h4>
+						<p class="marTop5">The Company portfolio of shipping services has been assembled to address the unique needs of all customers. Whether you are shipping near or far, to clients or family, in a hurry or not and no matter the budget, there is a service that is right for you. Explore our extensive options to find the services that meet your specific needs.Whether you need it there today, Saturday or next week, there is a choice for your shipments. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<p class="txt_priv wow fadeInLeft">Easy Way &copy; <span id="copyright-year"></span> All Rights Reserved   |   <a href="#">Privacy Policy</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="toTop"><i class="fa fa-arrow-circle-o-up"></i></div>
+	<script src="js/animation.js"></script>
+</body>
+</html>
