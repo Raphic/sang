@@ -17,6 +17,14 @@ include('js/jquery-migrate-1.2.1.js');
  ========================================================*/
 include('js/jquery.ehighteasing.1.3.js');
 
+/* Migrate
+ ========================================================*/
+include('js/camera.js');
+
+/* Migrate
+ ========================================================*/
+include('js/jquery.prettyPhoto.js');
+
 /* Easing library
  ========================================================*/
 include('js/wow/wow.js');

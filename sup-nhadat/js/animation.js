@@ -1,14 +1,21 @@
-/* Wow
-========================================================*/
-$(document).ready(function () {       
-  if ($('html').hasClass('desktop')) {
-	 new WOW().init();
-	 }   
- });
-
-/* prettyPhoto
-========================================================*/
 $(document).ready(function(){
+	/* Camera
+	 ========================================================*/
+	jQuery('#camera_wrap').camera({
+		loader: false,
+		pagination: false,
+		thumbnails: false,
+		height: '47.571428571%',
+		fx: 'random',
+		rows: '3',
+		slicedCols: '3',
+		slicedRows: '3',
+		caption: false,
+		time:4000,
+		hover: false,
+	});
+	/* Camera
+	========================================================*/
 	$(".pretty:first a[rel^='prettyPhoto']").prettyPhoto({
 		animation_speed:'normal',
 		theme:'light_square',
@@ -16,11 +23,15 @@ $(document).ready(function(){
 		autoplay_slideshow: true,
 		social_tools: false,
 
-		});
-});
-/* Animation
-========================================================*/
-$('.list1 li').hover(function(){
+	});
+	/* Wow
+	========================================================*/
+	if ($('html').hasClass('desktop')) {
+	 new WOW().init();
+	 }   
+	/* Animation
+	========================================================*/
+	$('.list1 li').hover(function(){
 		$(this).addClass('animated pulse');
 		$('i',this).addClass('animated swing');
 		$(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', end_animation_function);
@@ -32,8 +43,8 @@ $('.list1 li').hover(function(){
 		$(this).removeClass('animated pulse');
 		$('i',this).removeClass('animated swing');
 	}
-/*========================================================*/
-$('.js_hover_section1').hover(function(){
+	/*========================================================*/
+	$('.js_hover_section1').hover(function(){
 		$('.box-2', this).addClass('animated pulse');
 		$('img', this).addClass('animated pulse');
 		$('.num',this).addClass('animated swing');
@@ -47,7 +58,7 @@ $('.js_hover_section1').hover(function(){
 		$('img', this).removeClass('animated pulse');
 		$('.num',this).removeClass('animated swing');
 	}
-
+});
 /* Camera
  ========================================================*/
 //;(function ($) {
@@ -73,19 +84,3 @@ $('.js_hover_section1').hover(function(){
 //        });
 //    }
 //})(jQuery);
-
-$(document).ready(function(){
-        jQuery('#camera_wrap').camera({
-                loader: false,
-				pagination: false,
-				thumbnails: false,
-				height: '47.571428571%',
-				fx: 'random',
-				rows: '3',
-				slicedCols: '3',
-				slicedRows: '3',
-				caption: false,
-				time:4000,
-				hover: false,
-            });
-    });
