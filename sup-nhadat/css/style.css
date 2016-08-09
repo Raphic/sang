@@ -1,4 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import "../css/grid.css";
 @import "../css/animate.css";
@@ -560,6 +560,11 @@ img {
   float: left;
   margin-right: 25px;
 }
+.img4{
+  margin-top: 23px;
+  float: right;
+  margin-left: 23px;
+}
 blockquote {
   margin-top: 25px;
   overflow: hidden;
@@ -921,6 +926,7 @@ a.magnifier2 .zoom {
 .box-3.v2 {
   padding-bottom: 60px;
   margin-bottom: -12px;
+	text-align: center;
 }
 .box-4 {
   color: #aaa;
@@ -1261,4 +1267,16 @@ a.magnifier2 .zoom {
 }
 .gall_item:hover img {
   opacity: 0.3;
+}
+/*Add menu*/
+.border_bottom{
+	padding-bottom: 10px;
+	border-bottom:2px solid #fff;
+}
+.border_bottom_v2{
+	border-bottom: 1px solid #609c90;
+	margin: 0px !important;
+}
+.line-through{
+	text-decoration:line-through;
 }

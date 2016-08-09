@@ -58,6 +58,37 @@ $(document).ready(function(){
 		$('img', this).removeClass('animated pulse');
 		$('.num',this).removeClass('animated swing');
 	}
+	/*========================================================*/
+//	$(window).load(function(){
+//        var curAccord = 0;
+//        var oldAccord = 0;
+//
+//        $('._accodList').find('.accod-content').slideUp(1);
+//        $('._accodList').addClass('not_active');
+//
+//        setTimeout(function(){
+//            $('._accodList > li').eq(0).find('.accod-content').slideDown();
+//            $('._accodList > li').eq(0).addClass('active');
+//        },200)
+//
+//        $('._accodList').find('._plus, strong').click(
+//            function(){
+//                if(curAccord !== $(this).parent().index()){
+//                    oldAccord = curAccord;
+//                    curAccord = $(this).parent().index(); 
+//                    
+//                    $('._accodList > li').eq(curAccord).removeClass('not_active');
+//                    $('._accodList > li').eq(curAccord).addClass('active');
+//                    $('._accodList > li').eq(curAccord).find('.accod-content').slideDown();
+//                    
+//                    $('._accodList > li').eq(oldAccord).removeClass('active');
+//                    $('._accodList > li').eq(oldAccord).addClass('not_active');
+//                    $('._accodList > li').eq(oldAccord).find('.accod-content').slideUp();
+//                }
+//
+//            }
+//        )
+//    }) ;
 });
 /* Camera
  ========================================================*/
