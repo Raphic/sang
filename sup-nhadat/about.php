@@ -20,7 +20,7 @@
 		<section  class="box-5 wow fadeInUp">
 			<div class="container">
 				<h2 class="marTop7">About Us</h2>
-				<img src="images/about_pic1.jpg" alt="" class="img3">
+				<img src="images/about_pic1.jpg" title="" alt="" class="img3">
 				<p class="txt4">Shipping a package or envelope within the U.S.</p>
 				<p>Whether you need it there today, Saturday or next week, there is a choice for your shipments less than 150 lbs. within the U.S. You can ship to residences and businesses in all 50 states and select the pickup and delivery options that are best for you and your recipients.</p>
                 <p>No problem — there are choices when it comes to your most urgent residential shipments. With Compnay Express® services you can have your shipment arrive today, or tomorrow by 8 a.m., 10:30 a.m. or 3 p.m. You decide. </p>

@@ -20,7 +20,7 @@
 		<section  class="box-5 wow fadeInUp">
 			<div class="container">
 				<h2 class="marTop7">HTML5 &amp; CSS3</h2>
-				<img src="images/html5_pic1.jpg" alt="" class="img3">
+				<img src="images/html5_pic1.jpg" title="HTML5 và CSS3" alt="Mô tả Html 5 và Css3" class="img3">
 				<p class="txt4">HTML5 và CSS3 là gì ?</p>
 				<p>Cascading Style Sheets, hay còn gọi tắt là CSS, là những file hỗ trợ cho trình duyệt Web trong việc hiển thị một trang HTML. Về cơ bản, các trang HTML như bộ xương – khuôn khổ cơ bản – của một trang web – trong khi các file CSS sẽ cụ thể hóa các thành phần của một trang nên được hiển thị như thế nào. CSS cho phép bạn kiểm soát phông chữ, màu chữ, kiểu nền…, của một trang HTML. </p>
                 <p>HTML5 và CSS3 là các chương trình mới nhất cho việc thiết kế Web. Các tính năng video của HTML5 – cho phép đơn giản hoá việc thêm một video vào trang Web – đã được nhận được nhiều sự chú ý, không những thế HTML5 còn có nhiều tính năng làm nó trở nên tuyệt vời đối với người sử dụng cũng như các nhà phát triển Web.</p>
@@ -31,7 +31,7 @@
 			<h2 class="marTop3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">HTML5 và CSS3 là gì ?</h2>
 			<div class="wow fadeInLeft animated" data-wow-duration="" data-wow-delay="0.2s">
 				<p class="marTop4">Trong những ngày sơ khai của Internet, các công cụ cho việc thiết kế một Web site chỉ là HTML và một số ít các công cụ khác. Nhưng việc thiết kế một trang Web chỉ với HTML thật tẻ nhạt và nhiều hạn chế. Đó là lí do chúng ta cần đến CSS. </p>
-				<img class="img4" src="images/html5_pic2.jpg">
+				<img class="img4" src="images/html5_pic2.jpg" title="HTML5 và CSS3 là gì ?" alt="HTML5 và CSS3 là gì ?">
 				<p>HTML5 và CSS3 là các chương trình mới nhất cho việc thiết kế Web. Các tính năng video của HTML5 – cho phép đơn giản hoá việc thêm một video vào trang Web – đã được nhận được nhiều sự chú ý, không những thế HTML5 còn có nhiều tính năng làm nó trở nên tuyệt vời đối với người sử dụng cũng như các nhà phát triển Web.</p>
 				<p>HTML5 và CSS3 cũng làm cho các ứng dụng Web và các trang Web hấp dẫn hơn. HTML5 có các tính năng mới được thêm vào giúp cho việc xây dựng ứng dụng web dễ dàng hơn rất nhiều. Ví dụ như nhiều màu sắc hơn và hỗ trợ đường cong, việc làm mờ, góc tròn (thay vì ép buộc các nhà thiết kế web sử dụng các hình ảnh để tạo ra các góc tròn), và dĩ nhiên là cả việc lưu trữ offline. Tất cả những điều này là một trang Web trở nên dễ nhìn hơn, bắt mắt hơn và làm cho mọi thứ trở nên sát với những gì mà nhà thiết kế tưởng tượng trong đầu hơn.</p>
 			</div>
