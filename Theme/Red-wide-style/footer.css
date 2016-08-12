@@ -1,0 +1,12 @@
+/*	Define Footer Websute
+	Author: pennyauctionsoftware.com
+*/
+@charset "utf-8";
+.footer_col{width:175px; float:left; padding-right:25px; color:#cc0000; font-weight:bold; font-size:13px; margin-top:30px; text-align:left}
+.footer_col ul{ margin:0; padding:0; margin-top:25px;}
+.footer_col ul li{ list-style:none; margin-bottom:8px;}
+.copyright{color:#fff}
+.footer_col ul li a, .copyright a{ color:#fff; text-decoration:none; font-weight:normal; font-size:11px;}
+.footer_col ul li a:hover, .copyright a:hover{ color:#cc0000;}
+.footer_col hr, .copyright hr{border:1px solid #cc0000}
+.textcopy{padding:0; margin:0}

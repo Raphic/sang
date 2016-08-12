@@ -135,7 +135,7 @@ a.icon_myaccount:hover{color:#000;}
 }
 .gridview .auction_item{ 
 	float: left; 
-	height: 195px; 
+	height: 230px; 
 	margin: 0 9px 20px; 
 	position: relative;     
 	text-align: center; 
@@ -174,10 +174,12 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item .sec3 .userplay{font-size:14px; text-align:center;top:-20px; left:110px; width:110px; position:absolute;}
 .gridview .auction_item .sec3 .btnbox{ margin-top:10px;}
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
-.content_box1.bg_white.gridview>div:last-child{
+/*
+.content_box1.bg_white.gridview>.auction_item:nth-child{
 	width:100%;
 	display:block;
 }
+*/
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/
@@ -305,7 +307,7 @@ a.icon_myaccount:hover{color:#000;}
 .detailright .dtrleft .center_dtleft{ width:100%;   margin:0px; padding:10px 0 0 0; }
 .textcurrentwin{ font-size:18px}
 .detailright .dtrleft .center_dtleft .divact1{ width:100%}
-.divyoursave1{  padding:10px; margin:10px 1px 0px 1px;  border-top:1px solid #D9D9D9;}
+.divyoursave1{  padding:10px; margin:20px 1px 0px 1px;  border-top:1px solid #D9D9D9;}
 .divyoursave1 .tb_saving tr td:nth-child(2){ text-align:right;}
 .bottom_dtleft{ width:100%; height:12px}
 .dtrright{ width:309px; float:right;}
@@ -445,8 +447,152 @@ a.icon_myaccount:hover{color:#000;}
 .contnetsubr .tblogin input[type="text"]:hover{ background:#fff}
 .contnetsubr .tblogin input[type="password"]:hover{ background:#fff}
 /*Login page ---------------------END*/
+/**************Fix 12-08-2016 Sec4**************/
+.gridview .auction_item .sec4{width:100%; margin-top:5px;}
+.gridview .auction_item .sec4 .panelremind{position:relative; margin-bottom:5px;}
+.gridview .auction_item .sec4 .panelremind span{cursor:pointer}
+.panelremind span i{display:inline-block; height:16px; width:16px; border-radius:9px; background:#ff0000; color:#fff; font-size:10px; line-height:16px; cursor:help}
+.gridview .auction_item .sec4 .panelremind .showremindselect{position:absolute; bottom:-20px; display:none; width:100%}
 
+.listview .auction_item .sec4{width:240px; margin-top:5px; float:right}
+.listview .auction_item .sec4 .panelremind{position:relative; margin-bottom:5px;}
+.listview .auction_item .sec4 .panelremind span{cursor:pointer}
+.listview .auction_item .sec4 .panelremind .showremindselect{position:absolute; bottom:-20px; display:none; width:100%}
 
+.related .auction_item .sec4{display:none}
+
+.colview .auction_item .sec4{display:none}
+
+.detail .auction_item .sec4{width:240px; margin-top:5px; float:right}
+.detail .auction_item .sec4 .panelremind{position:relative; margin-bottom:5px;}
+.detail .auction_item .sec4 .panelremind span{cursor:pointer}
+.detail .auction_item .sec4 .panelremind .showremindselect{position:absolute; bottom:-20px; display:none; width:100%}
+
+/*8/10/16*/
+/*Saleitem ------------------------*/
+.forsale_item{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+    float: left;
+    list-style: outside none none !important;
+    margin: 0 1.8% 10px 0;
+    min-height: 310px;
+    padding: 5px 0.8%;
+    position: relative;
+    transition: all 0.5s ease-out 0s;
+    width: 156px;}
+.forsale_item .forsale-item-title a{color:#757575; font-size:13px; display:block; height:30px; overflow:hidden}
+.forsale_item .forsale-img img{width:100%}
+.forsale_item .buybtn{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
+background: rgb(37,141,200); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+border-radius:3px;
+    clear: both;
+    color: #fff !important;
+    display: block;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%;}
+.forsale_item .oldprice{color: #9ea09d;
+    font-size: 12px;
+    font-weight: normal;
+    height: 16px;
+    text-decoration: line-through;}
+.forsale_item .saleprice{
+461
+    display: block;
+    line-height: 16px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.forsale_item .saleprice .price{
+    color: #0e7dc4;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.forsale_item .saleprice .discount{
+   background: rgba(0, 0, 0, 0) url("http://dienmayhoanglong.vn/assets/images/tag.svg") no-repeat scroll 0 0 / auto 100%;
+    color: #fff;
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px 0 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+    vertical-align: middle;
+}
+.forsale_item_detail_left{width:40%; float:left}
+.forsale_item_detail_right{width:60%; float:right}
+.forsale_item_detail_right .forsale-item-title{color:#757575; margin-bottom:30px; margin-top:25px;}
+.forsale_item_detail_right .oldprice{color: #9ea09d;
+    font-size: 12px;
+    font-weight: normal;
+    height: 16px;
+    text-decoration: line-through; font-size:14px;}
+.forsale_item_detail_right .oldprice span{text-decoration:none!important;}
+.forsale_item .saleprice{
+    display: block;
+    line-height: 16px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.forsale_item_detail_right .saleprice .price{
+    color: #0e7dc4;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.forsale_item_detail_right .saleprice .discount{
+   background: rgba(0, 0, 0, 0) url("http://dienmayhoanglong.vn/assets/images/tag.svg") no-repeat scroll 0 0 / auto 100%;
+    color: #fff;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px 0 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+    vertical-align: middle;margin-left: 20px;
+    margin-top: 7px;
+}
+.forsale_item_detail_right .buybtn{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
+background: rgb(37,141,200); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+border-radius:3px;
+    clear: both;
+    color: #fff !important;
+    display: block;
+    font-size: 32px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%; margin-top:25px;}
+/*Saleitem ---------------------END*/
+.pagebid{
+    margin-bottom: 15px;
+}
+div < .target  .pagebid {
+	width: 100% !important;
+}
 
 
 
@@ -509,7 +655,17 @@ a.icon_myaccount:hover{color:#000;}
 			/*Login page ---------------------END*/
 			
 			#nav > ul > li > a{font-size:12px;}
-			
+			/**************Fix 12-08-2016 For Sale Item**************/
+			.forsale_item{
+				margin: 0 9px 20px;box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			}
+			.divprolarge,
+			.divprolarge img{
+				width: 100%;
+			}
+			/**************End 12-08-2016 For Sale Item**************/
 			
 		}
 @media only screen and ( max-width: 768px )/* http://mattkersley.com/responsive/ */
@@ -518,9 +674,7 @@ a.icon_myaccount:hover{color:#000;}
 				height: 250px;
 			}
 			.content_box1{
-				padding:inherit;
-				padding-top: 20px;
-				padding-bottom: 20px;
+				padding:20px 5%;
 			}
 			.btseach{
 				height: 32px !important;
@@ -654,6 +808,22 @@ a.icon_myaccount:hover{color:#000;}
 				top: 65%;
 				left: 15%;
 			}
+			/**************Fix 12-08-2016 For Sale Item**************/
+			.forsale_item_detail_right,
+			.forsale_item_detail_left{
+				width: 100%;
+			}
+			.detail .auction_item .sec4{
+					width: 100%;
+			}
+			.forsale_item_detail_right .buybtn{
+				margin-bottom: 15px;
+				width: 100%;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			/**************End 12-08-2016 For Sale Item**************/
 		}
 		
 @media only screen and ( max-width: 480px )
@@ -808,8 +978,16 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			.right-top .row_top .col_top:nth-child(2) a{
 				top: 75%;
-				left: : inherit;
+				left: inherit;
 			}
+			/**************Fix 12-08-2016 Sec4**************/
+			.detail .auction_item .sec3 .btnbox input[type="button"]{
+				width: 90% !important;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			}
+			/**************End 12-08-2016 Sec4**************/
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -977,7 +1155,19 @@ a.icon_myaccount:hover{color:#000;}
 			#Footer_ddlThems{
 				margin-left: 5px;
 			}
-			
+			/**************Fix 12-08-2016 For Sale Item**************/
+
+			.forsale_item_detail_right .saleprice .discount{
+				margin-left: 0px;
+				margin-top: 4px;
+			}
+			.forsale_item_detail_right .saleprice .price{
+				font-size: 19px;
+			}
+			.forsale_item_detail_right .buybtn{
+				font-size: 22px;
+			}
+			/**************End 12-08-2016 For Sale Item**************/
 		}
 		
 		
