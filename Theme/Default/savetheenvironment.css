@@ -1,0 +1,74 @@
+div#energysaving, div#energysaving * {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 0;
+}
+
+div#energysaving {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    text-align: center;
+    z-index: 100;
+}
+
+@media screen {
+    body > div#energysaving {
+        position: fixed;
+    }
+}
+
+s div#energysaving p span {
+    color: #555555;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div#energysaving div#copyrightOnlineLeaf {
+    padding: 0;
+    margin: 0;
+    color: #333333;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    left: 0%;
+}
+
+div#energysaving h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 0px;
+    margin: 0px 0px;
+}
+
+div#energysaving .missing {
+    width: 340px;
+    padding: 0px 30px;
+    font-size: 14px;
+    background: url(/images/popup_missing.png) no-repeat;
+    height: 212px;
+    text-align: center;
+}
+
+div#energysaving .bt_ready {
+    width: 128px;
+    height: 34px;
+    text-shadow: 0 1px 1px #000000;
+    background: url(/images/bt_ready.png) no-repeat;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    cursor: hand;
+}
