@@ -174,12 +174,9 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item .sec3 .userplay{font-size:14px; text-align:center;top:-20px; left:110px; width:110px; position:absolute;}
 .gridview .auction_item .sec3 .btnbox{ margin-top:10px;}
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
-/*
-.content_box1.bg_white.gridview>.auction_item:nth-child{
+.content_box1.bg_white.gridview>div:nth-child(41){
 	width:100%;
-	display:block;
 }
-*/
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/

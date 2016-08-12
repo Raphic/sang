@@ -195,12 +195,10 @@ a.icon_myaccount:hover{color:#000;}
     overflow: hidden;
 }
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
-/*
-.content_box1.bg_white.gridview>div:last-child{
+.content_box1.bg_white.gridview>div:nth-child(41){
 	width:100%;
 	display:block;
 }
-*/
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/
