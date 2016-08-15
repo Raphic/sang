@@ -424,30 +424,53 @@ a.icon_myaccount:hover{color:#000;}
     border-radius: 8px;
     float: left;
     list-style: outside none none !important;
-    margin: 0 1.8% 10px 0;
-    min-height: 310px;
+    margin: 0 9px 20px;
+/*    min-height: 310px;*/
     padding: 5px 0.8%;
     position: relative;
     transition: all 0.5s ease-out 0s;
-    width: 156px;}
+    width: 175px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.forsale_item .forsale-item-title{
+	border-bottom: 1px solid #BFBFBF;
+    font-size: 14px;
+    height: 43px;
+    line-height: 22px;
+    margin: 0 -8px 15px;
+    overflow: hidden;
+    padding: 5px;
+	text-align: center;
+}
 .forsale_item .forsale-item-title a{color:#757575; font-size:13px; display:block; height:30px; overflow:hidden}
 .forsale_item .forsale-img img{width:100%}
-.forsale_item .buybtn{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
-background: rgb(37,141,200); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
-border-radius:3px;
+.forsale_item .buybtn{
+	background-color: #1071B2;
+    background-image: url("/images/themes/blue-btn.jpg");
+    background-position: left -124px;
+    border: 1px solid #1183CF;
+    text-shadow: 0 1px 2px #063554;
+    border-radius: 3px;
     clear: both;
     color: #fff !important;
     display: block;
     font-size: 1.5em;
-    margin: auto;
-    padding: 5px;
+    margin: 10px auto;
     text-align: center;
     text-transform: uppercase;
-    width: 60%;}
+    width: 60%;
+    height: 44px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 44px;
+}
+.forsale_item .buybtn:hover,
+.forsale_item .buybtn:focus{
+	background-position: left -168px;
+}
 .forsale_item .oldprice{color: #9ea09d;
     font-size: 12px;
     font-weight: normal;
@@ -548,7 +571,7 @@ border-radius:3px;
 			.width1000px{width:766px; margin:auto; position:relative;}
 			.footer_col{width:175px!important; padding-right:10px!important; padding-left:5px;}
 			/* Grid view --------------------------------*/
-			.gridview .auction_item , .forsale_item{width: 163px}
+			.gridview .auction_item{width: 163px}
 			.gridview .auction_item .sec1 h5.auction-item-title {width: 153px}
 			/* Grid view --------------------------------End */
 			
@@ -604,10 +627,14 @@ border-radius:3px;
 				margin: 0 9px 20px;box-sizing: border-box;
 				-moz-box-sizing: border-box;
 				-webkit-box-sizing: border-box;
+				width: 165px;
 			}
 			.divprolarge,
 			.divprolarge img{
 				width: 100%;
+			}
+			.forsale_item .forsale-item-title{
+			    margin: 0 -6px 15px;	
 			}
 			/**************End 12-08-2016 For Sale Item**************/
 			
@@ -625,7 +652,7 @@ border-radius:3px;
 			.footer_col{width:233px!important; padding-right:0!important; padding-left:5px}
 			
 			/* Grid view --------------------------------*/
-			.gridview .auction_item , .forsale_item{width: 202px}
+			.gridview .auction_item{width: 202px}
 			.gridview .auction_item .sec1 h5.auction-item-title {width: 192px}
 			/* Grid view --------------------------------End */
 			
@@ -748,6 +775,12 @@ border-radius:3px;
 				-webkit-box-sizing: border-box;
 				box-sizing: border-box;
 			}
+			.forsale_item{
+				width: 204px;
+			}
+			.forsale_item .forsale-item-title{
+				margin: 0 -4px 15px;	
+			}
 			/**************End 12-08-2016 For Sale Item**************/
 		}
 		
@@ -771,7 +804,7 @@ border-radius:3px;
 			/******************* End FIx 12-08-2016**********************/
 			
 			/* Grid view --------------------------------*/
-			.gridview .auction_item , .forsale_item{width: 265px}
+			.gridview .auction_item{width: 265px}
 			.gridview .auction_item .sec1 h5.auction-item-title {width: 255px}
 			/* Grid view --------------------------------End */
 			
@@ -895,7 +928,12 @@ border-radius:3px;
 			.SyncFb_enter_password{left:30%!important}
 			/*Login page ---------------------END*/
 			
-			
+			.forsale_item{
+				width: 267px;
+			}
+			.forsale_item .forsale-item-title{
+				margin: 0 -2px 15px;	
+			}
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -914,7 +952,7 @@ border-radius:3px;
 			.footer_col{width:233px!important; padding-right:0!important}
 			
 			/* Grid view --------------------------------*/
-			.gridview .auction_item, .forsale_item{width: 185px}
+			.gridview .auction_item{width: 185px}
 			.gridview .auction_item .sec1 h5.auction-item-title {width: 175px}
 			/* Grid view --------------------------------End */
 			
@@ -1052,6 +1090,9 @@ border-radius:3px;
 			}
 			.top1right{
 				width:300px;
+			}
+			.forsale_item{
+				width: 187px;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
 			
