@@ -484,35 +484,67 @@ a.icon_myaccount:hover{color:#000;}
 /*8/10/16*/
 /*Saleitem ------------------------*/
 .forsale_item{
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #bfbfbf;
-    border-radius: 8px;
+    background: #edf3f6;
     float: left;
     list-style: outside none none !important;
-    margin: 0 1.8% 10px 0;
-    min-height: 310px;
+    margin:0 9px 20px;
+/*    min-height: 310px;*/
     padding: 5px 0.8%;
     position: relative;
-    transition: all 0.5s ease-out 0s;
-    width: 156px;}
-.forsale_item .forsale-item-title a{color:#757575; font-size:13px; display:block; height:30px; overflow:hidden}
+    width: 224px;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    transition: all ease .4s;
+    border: 1px solid #eaedee;
+}
+.forsale_item:hover,
+.forsale_item:focus{
+    -webkit-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
+    -moz-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
+    box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
+}
+.forsale_item .forsale-item-title{
+    border-bottom: 1px solid #699bb3;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    padding: 5px;
+    width: 85%;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.forsale_item .forsale-item-title a{
+    color:#757575; 
+    font-size:13px; 
+    display:block;
+    overflow:hidden;
+}
 .forsale_item .forsale-img img{width:100%}
-.forsale_item .buybtn{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
-background: rgb(37,141,200); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
-border-radius:3px;
+.forsale_item .buybtn{
+    background-color: #ebecec;
+    border: #ebecec;
+    color: #5d8ba4;
     clear: both;
-    color: #fff !important;
     display: block;
     font-size: 1.5em;
-    margin: auto;
-    padding: 5px;
+    margin:10px auto;
     text-align: center;
     text-transform: uppercase;
-    width: 60%;}
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+}
+.forsale_item .buybtn:hover,
+.forsale_item .buybtn:focus{
+    border-color: #5d8ba4;
+    background: #5d8ba4;
+    color: #edf3f6;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
 .forsale_item .oldprice{color: #9ea09d;
     font-size: 12px;
     font-weight: normal;

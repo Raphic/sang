@@ -469,6 +469,12 @@ border-top-right-radius: 8px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+.forsale_item:hover,
+.forsale_item:focus{
+    -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);
+}
 .forsale_item .forsale-item-title{
 	border-bottom: 1px solid #BFBFBF;
     height: 43px;
