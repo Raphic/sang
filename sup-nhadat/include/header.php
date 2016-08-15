@@ -34,7 +34,7 @@
 						<nav>
 							<ul class="sf-menu">
 								<li><a href="index.php">Home<strong></strong></a></li>
-								<li><a href="about.php">About<strong></strong></a></li>
+								<li><a href="module.php">Module<strong></strong></a></li>
 								<li><a href="service.php">Services<strong></strong></a>
 									<ul class="submenu">
 										<li><a href="design.php">Design &amp; Reponsive</a></li>

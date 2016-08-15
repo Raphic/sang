@@ -54,7 +54,7 @@
 						<h4>Menu</h4>
 						<ul class="list2">
 							<li><a href="index.php">Home</a></li>
-							<li><a href="about.php">About</a></li>
+							<li><a href="module.php">Module</a></li>
 							<li><a href="service.php">Services</a></li>
 							<li><a href="template.php">Template</a></li>
 							<li><a href="contact.php">Contact</a></li>

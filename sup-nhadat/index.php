@@ -44,7 +44,7 @@
 						 <p>Giao diện bắt mắt để tạo ấn tượng mạnh với người dùng giúp họ thấy được sự chuyên nghiệp trong phong cách làm việc của công ty của bạn.</p>
 						<p>Bảo mật website phải tốt vì ngành này cạnh tranh rất lớn nên việc đối thủ chơi xấu bạn là một vấn đề phải cảnh giác.</p>
 						<div class="wrapper">
-							<img src="images/index_pic1.jpg" alt="" class="img1 img_rounded no_resize">
+							<img src="images/index_pic1.jpg" title="Ảnh đại diện khách hàng" alt="Ý kiến khách hàng" class="img1 img_rounded no_resize">
 							<p class="txt2">Bà Trần Minh A "Chuyên nghiệp và ấn tượng. Đó là những gì Cty mang lại cho Website của tôi. Tôi rất hài lòng với thiết kế cũng như sự chăm sóc khách hàng của Cty. Các bạn rất nhiệt tình luôn sẵn sàng tư vấn phương án, giải pháp phù hợp nhất cho khách hàng."</p>
 						</div>
 					</div>
@@ -69,28 +69,28 @@
 						<div class="num">1</div>
 						<p class="txt3"><a href="html5.php" class="link3">Công nghệ mới</a></p>
 					</div>
-					<img src="images/index_pic2.jpg" alt="">
+					<img src="images/index_pic2.jpg" title="Sử dụng công nghệ mới" alt="Sử dụng html5 và css3">
 				</div>
 				<div class="grid_3 wow fadeInLeft js_hover_section1" data-wow-duration="" data-wow-delay="0.0s">
 					<div class="box-2 maxheight">
 						<div class="num">2</div>
 						<p class="txt3"><a href="domain.php" class="link3">Tên miền phong phú</a></p>
 					</div>
-					<img src="images/index_pic3.jpg" alt="">
+					<img src="images/index_pic3.jpg" title="Tên miền đa dạng" alt=".net, .dot, .com, .xyz ...">
 				</div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.2s">
 					<div class="box-2 maxheight">
 						<div class="num">3</div>
 						<p class="txt3"><a href="template.php" class="link3">Mẫu chuyên bất động sản</a></p>
 					</div>
-					<img src="images/index_pic4.jpg" alt="">
+					<img src="images/index_pic4.jpg" title="Template website" alt="Giao diễn website có sẵn">
 				</div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.6s">
 					<div class="box-2 maxheight">
 						<div class="num">4</div>
-						<p class="txt3"><a href="contact.php" class="link3">Hỗ trợ tận tình</a></p>
+						<p class="txt3"><a href="module.php" class="link3">Báo giá Module</a></p>
 					</div>
-					<img src="images/index_pic5.jpg" alt="">
+					<img src="images/index_pic5.jpg" title="Giá các module website" alt="Báo giá Module website">
 				</div>
 			</div>
 		</div>
@@ -144,9 +144,10 @@
 				<div class="row">
 					<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.5s">
 						<blockquote>
-							<p>“Rất vui được hỗ trợ quí khách hàng</p>
+							<p>Nhân viên kinh doanh</p>
+							<p class="txt3">090 090 090 0999</p>
 							<div class="wrapper">
-								<img src="images/index_pic6.jpg" alt="" class="img2 img_rounded no_resize">
+								<img src="images/index_pic6.jpg" title="Hình đại diện tư vấn viên" alt="Hình tư vấn viên" class="img2 img_rounded no_resize">
 								<div class="box">
 									<p class="txt6">- Tư vấn viên 1</p>
 								</div>
@@ -155,9 +156,10 @@
 					</div>
 					<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">
 						<blockquote>
-							<p>“Rất vui được hỗ trợ quí khách hàng</p>
+							<p>Nhân viên kỹ thuật</p>
+							<p class="txt3">090 090 090 0999</p>
 							<div class="wrapper">
-								<img src="images/index_pic7.jpg" alt="" class="img2 img_rounded no_resize">
+								<img src="images/index_pic7.jpg" title="Hình đại diện tư vấn viên" alt="Hình tư vấn viên" class="img2 img_rounded no_resize">
 								<div class="box">
 									<p class="txt6">- Tư vấn viên 2</p>
 								</div>
@@ -166,9 +168,10 @@
 					</div>
 					<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.3s">
 						<blockquote>
-							<p>“Rất vui được hỗ trợ quí khách hàng</p>
+							<p>Nhân viên phòng</p>
+							<p class="txt3">090 090 090 0999</p>
 							<div class="wrapper">
-								<img src="images/index_pic8.jpg" alt="" class="img2 img_rounded no_resize">
+								<img src="images/index_pic8.jpg" title="Hình đại diện tư vấn viên" alt="Hình tư vấn viên" class="img2 img_rounded no_resize">
 								<div class="box">
 									<p class="txt6">- Tư vấn viên 3</p>
 								</div>
@@ -178,9 +181,10 @@
 
 					<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.7s">
 						<blockquote>
-							<p>“Rất vui được hỗ trợ quí khách hàng</p>
+							<p>Nhân viên SEO</p>
+							<p class="txt3">090 090 090 0999</p>
 							<div class="wrapper">
-								<img src="images/index_pic9.jpg" alt="" class="img2 img_rounded no_resize">
+								<img src="images/index_pic9.jpg" title="Hình đại diện tư vấn viên" alt="Hình tư vấn viên" class="img2 img_rounded no_resize">
 								<div class="box">
 									<p class="txt6">- Tư vấn viên 4</p>
 								</div>

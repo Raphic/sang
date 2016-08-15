@@ -25,28 +25,28 @@
 						<div class="num">1</div>
 						<p class="txt3"><a href="#" class="link3">Template 1</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic1a.jpg" class="gall_item"><img src="images/template/gallery_pic1.jpg" alt=""></a>
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic1a.jpg" class="gall_item"><img src="images/template/gallery_pic1.jpg" title="Template 1" alt="Template 1"></a>
 				</div>
 				<div class="grid_3 wow fadeInLeft js_hover_section1" data-wow-duration="" data-wow-delay="0.0s">
 					<div class="box-2 maxheight">
 						<div class="num">2</div>
 						<p class="txt3"><a href="#" class="link3">Template 2</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic2a.jpg" class="gall_item"><img src="images/template/gallery_pic2.jpg" alt=""></a>
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic2a.jpg" class="gall_item"><img src="images/template/gallery_pic2.jpg" title="Template 2" alt="Template 2"></a>
 				</div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.2s">
 					<div class="box-2 maxheight">
 						<div class="num">3</div>
 						<p class="txt3"><a href="#" class="link3">Template 3</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic3a.jpg" class="gall_item"><img src="images/template/gallery_pic3.jpg" alt=""></a>
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic3a.jpg" class="gall_item"><img src="images/template/gallery_pic3.jpg" title="Template 3" alt="Template 3"></a>
 				</div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.6s">
 					<div class="box-2 maxheight">
 						<div class="num">4</div>
 						<p class="txt3"><a href="#" class="link3">Template 4</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic4a.jpg" class="gall_item"><img src="images/template/gallery_pic4.jpg" alt=""></a>
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic4a.jpg" class="gall_item"><img src="images/template/gallery_pic4.jpg" title="Template 4" alt="Template 4"></a>
 				</div>
 			</div>
             <div class="row">
@@ -55,28 +55,28 @@
 						<div class="num">5</div>
 						<p class="txt3"><a href="#" class="link3">Template 5</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic5a.jpg" class="gall_item"><img src="images/template/gallery_pic5.jpg" alt=""></a
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic5a.jpg" class="gall_item"><img src="images/template/gallery_pic5.jpg" title="Template 5" alt="Template 5"></a
 				></div>
 				<div class="grid_3 wow fadeInLeft js_hover_section1" data-wow-duration="" data-wow-delay="0.0s">
 					<div class="box-2 maxheight">
 						<div class="num">6</div>
 						<p class="txt3"><a href="#" class="link3">Template 6</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic6a.jpg" class="gall_item"><img src="images/template/gallery_pic6.jpg" alt=""></a
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic6a.jpg" class="gall_item"><img src="images/template/gallery_pic6.jpg" title="Template 6" alt="Template 6"></a
 				></div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.2s">
 					<div class="box-2 maxheight">
 						<div class="num">7</div>
 						<p class="txt3"><a href="#" class="link3">Template 7</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic7a.jpg" class="gall_item"><img src="images/template/gallery_pic7.jpg" alt=""></a
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic7a.jpg" class="gall_item"><img src="images/template/gallery_pic7.jpg" title="Template 7" alt="Template 7"></a
 				></div>
 				<div class="grid_3 wow fadeInRight js_hover_section1" data-wow-duration="" data-wow-delay="0.6s">
 					<div class="box-2 maxheight">
 						<div class="num">8</div>
 						<p class="txt3"><a href="#" class="link3">Template 8</a></p>
 					</div>
-					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic8a.jpg" class="gall_item"><img src="images/template/gallery_pic8.jpg" alt=""></a
+					<a rel="prettyPhoto[gallery1]" href="images/template/gallery_pic8a.jpg" class="gall_item"><img src="images/template/gallery_pic8.jpg" title="Template 8" alt="Template 8"></a
 				></div>
 			</div>
 		</div>
