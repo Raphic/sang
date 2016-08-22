@@ -289,6 +289,8 @@ ul.menu_right{
 }
 ul.menu_right li{    
     border-bottom: dotted 1px #BFBFBF;
+    display: block;
+    width: 100%;
 }
 ul.menu_right li a{ color:#16698c; text-decoration:none; display:block; margin:5px 0;}
 ul.menu_right li a:hover{ color:#ef6001;}

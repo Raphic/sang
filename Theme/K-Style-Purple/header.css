@@ -410,6 +410,7 @@
             position: absolute;
             left: 0;
             right: 0;
+            background: #8222d7;
             border-radius: inherit !important;
         }
 
@@ -431,7 +432,7 @@
 
             #nav > ul > li:not( :last-child ) > a {
                 border-right: none;
-                border-bottom: 1px solid #5D9700;
+                border-bottom: 1px solid #5a2c82;
             }
 
 
@@ -441,6 +442,10 @@
             position: static;
             padding: 1.25em; /* 20 */
             padding-top: 0;
+            background: #5a2c82;
+        }
+        #nav li ul a{
+            background: transparent;
         }
 }
 
