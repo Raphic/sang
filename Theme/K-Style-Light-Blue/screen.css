@@ -188,15 +188,15 @@ a.icon_myaccount:hover{color:#000;}
     overflow: hidden;
 }
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
-.content_box1.bg_white.gridview>div:nth-child(41){
+.content_box1.bg_white.gridview>div:last-child{
 	width:100%;
 	display:block;
 }
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/
-.listview .auction_item{ border: 1px solid #f0a229;float: left; height: 150px; margin: 0 9px 20px; position: relative;     text-align: center; width: 1190px}
-.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(240, 162, 41, 0.4);-moz-box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4); box-shadow:0px 0px 5px rgba(240, 162, 41, 0.4);}
+.listview .auction_item{ border: 1px solid #699bb3;float: left; height: 150px; margin: 0 9px 20px; position: relative;     text-align: center; width: 1190px}
+.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(105, 155, 179, 0.4);-moz-box-shadow:0px 0px 5px rgba(105, 155, 179, 0.4); box-shadow:0px 0px 5px rgba(105, 155, 179, 0.4);}
 .listview .auction_item .sec1{width:55%; position:absolute; left:205px; padding-top:15px}
 .listview .auction_item .sec1 h5.auction-item-title {line-height: 22px;margin: 0 0 5px;overflow: hidden;padding: 5px; font-size:14px; text-align:left}
 .listview .auction_item .sec1 .aution_feature{ margin-bottom:5px;text-align:left}
@@ -504,6 +504,9 @@ a.icon_myaccount:hover{color:#000;}
     -moz-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
     box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
 }
+.forsale_item-detail{
+	width: 100%;
+}
 .forsale_item .forsale-item-title{
     border-bottom: 1px solid #699bb3;
     height: 22px;
@@ -615,22 +618,28 @@ a.icon_myaccount:hover{color:#000;}
     vertical-align: middle;margin-left: 20px;
     margin-top: 7px;
 }
-.forsale_item_detail_right .buybtn{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
-background: rgb(37,141,200); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
-border-radius:3px;
+.forsale_item_detail_right .buybtn{
+	background-color: #ebecec;
+    border: #ebecec;
+    color: #5d8ba4;
     clear: both;
-    color: #fff !important;
     display: block;
     font-size: 32px;
-    margin: auto;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
-    width: 60%; margin-top:25px;}
+    width: 60%; margin-top:25px;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.forsale_item_detail_right .buybtn:hover,
+.forsale_item_detail_right .buybtn:focus{
+    border-color: #5d8ba4;
+    background: #5d8ba4;
+    color: #edf3f6;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
 /*Saleitem ---------------------END*/
 .pagebid{
     margin-bottom: 15px;
