@@ -1,4 +1,4 @@
-﻿/*	Define color and format 
+/*	Define color and format 
 	Author: pennyauctionsoftware.com
 */
 
@@ -274,8 +274,8 @@ input.buttons.white:hover {
 .buynow{color:#FFF; background-image: url("/images/themes/buynow_1.png"); font-weight:bold}
 .chair{color:#FFF; background-image: url("/images/themes/chair.png"); font-weight:bold}
 
-ul.menu_right{ list-style:none; padding:0; margin:0}
-ul.menu_right li{ border-bottom:dotted 1px #BFBFBF}
+ul.menu_right{ list-style:none; padding:0; margin:0;width: 90%;}
+ul.menu_right li{ border-bottom:dotted 1px #BFBFBF;display: block;width: 100%;}
 ul.menu_right li a{ color:#16698c; text-decoration:none; display:block; margin:5px 0;}
 ul.menu_right li a:hover{ color:#ef6001;}
 

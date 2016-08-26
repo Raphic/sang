@@ -123,6 +123,9 @@ a{text-decoration:none;}
 .box_avatar_myaccount{position:absolute; z-index:10; width:150px; border:1px solid #BFBFBF; padding:5px; background:#efefef; right:10px; top:10px; text-align:center;border-radius:8px;}
 .box_avatar_myaccount img{width:130px; height:130px; margin:auto;}
 .field-add{border-radius:8px;}
+.field-add tr td:first-child{
+	width: 60px;
+}
 a.icon_myaccount{ width:95px; margin:0 10px; float:left; height:30px; padding-top:60px; text-align:center; color:ThreeDDarkShadow;}
 a.icon_myaccount:hover{color:#000;}
 /* account section ---------------------------- END */
@@ -346,6 +349,12 @@ a.icon_myaccount:hover{color:#000;}
 .box_setauto .fieldset-right {float: left; width: 90px;}
 .box_setauto .fieldset-right input{width: 50px;}
 .box_setauto .fieldset-button{float:left; width:100px; padding-top:15px;}
+.box_setauto .fieldset-button input.buttons.blue{
+	width: auto;
+}
+.responsive-tabs__panel ul li{
+	list-style-position: inside !important;
+}
 
 /* config table ------------------------ */
 	.table_data	{
@@ -720,7 +729,7 @@ a.icon_myaccount:hover{color:#000;}
 				height: 250px;
 			}
 			.content_box1{
-				padding:20px 5%;
+				padding:50px 0 20px;
 			}
 			.btseach{
 				height: 30px !important;
@@ -889,7 +898,9 @@ a.icon_myaccount:hover{color:#000;}
 				margin-top: -35px;
 			}
 			/* Grid view --------------------------------*/
-			.gridview .auction_item{width: 180px}
+			.gridview .auction_item{
+				margin: 0 10px 20px;
+			}
 			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 170px*/}
 			/* Grid view --------------------------------End */
 			
@@ -1041,7 +1052,12 @@ a.icon_myaccount:hover{color:#000;}
 				-moz-box-sizing: border-box;
 				-webkit-box-sizing: border-box;
 			}
-/**************End 12-08-2016 Sec4**************/
+			/**************End 12-08-2016 Sec4**************/
+			/**************Fix 26-08-2016 My Account**************/
+			.field-add{
+				width: 100%;
+			}
+			/**************End 26-08-2016 My Account**************/
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -1073,7 +1089,11 @@ a.icon_myaccount:hover{color:#000;}
 			.gridview{
 			padding-top: 35px;
 			}
-			.gridview .auction_item{width: 100%;}
+			.gridview .auction_item{
+				width: 100%;
+				margin: 0 20px 20px;
+			
+			}
 			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 100%*/}
 			.gridview .auction_item .sec2 {
 			    margin-left: 15%;
@@ -1105,11 +1125,11 @@ a.icon_myaccount:hover{color:#000;}
 			.detailleft .centerdetailleft .divprolarge img{width:100%!important; height:auto!important}
 			.detailleft .centerdetailleft .divimgsub img{width:40px;}
 			.detailleft .centerdetailleft .divprolarge .endmark{ width:210px;}
-			.detailright{ float:none!important; margin:auto; margin-top:25px; width:210px; overflow:hidden}
-			.detailright .dtrleft{float:none!important; width:210px;}
+			.detailright{ float:none!important; margin:auto; margin-top:25px; width:90%; overflow:hidden}
+			.detailright .dtrleft{float:none!important; width:100%;}
 			.detail .auction_item{width: 210px}
 			.detail .auction_item .sec1 h5.auction-item-title {width: 210px}
-			.detailright .dtrright{float:none!important; width:210px;}
+			.detailright .dtrright{float:none!important; width:100%;}
 			.detailright .dtrright .bidding1 .bd1top{border-top-left-radius:4px;}
 			.box_setauto{overflow:hidden; margin-bottom:10px; padding-bottom:10px;}
 			
@@ -1230,6 +1250,14 @@ a.icon_myaccount:hover{color:#000;}
 				width:300px;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
+			/**************Fix 26-08-2016 For Auto bids button*************/
+			.box_setauto .fieldset-button{
+				width: 95%;
+			}
+			.box_setauto .fieldset-button input.buttons.blue{
+				width: 100%;
+			}
+			/**************End 26-08-2016 For Auto bids button*************/
 		}
 		
 		

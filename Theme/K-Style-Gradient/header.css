@@ -372,6 +372,7 @@
         padding: 0px 1%;
         left: auto;
         background-image: inherit;
+		background: #efefe7;
     }
 
         #nav > a {
@@ -414,7 +415,7 @@
             position: absolute;
             left: 0;
             right: 0;
-            background: #f6f6f1;
+            background: #efefe7;
             border-radius: inherit !important;
         }
 

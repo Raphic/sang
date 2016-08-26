@@ -120,6 +120,9 @@ a{text-decoration:none;}
 .box_avatar_myaccount{position:absolute; z-index:10; width:150px; border:1px solid #BFBFBF; padding:5px; background:#efefef; right:10px; top:10px; text-align:center;border-radius:8px;}
 .box_avatar_myaccount img{width:130px; height:130px; margin:auto;}
 .field-add{border-radius:8px;}
+.field-add tr td:first-child{
+	width: 60px;
+}
 a.icon_myaccount{ width:95px; margin:0 10px; float:left; height:30px; padding-top:60px; text-align:center; color:ThreeDDarkShadow;}
 a.icon_myaccount:hover{color:#000;}
 /* account section ---------------------------- END */
@@ -324,7 +327,9 @@ a.icon_myaccount:hover{color:#000;}
 .box_setauto .fieldset-right {float: left; width: 90px;}
 .box_setauto .fieldset-right input{width: 50px;}
 .box_setauto .fieldset-button{float:left; width:100px; padding-top:15px;}
-
+.box_setauto .fieldset-button input.buttons.blue{
+	width: auto;
+}
 /* config table ------------------------ */
 	.table_data	{
 	border:1px solid #000;
@@ -1002,6 +1007,11 @@ div < .target  .pagebid {
 				-webkit-box-sizing: border-box;
 			}
 			/**************End 12-08-2016 Sec4**************/
+			/**************Fix 26-08-2016 My Account**************/
+			.field-add{
+				width: 100%;
+			}
+			/**************End 26-08-2016 My Account**************/
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -1182,6 +1192,14 @@ div < .target  .pagebid {
 				font-size: 22px;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
+			/**************Fix 26-08-2016 For Auto bids button*************/
+			.box_setauto .fieldset-button{
+				width: 95%;
+			}
+			.box_setauto .fieldset-button input.buttons.blue{
+				width: 100%;
+			}
+			/**************End 26-08-2016 For Auto bids button*************/
 		}
 		
 		

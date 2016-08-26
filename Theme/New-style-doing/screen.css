@@ -608,7 +608,9 @@ border-radius:3px;
 .pagebid{
     margin-bottom: 15px;
 }
-
+.field-add tr td:first-child{
+	width: 60px;
+}
 
 
 /* Responsive ---------------------------------------------------------------------------------------- */
@@ -990,6 +992,11 @@ border-radius:3px;
 				-webkit-box-sizing: border-box;
 			}
 			/**************End 12-08-2016 Sec4**************/
+			/**************Fix 26-08-2016 My Account**************/
+			.field-add{
+				width: 100%;
+			}
+			/**************End 26-08-2016 My Account**************/
 			
 		}
 		
@@ -1043,11 +1050,11 @@ border-radius:3px;
 			.detailleft .centerdetailleft .divprolarge img{width:100%!important; height:auto!important}
 			.detailleft .centerdetailleft .divimgsub img{width:40px;}
 			.detailleft .centerdetailleft .divprolarge .endmark{ width:210px;}
-			.detailright{ float:none!important; margin:auto; margin-top:25px; width:210px; overflow:hidden}
-			.detailright .dtrleft{float:none!important; width:210px;}
+			.detailright{ float:none!important; margin:auto; margin-top:25px; width:90%; overflow:hidden}
+			.detailright .dtrleft{float:none!important; width:100%;}
 			.detail .auction_item{width: 210px}
 			.detail .auction_item .sec1 h5.auction-item-title {width: 210px}
-			.detailright .dtrright{float:none!important; width:210px;}
+			.detailright .dtrright{float:none!important; width:100%;}
 			.detailright .dtrright .bidding1 .bd1top{border-top-left-radius:4px;}
 			.box_setauto{overflow:hidden; margin-bottom:10px; padding-bottom:10px;}
 			
@@ -1168,6 +1175,14 @@ border-radius:3px;
 				width:300px;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
+			/**************Fix 26-08-2016 For Auto bids button*************/
+			.box_setauto .fieldset-button{
+				width: 95%;
+			}
+			.box_setauto .fieldset-button input.buttons.blue{
+				width: 100%;
+			}
+			/**************End 26-08-2016 For Auto bids button*************/
 		}
 		
 		

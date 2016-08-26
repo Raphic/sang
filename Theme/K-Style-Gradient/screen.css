@@ -40,7 +40,7 @@ a{text-decoration:none;}
 /*.round_top_left_right{border-radius: 8px 8px 0 0;}*/
 .delete_on_title{ position:absolute; top:0; right:10px; width:18px; display:block; font-size:0; cursor:pointer; background:url(/images/themes/delete.png) center center no-repeat}
 .title_box1{
-	height: 25px;
+/*	height: 25px;*/
 	line-height: 45px;
 	position:relative;
     margin-top: 40px;
@@ -135,6 +135,9 @@ a{text-decoration:none;}
 .box_avatar_myaccount{position:absolute; z-index:10; width:150px; border:1px solid #BFBFBF; padding:5px; background:#efefef; right:10px; top:10px; text-align:center;border-radius:8px;}
 .box_avatar_myaccount img{width:130px; height:130px; margin:auto;}
 .field-add{border-radius:8px;}
+.field-add tr td:first-child{
+	width: 60px;
+}
 a.icon_myaccount{ width:95px; margin:0 10px; float:left; height:30px; padding-top:60px; text-align:center; color:ThreeDDarkShadow;}
 a.icon_myaccount:hover{color:#000;}
 /* account section ---------------------------- END */
@@ -159,7 +162,7 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item{
 	float: left;
 	background: #f6f6f1;
-	margin: 0 20px 20px;
+	margin: 0 10px 20px;
 	position: relative;
 	text-align: center;
 	width: 222px;
@@ -442,7 +445,9 @@ a.icon_myaccount:hover{color:#000;}
 .box_setauto .fieldset-right {float: left; width: 90px;}
 .box_setauto .fieldset-right input{width: 50px;}
 .box_setauto .fieldset-button{float:left; width:100px; padding-top:15px;}
-
+.box_setauto .fieldset-button input.buttons.blue{
+	width: auto;
+}
 /* config table ------------------------ */
 	.table_data	{
 	border:1px solid #000;
@@ -734,13 +739,18 @@ a.icon_myaccount:hover{color:#000;}
 .pagebid{
     margin-bottom: 15px;
 }
-
+.responsive-tabs__panel ul li{
+	list-style-position: inside !important;
+}
 
 
 
 /* Responsive ---------------------------------------------------------------------------------------- */
 
 @media only screen and ( max-width: 1024px ){
+			.boxes{
+				width: 100%;
+			}
 			.width1000px{margin:auto; position:relative;}
 			.footer_col{width:175px!important; padding-right:10px!important; padding-left:5px;}
 			/* Grid view --------------------------------*/
@@ -985,7 +995,7 @@ a.icon_myaccount:hover{color:#000;}
 				margin-top: -35px;
 			}
 			/* Grid view --------------------------------*/
-			.gridview .auction_item{width: 180px}
+			.gridview .auction_item{width: 190px}
 			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 170px*/}
 			/* Grid view --------------------------------End */
 			
@@ -1026,7 +1036,7 @@ a.icon_myaccount:hover{color:#000;}
 			/* box left and right ------------------------------ */
 			
 			/* account section ---------------------------- */
-			.box_avatar_myaccount{position:static; width:275px;}
+			.box_avatar_myaccount{position:static; width:auto;}
 			a.icon_myaccount{ width:100px;}
 			/* account section ---------------------------- END */
 			
@@ -1137,7 +1147,12 @@ a.icon_myaccount:hover{color:#000;}
 				-moz-box-sizing: border-box;
 				-webkit-box-sizing: border-box;
 			}
-/**************End 12-08-2016 Sec4**************/
+			/**************End 12-08-2016 Sec4**************/
+			/**************Fix 26-08-2016 My Account**************/
+			.field-add{
+				width: 100%;
+			}
+			/**************End 26-08-2016 My Account**************/
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -1326,6 +1341,14 @@ a.icon_myaccount:hover{color:#000;}
 				width:300px;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
+			/**************Fix 26-08-2016 For Auto bids button*************/
+			.box_setauto .fieldset-button{
+				width: 95%;
+			}
+			.box_setauto .fieldset-button input.buttons.blue{
+				width: 100%;
+			}
+			/**************End 26-08-2016 For Auto bids button*************/
 		}
 		
 		

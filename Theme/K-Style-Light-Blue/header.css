@@ -365,7 +365,7 @@
     #nav {
         position: relative;
         z-index: 999;
-        top: auto;
+        top: 20px;
         padding: 0px 1%;
         left: auto;
     }
