@@ -3,7 +3,7 @@
 html{ background:url('/images/loading.gif') center center no-repeat}
 body{ background:#ffffff}
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Times New Roman", serif;
 	font-size: 12px;
 	color:#666666;
 }
@@ -12,14 +12,9 @@ body,main,section,header,h1,h2,h3 {
 	width:100%;
 }
 .bg_allpage{
-    /* background: #f3f6ff; */
+  	background: url(images/bg.jpg) repeat;
     width: 100%;
-    background-size: cover;
     overflow: hidden;
-    background-attachment: fixed;
-}
-.bg_cloud{
-	/*background:url(/images/themes/bg-cloud.png) top center no-repeat;*/
 }
 a{text-decoration:none;}
 .width1000px{width:100%; margin:auto; position:relative;}
@@ -27,7 +22,7 @@ a{text-decoration:none;}
 .overhidden{ overflow:hidden!important; text-overflow:ellipsis}
 .full100{
 	width:100%;
-	background: #f6f6f1;
+/*	background: #f6f6f1;*/
 }
 .boxes{
 	width:1200px;
@@ -40,11 +35,10 @@ a{text-decoration:none;}
 /*.round_top_left_right{border-radius: 8px 8px 0 0;}*/
 .delete_on_title{ position:absolute; top:0; right:10px; width:18px; display:block; font-size:0; cursor:pointer; background:url(/images/themes/delete.png) center center no-repeat}
 .title_box1{
-/*	height: 25px;*/
 	line-height: 45px;
 	position:relative;
     margin-top: 40px;
-    background: #f6f6f1;
+/*    background: #f6f6f1;*/
     border: none;
 }
 #main-content .title_box1:first-child{
@@ -64,7 +58,6 @@ a{text-decoration:none;}
 	justify-content: center;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-	background: #f6f6f1;
 }
 .content_box2{
     /*border-radius: 0 0 8px 8px;*/
@@ -161,7 +154,7 @@ a.icon_myaccount:hover{color:#000;}
 }
 .gridview .auction_item{
 	float: left;
-	background: #f6f6f1;
+	background: #fff;
 	margin: 0 10px 20px;
 	position: relative;
 	text-align: center;
@@ -177,16 +170,17 @@ a.icon_myaccount:hover{color:#000;}
      border: 1px solid #efefe7;
 }
 .gridview .auction_item:hover{
-	border-width: 5px;
-    border-style: solid;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image-slice: 1;
- 	background: #fff;
+	border: 1px solid #9d846f;
+    -webkit-box-shadow: 3px 5px 7px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 3px 5px 7px 0px rgba(0, 0, 0, 0);
+    box-shadow: 3px 5px 7px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: 0.5s box-shadow;
+    -o-transition: 0.5s box-shadow;
+    transition: 0.5s box-shadow;
+    background: transparent;
+	box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
+	-moz-box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
+	-webkit-box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
 }
 .gridview .auction_item:hover input.buttons.orange{
 	left:2%;
@@ -238,22 +232,19 @@ a.icon_myaccount:hover{color:#000;}
 
 /* List view --------------------------------*/
 .listview .auction_item{ 
-    border-style: solid;
-    border-width: 1px;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image-slice: 1;
-    float: left; height: 150px; 
+    border:1px solid #9d846f;
+    float: left; 
+	height: 150px; 
     margin: 0 9px 20px; 
     position: relative;     
     text-align: center; 
     width: 1190px
 }
-.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(130, 34, 215, 0.4);-moz-box-shadow:0px 0px 5px rgba(130, 34, 215, 0.4); box-shadow:0px 0px 5px rgba(130, 34, 215, 0.4);}
+.listview .auction_item:hover{
+	-webkit-box-shadow: 0px 0px 5px rgba(56, 47, 40, 0.4);
+	-moz-box-shadow:0px 0px 5px rgba(56, 47, 40, 0.4);
+	box-shadow:0px 0px 5px rgba(56, 47, 40, 0.4);
+}
 .listview .auction_item .sec1{width:55%; position:absolute; left:205px; padding-top:15px}
 .listview .auction_item .sec1 h5.auction-item-title {line-height: 22px;margin: 0 0 5px;overflow: hidden;padding: 5px; font-size:14px; text-align:left}
 .listview .auction_item .sec1 .aution_feature{ margin-bottom:5px;text-align:left}
@@ -282,20 +273,12 @@ a.icon_myaccount:hover{color:#000;}
 
 /* Related view --------------------------------*/
 .related .auction_item{ 
-    border-width: 2px;
-    border-style: solid;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image-slice: 1;
-    float: left; 
+    border: 2px solid #9d846f;
+    float: left;
     height: 210px;
-    margin: 0 9px 20px; 
-    position: relative;     
-    text-align: center; 
+    margin: 0 9px 20px;
+    position: relative;
+    text-align: center;
     width: 173px;
 }
 .related .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);-moz-box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4); box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4);}
@@ -400,36 +383,29 @@ a.icon_myaccount:hover{color:#000;}
 .bd1top{
     height:32px;
     font-size:18px;
-    color:#fff;
+    color:#9d846f;
     text-align:center;
     line-height:32px;
-    border-top-right-radius:4px;
-/*    background: rgba(130, 34, 215, 0.3);*/
-    background: #00a9ea;
-    background-image: linear-gradient(30deg, #00a9ea, #00dcb0);
-    font-family:Myriad Pro,Arial, Helvetica, sans-serif;
+    background: #382f28;
+    font-family: 'Roboto Slab', serif;
 }
 .bd1ct{ height:238px; overflow:auto; margin:0 auto; background:#F6F9F5;}
 .tb_hostsub{
-    width:100%;
+   width:100%;
     margin:0px auto;
     padding:0px;
     font-size:11px;
-    color:#333333;
-/*    background: rgba(130, 34, 215, 0.3);*/
-    background: #00dcb0;
-    background-image: linear-gradient(30deg, #00dcb0, #00a9ea);
+    background: #4c4036;
 }
-.tb_hostsub tr td{padding:5px 10px; border-bottom:1px solid #fff}
+.tb_hostsub tr td{padding:5px 10px; border-bottom:1px solid #fff;color: #fff;}
 /*.bgbrown{background: rgba(130, 34, 215, 0.3);}*/
 .itemrow{background:#F6F9F5;}
 .detailright .dtrright .bidding1 .bd1bt{ min-height:25px;}
 .detailright .dtrright .bidding1 .bd1bt p{ padding:0 10px;}
 .tblue {
 /*    background: rgba(130, 34, 215, 0.3);*/
-    background: #00dcb0;
-    background-image: linear-gradient(30deg, #00dcb0, #00a9ea);
-    color: #fff;
+    background: #4c4036;
+    color:#fff;
     font-size: 12px;
     font-weight: bold;
     height: 30px;
@@ -524,12 +500,12 @@ a.icon_myaccount:hover{color:#000;}
 
 /*Register ------------------------ */
 .register_left{width:550px; float:left; border-radius:8px; padding:10px;}
-.register_left .labletext{height:40px; line-height: 40px; display:block; width: 180px; float:left; color:White; text-align:right; padding-right:20px;}
+.register_left .labletext{height:40px; line-height: 40px; display:block; width: 180px; float:left; color:#9d846f; text-align:right; padding-right:20px;}
 .register_left .inputtext{line-height: 40px; display:block; width: 300px; float:left; padding-left: 5px;}
-.register_left .inputtext1{display:block; width: 300px; float:left; padding-left: 5px; font-size:11px; color:White}
+.register_left .inputtext1{display:block; width: 300px; float:left; padding-left: 5px; font-size:11px; color:#9d846f}
 .register_left .inputtext input[type="text"],input[type="email"],input[type="password"]{ height: 35px; border-radius: 4px; width:300px; background:#efefef;}
 .register_left .inputtext select {border-radius: 4px; width:200px; background:#efefef;padding: 8px 7px; border:0}
-.register_left .wrap_conditions{ border:1px solid #333; border-radius:8px; margin:20px; clear:both; padding:10px; color:White}
+.register_left .wrap_conditions{ border:1px solid #333; border-radius:8px; margin:20px; clear:both; padding:10px; color:#9d846f}
 .register_left .wrap_conditions input[type="checkbox"]{ height:auto}
 
 .register_right{
@@ -537,10 +513,7 @@ a.icon_myaccount:hover{color:#000;}
 	float:left; 
 	border-radius:8px; 
 	padding:10px;
-	background: #00a9ea;
-    background: -webkit-linear-gradient(356deg, #00dcb0, #00a9ea);
-    background: -o-linear-gradient(356deg, #00dcb0, #00a9ea);
-    background: linear-gradient(86deg, #00dcb0, #00a9ea);
+	background: transparent;
 }
 .register_right img{ width:100%}
 /*Register ------------------------END */
@@ -606,7 +579,6 @@ a.icon_myaccount:hover{color:#000;}
     padding: 5px 0.8%;
     position: relative;
     width: 222px;
-	height: 330px;
     -webkit-transition: all ease 0.2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
@@ -615,32 +587,30 @@ a.icon_myaccount:hover{color:#000;}
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 1px solid #efefe7;
-    background: #f6f6f1;
+    background: #fff;
 }
 .forsale_item:hover,
 .forsale_item:focus{
-    border-width: 5px;
-    border-style: solid;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
+    border: 1px solid #9d846f;
+    box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
+	-moz-box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
+	-webkit-box-shadow: 0 5px 10px 5px rgba(56, 47, 40, 0.6), inset 0 0 0 1px #382f28;
     border-image-slice: 1;
-    background: #fff;
+    background: transparent;
 	
 }
 .forsale_item-detail{
 	width: 100%;
 }
-.forsale_item .forsale-item-title a{color: #00a9ea;; font-size:13px; display:block;text-align: center;overflow:hidden}
+.forsale_item .forsale-item-title{
+	height: 30px;
+}
+.forsale_item .forsale-item-title a{color: #9d846f; font-size:13px; display:block;text-align: center;overflow:hidden}
 .forsale_item .forsale-img img{width:100%}
 .forsale_item .buybtn{
-    border:2px solid #fff;
     color: #fff;
-	background: #00a9ea;
-    background-image: linear-gradient(30deg, #00dcb0, #00a9ea);
+	border: 2px solid #fff;
+    background: #4c4036;
     clear: both;
     display: block;
     font-size: 1.5em;
@@ -655,19 +625,11 @@ a.icon_myaccount:hover{color:#000;}
 }
 .forsale_item .buybtn:hover,
 .forsale_item .buybtn:focus{
-	border-width: 2px;
-    border-style: solid;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image-slice: 1;
+	border: 2px solid #9d846f;
     -webkit-transition: 0.6s;
     transition: 0.6s;
-    background: #fff;
-    color: #00a9ea;
+    background:#382f28;
+    color:#9d846f;
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
@@ -743,9 +705,8 @@ a.icon_myaccount:hover{color:#000;}
 }
 .forsale_item_detail_right .buybtn{   
 	color: #fff;
-    background: #00a9ea;
-    background-image: linear-gradient(30deg, #00a9ea, #00dcb0);
-	border: 2px solid #fff;
+	border:2px solid #fff;
+    background: #4c4036;
     -webkit-transition: 0.4s;
     transition: 0.4s;
     clear: both;
@@ -759,19 +720,11 @@ a.icon_myaccount:hover{color:#000;}
 }
 .forsale_item_detail_right .buybtn:hover,
 .forsale_item_detail_right .buybtn:focus{
-   border-width: 2px;
-    border-style: solid;
-    -moz-border-image: -moz-linear-gradient(top, #00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -webkit-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -webkit-border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    -o-border-image: -o-linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image: linear-gradient(#00dcb0 0%, #00a9ea 100%);
-    border-image-slice: 1;
+	border:2px solid #9d846f;
     -webkit-transition: 0.6s;
     transition: 0.6s;
-    background: #fff;
-    color: #00a9ea;
+    background:#382f28;
+    color:#9d846f;
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
@@ -874,7 +827,7 @@ a.icon_myaccount:hover{color:#000;}
 				right: 1%;
 			}
 			.bg_cloud section:nth-child(2) .width1000px{
-				margin: 6px auto;
+/*				margin: 6px auto;*/
 			}
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 202px}
