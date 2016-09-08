@@ -14,7 +14,7 @@ $(document).ready(function(){
 		time:4000,
 		hover: false,
 	});
-	/* Camera
+	/* prettyPhoto
 	========================================================*/
 	$(".pretty:first a[rel^='prettyPhoto']").prettyPhoto({
 		animation_speed:'normal',

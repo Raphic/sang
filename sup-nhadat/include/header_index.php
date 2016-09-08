@@ -25,7 +25,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="grid_6">
-						<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a> </h1>
+						<h1><a href="index.php"><img src="images/logo.png" alt="logo"></a> </h1>
 					</div>
 					<div class="grid_6">
 						<nav>

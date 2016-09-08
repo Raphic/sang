@@ -23,10 +23,10 @@
 
 /* OPTIONAL - Basic Skin */
 
-.responsive-tabs-wrapper { 
+.responsive-tabs-wrapper {
 	clear: both;
-	zoom: 1; 
-	width: 100%;
+	zoom: 1;
+	width: 90%;
 	margin-top: 10px;
 }
 
@@ -55,15 +55,15 @@
 .responsive-tabs__panel ul,ol{padding:10px!important;margin:10px!important}
 
 @media (max-width: 767px) {
-	.responsive-tabs__heading { 
-		padding: 0.5em; 
-		border-radius: 5px; 
-		border: 1px solid #ccc; 
+	.responsive-tabs__heading {
+		padding: 0.5em;
+		border-radius: 5px;
+		border: 1px solid #ccc;
 		box-shadow: 0px 2px 3px rgba(0,0,0,0.4);
 		background: #ddd;
 		position: relative;
 		box-sizing: border-box;
-    	-moz-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 	}
 

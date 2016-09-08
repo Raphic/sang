@@ -3,7 +3,7 @@
 html{ background:url('/images/loading.gif') center center no-repeat}
 body{ background:#ffffff}
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Times New Roman", serif;
 	font-size: 12px;
 	color:#666666;
 }
@@ -12,21 +12,22 @@ body,main,section,header,h1,h2,h3 {
 	width:100%;
 }
 .bg_allpage{
-    background: #edf3f6;
-	width: 100%;
-	background-size: cover;
-	overflow: hidden;
-	background-attachment: fixed;
-}
-.bg_cloud{
-	/*background:url(/images/themes/bg-cloud.png) top center no-repeat;*/
+  	background: #fff;
+  	width: 100%;
+  	overflow: hidden;
 }
 a{text-decoration:none;}
 .width1000px{width:100%; margin:auto; position:relative;}
 .main-content{ float:left;}
 .overhidden{ overflow:hidden!important; text-overflow:ellipsis}
-.full100{width:100%;background: #fff;}
-.boxes{width:100%;}
+.full100{
+	width:100%;
+	background: #f6f6f6;
+}
+.boxes{
+	width:1200px;
+	margin: auto;
+}
 .boxes_left{width:960px; float:left; margin-top:15px;}
 .boxes_right{width:240px; float:left; margin-left:10px; margin-top:15px;}
 
@@ -34,14 +35,19 @@ a{text-decoration:none;}
 /*.round_top_left_right{border-radius: 8px 8px 0 0;}*/
 .delete_on_title{ position:absolute; top:0; right:10px; width:18px; display:block; font-size:0; cursor:pointer; background:url(/images/themes/delete.png) center center no-repeat}
 .title_box1{
-	height:40px;
-	line-height:40px;
+	line-height: 45px;
 	position:relative;
+    margin-top: 40px;
+/*    background: #f6f6f1;*/
+    border: none;
+}
+#main-content .title_box1:first-child{
+	margin-top:3%;
 }
 .content_box1{
-	box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    padding: 50px 15px 15px;
+    padding: 50px 10px 15px;
 	overflow:hidden;
 	display: -webkit-flex;
 	width: 100%;
@@ -53,7 +59,10 @@ a{text-decoration:none;}
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 }
-.content_box2{/*border-radius: 0 0 8px 8px;*/}
+.content_box2{
+    /*border-radius: 0 0 8px 8px;*/
+    background: #f6f6f1;
+}
 .width120{ width:120px; margin:0 3px;}
 .width70{ width:70px; margin:0 3px;}
 .btn_pop {
@@ -130,30 +139,65 @@ a.icon_myaccount:hover{color:#000;}
 /* grid view --------------------------------*/
 
 .suspendtemp {
-	width: calc(100% - 20px); height: calc(100% - 20px); border-radius: 4px; padding: 10px;
+	width: calc(100% - 20px); 
+	height: calc(100% - 20px); 
+	border-radius: 4px; 
+	padding: 10px;
     background-color: rgba(13, 13, 15, 0.9);
     background: rgba(13, 13, 15, 0.9);
-    color:#efefef; position: absolute; z-index: 333; top: 0; left: 0; display: none;
+    color:#efefef; 
+	position: absolute; 
+	z-index: 333; 
+	top: 0; 
+	left: 0; 
+	display: none;
 }
 .gridview .auction_item{
 	float: left;
-	background: #edf3f6;
-	margin: 0 9px 20px;
+	background: #fff;
+	margin: 0 10px 20px;
 	position: relative;
 	text-align: center;
 	width: 222px;
-	height: 265px;
-	-webkit-transition: all ease 0.4s;
-	-moz-transition: all ease .4s;
-	-o-transition: all ease .4s;
-	transition: all ease .4s;
-	border: 1px solid #eaedee;
+	height: 250px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     -webkit-box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
+     box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
+    -webkit-transition: all ease 0.3s;
+	-moz-transition: all ease .3s;
+	-o-transition: all ease .3s;
+	transition: all ease .3s;
 }
 .gridview .auction_item:hover{
-	-webkit-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
-	-moz-box-shadow:0px 0px 5px rgba(93, 139, 164, 0.6);
-	 box-shadow:0px 0px 5px rgba(93, 139, 164, 0.6);
+    -webkit-transition: 0.5s box-shadow;
+    -o-transition: 0.5s box-shadow;
+    transition: 0.5s box-shadow;
+    border-bottom:4px solid #00bbd3;
+    -webkit-transition: all ease 0.3s;
+	-moz-transition: all ease .3s;
+	-o-transition: all ease .3s;
+	transition: all ease .3s;
 }
+.gridview .auction_item:hover .sec2 .img_auction img{
+	width:105%;
+	height:105%;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease .2s;
+	-o-transition: all ease .2s;
+	transition: all ease .2s;
+}
+.gridview .auction_item:hover .sec3 .price{
+	font-size:23px;
+	color:#00bbd3;
+	font-weight:bold;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease .2s;
+	-o-transition: all ease .2s;
+	transition: all ease .2s;
+}
+
 .gridview .auction_item:hover input.buttons.orange{
 	left:2%;
 	opacity:1;
@@ -162,16 +206,31 @@ a.icon_myaccount:hover{color:#000;}
 	left:25%;
 	opacity:1;
 }
-.gridview .auction_item .sec1{ width:100%}
-.gridview .auction_item .sec1 h5.auction-item-title {border-bottom: 1px solid #699bb3;height: 22px;line-height: 22px;margin: 0 auto;overflow: hidden;padding: 5px;width: 85%;font-size:12px;margin-bottom: 7px;}
 
-.gridview .auction_item .sec1 .aution_feature{ margin-bottom:10px;}
+.gridview .auction_item .sec1{ width:100%}
+.gridview .auction_item .sec1 h5.auction-item-title {height: 20px;line-height: 22px;margin: 0 auto 5px;overflow: hidden;padding: 5px;width: 85%;font-size: 14px;border-bottom: 1px solid #337ab7;}
+
+.gridview .auction_item .sec1 .aution_feature{
+/*
+    background: rgba(130, 34, 215, 0.3);
+    margin-bottom: 5px;
+*/
+}
 .gridview .auction_item .sec1 .aution_feature .itemfeature{display:inline-block;cursor:help;height: 32px;width: 32px;line-height: 32px;font-size: 15px;margin: 0 3px;}
 .gridview .auction_item .sec1 .shortdesc{ display:none}
 .gridview .auction_item .sec1 .actioncommand{display:none}
 .gridview .auction_item .sec2 { width:100%}
 .gridview .auction_item .sec2 .img_auction{ width:100px; height:75px; position:relative; margin-left:5px;}
-.gridview .auction_item .sec2 .img_auction img{ width:100px; height:75px; border:0}
+.gridview .auction_item .sec2 .img_auction img{
+	width:100px;
+	height:75px;
+	border:0;
+	margin-top: 10px;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease .2s;
+	-o-transition: all ease .2s;
+	transition: all ease .2s;
+	}
 .gridview .auction_item .sec2 .img_auction .avatarimg{ display:none}
 .gridview .auction_item .sec2 .img_auction .proimg{ display:block}
 .gridview .auction_item .sec2 .img_auction .endmark{ width:100px; height:75px; position:absolute; top:0; left:0; background: rgba(0, 0, 0, 0.5);  line-height:120px; text-align:center;font-weight:bold; display:none}
@@ -182,7 +241,19 @@ a.icon_myaccount:hover{color:#000;}
 
 .gridview .auction_item .sec3{ width:100%; position:relative;}
 .gridview .auction_item .sec3 .timer{font-size:18px; text-align:center;top:-70px; left:110px; width:110px; position:absolute;}
-.gridview .auction_item .sec3 .price{font-size:20px; text-align:center;top:-45px; left:110px; width:110px; position:absolute;color:#339933}
+.gridview .auction_item .sec3 .price{
+	font-size:20px; 
+	text-align:center;
+	top:-45px; 
+	left:110px; 
+	width:110px; 
+	position:absolute;
+	color:#339933;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease .2s;
+	-o-transition: all ease .2s;
+	transition: all ease .2s;
+}
 .gridview .auction_item .sec3 .userplay{font-size:14px; text-align:center;top:-20px; left:110px; width:110px; position:absolute;}
 .gridview .auction_item .sec3 .btnbox{
     position: relative;
@@ -198,8 +269,20 @@ a.icon_myaccount:hover{color:#000;}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/
-.listview .auction_item{ border: 1px solid #699bb3;float: left; height: 150px; margin: 0 9px 20px; position: relative;     text-align: center; width: 1190px}
-.listview .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(105, 155, 179, 0.4);-moz-box-shadow:0px 0px 5px rgba(105, 155, 179, 0.4); box-shadow:0px 0px 5px rgba(105, 155, 179, 0.4);}
+.listview .auction_item{ 
+    border:1px solid #9d846f;
+    float: left; 
+	height: 150px; 
+    margin: 0 9px 20px; 
+    position: relative;     
+    text-align: center; 
+    width: 1190px
+}
+.listview .auction_item:hover{
+	-webkit-box-shadow: 0px 0px 5px rgba(56, 47, 40, 0.4);
+	-moz-box-shadow:0px 0px 5px rgba(56, 47, 40, 0.4);
+	box-shadow:0px 0px 5px rgba(56, 47, 40, 0.4);
+}
 .listview .auction_item .sec1{width:55%; position:absolute; left:205px; padding-top:15px}
 .listview .auction_item .sec1 h5.auction-item-title {line-height: 22px;margin: 0 0 5px;overflow: hidden;padding: 5px; font-size:14px; text-align:left}
 .listview .auction_item .sec1 .aution_feature{ margin-bottom:5px;text-align:left}
@@ -227,8 +310,31 @@ a.icon_myaccount:hover{color:#000;}
 /* List view --------------------------------End */
 
 /* Related view --------------------------------*/
-.related .auction_item{ border: 1px solid #BFBFBF; border-radius: 8px 8px 8px 8px; float: left; height: 210px; margin: 0 9px 20px; position: relative;     text-align: center; width: 173px}
-.related .auction_item:hover{-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);-moz-box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4); box-shadow:0px 0px 5px rgba(50, 50, 50, 0.4);}
+.related .auction_item{
+    float: left;
+    height: 210px;
+    margin: 0 9px 20px;
+    position: relative;
+    text-align: center;
+    width: 173px;
+    background: #fff;
+    -webkit-box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.related .auction_item:hover{
+    border-bottom: 4px solid #00bbd3;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+}
 .related .auction_item .sec1{ width:100%}
 .related .auction_item .sec1 h5.auction-item-title {    border-bottom: 1px solid #BFBFBF;    height: 43px;    line-height: 22px;    margin: 0 0 5px;    overflow: hidden;    padding: 5px;    width: 163px;	font-size:14px;}
 
@@ -276,7 +382,7 @@ a.icon_myaccount:hover{color:#000;}
 .detail .auction_item .suspendtemp{
 	top:-10px; height: 100%; border-radius: 0;
 }
-.detail .auction_item{ border: 1px solid #fff; border-radius: 8px 8px 8px 8px; margin:auto; position: relative;     text-align: center; width: 430px}
+.detail .auction_item{ /*border: 1px solid #fff;*/ border-radius: 8px 8px 8px 8px; margin:auto; position: relative;     text-align: center; width: 430px}
 .detail .auction_item .sec1{ width:100%}
 .detail .auction_item .sec1 h5.auction-item-title {    border-bottom: 1px solid #BFBFBF;    height: 43px;    line-height: 22px;    margin: 0 0 5px;    overflow: hidden;    padding: 5px;    width: 163px;	font-size:14px; display:none}
 
@@ -300,7 +406,7 @@ a.icon_myaccount:hover{color:#000;}
 .detail .auction_item .sec3 .price{font-size:26px; color:#339933; width:200px;float:left;}
 .detail .auction_item .sec3 .userplay{font-size:14px; width:200px; float:right; line-height:35px;}
 .detail .auction_item .sec3 .btnbox{ margin-top:10px; float:none;clear:both;margin-top:10px;}
-.detail .auction_item .sec3 .btnbox input[type="button"]{/* width:300px!important; */height:45px!important; font-size:26px;}
+.detail .auction_item .sec3 .btnbox input[type="button"]{/* width:300px!important; */height:45px!important;font-size:26px;margin-top: 10px;}
 
 /* Detail view --------------------------------End */
 
@@ -327,15 +433,29 @@ a.icon_myaccount:hover{color:#000;}
 .bottom_dtleft{ width:100%; height:12px}
 .dtrright{ width:309px; float:right;}
 .bidding1{ width:100%; float:left;}
-.bd1top{ height:32px; font-size:18px; color:#333; text-align:center; line-height:32px; border-top-right-radius:4px; background:#c8d7dc; font-family:Myriad Pro,Arial, Helvetica, sans-serif;}
+.bd1top{
+    height:32px;
+    font-size:18px;
+    color: #fff;
+    text-align:center;
+    line-height:32px;
+    background: #00bbd3;
+    font-family: 'Roboto Slab', serif;
+}
 .bd1ct{ height:238px; overflow:auto; margin:0 auto; background:#F6F9F5;}
-.tb_hostsub{ width:100%; margin:0px auto;  padding:0px;  font-size:11px; color:#333333; background:#efedee}
-.tb_hostsub tr td{padding:5px 10px; border-bottom:1px solid #fff}
-.bgbrown{ background:#c8d7dc;}
+.tb_hostsub{
+   width:100%;
+   margin:0px auto;
+   padding:0px;
+   font-size:11px;
+   background: #fff;
+}
+.tb_hostsub tr td{padding:5px 10px;border-bottom:1px solid #fff;color: #00bbd3;}
+/*.bgbrown{background: rgba(130, 34, 215, 0.3);}*/
 .itemrow{background:#F6F9F5;}
 .detailright .dtrright .bidding1 .bd1bt{ min-height:25px;}
 .detailright .dtrright .bidding1 .bd1bt p{ padding:0 10px;}
-.tblue { background: #c8d7dc; color: #000000; font-size: 12px; font-weight: bold; height: 30px; line-height: 30px; margin: 1px 0 0 !important; padding: 0 10px; text-align: left; text-decoration: underline;}
+.tblue {/*    background: rgba(130, 34, 215, 0.3);*/background: #fff;color: #00bbd3;font-size: 12px;font-weight: bold;height: 30px;line-height: 30px;margin: 1px 0 0 !important;padding: 0 10px;text-align: left;text-decoration: underline;}
 .box_setauto{ width:auto; padding-left:10px;}
 .box_setauto .fieldset-left {float: left; width: 90px;}
 .box_setauto .fieldset-left input{width: 50px;}
@@ -421,15 +541,27 @@ a.icon_myaccount:hover{color:#000;}
 
 /*Register ------------------------ */
 .register_left{width:550px; float:left; border-radius:8px; padding:10px;}
-.register_left .labletext{height:40px; line-height: 40px; display:block; width: 180px; float:left; color:White; text-align:right; padding-right:20px;}
+.register_left .clo_white{
+	color: #00bbd3;
+}
+.register_left input.buttons.blue{
+	width:auto;
+}
+.register_left .labletext{height:40px;line-height: 40px;display:block;width: 180px;float:left;color: #000;text-align:right;padding-right:20px;}
 .register_left .inputtext{line-height: 40px; display:block; width: 300px; float:left; padding-left: 5px;}
-.register_left .inputtext1{display:block; width: 300px; float:left; padding-left: 5px; font-size:11px; color:White}
+.register_left .inputtext1{display:block; width: 300px; float:left; padding-left: 5px; font-size:11px; color:#9d846f}
 .register_left .inputtext input[type="text"],input[type="email"],input[type="password"]{ height: 35px; border-radius: 4px; width:300px; background:#efefef;}
 .register_left .inputtext select {border-radius: 4px; width:200px; background:#efefef;padding: 8px 7px; border:0}
-.register_left .wrap_conditions{ border:1px solid #333; border-radius:8px; margin:20px; clear:both; padding:10px; color:White}
+.register_left .wrap_conditions{border:1px solid #333;border-radius:8px;margin:20px;clear:both;padding:10px;color: #000;}
 .register_left .wrap_conditions input[type="checkbox"]{ height:auto}
 
-.register_right{width:375px; float:left; border-radius:8px; padding:10px;}
+.register_right{
+	width:375px; 
+	float:left; 
+	border-radius:8px; 
+	padding:10px;
+	background: transparent;
+}
 .register_right img{ width:100%}
 /*Register ------------------------END */
 
@@ -464,7 +596,6 @@ a.icon_myaccount:hover{color:#000;}
 .contnetsubr .tblogin input[type="text"]:hover{ background:#fff}
 .contnetsubr .tblogin input[type="password"]:hover{ background:#fff}
 /*Login page ---------------------END*/
-
 /**************Fix 12-08-2016 Sec4**************/
 .gridview .auction_item .sec4{width:100%; margin-top:5px;}
 .gridview .auction_item .sec4 .panelremind{position:relative; margin-bottom:5px;}
@@ -489,52 +620,51 @@ a.icon_myaccount:hover{color:#000;}
 /*8/10/16*/
 /*Saleitem ------------------------*/
 .forsale_item{
-    background: #edf3f6;
     float: left;
     list-style: outside none none !important;
-    margin:0 9px 20px;
-/*    min-height: 310px;*/
+    margin: 0 20px 20px;
     padding: 5px 0.8%;
     position: relative;
-    width: 224px;
-    -webkit-transition: all ease 0.4s;
-    -moz-transition: all ease .4s;
-    -o-transition: all ease .4s;
-    transition: all ease .4s;
-    border: 1px solid #eaedee;
+    width: 222px;
+    height: 335px;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #fff;
+    -webkit-box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.12);
 }
 .forsale_item:hover,
-.forsale_item:focus{
-    -webkit-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
-    -moz-box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
-    box-shadow: 0px 0px 5px rgba(93, 139, 164, 0.6);
-}
+.forsale_item:focus{border-bottom: 4px solid #00bbd3;-webkit-transition: all ease 0.3s;-moz-transition: all ease .3s;-o-transition: all ease .3s;transition: all ease .3s;}
 .forsale_item-detail{
 	width: 100%;
 }
+.forsale_item:hover .forsale-img img{
+	width:102%;
+	-webkit-transition: all ease 0.2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
+}
 .forsale_item .forsale-item-title{
-    border-bottom: 1px solid #699bb3;
-    height: 22px;
-    line-height: 22px;
-    margin: 0 auto 10px;
-    overflow: hidden;
-    padding: 5px;
-    width: 85%;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 7px;
+	height: 30px;
 }
-.forsale_item .forsale-item-title a{
-    color:#757575; 
-    font-size:13px; 
-    display:block;
-    overflow:hidden;
+.forsale_item .forsale-item-title a{color: #00bbd3;font-size:13px;display:block;text-align: center;overflow:hidden;}
+.forsale_item .forsale-img img{
+	width:100%;
+	-webkit-transition: all ease 0.2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
 }
-.forsale_item .forsale-img img{width:100%}
 .forsale_item .buybtn{
-    background-color: #ebecec;
-    border: #ebecec;
-    color: #5d8ba4;
+    color: #fff;
+	border: 2px solid #fff;
+    background: #4c4036;
     clear: both;
     display: block;
     font-size: 1.5em;
@@ -544,14 +674,18 @@ a.icon_myaccount:hover{color:#000;}
     width: 60%;
     height: 30px;
     line-height: 30px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 .forsale_item .buybtn:hover,
 .forsale_item .buybtn:focus{
-    border-color: #5d8ba4;
-    background: #5d8ba4;
-    color: #edf3f6;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+	border: 2px solid #9d846f;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    background:#382f28;
+    color:#9d846f;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 .forsale_item .oldprice{color: #9ea09d;
     font-size: 12px;
@@ -623,37 +757,57 @@ a.icon_myaccount:hover{color:#000;}
     vertical-align: middle;margin-left: 20px;
     margin-top: 7px;
 }
-.forsale_item_detail_right .buybtn{
-	background-color: #ebecec;
-    border: #ebecec;
-    color: #5d8ba4;
+.forsale_item_detail_right .buybtn{   
+	color: #fff;
+	border:2px solid #fff;
+    background: #4c4036;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
     clear: both;
-    display: block;
     font-size: 32px;
-    padding: 5px;
+    padding: 5px 20px;
     text-align: center;
     text-transform: uppercase;
-    width: 60%; margin-top:25px;
-	-webkit-transition: 0.4s;
-    transition: 0.4s;
+    width: 60%; 
+	margin-top:25px;
+	display: block;
 }
 .forsale_item_detail_right .buybtn:hover,
 .forsale_item_detail_right .buybtn:focus{
-    border-color: #5d8ba4;
-    background: #5d8ba4;
-    color: #edf3f6;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+	border:2px solid #9d846f;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    background:#382f28;
+    color:#9d846f;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 /*Saleitem ---------------------END*/
 .pagebid{
     margin-bottom: 15px;
 }
+.responsive-tabs__panel ul li{
+	list-style-position: inside !important;
+}
+.right-top2 .row_top table td{
+	color: #f5f5f5;
+}
+/*******************************Input add 08/09/2016***********************************/
+#Content_Content1Col_pnlsearch{
+	padding: 0 3%;
+}
+#Content_Content1Col_pnlsearch tr td:nth-child(1){
+	width: 70px;
+}  
 
+/*******************************End Input add 08/09/2016***********************************/
 
 /* Responsive ---------------------------------------------------------------------------------------- */
 
 @media only screen and ( max-width: 1024px ){
+			.boxes{
+				width: 100%;
+			}
 			.width1000px{margin:auto; position:relative;}
 			.footer_col{width:175px!important; padding-right:10px!important; padding-left:5px;}
 			/* Grid view --------------------------------*/
@@ -733,11 +887,11 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			.btseach{
 				height: 30px !important;
-				top: -14px;
+				top: -34px;
 				right: 1%;
 			}
 			.bg_cloud section:nth-child(2) .width1000px{
-				margin: 6px auto;
+/*				margin: 6px auto;*/
 			}
 			/* Grid view --------------------------------*/
 			.gridview .auction_item{width: 202px}
@@ -817,8 +971,10 @@ a.icon_myaccount:hover{color:#000;}
 			/*Register ------------------------ */
 			.register_left{
 				width:100%;
+/*
 			    background: transparent;
     			border: 1px #999 solid;
+*/
 			}
 			.register_left .labletext{width: 120px;color: #000;}
 			.register_left .wrap_conditions{color: #000;}
@@ -839,7 +995,7 @@ a.icon_myaccount:hover{color:#000;}
 			/*Edit Form ------------------------END*/
 			
 			/*Search Header ------------------------*/
-			.tfsearch{width: 60%;top: -14px;right: 8%;}
+			.tfsearch{width: 60%;top: -34px;right: 8%;}
 			/*Search Header --------------------END*/
 			
 			/* Redeem Card -page */
@@ -877,9 +1033,6 @@ a.icon_myaccount:hover{color:#000;}
 				box-sizing: border-box;
 			}
 			/**************End 12-08-2016 For Sale Item**************/
-			.header2.clo_grey_dark{
-				margin-top: 20px;
-			}
 		}
 		
 @media only screen and ( max-width: 480px )
@@ -891,20 +1044,17 @@ a.icon_myaccount:hover{color:#000;}
 				display:block;
 				width:90%;
 			}
-			.right-top .row_top:nth-child(2){
-				margin-top: -35px;
-			}
 			.right-top .row_top:nth-child(2) .col_top{
 				height:10px;
-			}
-			.bg_cloud section:nth-child(3){
-				margin-top: -20px;
 			}
 			.right-top .col_top{
 				width: 100%;
 			}
+			.right-top .row_top:nth-child(2){
+				margin-top: -35px;
+			}
 			/* Grid view --------------------------------*/
-			.gridview .auction_item{width: 180px}
+			.gridview .auction_item{width: 190px}
 			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 170px*/}
 			/* Grid view --------------------------------End */
 			
@@ -945,7 +1095,7 @@ a.icon_myaccount:hover{color:#000;}
 			/* box left and right ------------------------------ */
 			
 			/* account section ---------------------------- */
-			.box_avatar_myaccount{position:static; width:275px;}
+			.box_avatar_myaccount{position:static; width:auto;}
 			a.icon_myaccount{ width:100px;}
 			/* account section ---------------------------- END */
 			
@@ -980,7 +1130,7 @@ a.icon_myaccount:hover{color:#000;}
 			/* payment bids ----------------------END */
 
 			/*Register ------------------------ */
-			.register_left{width:265px;}
+/*			.register_left{width:265px;}*/
 			.register_left .labletext{height:20px; line-height: 20px; width: 250px; text-align:left; padding-right:0;}
 			.register_left .inputtext{height:40px; line-height: 40px; width: 250px; padding-left: 0;}
 			.register_left .inputtext1{width: 245px;}
@@ -992,13 +1142,13 @@ a.icon_myaccount:hover{color:#000;}
 			
 			
 			/*Edit Form ------------------------*/
-			.form_editaccount{width:265px;}
+			.form_editaccount{/* width:265px; */}
 			.form_editaccount .labletext{height:20px; line-height: 20px; width: 250px; text-align:left; padding-right:0;}
-			.form_editaccount .inputtext{height:auto!important; line-height: 40px; width: 250px; padding-left: 0;}
+			.form_editaccount .inputtext{height:auto!important;line-height: 40px;width: 100%;padding-left: 0;margin: 0px;}
 			.form_editaccount .inputtext1{width: 245px;}
-			.form_editaccount .inputtext input[type="text"],input[type="email"],input[type="password"]{ width:230px;}
+			.form_editaccount .inputtext input[type="text"],input[type="email"],input[type="password"]{width: 93%;}
 			.form_editaccount .inputtext select {width:260px;}
-			.form_editaccount .inputtext .areatext{width:245px;}
+			.form_editaccount .inputtext .areatext{width: 95.5%;}
 			/*Edit Form ------------------------END*/
 			
 			/*Search Header ------------------------*/
@@ -1021,7 +1171,7 @@ a.icon_myaccount:hover{color:#000;}
 			
 			/*Login page ------------------------*/
 			.contnetsubr{width:290px!important}
-			.contnetsubr .tblogin input[type="text"],input[type="password"]{width:230px; height:28px!important; background:#efefef;}
+			.contnetsubr .tblogin input[type="text"],input[type="password"]{width: 245px;height: 35px!important;background:#efefef;}
 			.contnetsubl{border: 0!important; width:270px!important}
 			.tblogin tr td{padding: 5px 10px!important;}
 			.loginfbbox{right:0!important; top:-55px!important; border-left:0 !important;}
@@ -1046,8 +1196,9 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			.right-top .row_top .col_top:nth-child(2) a{
 				top: 55%;
-				right: 25%;
+				right: 24%;
 			}
+			
 			/**************Fix 12-08-2016 Sec4**************/
 			.detail .auction_item .sec3 .btnbox input[type="button"]{
 				width: 90% !important;
@@ -1061,6 +1212,19 @@ a.icon_myaccount:hover{color:#000;}
 				width: 100%;
 			}
 			/**************End 26-08-2016 My Account**************/
+			/**************Fix 26-08-2016  Registration**************/
+			.register_left .wrap_conditions{
+				margin-top: 50px;
+			}
+			/**************End 26-08-2016  Registration**************/
+			/**************Input 26-08-2016  Search**************/
+			#Content_Content1Col_pnlsearch input{
+				/* width: 100% !important; */
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			}
+			/**************End Input 26-08-2016  Search**************/
 		}
 		
 @media only screen and ( max-width: 320px )
@@ -1072,27 +1236,24 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			.logo{ width:120px;}
             .title_box1{
-                margin-bottom: 20px;
+/*                text-align: center;*/
+                margin-bottom: -7px;
+                line-height: 30px;
             }
-/*
-			#nav{
-				margin-top: 20px;
-			}
-*/
 			/*.logo img{ width:120px;}*/
-			.right-top{width:238px!important; height:auto;}
-			.right-top .row_top{ width:100%; height:110px;}
-			.right-top .row_top .col_top{height:30px; float:left; margin-right:3px;}
-			.right-top .row_top .col_top1{height:30px; float:left; padding-left:5px;}
+			.right-top{/* width: 100%; */height:auto;}
+			.right-top .row_top{ width:100%; height:auto;}
+			.right-top .row_top .col_top{/* width:230px!important; */height:30px;float:left;/* margin-right: 3px; *//* box-sizing: border-box; */}
+			.right-top .row_top .col_top1{width: 300px!important;height:30px;float:left;padding-left:5px;}
 			.right-top .topusename{
 				box-sizing: border-box;
-    			-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
+          		-moz-box-sizing: border-box;
+    			-webkit-box-sizing: border-box;
 			}
 			.right-top .toppass{
 				box-sizing: border-box;
-    			-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
+          		-moz-box-sizing: border-box;
+    			-webkit-box-sizing: border-box
 			}
 			.textcopy{display:none}
 			.footer_col{width:96%!important; padding-right:0!important}
@@ -1101,7 +1262,7 @@ a.icon_myaccount:hover{color:#000;}
 			
 			/* Grid view --------------------------------*/
 			.gridview{
-				padding: inherit;
+			padding-top: 35px;
 			}
 			.gridview .auction_item{width: 100%;}
 			.gridview .auction_item .sec1 h5.auction-item-title {/*width: 100%*/}
@@ -1204,28 +1365,32 @@ a.icon_myaccount:hover{color:#000;}
 			
 			
 			/*Register ------------------------ */
-			.register_left{width:185px;}
+			.register_left{
+				
+			}
 			.register_left .labletext{height:20px; line-height: 20px; width: 180px; text-align:left; padding-right:0;}
-			.register_left .inputtext{height:40px; line-height: 40px; width: 180px; padding-left: 0;}
+			.register_left .inputtext{height:40px;line-height: 40px;width: 94%;padding-left: 0;}
 			.register_left .inputtext1{width: 180px;}
-			.register_left .inputtext input[type="text"],input[type="email"],input[type="password"]{ width:170px;}
-			.register_left .inputtext select {width:185px;}
-			.register_left .wrap_conditions{margin:10px;}
+			.register_left .inputtext input[type="text"],input[type="email"],input[type="password"]{width: 100%;}
+			.register_left .inputtext select {width: 105.5%;}
+			.register_left .wrap_conditions{margin: 0px;margin-top: 40px;width: 93%%;}
 			.register_left .holdbtn input{ font-size:14px!important; width:180px;}
 			
 			.register_right{width:185px; margin-top:10px;}
 			/*Register ------------------------END */
 			
 			/*Edit Form ------------------------*/
-			.form_editaccount{width:185px;}
+			.form_editaccount{width: 90%;}
 			.form_editaccount .labletext{height:20px; line-height: 20px; width: 180px; text-align:left; padding-right:0;}
-			.form_editaccount .inputtext{height:40px; line-height: 40px; width: 180px; padding-left: 0;}
+/* 			.form_editaccount .inputtext{test} */
 			.form_editaccount .inputtext1{width: 180px;}
-			.form_editaccount .inputtext input[type="text"],input[type="email"],input[type="password"]{ width:230px;}
+			.form_editaccount .inputtext input[type="text"],input[type="email"],input[type="password"]{width: 100%;}
 			.form_editaccount .inputtext select {width:185px;}
 			.form_editaccount .wrap_conditions{margin:10px;}
-			.form_editaccount .holdbtn input{ font-size:14px!important; width:180px;}
-			.form_editaccount .inputtext .areatext{width:185px;}
+			.form_editaccount .holdbtn input{font-size:14px!important;width: 105%;}
+			.form_editaccount .inputtext .areatext{
+    width: 104%;
+}
 			
 			/*Edit Form ------------------------END*/
 			
@@ -1244,6 +1409,7 @@ a.icon_myaccount:hover{color:#000;}
 			#Footer_ddlThems{
 				margin-left: 5px;
 			}
+			
 			/**************Fix 12-08-2016 For Sale Item**************/
 			.forsale_item_detail_right .saleprice .discount{
 				margin-left: 0px;
@@ -1267,6 +1433,9 @@ a.icon_myaccount:hover{color:#000;}
 				width: 100%;
 			}
 			/**************End 26-08-2016 For Auto bids button*************/
+			#Content_Content1Col_pnlsearch input{
+				width:100% !important;
+			}
 		}
 		
 		

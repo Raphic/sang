@@ -1206,17 +1206,28 @@ a.icon_myaccount:hover{color:#000;}
 			}
 			.logo{ width:120px;}
             .title_box1{
-                text-align: center;
                 margin-bottom: -7px;
                 line-height: 30px;
             }
 			/*.logo img{ width:120px;}*/
-			.right-top{width:238px!important; height:auto;}
+			.right-top{ height:auto;}
 			.right-top .row_top{ width:100%; height:auto;}
-			.right-top .row_top .col_top{ width:230px!important; height:30px; float:left; margin-right:3px;}
-			.right-top .row_top .col_top1{ width:230px!important; height:30px; float:left; padding-left:5px;}
-			.right-top .topusename{width: 190px!important;}
-			.right-top .toppass{width: 190px!important;}
+			.right-top .row_top .col_top{ height:30px; float:left; margin-right:3px;}
+			.right-top .row_top .col_top1{ 
+				height:30px; 
+				float:right; 
+				padding-left:5px;
+			}
+			.right-top .topusename{
+				box-sizing: border-box;
+    			-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			}
+			.right-top .toppass{
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+    			-webkit-box-sizing: border-box;
+			}
 			.textcopy{display:none}
 			.footer_col{width:96%!important; padding-right:0!important}
 			.right-top .top_facelogin{top:-65px; left:0}
