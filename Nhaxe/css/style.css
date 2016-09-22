@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+     -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+body,div,p,form,input,select,option,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,address{
+margin:0;
+padding: 0;
+font-size: 100%;
+font-weight: normal;
+font-style: normal;
+line-height: 1.5;
+font-family: Verdana  ,sans-serif;
+border: none;
+}
+
+img {
+	border:none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+p {
+font-size:1.2em;
+}
+.flex{
+	display: flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-inline{
+	display: inline-flex;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+}
+.clear{
+	clear: both;
+	display: block;
+}
+body a{
+	color: #000;
+}
+body a:hover{
+	text-decoration: underline;
+}
+/*************************************************/
+/**********************Header********************/
+/************************************************/
