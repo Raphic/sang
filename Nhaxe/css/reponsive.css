@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*************************************************/
+/**********************Table********************/
+/************************************************/
+
+@media (min-width: 780px) {
+    .rps-table td:before {
+        display: none;
+    }
+    .rps-table th,
+    .rps-table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+    .rps-table th:first-child,
+    .rps-table td:first-child {
+        padding-left: 0;
+    }
+    .rps-table th:last-child,
+    .rps-table td:last-child {
+        padding-right: 0;
+    }
+}
