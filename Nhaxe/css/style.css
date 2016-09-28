@@ -1,3 +1,5 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i';
 @charset "utf-8";
 /* CSS Document */
 *{
@@ -13,16 +15,24 @@
     transition: 0.5s;
 }
 body,div,p,form,input,select,option,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,address{
-margin:0;
-padding: 0;
-font-size: 100%;
-font-weight: normal;
-font-style: normal;
-line-height: 1.5;
-font-family: Verdana  ,sans-serif;
-border: none;
+	margin:0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	border: none;
 }
-
+body{
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	background: url(../img/bg.png) no-repeat;
+	background-size: cover;
+}
 img {
 	border:none;
     padding: 0;
@@ -57,6 +67,25 @@ font-size:1.2em;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
 }
+.flex-center {
+	-webkit-justify-content: center; 
+	justify-content:center;
+}
+.flex-between {
+	-webkit-justify-content: space-between; 
+	justify-content:space-between;
+}
+.flex-around {
+	-webkit-justify-content: space-around; 
+	justify-content: space-around;
+}
+.flex-vertical {
+	-webkit-align-items: flex-end; 
+	align-items:flex-end;
+}
+.inline-block{
+	display: inline-block;
+}
 .clear{
 	clear: both;
 	display: block;
@@ -67,6 +96,183 @@ body a{
 body a:hover{
 	text-decoration: underline;
 }
+h1{
+	color:  #475055;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 32.065px;
+}
+h2{
+	color:  #475055;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32.065px;
+}
+#content{
+	width: 100%;
+	text-align: center;
+	background: url(../img/bg1.png)no-repeat center 70%;
+	height: 100%;
+	position: relative;
+}
+p{
+	font-size: 14px;
+	font-weight: bold;
+	color:  #475055;
+}
+input{
+	border-width: 1px;
+	border-color:  #a9a9a9;
+	border-style: solid;
+	background-color:  #ffffff;
+	width: 228px;
+	padding: 2px 5px;
+}
+input:not(:first-child){
+	margin-top: 10px;
+}
 /*************************************************/
 /**********************Header********************/
 /************************************************/
+header{
+	border-bottom: 1px #a9a9a9 solid;
+	background-color:  #e8fbff;
+	padding: 25px 10px 10px;
+	margin-bottom: 30px;
+}
+header a,
+header p{
+	font-size: 12px;
+	font-weight: bold;
+}
+header ul li{
+	margin-left: 25px;
+}
+header ul li:first-child{
+	margin-left: 0px;
+}
+header nav ul li a:before{
+	font-family: FontAwesome;
+	content: '\f207';
+	display: inline-block;
+	font-size:20px;
+	margin-right: 5px;
+}
+header nav ul li:nth-child(2) a:before{
+	content: '\f007';
+}
+header nav ul li:nth-child(3) a:before{
+	content: '\f201';
+}
+header nav ul li:nth-child(4) a:before{
+	content: '\f073';
+}
+/*************************************************/
+/**********************Content********************/
+/************************************************/
+.main-content{
+	
+}
+/*************************************************/
+/**********************Login********************/
+/************************************************/
+.login-content{
+	padding: 40px 20px 30px;
+}
+.login-logo{
+	width: 169px;
+	margin: 20px auto 30px;
+}
+.login-logo i{
+	background: #090;
+	width: 169px;
+	height: 169px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 50%;
+	font-size: 120px;
+	color: #fff;
+}
+.login{
+	border-radius: 4px;
+	border: 1px #a9a9a9 solid;
+	background:  #b3ebf7;
+	width: 509px;
+	margin: auto;
+	padding: 10px 45px 30px 15px;
+	text-align: left;
+}
+.login-icon{
+	margin-top: 10px;
+}
+.login-frm{
+	margin-left: 10px;
+}
+.login-frm h2{
+	margin-bottom: 10px;
+}
+.fg-pas{
+	color:  #475055;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 32px;
+}
+.bnt-login{
+	border: 1px #a9a9a9 solid;
+	background-color:  #2cc4e4;
+	width: 70px;
+	height: 100%;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30%;
+}
+.login-phone{
+	margin-top: 20px;
+}
+/*************************************************/
+/**********************Dang nhap********************/
+/************************************************/
+.time{
+	margin: 30px 0px 10px;
+}
+.search-tab{
+	margin-bottom: 30px;
+}
+.search-tab label i{
+	background: #7dbebd;
+	border-radius: 50%;
+	color: #fff;
+	width: 32px;
+	height: 32px;
+	line-height: 30px;
+}
+.search-tab input{
+	border: none;
+	background: transparent;
+	width: 100px;
+}
+.so-xe{
+	margin-top: 30px;
+}
+.so-xe a{
+	border: 1px #a9a9a9 solid;
+	background-color:  #e8fbff;
+	width: 146px;
+	padding: 15px 10px;
+}
+/*************************************************/
+/**********************Footer********************/
+/************************************************/
+footer{
+	position: absolute;
+	width: 100%;
+	bottom: 15px;
+}
+footer p{
+color:  #475055;
+	font-size: 11px;
+	font-weight: bold;
+}
