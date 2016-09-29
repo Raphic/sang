@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Book</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reponsive.css">
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+</head>
+
+<body>
+	<section class="popup">
+        <button class="btn-close fa fa-times-circle" aria-hidden="true"></button>
+        <article>
+            <section class="popup-top flex">
+                <div>
+                    <p>Ngày đặt <span class="text-red"> 29/09/2016</span></p>
+                    <p><b>Số ghế <span class="text-blue">3a, 3b</span></b></p>
+                </div>
+                <div>
+                    <p>Ngày đi <span class="text-red"> 30/09/2016</span></p>
+                    <p><b>Giá vé : 250.000 vnđ</b></p>
+                </div>
+                <div>
+                    <p>Tuyến <span class="text-red"> SH - HN</span></p>
+                    <p class="car-number"><b>Xe : 52k T3 169.68</b></p>
+                </div>
+            </section>
+            <h1 class="text-red mg-top">Gởi hàng hóa</h1>
+            <section class="popup-info flex flex-between">
+                <div>
+                  <h3 class="text-red mg-top">Người gởi</h3>
+                   <div>
+                       <label>Số điện thoại</label>
+                       <input type="tel" placeholder="090 123456879" required>
+                   </div>
+                   <div>
+                       <label>Tên</label>
+                       <input type="text" placeholder="Lên thị A" required>
+                   </div>
+                   <div>
+                       <label>Địa điểm gởi</label>
+                       <input type="text" placeholder="Quận 1" required>
+                   </div>     
+                </div>
+                
+                <div class="vhr"></div>
+                
+                <div>
+                   <div>
+                      <h3 class="text-red mg-top">Người nhận</h3>
+                       <label>Số điện thoại</label>
+                       <input type="tel" placeholder="090 123456879" required>
+                   </div>
+                   <div>
+                       <label>Tên</label>
+                       <input type="text" placeholder="Lên thị A" required>
+                   </div>
+                   <div>
+                       <label>Địa điểm đến</label>
+                       <input type="text" placeholder="Quận 2" required>
+                   </div>  
+                   <div class="mg-top">
+                       <label>Giao hàng</label>
+                       <select>
+                           <option>Chưa nhận</option>
+                           <option>Nhận</option>
+                       </select>
+                   </div>   
+                </div>
+            </section>
+            
+            <table class="price mg-top">
+                <tr>
+                    <th>Tổng tiền</th>
+                    <th>&nbsp;</th>
+                    <th>Đơn giá</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td>Ghế</td>
+                    <td>2</td>
+                    <td>250.000 vnd</td>
+                    <td class="text-red">800.000 vnd</td>
+                </tr>
+            </table>
+            
+            <section class="seat-pick">
+                <table class="item-deposit">
+                    <tr>
+                        <th>Hàng gởi</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Xe tay ga" required>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="250.000" required>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="2" required>
+                        </td>
+                        <td>500.000</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Xe tay ga" required>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="250.000" required>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="2" required>
+                        </td>
+                        <td>500.000</td>
+                    </tr>
+                </table>
+            </section>
+            <div class="flex mg-top flex-between">
+                <div class="flex">
+                    <p><span class="sign-pick"></span>Ghế đã bị chọn</p>
+                    <p><span class="sign-chose"></span>Bạn đã chọn ghế này</p>
+                </div>
+                <button class="btn2">Lưu đặt vé</button>
+            </div>
+	    </article>
+	</section>
+</body>
+
+</html>

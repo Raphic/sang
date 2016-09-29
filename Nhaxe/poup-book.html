@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Book</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reponsive.css">
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+</head>
+
+<body>
+	<section class="popup">
+        <button class="btn-close fa fa-times-circle" aria-hidden="true"></button>
+        <article>
+            <section class="popup-top flex">
+                <div>
+                    <p>Ngày đặt <span class="text-red"> 29/09/2016</span></p>
+                    <p><b>Số ghế <span class="text-blue">3a, 3b</span></b></p>
+                </div>
+                <div>
+                    <p>Ngày đi <span class="text-red"> 30/09/2016</span></p>
+                    <p><b>Giá vé : 250.000 vnđ</b></p>
+                </div>
+                <div>
+                    <p>Tuyến <span class="text-red"> SH - HN</span></p>
+                    <p class="car-number"><b>Xe : 52k T3 169.68</b></p>
+                </div>
+            </section>
+            <section class="popup-info flex flex-between">
+                <div>
+                   <div>
+                       <label>Số điện thoại</label>
+                        <input type="tel" required placeholder="090 9000000">
+                   </div>
+                   <div>
+                       <label>Địa điểm đón</label>
+                        <input type="text" required placeholder="Quận 1">
+                   </div>
+                   <div>
+                       <label>Gởi hàng tính phí</label>
+                        <input type="text" required placeholder="Xe tay ga">
+                   </div>     
+                </div>
+                
+                <div>
+                   <div>
+                       <label>Tên khác</label>
+                        <input type="text" required placeholder="Trần văn A">
+                   </div>
+                   <div>
+                       <label>Địa điểm đến</label>
+                        <input type="text" required placeholder="Quận 2">
+                   </div>
+                   <div>
+                       <label>Giá</label>
+                        <input type="number" required placeholder="300.000">
+                   </div>     
+                </div>
+            </section>
+            <div class="text-right">
+                <button class="add-plus"><b>Thêm hành lý tính phí</b></button>
+            </div>
+            <table class="price">
+                <tr>
+                    <th>Tổng tiền</th>
+                    <th>&nbsp;</th>
+                    <th>Đơn giá</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td>Ghế</td>
+                    <td>2</td>
+                    <td>250.000 vnd</td>
+                    <td class="text-red">800.000 vnd</td>
+                </tr>
+            </table>
+            
+            <section>
+                <div class="seat-pick popup-pick">
+                    <p class="seat-state">Trên</p>
+                    <div class="seat-on">
+                        <div class="text-right">
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="seat-state">Dưới</p>
+                    <div class="seat-below">
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat chose">0126 7894561</button>
+                            <button class="btn-seat chose">0126 7894561</button>
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat"></button>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat pick"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                            <button class="btn-seat"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="flex mg-top flex-between">
+                <div class="flex">
+                    <p><span class="sign-pick"></span>Ghế đã bị chọn</p>
+                    <p><span class="sign-chose"></span>Bạn đã chọn ghế này</p>
+                </div>
+                <button class="btn2">Lưu đặt vé</button>
+            </div>
+	    </article>
+	</section>
+</body>
+
+</html>
