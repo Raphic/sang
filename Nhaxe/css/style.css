@@ -45,6 +45,10 @@ a{
     text-decoration: none;
     color: #fff;
 }
+a:hover,
+a:focus{
+	text-decoration: none !Important;
+}
 table {
 border-collapse:collapse;
 border-spacing:0;
@@ -79,6 +83,10 @@ font-size:1.2em;
 	-webkit-justify-content: space-around; 
 	justify-content: space-around;
 }
+.flex-end {
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
 .flex-vertical {
 	-webkit-align-items: flex-end; 
 	align-items:flex-end;
@@ -108,6 +116,10 @@ h2{
 	font-weight: 700;
 	line-height: 32.065px;
 }
+h6{
+	text-align: center;
+	margin: 10px;
+}
 #content{
 	width: 100%;
 	text-align: center;
@@ -136,6 +148,19 @@ button{
     background: transparent;
     cursor: pointer;
 }
+.w-10{
+	display: inline-block;
+	width: 10px;
+}
+/*
+.scale{
+	transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+}
+*/
 /*************************************************/
 /**********************Header********************/
 /************************************************/
@@ -176,6 +201,9 @@ header nav ul li:nth-child(3) a:before{
 header nav ul li:nth-child(4) a:before{
 	content: '\f073';
 }
+header nav ul li:nth-child(5) a:before{
+	content: '\f013';
+}
 header nav ul li a:hover,
 header nav ul li a:focus,
 .current{
@@ -186,7 +214,7 @@ header nav ul li a:focus,
 /**********************Content********************/
 /************************************************/
 .main-content{
-	
+	min-height: 768px;
 }
 /*************************************************/
 /**********************Login********************/
@@ -282,6 +310,131 @@ header nav ul li a:focus,
 	padding: 15px 0px;
     margin-top: 20px;
 }
+.so-xe a p{
+	font-family: Arial;
+	color:  #818181;
+	font-size: 11px;
+	font-weight: 400;
+}
+.so-xe a p span{
+	display: block;
+}
+.add-car{
+	background: #f9ffd5 !important;
+	vertical-align: bottom;
+	padding: 27px 0 !important;
+}
+/*************************************************/
+/**********************Car********************/
+/************************************************/
+.info-car{
+	background: #e8fbff;
+	width: 750px;
+	border: 1px #a9a9a9 solid;
+	margin: auto;
+	padding: 20px;
+	margin-top: 40px;
+}
+.info-car h1{
+	color: #044476;
+	margin-bottom: 30px;
+}
+.info-text label{
+	display: block;
+	text-align: left;
+}
+.info-text label b,
+.info-text label i{
+	width: 100px;
+	display: inline-block;
+}
+.info-text select{
+	width: 140px;
+	padding: 5px;
+	border-radius: 5px;
+	display: block;
+}
+.info-text select:not(:first-child){
+	margin-top: 10px;
+}
+.info-text select span{
+	text-align: right;
+}
+.seat{
+	margin-bottom: 10px;
+	background: #044476;
+	border-radius: 5px;
+	text-align: left;
+	padding: 10px 10px 15px;
+	color: #fff;
+}
+.seat hr{
+	background: #fff;
+	height: 1px;
+	margin: 15px 0px 5px;
+}
+.seat>div>div{
+	height: 15px;
+}
+.seat-state{
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.seat-on,
+.seat-below{
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn-seat{
+	width: 50px;
+	height: 10px;
+	background: #fff;
+	border-radius: 4px;
+}
+.seat-plus .btn-seat{
+	width: 70px;
+	height: 15px;
+}
+.seat-plus >div>div{
+	height: 20px;
+}
+.seat-plus hr{
+	margin: 10px 0px;
+}
+.text-right{
+	text-align: right;
+}
+.floor1{
+	padding: 10px 20px;
+}
+.floor1 .btn-seat{
+	width: 40px;
+	height: 30px;
+}
+.floor1>div{
+	height: 40px !Important;
+}
+/*************************BTN************************/
+.btn2,
+.btn3{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px #a9a9a9 solid;
+	border-radius: 4px;
+	background:  #82b172;
+	padding: 5px 10px;
+}
+.btn2:not(:first-child){
+	
+}
+.btn3{
+	background:  #ff0000;
+}
 /*************************************************/
 /**********************User-frm********************/
 /************************************************/
@@ -296,6 +449,10 @@ header nav ul li a:focus,
     width: 120px;
     display: inline-block;
     text-align: left;
+}
+.user-frm form div:last-child{
+	margin-top: 20px;
+	
 }
 .user-frm form input,
 .user-frm form select{
@@ -395,6 +552,21 @@ header nav ul li a:focus,
     height: 59px;
     padding: 0px 15px;
     color:  #818181;
+}
+/*************************************************/
+/**********************Report********************/
+/************************************************/
+.report{
+	margin: 50px auto;
+}
+.report div{
+	margin: 0px 40px;
+}
+.report div img{
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: auto;
 }
 /*************************************************/
 /**********************Footer********************/
