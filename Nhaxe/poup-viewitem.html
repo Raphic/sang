@@ -2,7 +2,7 @@
 <html lang="en" class="desktop">
 
 <head>
-	<title>Item</title>
+	<title>View Item</title>
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,15 +36,15 @@
                   <h3 class="text-red mg-top">Người gởi</h3>
                    <div>
                        <label>Số điện thoại</label>
-                       <input type="tel" placeholder="090 123456879" required>
+                       <input type="tel" value="090 123456879" disabled>
                    </div>
                    <div>
                        <label>Tên</label>
-                       <input type="text" placeholder="Lên thị A" required>
+                       <input type="text" value="Lên thị A" disabled>
                    </div>
                    <div>
                        <label>Địa điểm gởi</label>
-                       <input type="text" placeholder="Quận 1" required>
+                       <input type="text" value="Quận 1" disabled>
                    </div>     
                 </div>
                 
@@ -54,19 +54,19 @@
                    <div>
                       <h3 class="text-red mg-top">Người nhận</h3>
                        <label>Số điện thoại</label>
-                       <input type="tel" placeholder="090 123456879" required>
+                       <input type="tel" value="090 123456879" disabled>
                    </div>
                    <div>
                        <label>Tên</label>
-                       <input type="text" placeholder="Lên thị A" required>
+                       <input type="text" value="Lên thị A" disabled>
                    </div>
                    <div>
                        <label>Địa điểm đến</label>
-                       <input type="text" placeholder="Quận 2" required>
+                       <input type="text" value="Quận 2" disabled>
                    </div>  
                    <div class="mg-top">
                        <label>Giao hàng</label>
-                       <select>
+                       <select disabled>
                            <option>Chưa nhận</option>
                            <option>Nhận</option>
                        </select>
@@ -84,32 +84,31 @@
                     </tr>
                     <tr>
                         <td data-th="Hàng gởi">
-                            <input type="text" placeholder="Xe tay ga" required>
+                            <input type="text" value="Xe tay ga" disabled>
                         </td>
                         <td data-th="Giá">
-                            <input type="number" placeholder="250.000" required>
+                            <input type="number" value="250.000" disabled>
                         </td>
                         <td data-th="Số lượng">
-                            <input type="number" placeholder="2" required>
+                            <input type="number" value="2" disabled>
                         </td>
                         <td data-th="Thành tiền">500.000</td>
                     </tr>
                     <tr>
                         <td data-th="Hàng gởi">
-                            <input type="text" placeholder="Xe tay ga" required>
+                            <input type="text" value="Xe tay ga" disabled>
                         </td>
                         <td data-th="Giá">
-                            <input type="number" placeholder="250.000" required>
+                            <input type="number" value="250.000" disabled>
                         </td>
                         <td data-th="Số lượng">
-                            <input type="number" placeholder="2" required>
+                            <input type="number" value="2" disabled>
                         </td>
                         <td data-th="Thành tiền">500.000</td>
                     </tr>
                 </table>
             </section>
-            <section class="flex flex-between flex-baseline">
-            	<button class="add-plus"><b>Thêm hành lý tính phí</b></button>
+            <section class="flex flex-end">
             	<div class="total-salary">
 					<div>
 						<label class="w-100"><b>Tổng tiền</b></label>
@@ -117,7 +116,7 @@
 					</div>
            			<div>
            				<label class="w-100"><b>Đưa trước</b></label>
-            			<input class="w-100" type="number" placeholder="100.000" required>
+            			<input class="w-100" type="number" value="100.000" disabled>
            			</div>
            			<div>
            				<label class="w-100 text-red"><b>Con lại</b></label>

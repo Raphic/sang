@@ -4,8 +4,25 @@
 /*************************************************/
 /**********************Table********************/
 /************************************************/
-
-@media (min-width: 780px) {
+.rps-table th {
+    display: none;
+}
+.rps-table td {
+    display: block;
+}
+.rps-table td:before{
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 6.5em;
+    display: inline-block;
+}
+.rps-table td:first-child {
+    padding-top: .5em;
+}
+.rps-table td:last-child {
+    padding-bottom: .5em;
+}
+@media (min-width: 1000px) {
     .rps-table td:before {
         display: none;
     }
@@ -22,4 +39,95 @@
     .rps-table td:last-child {
         padding-right: 0;
     }
+}
+/*************************************************/
+/**********************Content********************/
+/************************************************/
+@media only screen and (max-width: 1000px){
+	.list tr td:nth-child(7), 
+	.list tr td:nth-child(8) {
+		text-align: left;
+	}
+	.title-company{
+		display: block;
+	}
+	.user-frm-table{
+		
+	}
+	.add{
+		width: 100%;
+	}
+	.main-content{
+		padding: 0px 1em;
+	}
+}
+/**********************768********************/
+@media only screen and (max-width: 768px){
+	.mb-menu{
+		display: none;
+	}
+	header nav ul li a{
+		padding: 10px 5px;
+    	margin-right: 5px;
+	}
+	.time {
+		margin: 1em 0px .5px;
+	}
+	.search-tab {
+		margin-bottom: 1em;
+	}
+/*	============Fix===========*/
+	.info-car{
+		width: 100%;
+		padding:1em;
+		margin-top: 1em;
+	}
+	.btn-seat{
+		
+	}
+	.so-xe{
+		width: 100%;
+	}
+	.user-frm{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 550px){
+	.login{
+		width: 100%;
+		padding: 1em 2em;
+	}
+	.login input{
+		width: 90%;
+	}
+	.login-icon img{
+		display: none;
+	}
+}
+@media only screen and (max-width: 480px){
+	.sub-menu{
+		display: block;
+		text-align: left;
+	}
+	.login{
+		width: 100%;
+		padding: 1em 0.5em;
+	}
+	.user-frm form input, .user-frm form select{
+		width: 50%;
+	}
+	.report div{
+		margin: 0px 20px;
+	}
+}
+@media only screen and (max-width: 320px){
+	header nav ul li a {
+		margin-right: 0px;
+	}
+	header ul li{
+		margin-left: 15px;
+	}
+	.level{
+		font-size: 10px;
+	}
 }

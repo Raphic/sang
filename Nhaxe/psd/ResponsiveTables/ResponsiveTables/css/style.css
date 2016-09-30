@@ -8,28 +8,33 @@ body {
 #page-wrap {
 	margin: 50px;
 }
-p {
-	margin: 20px 0; 
+/*...........................................Css3.................................................*/
+.rps-table th {
+    display: none;
 }
-
-	/* 
-	Generic Styling, for Desktops/Laptops 
-	*/
-	table { 
-		width: 100%; 
-		border-collapse: collapse; 
-	}
-	/* Zebra striping */
-	tr:nth-of-type(odd) { 
-		background: #eee; 
-	}
-	th { 
-		background: #333; 
-		color: white; 
-		font-weight: bold; 
-	}
-	td, th { 
-		padding: 6px; 
-		border: 1px solid #ccc; 
-		text-align: left; 
-	}
+.rps-table td {
+    display: block;
+}
+.rps-table td:before{
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 6.5em;
+    display: inline-block;
+    color: #044476;
+}
+.rps-table td:first-child {
+    padding-top: .5em;
+}
+.rps-table td:last-child {
+    padding-bottom: .5em;
+}
+@media (min-width: 768px) {
+    .rps-table td:before {
+        display: none;
+    }
+    .rps-table th,
+    .rps-table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+}

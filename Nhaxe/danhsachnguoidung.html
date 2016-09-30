@@ -7,30 +7,31 @@
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="#" type="image/x-icon">
+	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reponsive.css">
 	
 	<script src="js/jquery.js"></script>
-	<script src="js/jquery-migrate-1.2.1.js"></script>
+	
 </head>
 
 <body>
 	<section id="content">
 		<!--==================Header==================-->
 		<header class="flex flex-between">
-			<nav>
-				<ul class="flex">
-					<li> <a href="#">Quản lý xe</a> </li>
-					<li class="current"> <a href="#">Người dùng</a> </li>
-					<li> <a href="#">Xem báo cáo</a> </li>
-					<li> <a href="#">Xếp lịch</a> </li>
+			<nav class="nav">
+				<ul class="flex"  data-type="navbar">
+					<li> <a href="#"><span class="mb-menu">Quản lý xe</span></a> </li>
+					<li class="current"> <a href="#"><span class="mb-menu">Người dùng</span></a> </li>
+					<li> <a href="#"><span class="mb-menu">Xem báo cáo</span></a> </li>
+					<li> <a href="#"><span class="mb-menu">Xếp lịch</span></a> </li>
 				</ul>
 			</nav>
-			<ul class="flex flex-vertical ">
+			<ul class="sub-menu flex flex-vertical ">
 				<li> <p href="#">Chào minh |<a href="">Thoát</a></p>
 				</li>
 				<li>
-					<p>Cấp độ : Người xếp lịch</p>
+					<p class="level">Cấp độ : Người xếp lịch</p>
 				</li>
 			</ul>
 		</header>
@@ -38,11 +39,11 @@
 		<!--==================Content==================-->
 		<section class="main-content">
 			<article>
-				<h1>Nhà xe THANH HƯƠNG</h1>
+				<h1>Nhà xe <span class="title-company">THANH HƯƠNG</span></h1>
 				<section>
 					<p class="time">Hôm nay ngày <time datetime="03-03-2016">03-03-2016</time></p>
 					<div class="user-frm-table">
-					    <table class="rps-table">
+					    <table class="rps-table list">
                           <tr>
                             <th>Người dùng</th>
                             <th>Login</th>

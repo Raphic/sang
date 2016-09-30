@@ -112,7 +112,7 @@ h1{
 	color:  #475055;
 	font-size: 36px;
 	font-weight: bold;
-	line-height: 32.065px;
+	line-height: 1.2em;
 }
 h2{
 	color:  #475055;
@@ -147,11 +147,15 @@ select{
 input:not(:first-child){
 	margin-top: 10px;
 }
-input:disabled{
+input:disabled,
+select:disabled{
     color: #000;
     background: #fff;
     border: 1px solid #fff;
     font-weight: bold;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 button{
     background: transparent;
@@ -162,13 +166,25 @@ button{
     font-size: 14px;
     font-weight: bold;
 }
+.text-red{
+    color: red !important;
+    margin-left: 15px;
+}
+.text-blue{
+    color: blue;
+	margin-left: 15px;
+}
 .w-10{
 	display: inline-block;
 	width: 10px;
 }
+.w-100{
+	width: 100px;
+}
 .vhr{
     height: 150px;
     margin-top: 40px;
+	margin-bottom:30px;
     border-left: 1px solid #a9a9a9;
 }
 .mg-top{
@@ -321,7 +337,7 @@ header nav ul li a:focus,
 }
 .so-xe{
 	margin-top: 30px;
-    width: 1024px;
+    width: 750px;
     margin: 0 auto;
 }
 .so-xe a{
@@ -492,66 +508,53 @@ header nav ul li a:focus,
 }
 
 .user-frm-table{
-    max-width: 1024px;
-    min-width: 300px;
+    max-width: 1000px;
+    min-width: 280px;
     border: 1px solid #ddd;
     margin: 1em auto;
 }
-.rps-table {
+.list {
     width: 100%;
 }
-.rps-table tr {
+.list tr {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
-.rps-table tr:nth-child(1),
-.rps-table tr:nth-child(2){
+.list tr:nth-child(1),
+.list tr:nth-child(2){
     background: #e8fbff;
 }
-.rps-table th {
-    display: none;
+.list th {
     color: #044476;
 }
-.rps-table td {
-    display: block;
-}
-.rps-table td:first-child {
-    padding-top: .5em;
-}
-.rps-table td:last-child {
-    padding-bottom: .5em;
-}
-.rps-table td:before {
-    content: attr(data-th) ": ";
-    font-weight: bold;
-    width: 6.5em;
-    display: inline-block;
+.list td:before{
     color: #044476;
 }
-.rps-table th,
-.rps-table td {
+.list th,
+.list td {
     text-align: left;
     padding-left: 10px !important;
 }
-.rps-table tr td:nth-child(7),
-.rps-table tr td:nth-child(8){
+.list tr td:nth-child(7),
+.list tr td:nth-child(8){
     text-align: center;
 }
-.rps-table input{
+.list input{
     width: 100px;
     padding: 2px 0px 2px 25px;
     margin-top: 0px;
 }
-.rps-table .search{
+.list .search{
 }
-.rps-table .search th{
+.list .search th{
     position: relative;
 }
-.rps-table .search th label{
+.list .search th label{
     position: absolute;
     left: 15px;
     top: 8px;
 }
+
 .fa-check-circle{
     color: #2ecc71;
 }
@@ -571,7 +574,7 @@ header nav ul li a:focus,
 .add{
     margin: auto;
     text-align: right;
-    width: 1024px;
+    width: 1000px;
 }
 .add button{
     border: 1px #a9a9a9 solid;
@@ -669,6 +672,7 @@ header nav ul li a:focus,
 /************************************************/
 footer{
 	width: 100%;
+	margin: 20px auto;
 }
 footer p{
     color:  #475055;
@@ -700,14 +704,6 @@ footer p{
     right: 5px;
     top: 5px;
 }
-.text-red,
-.text-blue{
-    color: red;
-    margin-left: 15px;
-}
-.text-blue{
-    color: blue;
-}
 .popup-top{
     border-bottom: 1px solid #a9a9a9; 
     padding-bottom: 10px;
@@ -725,8 +721,12 @@ footer p{
     width: 20px;
     height: 20px;
     line-height: 20px;
-    text-align: center;
     margin-right: 5px;
+	padding-left: 0.24em;
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 .popup-info label{
     display: inline-block;
@@ -757,6 +757,15 @@ table.price tr:nth-child(2) td:nth-child(2){
     border-collapse:separate;
     border-spacing: 10px;
 }
+.item-deposit input:disabled{
+	background: #ebeed8;
+	border: 1px solid #ebeed8;
+	font-weight: normal;
+}
+.item-deposit th,
+.item-deposit td{
+	padding: 0px !important;
+}
 .item-deposit th{
     text-align: left;
 }
@@ -765,4 +774,13 @@ table.price tr:nth-child(2) td:nth-child(2){
 }
 .item-deposit tr:not(:first-child) td:nth-child(3) input{
     width: 70px;
+}
+.total-salary{
+	padding-right: 40px;
+}
+.total-salary label{
+	display: inline-block;
+}
+.total-salary .text-red{
+	margin-left: 0px;
 }

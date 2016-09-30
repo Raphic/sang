@@ -18,19 +18,19 @@
 	<section id="content">
 		<!--==================Header==================-->
 		<header class="flex flex-between">
-			<nav>
-				<ul class="flex">
-					<li> <a href="#">Quản lý xe</a> </li>
-					<li class="current"> <a href="#">Người dùng</a> </li>
-					<li> <a href="#">Xem báo cáo</a> </li>
-					<li> <a href="#">Xếp lịch</a> </li>
+			<nav class="nav">
+				<ul class="flex"  data-type="navbar">
+					<li> <a href="#"><span class="mb-menu">Quản lý xe</span></a> </li>
+					<li class="current"> <a href="#"><span class="mb-menu">Người dùng</span></a> </li>
+					<li> <a href="#"><span class="mb-menu">Xem báo cáo</span></a> </li>
+					<li> <a href="#"><span class="mb-menu">Xếp lịch</span></a> </li>
 				</ul>
 			</nav>
-			<ul class="flex flex-vertical ">
+			<ul class="sub-menu flex flex-vertical ">
 				<li> <p href="#">Chào minh |<a href="">Thoát</a></p>
 				</li>
 				<li>
-					<p>Cấp độ : Người xếp lịch</p>
+					<p class="level">Cấp độ : Người xếp lịch</p>
 				</li>
 			</ul>
 		</header>
@@ -42,7 +42,7 @@
 				<section>
 					<p class="time">Hôm nay ngày <time datetime="03-03-2016">03-03-2016</time></p>
 					<div class="user-frm-table">
-					    <table class="rps-table">
+					    <table class="rps-table list">
                           <tr>
                             <th>Khách hàng</th>
                             <th>Điện thoại</th>
