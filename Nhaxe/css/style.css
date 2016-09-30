@@ -738,7 +738,7 @@ table.price{
 }
 table.price tr:nth-child(2) td:nth-child(2){
     text-align: center;
-    width: 150px;
+    width: 20%;
 }
 .popup-pick .btn-seat{
     width: 100px !important;
