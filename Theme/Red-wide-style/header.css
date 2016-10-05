@@ -1,4 +1,4 @@
-﻿/*	Define Header Websute
+/*	Define Header Websute
 	Author: pennyauctionsoftware.com
 */
 
@@ -138,7 +138,7 @@
         .right-top:hover a:hover {
             color: #000;
         }
-.right-top .top_facelogin{position:absolute; top:-60px; left:0px}
+.right-top .top_facelogin{position:absolute; top:-30px; left:0px}
 .google-translate{display:block; width:175px; height:30px; overflow:hidden; position:absolute; left:0px; top:-5px;display:none}
 
 .right-top2 {
@@ -223,7 +223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5626', end
     }
 
         #nav > ul > li {
-            width: 12%;
+            width: 11%;
             height: 100%;
             float: left;
             list-style: none;

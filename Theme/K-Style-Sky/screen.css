@@ -266,6 +266,33 @@ a.icon_myaccount:hover{color:#000;}
 	width:100%;
 	display:block;
 }
+
+.sharefb{
+	position: absolute;
+	bottom: 103px;
+	right: 60px;
+	font-size: 0px;
+	z-index: 1;
+}
+.gridview .auction_item:hover .sharefb{
+	bottom:99px;
+}
+.sharefb:before{
+	content:'\f082';
+	font-family: FontAwesome;
+	position:absolute;
+	color:#00bbd3;
+	display:block;
+	left: 0;
+	font-size:20px;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.sharefb:hover:before{
+	color:#3e50b4;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/

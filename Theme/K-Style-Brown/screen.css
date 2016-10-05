@@ -228,6 +228,30 @@ a.icon_myaccount:hover{color:#000;}
 	width:100%;
 	display:block;
 }
+.sharefb{
+	position: absolute;
+	bottom: 28px;
+	right: 25px;
+	color:#000;
+	font-size: 0px;
+	z-index: 1;
+}
+.sharefb:before{
+	content:'\f082';
+	font-family: FontAwesome;
+	position:absolute;
+	color:#9d846f;
+	display:block;
+	left: 0;
+	font-size:20px;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.sharefb:hover:before{
+	color:#4c4036;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/

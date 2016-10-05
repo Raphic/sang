@@ -220,7 +220,7 @@ a.icon_myaccount:hover { color: #000; }
     border: 1px solid #BFBFBF;
     border-radius: 8px 8px 8px 8px;
     float: left;
-    height: 380px;
+    height: 390px;
     margin: 0 9px 20px;
     position: relative;
     text-align: center;
@@ -351,6 +351,17 @@ a.icon_myaccount:hover { color: #000; }
 
 .gridview .auction_item .sec3 .btnbox { margin-top: 10px; }
 
+.sharefb {
+    display: inline-block;
+    margin: auto;
+    width: 55px;
+    background: #4267b2 url(https://cdn2.iconfinder.com/data/icons/capsocial-square-flat-3/500/facebook-16.png) 3px center no-repeat;
+    color: #fff;
+    border-radius: 3px;
+    text-align: right;
+    padding-right: 5px;
+    cursor: pointer;
+}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/

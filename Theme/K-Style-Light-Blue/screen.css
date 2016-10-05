@@ -224,6 +224,30 @@ a.icon_myaccount:hover{color:#000;}
 .listview .auction_item .sec3 .userplay{font-size:14px;}
 .listview .auction_item .sec3 .btnbox{ margin-top:10px;}
 
+.sharefb{
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	font-size: 0px;
+	z-index: 1;
+}
+
+.sharefb:before{
+	content:'\f082';
+	font-family: FontAwesome;
+	position:absolute;
+	color:#5d8ba4;
+	display:block;
+	left: 0;
+	font-size:20px;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.sharefb:hover:before{
+	color:#757575;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+}
 /* List view --------------------------------End */
 
 /* Related view --------------------------------*/
