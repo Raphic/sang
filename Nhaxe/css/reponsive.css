@@ -91,18 +91,76 @@
 	.user-frm{
 		width: 100%;
 	}
+    .popup{
+        width: 100%;
+    }
+    .popup-top p{
+        margin-right: 1em;
+    }
+    .popup-pick{
+        width: 746px;
+    }
+    .popup-info{
+        display: block;
+    }
+    .popup-info label{
+        margin-top: 15px;
+    }
+    .popup-info input,
+    .popup-info select{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .box1{
+        width: 100%;
+        overflow: scroll;
+    }
+    .vhr{
+        display: none;
+    }
+    .seat-pick{
+        margin: 20px 0px;
+    }
+    .item-deposit input{
+        width: 100% !important;
+    }
 }
 @media only screen and (max-width: 550px){
 	.login{
 		width: 100%;
 		padding: 1em 2em;
 	}
+    .text-red{
+        margin-left: 5px;
+    }
+    .popup-top p{
+        margin-right: 1em;
+    }
+    .popup-top div:last-child p{
+        margin-right: 0;
+    }
 	.login input{
 		width: 90%;
 	}
 	.login-icon img{
 		display: none;
 	}
+    .info-car>div{
+        display: block;
+    }
+    .info-img{
+        width: 100%;
+        overflow: scroll;
+    }
+    .info-text label span{
+        float: right;
+        
+    }
+    .box{
+        width: 415px;
+        margin: 10px auto;
+    }
+    
 }
 @media only screen and (max-width: 480px){
 	.sub-menu{
@@ -119,6 +177,16 @@
 	.report div{
 		margin: 0px 20px;
 	}
+    .popup-top{
+        display: block;
+    }
+    .note{
+        display: block;
+    }
+    .note .btn2{
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 @media only screen and (max-width: 320px){
 	header nav ul li a {
