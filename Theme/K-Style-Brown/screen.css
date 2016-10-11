@@ -252,6 +252,17 @@ a.icon_myaccount:hover{color:#000;}
 	-webkit-transition: 0.4s;
     transition: 0.4s;
 }
+.detail .auction_item .sharefb{
+	position: inherit;
+}
+.detail .auction_item .sharefb:before{
+	display: inline-block;
+    margin: 5px auto 0;
+    width: 55px;
+    cursor: pointer;
+    font-size:25px;
+    position:relative;
+}
 /* Grid view --------------------------------End */
 
 /* List view --------------------------------*/

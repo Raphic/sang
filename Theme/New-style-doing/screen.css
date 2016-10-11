@@ -170,7 +170,7 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item .sec3 .userplay{font-size:14px; text-align:center;top:-20px; left:110px; width:110px; position:absolute;}
 .gridview .auction_item .sec3 .btnbox{ margin-top:10px;padding-top: 25px;}
 .gridview .auction_item .sec3 .btnbox input[type="button"]{height:30px!important;}
-
+/* -------------------------Add button sahre FB-------------------------*/
 .sharefb {
     display: inline-block;
     width: 55px;
@@ -184,6 +184,13 @@ a.icon_myaccount:hover{color:#000;}
     bottom: 85px;
     left: 37px;
     z-index: 2;
+}
+.detail .auction_item .sharefb{
+	position: inherit;
+	margin:5px 0 0;
+}
+.related .auction_item .sharefb{
+    position: inherit;
 }
 /* Grid view --------------------------------End */
 
@@ -291,7 +298,9 @@ a.icon_myaccount:hover{color:#000;}
 .detail .auction_item .sec3 .userplay{font-size:14px; width:200px; float:right; line-height:35px;}
 .detail .auction_item .sec3 .btnbox{ margin-top:10px; float:none;clear:both;margin-top:10px;}
 .detail .auction_item .sec3 .btnbox input[type="button"]{ width:300px!important; height:45px!important; font-size:26px;}
-
+.detail .auction_item .sec3 .btnbox input.buttons.blue{
+    margin: 5px 0;
+}
 /* Detail view --------------------------------End */
 
 

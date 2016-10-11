@@ -142,7 +142,7 @@ a.icon_myaccount:hover{color:#000;}
 .gridview .auction_item .sec4 .panelremind span{cursor:pointer}
 .panelremind span i{display:inline-block; height:16px; width:16px; border-radius:9px; background:#ff0000; color:#fff; font-size:10px; line-height:16px; cursor:help}
 .gridview .auction_item .sec4 .panelremind .showremindselect{position:absolute; bottom:-20px; display:none; width:100%}
-
+/* -------------------------Add button sahre FB-------------------------*/
 .sharefb {
     display: inline-block;
     width: 55px;
@@ -156,6 +156,13 @@ a.icon_myaccount:hover{color:#000;}
     bottom: 85px;
     right:25px;
     z-index: 2;
+}
+.detail .auction_item .sharefb{
+	position: inherit;
+	margin:5px 0 0;
+}
+.related .auction_item .sharefb{
+    position: inherit;
 }
 /* Grid view --------------------------------End */
 
@@ -266,6 +273,9 @@ a.icon_myaccount:hover{color:#000;}
 .detail .auction_item .sec3 .userplay{font-size:14px; width:200px; float:right; line-height:35px;}
 .detail .auction_item .sec3 .btnbox{ margin-top:10px; float:none;clear:both;margin-top:10px;}
 .detail .auction_item .sec3 .btnbox input[type="button"]{ width:300px!important; height:45px!important; font-size:26px;}
+.detail .auction_item .sec3 .btnbox input.buttons.blue{
+    margin: 5px 0;
+}
 .detail .auction_item .sec4{width:240px; margin-top:5px; float:right}
 .detail .auction_item .sec4 .panelremind{position:relative; margin-bottom:5px;}
 .detail .auction_item .sec4 .panelremind span{cursor:pointer}

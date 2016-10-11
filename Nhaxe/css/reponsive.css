@@ -125,6 +125,11 @@
         width: 100% !important;
     }
 }
+@media only screen and (max-width: 650px){
+    .m-seat .btn-seat{
+        width: 50px!important;
+    }
+}
 @media only screen and (max-width: 550px){
 	.login{
 		width: 100%;
@@ -160,7 +165,9 @@
         width: 415px;
         margin: 10px auto;
     }
-    
+    .seat{
+        margin-top: 10px;
+    }
 }
 @media only screen and (max-width: 480px){
 	.sub-menu{

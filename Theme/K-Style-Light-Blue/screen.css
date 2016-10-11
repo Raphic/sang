@@ -223,7 +223,7 @@ a.icon_myaccount:hover{color:#000;}
 .listview .auction_item .sec3 .price{font-size:20px;}
 .listview .auction_item .sec3 .userplay{font-size:14px;}
 .listview .auction_item .sec3 .btnbox{ margin-top:10px;}
-
+/* -------------------------Add button sahre FB-------------------------*/
 .sharefb{
 	position: absolute;
 	bottom: 25px;
@@ -247,6 +247,17 @@ a.icon_myaccount:hover{color:#000;}
 	color:#757575;
 	-webkit-transition: 0.4s;
     transition: 0.4s;
+}
+.detail .auction_item .sharefb{
+	position: inherit;
+}
+.detail .auction_item .sharefb:before{
+	display: inline-block;
+    margin: 5px auto 0;
+    width: 55px;
+    cursor: pointer;
+    font-size:25px;
+    position:relative;
 }
 /* List view --------------------------------End */
 

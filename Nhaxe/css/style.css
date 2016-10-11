@@ -435,7 +435,7 @@ header nav ul li a:focus,
     font-weight: bold;
 }
 .seat-plus .btn-seat{
-	width: 70px;
+	width: 40px !important;
 	height: 15px;
 }
 .seat-plus >div>div{
@@ -783,4 +783,13 @@ table.price tr:nth-child(2) td:nth-child(2){
 }
 .total-salary .text-red{
 	margin-left: 0px;
+}
+/*************************************************/
+/**********************Mobile Sear********************/
+/************************************************/
+.m-seat>div{
+    height: 32px !important;
+}
+.m-seat .btn-seat{
+    width: 70px !important;
 }
