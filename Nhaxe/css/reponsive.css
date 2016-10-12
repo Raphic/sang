@@ -130,6 +130,17 @@
         width: 50px!important;
     }
 }
+@media only screen and (max-width: 620px){
+    .m-seat .btn-seat{
+        width: 50px!important;
+    }
+    .seat.floor2{
+        text-align: center;
+    }
+    .seat .vhr{
+        display: none;
+    }
+}
 @media only screen and (max-width: 550px){
 	.login{
 		width: 100%;
@@ -167,6 +178,14 @@
     }
     .seat{
         margin-top: 10px;
+        text-align: center;
+    }
+    .info-text{
+        display: flex;
+        justify-content: space-between;   
+    }
+    .info-text select:not(:first-child){
+        margin-top: 0px;
     }
 }
 @media only screen and (max-width: 480px){
@@ -193,6 +212,14 @@
     .note .btn2{
         width: 100%;
         margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .floor1{
+        padding: 10px 5px;
+    }
+    .m-seat .btn-seat {
+        width: 40px!important;
     }
 }
 @media only screen and (max-width: 320px){

@@ -793,3 +793,26 @@ table.price tr:nth-child(2) td:nth-child(2){
 .m-seat .btn-seat{
     width: 70px !important;
 }
+.floor2.m-seat{
+    padding: 0px 25px;
+    vertical-align: inherit;
+}
+.floor2.m-seat>div{
+    height: 45px !important;
+}
+.floor2.m-seat .btn-seat{
+    width: 25px!important;
+    height: 43px;
+}
+.floor2.m-seat .seat-state{
+    text-align: center;
+    display: block;
+    margin-right:0px;
+}
+.seat .vhr{
+    background: #a9a9a9;
+    border: none;
+    width: 1px;
+    height: 230px;
+    display: inline-block;
+}
