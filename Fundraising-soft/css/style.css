@@ -1,5 +1,6 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import 'https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i';
+@import "../css/color/color.css";
 @charset "utf-8";
 /* CSS Document */
 *{
@@ -26,6 +27,7 @@ body,div,p,form,input,select,option,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,address{
 }
 body{
 	font-family: Roboto;
+	font-size: 14px;
 }
 img {
 	border:none;
@@ -78,9 +80,13 @@ border-spacing:0;
 	-webkit-align-items: flex-end; 
 	align-items:flex-end;
 }
-.flex-baseline{
+.flex-ver-baseline{
     -webkit-align-items: baseline;
     align-items: baseline;
+}
+.flex-ver-center{
+    -webkit-align-items: center;
+    align-items: center;
 }
 .inline-block{
 	display: inline-block;
@@ -92,13 +98,15 @@ border-spacing:0;
 /**********************Text********************/
 h1{
 	font-size: 30px;
-	font-style: italic;
 	font-weight: bold;
-	line-height: 70px;
+	line-height: 18px;
+	font-family: 'Roboto', sans-serif;
 }
 h2{
-	font-size: 1.1em;
-	font-weight: bold;
+	
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 18px;
 }
 h3{
 	font-size: 1em;
@@ -117,6 +125,11 @@ p {
 }
 .text-underline{
 	text-decoration: underline;
+}
+.text01{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
 }
 /**********************Btn********************/
 .btn {
@@ -271,14 +284,138 @@ p {
 	background: #353662;
 	color: #fff;
 }
+/**********************Warp setting********************/
+#wrap{
+	background: #ffffff;
+}
+.current,
+.menu a:hover{
+	background: #dbdd22;
+	text-transform: uppercase;
+	overflow: hidden;
+	box-sizing: border-box;
+}
 /*************************************************/
 /**********************Header********************/
 /************************************************/
-
+.top-header{
+	border-bottom: 2px solid #dbdd22;
+	margin: auto;
+	background: -webkit-linear-gradient(90deg, #f7f5f5 0%, #ffffff 100%);
+	background: -moz-linear-gradient(90deg, #f7f5f5 0%, #ffffff 100%);
+	background: -o-linear-gradient(90deg, #f7f5f5 0%, #ffffff 100%);
+	background: -ms-linear-gradient(90deg, #f7f5f5 0%, #ffffff 100%);
+	background: linear-gradient(0deg, #f7f5f5 0%, #ffffff 100%);
+	padding: 25px 0px 0px;
+}
+.box01{
+	padding: 0px 50px;
+	width: 1200px;
+	margin: auto;
+}
+.logo{
+	height: 64px;
+}
+.menu  a{
+	padding: 10px 25px;
+	font-weight: bold;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.search01 input{
+	width: 315px;
+	border: 1px solid #f2f1f1;
+	height: 35px;
+	padding: 0 10px;
+	border-radius: 5px;
+}
+.top-search{
+	position: relative;
+}
+.btn-search01{
+	background: transparent;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 40px;
+	height: 25px;
+	font-size: 20px;
+	border-left: 1px solid #f2f1f1;
+	padding: 5px 0px;
+	line-height: 15px;
+}
+.btn-search01 span{
+	line-height: 15px;
+	
+}
 /*************************************************/
 /**********************Content********************/
 /************************************************/
-
+.wrap-content{
+	background: url(../images/bg-content-top.png) repeat-x;
+	min-height: 200px;
+}
+.content{
+	width: 1200px;
+	margin: auto;
+	padding: 0px 40px;
+}
+.content header{
+	padding-top: 20px;
+}
+.left01{
+	margin-top: 40px;
+}
+.right01{
+width: 344px;
+}
+.top-text{
+	margin-top: 40px;
+}
+.number{
+	border-radius: 50%;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-size: 22.3px;
+	margin-bottom: 70px;
+}
+.box-w-90{
+	width: 90%;
+}
+.midd-search{
+	padding: 25px 15px;	
+	position: relative;
+}
+.midd-search input{
+	height: 55px;
+	border-width: 2px;
+	font-size: 30px;
+	vertical-align: middle;
+	width: 880px;
+}
+.search-title{
+	padding: 0px 15px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 53px;
+	line-height: 53px;
+	display: inline-block;
+	margin-right: -10px;
+    z-index: 2;
+	position: relative;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.midd-search .btn-search01{
+	top: 35px;
+    right: 35px;
+    width: 45px;
+    height: 35px;
+    font-size: 22px;
+}
 /**********************Article********************/
 
 /*************************************************/

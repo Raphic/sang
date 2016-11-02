@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.color0{
+	color: #fff;
+}
+.color1{
+	color: #594b40;
+}
+.color2{
+	color: #78a7af;
+}
+.color3{
+	color: #dbdd22;
+}
+.color4{
+	color: #594b40;
+}
+h1{
+	color: #594b40;
+}
+h2{
+	color:  #594b40;
+}
+.text01{
+	color:  #594b40;
+}
+color-text01{
+	color: #464646;
+}
+.menu a{
+	color: #464646;
+}
+.btn-search01 span{
+	color: #b7b7b7;
+}
+.number{
+	background-color:  #594b40;
+	color:  #dbdd22;
+}
+.search-title{
+	color: #fff;
+	background: #78a7af;
+}
