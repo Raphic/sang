@@ -15,23 +15,25 @@
 .color4{
 	color: #594b40;
 }
-h1{
+h1,h2,h3,h4,
+.text01,
+.text02,
+.local{
 	color: #594b40;
-}
-h2{
-	color:  #594b40;
-}
-.text01{
-	color:  #594b40;
 }
 color-text01{
 	color: #464646;
 }
-.menu a{
+.menu a,
+.money span{
 	color: #464646;
 }
 .btn-search01 span{
 	color: #b7b7b7;
+}
+.btn-signup{
+    color: #fff;
+    background:  #594b40;
 }
 .number{
 	background-color:  #594b40;
@@ -41,3 +43,39 @@ color-text01{
 	color: #fff;
 	background: #78a7af;
 }
+.left02{
+    background-color:  #ffffff;
+}
+.menu-left a{
+    color: #959595;
+}
+.list-style{
+    background: #454373;
+}
+.current01 .list-style,
+.menu-left a:hover .list-style{
+    background: #66b57f;
+}
+.money{
+    color:  #38a0a3;
+}
+.loading-bar{
+    background-color:  #ffffff;
+}
+.loading-bar:before{
+    background-color:  #9c8689;
+}
+.current03 h4{
+    color:  rgba(156, 134, 137, 0.8);
+}
+.current03 .text02,
+.current03 .money span{
+    color: #000;
+}
+.current03 .loading-bar:before{
+    background-color:  #dbdd22;
+}
+/*
+.money span{
+    color:  #000000;
+}*/
