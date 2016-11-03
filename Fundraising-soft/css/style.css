@@ -293,7 +293,8 @@ a.current01,
     background: #f3f7f8;
     color: #555555;
 }
-a.current02{
+a.current02,
+.tabs-menu a:hover{
     background:  rgba(156, 134, 137, 0.2) !important;
     color: #000!important;
 }
@@ -408,7 +409,7 @@ a.current02{
 	height: 53px;
 	line-height: 53px;
 	display: inline-block;
-	margin-right: -10px;
+	margin-right: -7px;
     z-index: 2;
 	position: relative;
 	text-transform: uppercase;
@@ -454,7 +455,41 @@ a.current02{
     margin-bottom: 15px;
 }
 .tabs-menu li{
-    width: 24.5%;
+  	width: 24.5%;
+    position:relative;
+    overflow:hidden;
+}
+.tabs-menu li:not(:last-child):after{
+	content:'';
+	background:#fff;
+	position: absolute;
+	width:17px;
+	height:70px;
+	overflow:hidden;
+	z-index:2;
+	top: -15px;
+	right: -5px;
+	-moz-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
+}
+.tabs-menu li:not(:first-child):before{
+	content:'';
+	background:#fff;
+	position: absolute;
+	width:17px;
+	height:70px;
+	overflow:hidden;
+	z-index:2;
+	top: -15px;
+	left: -10px;
+	-moz-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
 }
 .tabs-menu a{
     display: inline-block;
@@ -594,3 +629,57 @@ a.current02{
 /*************************************************/
 /**********************Footer********************/
 /************************************************/
+footer{
+	min-height: 300px;
+	border-top: 1px solid #e1e1e1;
+	font-size: 12px;
+	padding: 0px 40px;
+}
+footer p{
+	font-size: 12px;
+}
+.footer-top ul li{
+	margin:15px;
+}
+.footer-main{
+	padding: 15px 10px;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+}
+.footer-logo,
+.footer-link,
+.footer-payment{
+	width: 25%;
+}
+.footer-logo h4{
+	margin-top: 25px;
+}
+.footer-logo ul li:not(:first-child){
+	margin-left: 5px;
+}
+.footer-link{
+	text-align: center;
+	margin-top: 15px;
+}
+.footer-link>div{
+	display: inline-block;
+	text-align: left;
+}
+.footer-link ul li{
+	margin: 25px 0 -15px;
+}
+.footer-payment{
+	text-align: right;
+	margin-top: 25px;
+}
+.footer-payment div{
+	text-align: left;
+}
+.security li,
+.bank li{
+	margin-left: 10px;
+	margin-bottom: 10px
+}
+.company{
+	padding: 10px 0;
+}

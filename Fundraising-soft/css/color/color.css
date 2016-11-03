@@ -25,7 +25,9 @@ color-text01{
 	color: #464646;
 }
 .menu a,
-.money span{
+.money span,
+footer p,
+.footer-link a{
 	color: #464646;
 }
 .btn-search01 span{
@@ -46,7 +48,8 @@ color-text01{
 .left02{
     background-color:  #ffffff;
 }
-.menu-left a{
+.menu-left a,
+footer h4{
     color: #959595;
 }
 .list-style{
@@ -74,6 +77,9 @@ color-text01{
 }
 .current03 .loading-bar:before{
     background-color:  #dbdd22;
+}
+footer{
+	background:  #f7f6f6;
 }
 /*
 .money span{
