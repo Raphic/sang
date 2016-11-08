@@ -118,7 +118,7 @@ h5{
 	font-size: 0.8em;
 }
 p {
-	font-size:1em;
+	font-size:14px;
 }
 .text-underline{
 	text-decoration: underline;
@@ -322,8 +322,11 @@ a.current02,
 .logo{
 	height: 64px;
 }
+input{
+	padding: 0 10px;
+}
 .menu  a{
-	padding: 10px 25px;
+	padding: 8px 25px;
 	font-weight: bold;
 	display: inline-block;
 	box-sizing: border-box;
@@ -332,11 +335,11 @@ a.current02,
 	width: 315px;
 	border: 1px solid #f2f1f1;
 	height: 35px;
-	padding: 0 10px;
 	border-radius: 5px;
 }
 .top-search{
 	position: relative;
+	margin-left: 30px;
 }
 .btn-search01{
 	background: transparent;
@@ -534,6 +537,14 @@ a.current02,
     background: url(../images/icon-like.png) no-repeat;
     display: none;
 }
+.icon-help{
+	width: 15px;
+	height: 15px;
+	display: inherit;
+	vertical-align: baseline;
+    margin-left: 5px;
+	background: url(../images/icon-help.png) no-repeat;
+}
 .current03 .icon-like{
     display: block;
 }
@@ -558,16 +569,33 @@ a.current02,
     content: "";
     position: absolute;
     width: 70%;
-    height: 8px;
+    height:100%;
     border-radius: 4px;
 }
-.local span{
+.local span,
+.tags span,
+.share{
     width: 12px;
     height: 16px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
     background: url(../images/icon-local.png) no-repeat;
+}
+.tags{
+	display: block;
+}
+.tags span{
+	width: 14px;
+    height: 15px;
+	background: url(../images/icon-tags.png) no-repeat;
+}
+.share{
+	width: 16px;
+    height: 14px;
+	background: url(../images/icon-share.png) no-repeat;
+	vertical-align: baseline;
+	margin-left: 5px;
 }
 .btn-loadmore{
     border: solid 2px #cec8b2;
@@ -586,7 +614,7 @@ a.current02,
     text-align: center;
     border-radius: 2px;
 }
-/**********************Footer********************/
+/**********************EASY SetUp********************/
 .easy-setup{
     background: url(../images/bg-content-footer.png) no-repeat;
     background-size: 100%;
@@ -625,6 +653,328 @@ a.current02,
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+}
+/**********************Login********************/
+.login{
+	border-radius: 10px;
+	border: solid 5px rgba(178, 204, 186, 50);
+	background-color:  #ffffff;
+	margin: auto;
+	width: 570px;
+	text-align: center;
+}
+.login-title{
+	border-bottom: 2px solid #dbdd22;
+	padding: 10px 0 5px;
+	display: block;
+}
+.login-content{
+	padding: 15px 0 25px;
+}
+.login-content h2{
+	font-family: Rockwell;
+	font-size: 30px;
+}
+.login-content form{
+	padding: 10px 140px;
+	text-align: left;
+}
+.login-content label{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+}
+.login-content input{
+	border-radius: 4px;
+	border: solid 1px  #df0024;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
+	box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
+	background-color:  #f3f1f1;
+	height: 35px;
+	width: 100%;
+}
+.login-content p{
+	padding: 0px 35px;
+	text-align: left;
+}
+.btn-login-sub{
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	height: 40px;
+	line-height: 40px;
+}
+.login-content hr{
+	width: 100%;
+	border-top: 1px dotted rgb(155, 153, 153);
+	margin: 10px 0 15px;
+}
+/**********************Detail********************/
+.left03{
+	width:59.5%;
+	min-height: 500px;
+	margin-right: 1%;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+.img03{
+	padding: 15px;
+	overflow: hidden;
+}
+.img03 img{
+	width: 100%;
+	height: 100%;
+}
+.detail-img-sm{
+	margin-right: 15px;
+}
+.detail-info{
+	padding: 5px 10px;
+	border-top: 1px dotted #cacaca;
+	border-bottom: 1px dotted #cacaca;
+	margin: 10px auto;
+}
+.detail-share{
+	text-align: right;
+	line-height: 2em;
+}
+.detail-share ul{
+	margin-top: 20px;
+}
+.detail-share li{
+	margin-left:15px;
+}
+.action-panels{
+	padding: 5px 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.btn-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 13px;
+	height: 14px;
+	z-index: 2;
+	background: url(../images/icon-close.png) no-repeat;
+}
+.solical{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.solical img{
+	width: 100%;
+}
+.solical li{
+	width: 23px;
+	height: 23px;
+	margin-right: 5px;
+}
+.solical-input{
+	height: 30px !important;
+	width: 60% !important;
+}
+/**********************Tab********************/
+.tab-page {
+	position: relative;
+}
+.tab-page  p{
+	background: transparent;
+}
+#container {
+	width: 100%;
+    margin: 0 auto;
+}
+.tab-page #container input[type=radio] {
+	height: 5px;
+    visibility: hidden;
+    width: 0px;
+    display: inline-block;
+}
+.tab-page #container label {
+	cursor: pointer;
+	display: block;
+	float: left;
+	text-align: center;
+	color: #818181;
+	padding: 0px 5px 5px;
+	margin-right: 10px;
+}
+.tab-page #container input:hover + label {
+	background: transparent;  
+	color: #000;  
+	border-bottom: 2px solid #cc181e;
+}
+.tab-page #container input:checked + label {
+	background: transparent;
+	color: #000; 
+	border-bottom: 2px solid #cc181e;
+	position: relative;
+	z-index: 6;
+	-webkit-transition: .1s;
+	-moz-transition: .1s;
+	-o-transition: .1s;
+	-ms-transition: .1s;
+}
+.tab-page #content {
+	min-height: 40px;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #e2e2e2;
+	padding:10px 0px 5px;
+	clear: both;
+}
+.tab-page #content div {
+	opacity: 0;
+	text-align: justify;
+	display: none;
+	transition: all linear 0.1s;
+}
+.tab-page #container input#tab-1:checked ~ #content #content-1,
+.tab-page #container input#tab-2:checked ~ #content #content-2,
+.tab-page #container input#tab-3:checked ~ #content #content-3,
+.tab-page #container input#tab-4:checked ~ #content #content-4{
+    opacity: 1;
+	display: block;
+}
+.tab-page input.visible {
+  visibility: visible !important;
+}
+/**********************Commnet********************/
+.comment h1{
+	margin: 10px 0 5px;
+	display: inline-block;
+}
+.comment-top{
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.loadmore01{
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.loadmore02,
+.loadmore03{
+	border-radius: 4px;
+	border: solid 1px#ebecec;
+	background-color:  #f6f7f8;
+	width: 420px;
+	height: 40px;
+	display: block;
+	margin: auto;
+	color: #000;
+	font-weight: 400;
+}
+.loadmore03{
+	background: #fff;
+}
+.more-view{
+	display: block;
+	margin-top: 5px;
+}
+.comment-content{
+	font-size: 12px;
+	text-align: justify;
+}
+.btn-com-update{
+	border-radius: 6px;
+	background-color:  #23acb4;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.comment-time{
+	display: block;
+	font-size: 14px;
+}
+.comment-detail{
+	padding: 15px 0;
+	border-bottom: 1px dotted #cacaca;
+}
+.comment .comment-detail:last-child{
+	border-bottom: none;
+	padding-bottom: 20px;
+}
+.comment-fb-box{
+	min-height: 300px;
+	margin-top: 30px;
+}
+/**********************right03********************/
+.right03{
+	width: 39.5%;
+	margin-top: 30px;
+}
+.detail-raised,
+.other-help,
+.donate-history{
+	padding: 10px 10px 30px;;
+}
+.detail-raised .money{
+	font-size: 44px;
+	font-weight: 400;
+}
+.detail-raised .loading-bar{
+	width: 100%;
+	height: 16px;
+	border-radius: 8px;
+	border-top:1px inset #f9f9f9;
+}
+.detail-raised .loading-bar:before{
+	border-radius: 8px;
+}
+.btn-donate-now,
+.btn-share-fb{
+	border-radius: 2px;
+	width: 100%;
+	height: 40px;
+	font-size: 24px;
+	margin-top: 30px;
+}
+.btn-share-fb{
+	margin-top: 15px;
+}
+.other-help{
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+.other-help h2{
+	margin-bottom: 10px;
+}
+.donate-history{
+	margin-top: 10px;
+}
+.icon-share-fb{
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	display: inline-block;
+	background: url(../images/solical-fb.png) no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.donate-box h2{
+	font-weight: bold;
+}
+.donate-box{
+	border-bottom: 1px solid #ebecec;
+	padding: 10px 0;
+}
+.donate-box:nth-child(2){
+	margin-top: 10px;
+}
+.donate-box:last-child{
+	border-bottom:none;
+	padding-bottom: 20px;
 }
 /*************************************************/
 /**********************Footer********************/
