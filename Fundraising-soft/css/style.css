@@ -451,8 +451,15 @@ input{
     margin-right: 5px;
     vertical-align: middle;
 }
-.right02{
+.right02,
+.right02a{
     width: 888px;
+}
+.right02a{
+    border-radius: 10px;
+    border: solid 1px  #e6e6e6;
+    background:  #ffffff;
+    min-height: 401px;
 }
 .tabs-menu{
     margin-bottom: 15px;
@@ -544,6 +551,19 @@ input{
 	vertical-align: baseline;
     margin-left: 5px;
 	background: url(../images/icon-help.png) no-repeat;
+}
+.icon-mail{
+    width: 23px;
+    height: 23px;
+    background: url(../images/icon-mail.png) no-repeat;
+}
+.icon-dropdown{
+    width: 14px;
+    height: 7px;
+    background: url(../images/icon-dropdown.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 .current03 .icon-like{
     display: block;
@@ -711,6 +731,7 @@ input{
 	margin: 10px 0 15px;
 }
 /**********************Detail********************/
+/**********************left03********************/
 .left03{
 	width:59.5%;
 	min-height: 500px;
@@ -913,10 +934,14 @@ input{
 	width: 39.5%;
 	margin-top: 30px;
 }
+.right03>div{
+    padding: 10px;
+    margin-bottom: 10px;
+}
 .detail-raised,
 .other-help,
 .donate-history{
-	padding: 10px 10px 30px;;
+    padding-bottom: 30px !important;
 }
 .detail-raised .money{
 	font-size: 44px;
@@ -943,15 +968,16 @@ input{
 	margin-top: 15px;
 }
 .other-help{
-	margin-top: 10px;
 	padding-bottom: 15px;
 }
 .other-help h2{
 	margin-bottom: 10px;
 }
+/*
 .donate-history{
 	margin-top: 10px;
 }
+*/
 .icon-share-fb{
 	height: 16px;
 	width: 16px;
@@ -976,9 +1002,205 @@ input{
 	border-bottom:none;
 	padding-bottom: 20px;
 }
+/**********************Donate Detail********************/
+.donate-detail{
+    border: solid 1px  #eae9e9;
+}
+.donate-detail h1{
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 15px;
+}
+.donate-detail-input{
+    border: solid 1px #eae9e9;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding: 0px 25px;
+}
+.donate-detail-input label{
+    font-size: 60px;
+    font-weight: bold;
+}
+.donate-detail-input label span{
+    display: block;
+    font-size: 14px;
+    line-height: 0px;
+    margin-top: -12px;
+    text-align: center;+
+}
+.donate-detail-input input{
+    background: transparent;
+    font-size: 60px;
+    font-weight: bold;
+    max-width: 60%;
+    text-align: right;
+}
+.donate-frm{
+    padding: 25px 20px;
+}
+.donate-frm input:not([type=checkbox]),
+.donate-frm select,
+.donate-frm textarea{
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #e6e6e6;
+    background:  #f3f1f1;
+    height: 36px;
+    margin-bottom: 5px;
+}
+.donate-frm label{
+    display: block;
+    margin: 5px 0px;
+}
+.donate-frm .double input:not([type=checkbox]){
+    width: 48%;
+}
+.donate-frm input[type=checkbox]{
+    vertical-align: middle;
+}
+.text-checkbox{
+    font-size: 12px;
+    vertical-align: middle;
+}
+.country{
+    width: 48%;
+}
+.zipcode,
+.state{
+    width: 23%;
+}
+.donate-frm textarea{
+    min-height: 100px;
+    padding: 5px 10px;
+}
+.continue{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-top: 1px solid #eae9e9;
+}
+.btn-continue{
+    width: 250px;
+    height: 40px;
+    margin: 20px 0px 30px;
+}
+.check-bank{
+    padding: 20px 40px;
+}
+.check-bank p{
+    margin-bottom: 5px;
+}
+.check-bank>div>div{
+    margin-right: 50px;
+}
+.check-bank input,
+.check-bank img{
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.check-bank .donate-frm{
+    padding: 0;
+}
+.exp-date{
+    width: 40%;
+}
+.exp-date select{
+    width: 40%;
+    margin-right: 15px;
+}
+.cvv{
+    width: 10%;
+    position: relative;
+}
+.cvv .icon-help{
+    position: absolute;
+    top: 40px;
+    right: -20px;
+}
+.donate-thank{
+    padding: 30px 0px 15px;
+    text-align: center;
+}
+.donate-thank img{
+    width: 220px;
+    margin: auto;
+}
+.donate-detail .donate-thank:nth-child(3){
+    margin: 0px;
+    padding: 0px;
+}
+.coppy-paste-sahre,
+.receipt-mail,
+.return-camp{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #eae9e9;
+    display: block;
+}
+/**********************Profile********************/
+.btn-profile{
+    border-radius: 2px;
+    width: 115px;
+    height: 37px;
+    text-align: left;
+}
+.btn-profile a{
+    padding:0 1px;
+    margin: 0px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.btn-profile span{
+    vertical-align: middle;
+}
+.title01{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-bottom: solid 1px  #e6e6e6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+/**********************Dash Board********************/
+.dashboard{
+    padding-top: 35px;
+}
+/**********************left04********************/
+.left04{
+    min-height: 500px;
+    margin-top: 30px;
+	padding-bottom: 100px;
+    border: solid 1px  #eae9e9;
+}
 /*************************************************/
 /**********************Footer********************/
 /************************************************/
+hr{
+    width: 90%;
+    border-bottom: 1px solid #eae9e9;
+    margin: 10px auto;
+    text-align: center;
+}
+.no-bg{
+    background: none;
+}
+.bg-red,
+.bg-green{
+    border-radius: 4px;
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.border-top-bot{
+    border-top: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+    padding: 10px 5px;
+    margin: 10px;
+}
 footer{
 	min-height: 300px;
 	border-top: 1px solid #e1e1e1;

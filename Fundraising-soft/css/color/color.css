@@ -98,18 +98,23 @@ footer{
 	color:  #9b9999;
 }
 .btn-login-sub,
-.btn-donate-now{
+.btn-donate-now,
+.btn-continue,
+.btn-profile{
 	background-color:  #dbdd22;
 	color: #fff;
 }
 .btn-share-fb{
 	background-color:  rgba(200, 218, 206, 0.5);
 }
+.right03>div
+/*
 .action-panels,
 .detail-raised,
 .comment-fb-box,
 .other-help,
-.donate-history{
+.donate-history
+*/{
 	background-color:  #f6f7f8;
 }
 .solical-input{
@@ -118,6 +123,30 @@ footer{
 }
 .detail-raised .money{
 	color: #000;
+}
+.donate-detail-input{
+    background-color:  #e1f4f3;
+}
+.text-checkbox{
+    color:  #23acb4;
+}
+.text-red{
+    color: #ea4d5b;
+}
+.text-green{
+    color:  #41753c;
+}
+.text-blue{
+    color:  #23acb4;
+}
+.bg-blue{
+    background: #f6f7f8;
+}
+.bg-red{
+    background: rgba(223, 0, 36, 0.28);
+}
+.bg-green{
+    background: rgba(190, 246, 184, 0.28);
 }
 /*
 .money span{
