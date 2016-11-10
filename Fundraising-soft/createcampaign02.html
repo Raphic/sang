@@ -2,7 +2,7 @@
 <html lang="en" class="desktop">
 
 <head>
-	<title>Dashboard Withdraw</title>
+	<title>Create Campaign</title>
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,34 +51,60 @@
                     <section class="middle flex flex-between">
                         <div class="left02">
                             <nav class="menu-left">
-                                <h3>Dashboard</h3>
+                                <h3 class="title01 bg-blue">Create a Campaign !</h3>
                                 <ul>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">View Campaign</a></li>
-                                    <li><a href="#">Edit your campaign</a></li>
-                                    <li><a href="#">Share Campaign</a></li>
-                                    <li><a href="#">Withdraw</a></li>
-                                    <li><a href="#">History Withdraw</a></li>
-                                    <li><a href="#">Transfer Money to Someone Else</a></li>
-                                    <li><a href="#">Log out</a></li>
+                                    <li><a href="#">Title, Goal, Location</a></li>
+                                    <li><a href="#">Photo or Video</a></li>
+                                    <li><a href="#">Description</a></li>
+                                    <li><a href="#">Share</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="right02a">
-                            <h3 class="title01 bg-blue">Setting Campaign Link</h3>
-                            <div class="dash-content flex flex-between">
-                            	<div class="left04">
-                            		
-                            	</div>
-                            	<div class="right04">
-                            		<h1>Invite your contacts</h1>
-                            	</div>
-                            </div>
-                        </div>
-
+                        <div class="campaign">
+                        	<div class="right02a">
+								<div class="update no-border">
+									<h1>Add a photo or video</h1>
+									<p class="text03">Great photo will help you campaign raise more money. A photo is required</p>
+								</div>
+								<div class="update">
+									<div class="action-panels no-padding">
+										<div class="tab-page">
+											<div id="container">
+												<input id="tab-1" type="radio" name="tab-group" checked="checked">
+												<label for="tab-1"><p>Photo Form Facebook</p></label>
+												<input id="tab-2" type="radio" name="tab-group">
+												<label for="tab-2"><p>Upload Photo</p></label>
+												<input id="tab-3" type="radio" name="tab-group">
+												<label for="tab-3"><p>Video from Youtube ir Vimeo</p></label>
+												<div id="content">
+													<div id="content-1">
+														<input class="attach-file" type="file" name="file-1[]" id="file-1">
+														<button class="attach-file-label bg-blue01 btn"><label class="color0"  for="file-1">ACCESS PHOTO FACEBOOK</label></button>
+													</div>
+													<div id="content-2">
+														<input class="attach-file" type="file" name="file-1[]" id="file-1">
+														<button class="attach-file-label btn bg-gay"><label  for="file-1">SELECT A PICTURE</label></button>
+													</div>
+													<div id="content-3">
+														<input  class="upload-video"type="text" required placeholder="https://youtube">
+														<button class="attach-file-label btn bg-gay"><label for="file-1">ATTACH</label></button>
+														<center>
+															<img class="img-upload-video" src="images/img-uploadvideo.png">
+														</center>
+													</div>
+												</div>
+											</div>		
+										</div>
+									</div>
+								</div>
+								<div class="update flex flex-between flex-vertical">
+										<a class="back" href="#">Go Back</a>
+										<button class="btn btn-continue">SUBMIT</button>
+										<a class="need-contact text-blue" href="#"></a>
+									</div>
+							</div>
                     </section>
                 </div>
-				
 			</article>
 		</section>
 		<section class="easy-setup">

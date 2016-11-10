@@ -128,6 +128,10 @@ p {
 	font-weight: 300;
 	line-height: 18px;
 }
+.text03{
+	display: block;
+	font-size: 12px;
+}
 /**********************Btn********************/
 .btn {
     cursor: pointer;
@@ -301,6 +305,9 @@ a.current02,
 .current03{
     background-color:  rgba(219, 221, 34, 0.1)!important;
 }
+.current04{
+	background:  rgba(242, 249, 241, 0.7);
+}
 /*************************************************/
 /**********************Header********************/
 /************************************************/
@@ -427,10 +434,10 @@ input{
 }
 /**********************Middle********************/
 .left02{
-    border-radius: 6px;
+    border-radius: 10px;
     border: solid 1px #ebebeb;
     width: 216px;
-    height: 594px;
+    min-height: 594px;
 }
 .menu-left h3{
     padding: 20px 0 10px 15px;
@@ -439,7 +446,7 @@ input{
     display: block;
     padding-left: 20px;
     width: 100%;
-    height: 35px;
+    min-height: 35px;
     line-height: 35px;
     border-top: 1px solid #f9f9f9;
     border-bottom: 1px solid #f9f9f9;
@@ -459,7 +466,8 @@ input{
     border-radius: 10px;
     border: solid 1px  #e6e6e6;
     background:  #ffffff;
-    min-height: 401px;
+    height: 100%;
+	position: relative;
 }
 .tabs-menu{
     margin-bottom: 15px;
@@ -565,6 +573,26 @@ input{
     vertical-align: middle;
     margin-left: 10px;
 }
+.icon-attach{
+	width: 10px;
+	height: 20px;
+	background: url(../images/icon-attach.png) no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 5px;
+}
+.icon-approve,
+.icon-decline{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(../images/icon-approve.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.icon-decline{
+	background: url(../images/icon-deline.png) no-repeat;
+}
 .current03 .icon-like{
     display: block;
 }
@@ -652,6 +680,7 @@ input{
 .easy-setup .left02{
     height: 0px;
     border: none;
+	    background: transparent;
 }
 .easy-img{
     text-align: center;
@@ -704,7 +733,7 @@ input{
 	display: block;
 	margin-bottom: 5px;
 }
-.login-content input{
+.field-error{
 	border-radius: 4px;
 	border: solid 1px  #df0024;
 	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
@@ -795,6 +824,7 @@ input{
 .solical-input{
 	height: 30px !important;
 	width: 60% !important;
+	border: solid 1px #ebecec;
 }
 /**********************Tab********************/
 .tab-page {
@@ -978,15 +1008,30 @@ input{
 	margin-top: 10px;
 }
 */
-.icon-share-fb{
+.icon-share-fb,
+.icon-share-fb02,
+.icon-share-tw,
+.icon-share-in{
 	height: 16px;
-	width: 16px;
+	width: 16px ;
 	border-radius: 50%;
 	display: inline-block;
 	background: url(../images/solical-fb.png) no-repeat;
 	background-size: contain;
 	vertical-align: middle;
 	margin-right: 5px;
+}
+.icon-share-fb02{
+	background: url(../images/solical-fb02.png) no-repeat;
+	background-size: contain;
+}
+.icon-share-tw{
+	background: url(../images/solical-tw.png) no-repeat;
+	background-size: contain;
+}
+.icon-share-in{
+	background: url(../images/solical-in02.png) no-repeat;
+	background-size: contain;
 }
 .donate-box h2{
 	font-weight: bold;
@@ -1056,7 +1101,7 @@ input{
 .donate-frm .double input:not([type=checkbox]){
     width: 48%;
 }
-.donate-frm input[type=checkbox]{
+input[type=checkbox]{
     vertical-align: middle;
 }
 .text-checkbox{
@@ -1146,7 +1191,7 @@ input{
     height: 37px;
     text-align: left;
 }
-.btn-profile a{
+a.icon-profile{
     padding:0 1px;
     margin: 0px;
     width: 35px;
@@ -1159,7 +1204,7 @@ input{
 .title01{
     font-size: 14px;
     font-weight: 600;
-    padding: 10px 15px;
+    padding: 10px 15px !important;
     border-bottom: solid 1px  #e6e6e6;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -1168,12 +1213,217 @@ input{
 .dashboard{
     padding-top: 35px;
 }
+.dashboard .list-item{
+	height: auto;
+	width: auto;
+	margin: 10px;
+}
+.dashboard .list-item .local{
+	padding-left: 0px;
+}
+.dash-content h1{
+	text-align: center;
+	margin: 25px 0;
+	font-family: Roboto;
+	font-weight: 500;
+}
+.border-right01{
+	border-right: solid 1px #e6e6e6;
+}
 /**********************left04********************/
 .left04{
-    min-height: 500px;
-    margin-top: 30px;
-	padding-bottom: 100px;
-    border: solid 1px  #eae9e9;
+    width: 30%;
+}
+.left04>div,
+.right04>div{
+	padding: 10px 10px 5px;
+	border-top: 1px dotted #e6e6e6;
+}
+.left04 .solical-input{
+	width: 100% !important;	
+	margin: 5px 0px;
+}
+.right04{
+	width: 70%;
+}
+.invi-contact-text p{
+	margin: 5px 25px 10px;
+}
+.invi-contact-mail a{
+	padding: 30px 0px;
+	display: inline-block;
+	margin: 0px 20px;
+}
+.update-warp,
+.campaign-warp{
+	height: 100%;
+}
+.update-warp .loadmore02{
+	margin: 15px auto;
+}
+.update{
+	padding: 12px 15px;
+	border-bottom: 1px dotted #e6e6e6;
+}
+.update p{
+	display: block;
+	margin: 15px 0 10px;
+}
+.update .comment-time{
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+p.profile-name{
+	line-height: 10px;
+	margin-left: 10px;
+}
+.update-content a{
+	width: 43px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.update-content a img{
+	width: 100%;
+}
+.post-to li{
+	margin-right: 30px;
+}
+.update-warp .right02a:not(:first-child),
+.campaign-warp .right02a:not(:first-child){
+	margin-top: 25px;
+}
+.update-comment{
+	
+}
+.update-box-comment{
+	padding: 15px 20px 10px;
+	border-bottom: 1px dotted #e6e6e6;
+}
+.input-comment{
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: solid 1px #e6e6e6;
+}
+.attach-file + .attach-file-label {
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+}
+.attach-file-label{
+	padding: 0px 20px 0 10px;;
+	height: 30px;
+	line-height: 30px;
+	border: solid 1px #e6e6e6;
+}
+.attach-file{
+	margin: 0px;
+	padding: 0px;
+	width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.update-title-comment{
+	padding: 20px 25px;
+	border-bottom: 2px solid #b2ccba;
+}
+/**********************Campaign********************/
+.triple{
+	width: 32%;
+	border-radius: 10px;
+	border: solid 1px  #e6e6e6;
+}
+.triple h3{
+	text-align: center;
+}
+.triple>div:nth-child(2){
+	margin-top: 20px;
+}
+.triple>div{
+	padding: 10px 20px ;
+	border-bottom: 1px dotted #e6e6e6;
+}
+.visit-count span{
+	width:90px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.campaign .none-bg{
+	text-align: left;
+}
+.campaign-type {
+	margin: 20px 0px;
+}
+.campaign-type input[type=checkbox]{
+	margin-right: 5px;
+}
+.checkbox{
+	margin: 10px 20px;
+}
+.upload-video{
+	border-radius: 4px;
+	border: solid 1px #e6e6e6;
+	background-color:  #f3f1f1;
+	width: 40%;;
+	height: 30px;
+	vertical-align: top;
+}
+.img-upload-video{
+	margin: 30px auto;
+}
+/**********************WithDraw********************/
+.change-withdraw{
+	padding: 20px 30px;
+	width: 400px;
+	text-align: left;
+	border: solid 1px  #e6e6e6;
+	margin-top: 25px;
+}
+.change-withdraw>div{
+	vertical-align: middle;
+}
+.withdraw p{
+	padding: 0px 15px;
+	margin: 0px;
+}
+.change-withdraw-img{
+	width: 65px;
+}
+.back,
+.need-contact{
+	    margin: 20px 0px 30px;
+}
+.back{
+	background: url(../images/icon-back.png) no-repeat left center;
+	padding-left: 20px;
+}
+.update input:read-only{
+	font-weight: bold;
+	color: #000;
+}
+.withdraw-request table{
+	width: 100%;
+	border: solid 1px  #e6e6e6;
+	margin-top: 20px;
+}
+.withdraw-request table th,
+.withdraw-request table td{
+	text-align: left;
+	padding: 5px 10px;
+	border-top: solid 1px  #e6e6e6;
+}
+.btn-withdraw-view,
+.btn-withdraw-view01{
+	width: 130px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 4px;
 }
 /*************************************************/
 /**********************Footer********************/
@@ -1185,7 +1435,27 @@ hr{
     text-align: center;
 }
 .no-bg{
-    background: none;
+    background: none !important;
+}
+.no-border{
+	border: none !important;
+}
+.no-padding,
+.no-margin{
+	padding: 0!important;
+	margin: 0!important;
+}
+.no-radius{
+	border-radius: 0 !important;
+}
+.border-red,
+.border-yellow{
+	border: solid 1px  #ff0000;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+.border-yellow{
+	border-color:  #f1de92;
 }
 .bg-red,
 .bg-green{
