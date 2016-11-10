@@ -131,6 +131,7 @@ p {
 .text03{
 	display: block;
 	font-size: 12px;
+    line-height: 1.5em !important;
 }
 /**********************Btn********************/
 .btn {
@@ -458,6 +459,21 @@ input{
     margin-right: 5px;
     vertical-align: middle;
 }
+.list-style01{
+    width: 400px;
+    text-align: left;
+    margin-top: 30px;
+}
+.list-style01 li{
+    margin-bottom: 10px;
+}
+.list-style01 li span{
+    display: inline-block;
+    width: 32px;
+    height: 31px;
+    background: url(../images/list-style01.png) no-repeat;
+    margin-right: 5px;
+}
 .right02,
 .right02a{
     width: 888px;
@@ -530,11 +546,14 @@ input{
     border: solid 1px #e6e6e6;
     background:  #f6f7f8;
     width: 216px;
-    height: 294px;
+/*    height: 294px;*/
     padding: 7px;
     margin-left: 0.9%;
     margin-bottom: 10px;
     position: relative;
+}
+.list-item p{
+    margin: 0 !important;
 }
 .list-box .list-item:first-child,
 .list-box .list-item:nth-child(4n+1){
@@ -542,6 +561,9 @@ input{
 }
 .list-item img{
     width: 100%;
+}
+.withdraw-view {
+    padding: 10px 15px;
 }
 .icon-like{
     position: absolute;
@@ -613,12 +635,13 @@ input{
     position: relative;
     border-radius: 4px;
 }
-.loading-bar:before{
-    content: "";
+.loading-pjbar{
     position: absolute;
     width: 70%;
     height:100%;
     border-radius: 4px;
+    top:0;
+    left:0;
 }
 .local span,
 .tags span,
@@ -983,7 +1006,7 @@ input{
 	border-radius: 8px;
 	border-top:1px inset #f9f9f9;
 }
-.detail-raised .loading-bar:before{
+.detail-raised .loading-pjbar{
 	border-radius: 8px;
 }
 .btn-donate-now,
@@ -1210,10 +1233,29 @@ a.icon-profile{
     border-top-left-radius: 10px;
 }
 /**********************Dash Board********************/
+.dashboard-main{
+    border-radius: 10px;
+    border: solid 1px #e6e6e6;
+    width: 100%;
+    min-height:100px;
+}
+.dashboard-main-title{
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    border-bottom: 2px solid #b2ccba;
+}
+.dashboard-main>div{
+    padding: 15px;
+}
+.item-img-add{
+    width: 128px;
+    height: 128px;
+    margin: 30px auto 15px;
+}
 .dashboard{
     padding-top: 35px;
 }
-.dashboard .list-item{
+.dashboard .left02 .list-item{
 	height: auto;
 	width: auto;
 	margin: 10px;
@@ -1333,6 +1375,9 @@ p.profile-name{
 	border-bottom: 2px solid #b2ccba;
 }
 /**********************Campaign********************/
+.campaign{
+    height: 100%;
+}
 .triple{
 	width: 32%;
 	border-radius: 10px;
@@ -1375,6 +1420,16 @@ p.profile-name{
 }
 .img-upload-video{
 	margin: 30px auto;
+}
+.panelsurround{
+    width: 100%;
+    min-height: 300px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-36{
+    font-size: 36px;
 }
 /**********************WithDraw********************/
 .change-withdraw{
@@ -1425,6 +1480,49 @@ p.profile-name{
 	text-align: center;
 	border-radius: 4px;
 }
+/**********************Benefitcary********************/
+.benefitcary{
+    border-radius: 10px;
+    border: solid 1px #e6e6e6;
+    width: 850px;
+    margin: 40px auto;
+    min-height: 300px;
+    text-align: center;
+}
+.benefitcary-top{
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: url(../images/bg-content-top01.png) repeat-x;
+}
+.benefitcary-content{
+    padding: 40px 30px 20px;
+    border-top: 1px dotted #e6e6e6;
+    border-bottom: 1px dotted #e6e6e6;
+}
+.benefitcary-content h1{
+    margin-bottom: 10px;
+}
+.benefitcary-content .donate-frm{
+    padding: 0 0 15px;
+    margin-top: 10px;
+    border-bottom: 1px dotted #e6e6e6;
+}
+.benefitcary-content .left05 div h3{
+    margin-top: 15px;
+}
+.left05{
+    text-align: left;
+}
+/**********************Account Setting********************/
+.check-box-fb{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.gg-map{
+    min-height: 300px;
+}
 /*************************************************/
 /**********************Footer********************/
 /************************************************/
@@ -1433,6 +1531,13 @@ hr{
     border-bottom: 1px solid #eae9e9;
     margin: 10px auto;
     text-align: center;
+}
+hr.dotted{
+    border-bottom: 1px dotted #eae9e9;
+    width: 100%;
+}
+.w170{
+    width: 170px;
 }
 .no-bg{
     background: none !important;
@@ -1449,13 +1554,17 @@ hr{
 	border-radius: 0 !important;
 }
 .border-red,
-.border-yellow{
+.border-yellow,
+.border-green{
 	border: solid 1px  #ff0000;
 	border-radius: 4px;
 	padding: 10px 15px;
 }
 .border-yellow{
 	border-color:  #f1de92;
+}
+.border-green{
+    border-color: #88d36e;
 }
 .bg-red,
 .bg-green{
