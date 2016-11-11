@@ -303,11 +303,31 @@ a.current02,
     background:  rgba(156, 134, 137, 0.2) !important;
     color: #000!important;
 }
-.current03{
-    background-color:  rgba(219, 221, 34, 0.1)!important;
+/*
+.current03 .icon-like{
+    display: block;
 }
+*/
 .current04{
 	background:  rgba(242, 249, 241, 0.7);
+}
+/**********************Hover********************/
+.list-item:hover{
+    background-color:  rgba(219, 221, 34, 0.1)!important;
+    cursor: pointer;
+}
+.list-item:hover .icon-like{
+    display: block;
+}
+.list-item:hover h4{
+    color:  rgba(156, 134, 137, 0.8);
+}
+.list-item:hover .text02,
+.list-item:hover .money span{
+    color: #000;
+}
+.list-item:hover .loading-pjbar{
+    background-color:  #dbdd22;
 }
 /*************************************************/
 /**********************Header********************/
@@ -615,9 +635,6 @@ input{
 .icon-decline{
 	background: url(../images/icon-deline.png) no-repeat;
 }
-.current03 .icon-like{
-    display: block;
-}
 .money{
     font-weight;
     font-size: 24px;
@@ -637,7 +654,6 @@ input{
 }
 .loading-pjbar{
     position: absolute;
-    width: 70%;
     height:100%;
     border-radius: 4px;
     top:0;

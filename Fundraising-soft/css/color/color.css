@@ -76,19 +76,28 @@ footer h4{
 .loading-pjbar{
     background-color:  #9c8689;
 }
+/*
+.current03{
+    background-color:  rgba(219, 221, 34, 0.1)!important;
+}
 .current03 h4{
     color:  rgba(156, 134, 137, 0.8);
 }
+*/
+/*
 .current03 .text02,
 .current03 .money span,
+*/
 .current04,
 .loadmore01,
 .color-black{
     color: #000;
 }
+/*
 .current03 .loading-pjbar{
     background-color:  #dbdd22;
 }
+*/
 footer{
 	background:  #f7f6f6;
 }
