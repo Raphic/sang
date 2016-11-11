@@ -734,6 +734,7 @@ input{
 	margin: auto;
 	width: 570px;
 	text-align: center;
+	position: relative;
 }
 .login-title{
 	border-bottom: 2px solid #dbdd22;
@@ -747,9 +748,12 @@ input{
 	font-family: Rockwell;
 	font-size: 30px;
 }
-.login-content form{
+.login-content .donate-frm{
 	padding: 10px 140px;
 	text-align: left;
+}
+.login-content .donate-frm input:not([type=checkbox]){
+	margin-bottom: 10px;
 }
 .login-content label{
 	font-size: 14px;
@@ -768,7 +772,7 @@ input{
 }
 .login-content p{
 	padding: 0px 35px;
-	text-align: left;
+	text-align: center;
 }
 .btn-login-sub{
 	width: 250px;
@@ -779,8 +783,84 @@ input{
 }
 .login-content hr{
 	width: 100%;
-	border-top: 1px dotted rgb(155, 153, 153);
+	
 	margin: 10px 0 15px;
+}
+.button-account-fb{
+}
+.phone-frm{
+	padding: 25px 15px 15px !important;
+}
+.phone-frm p{
+	text-align: left;
+	padding: 0;
+}
+.input-phone{
+	position: relative;
+}
+.flag{
+	width: 32px;
+	height: 23px;
+	display: inline-block;
+	background: #fff;
+	position: absolute;
+	top: 12%;
+	left: 1%;
+}
+.input-phone .phone{
+	padding-left: 15%;
+	width: 50% !important;
+}
+.login-content .code{
+	width: 50% !important;
+}
+.login-content.dash-content .text03{
+	display: inline-block;
+}
+.share-select{
+	margin: 20px 15px;
+	border: solid 1px #e6e6e6;
+	border-radius: 4px;
+	text-align: left;
+	background: #f3f1f1;
+}
+.share-select p,
+.share-select a{
+	text-align: left;
+	padding: 0px;
+}
+.share-select-item{
+	padding: 5px 10px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+.share-check{
+	width: 12px;
+	height: 12px;
+}
+.share-name,
+.share-email,
+.share-inp{
+	position: relative;
+	width: 30%;
+	font-size: 12px;
+}
+.share-input{
+	width: 100%;
+	border: solid 1px  #e6e6e6;
+	height: 22px;
+	padding-left: 15%;
+}
+.flag01{
+	width: 20px;
+    height: 17px;
+    display: inline-block;
+    position: absolute;
+    top: 15.5%;
+    left: 2%;
+}
+.flag01 img{
+	width: 100%;
 }
 /**********************Detail********************/
 /**********************left03********************/
@@ -823,7 +903,8 @@ input{
 	position: relative;
 	margin-bottom: 10px;
 }
-.btn-close{
+.btn-close,
+.btn-close01{
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -831,6 +912,9 @@ input{
 	height: 14px;
 	z-index: 2;
 	background: url(../images/icon-close.png) no-repeat;
+}
+.btn-close01{
+	background: url(../images/icon-close01.png) no-repeat;
 }
 .solical{
 	margin-top: 5px;
@@ -1310,6 +1394,7 @@ a.icon-profile{
 .update p{
 	display: block;
 	margin: 15px 0 10px;
+	text-align: left;
 }
 .update .comment-time{
 	margin-left: 10px;
@@ -1532,8 +1617,8 @@ hr{
     margin: 10px auto;
     text-align: center;
 }
-hr.dotted{
-    border-bottom: 1px dotted #eae9e9;
+.dotted{
+    border-top: 1px dotted rgb(155, 153, 153);
     width: 100%;
 }
 .w170{
