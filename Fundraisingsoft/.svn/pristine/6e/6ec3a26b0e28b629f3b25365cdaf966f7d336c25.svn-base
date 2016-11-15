@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="blabla" />
+    <meta name="msnbot" content="Load noi dung cua Description">
+    <meta name="keywords" content="key, key2" />
+    <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+<!--
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("btn-drop");
+			var i;
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					if($('.btn-drop.active').html() != $(this).html()) {
+                        $('.btn-drop.active').next().removeClass('show');
+                        $('.btn-drop.active').removeClass('active');
+                    }
+					this.classList.toggle("active");
+					this.nextElementSibling.classList.toggle("show");
+			  }
+			}
+		});
+	</script>
+-->
+</head>
+
+<body>
+	<div id="wrap" class="wrap">
+	<!--============================================================================-->
+	<!--===================================Header===================================-->
+	<!--============================================================================-->
+		<header class="top-header">
+			<div class="box01 flex flex-between flex-ver-center">
+				<div class="logo flex flex-between flex-ver-center">
+					<img src="images/logo.png">
+					<div class="search01">
+						<form class="top-search">
+							<input class="_input" type="text" name="s" value="" placeholder="title,city,country"> 
+							<button class="btn btn-search01" type="submit"> <span class="fa fa-search"></span> </button>
+						</form>
+					</div>
+				</div>
+				<div class="top-menu">
+					<nav>
+						<ul class="menu flex">
+							<li><a href="#">how it works</a></li>
+							<li><a href="#">faqs</a></li>
+							<li><a href="#">help</a></li>
+							<li><a class="current" href="#">create a campaign</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	<!--============================================================================-->
+	<!--===================================Content===================================-->
+	<!--============================================================================-->	
+		<section class="wrap-content">
+			<article class="content">
+				<header>
+					<div class="flex flex-between">
+						<div class="left01">
+							<h1>4 Easy Steps in Creating Your Fundraising Campaign:</h1>
+							<div class="top-text flex flex-between">
+								<ul>
+									<li class="flex flex-between">
+										<span class="number">1</span>
+										<div class="box-w-90">
+											<h2>Create Campaign</h2>
+											<p class="text01">So you've got an idea? Draft your appealing Campaign & submit.</p>
+										</div>
+									</li>
+									<li class="flex flex-between">
+										<span class="number">2</span>
+										<div class="box-w-90">
+											<h2>Launch Campaign</h2>
+											<p class="text01">Allow us some time to review/moderate your Campaign or let us provide feedback.</p>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li class="flex flex-between">
+										<span class="number">3</span>
+										<div class="box-w-90">
+											<h2>Promote to Network</h2>
+											<p class="text01">Tell your crowd about Campaign and share via social networking channels.</p>
+										</div>
+									</li>
+									<li class="flex flex-between">
+										<span class="number">4</span>
+										<div class="box-w-90">
+											<h2>Collect Your Funds</h2>
+											<p class="text01">Encourage your crowd with rewards, hit your target & collect your funds.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right01">
+							<img src="images/heart.png">
+						</div>
+					</div>
+					<div class="search01">
+						<form class="midd-search">
+							<a href="#" class="search-title text-underline">Browse all categories</a>
+							<input class="_input" type="text" name="s" value="" placeholder="title,city,country"> 
+							<button class="btn btn-search01" type="submit"> <span class="fa fa-search"></span> </button>
+						</form>
+					</div>
+				</header>
+				<section class="middle flex flex-between">
+				    <div class="left02">
+				        <nav class="menu-left">
+                            <h3>Our Categories</h3>
+				            <ul>
+				                <li><a href="#"><span class="list-style"></span>Business</a></li>
+				                <li><a href="#"><span class="list-style"></span>Charity</a></li>
+				                <li><a href="#"><span class="list-style"></span>Community</a></li>
+				                <li><a href="#"><span class="list-style"></span>Competitions</a></li>
+				                <li><a class="current01" href="#"><span class="list-style"></span>Creative</a></li>
+				                <li><a href="#"><span class="list-style"></span>Events</a></li>
+				                <li><a href="#"><span class="list-style"></span>Faith</a></li>
+				                <li><a href="#"><span class="list-style"></span>Family</a></li>
+				                <li><a href="#"><span class="list-style"></span>National News</a></li>
+				                <li><a href="#"><span class="list-style"></span>Newlyweds</a></li>
+				                <li><a href="#"><span class="list-style"></span>Other</a></li>
+				                <li><a href="#"><span class="list-style"></span>Travel</a></li>
+				                <li><a href="#"><span class="list-style"></span>Wishes</a></li>
+				            </ul>
+				        </nav>
+				    </div>
+				    <div class="right02">
+				        <div class="top02">
+				            <ul class="tabs-menu flex flex-between">
+				                <li><a class="current02" href="#">Latest Campaigns</a></li>
+				                <li><a href="#">Promote to Network</a></li>
+				                <li><a href="#">Near Me</a></li>
+				                <li><a href="#">All Friends<span class="add-fb"><img src="images/add-fb.png"></span></a></li>
+				            </ul>
+				        </div>
+				        <div class="list-box flex">
+				            <div class="list-item">
+				                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				            <div class="list-item current03">
+                                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				            <div class="list-item">
+				                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				            <div class="list-item">
+				                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				            <div class="list-item">
+				                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				            <div class="list-item">
+				                <div class="item-img">
+                                    <img src="images/item-img.png">
+                                </div>
+                                <div class="icon-like"></div>
+				                <h4>Baby (active/mouse hover)</h4>
+				                <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                <p class="money">$35,899<span>of $45k</span></p>
+                                <div class="loading-bar">
+                                    <div class="loading-pjbar"></div>
+                                </div>
+                                <a class="local" href="#"><span></span>Traverse City , USA</a>
+				            </div>
+				        </div>
+				        <center>
+				            <button class="btn btn-loadmore">load more</button>
+				        </center>
+				    </div>
+				</section>
+			</article>
+		</section>
+		<section class="easy-setup">
+            <div class="content">
+                <div class="easy-img">
+                    <img src="images/east-setyp.png">
+                </div>
+                <div class="flex flex-between">
+                    <div class="left02"></div>
+                   <div class="right02 flex">
+                       <ul>
+                            <li>Very Low Expense Fee</li>
+                            <li>Mobile Friendly</li>
+                            <li>Instant Tech Support</li>
+                            <li>No String Attached</li>
+                        </ul>
+                        <ul>
+                            <li>No Hidden Cost</li>
+                            <li>Internet Secured</li>
+                            <li>No Sign-up Cost</li>
+                            <li>No Deadline or Missing Goal Penalty</li>
+                        </ul>
+                   </div>
+                </div>
+                <center>
+                    <button class="btn btn-signup">Sign Up Now</button>
+                </center>
+            </div>
+		</section>
+	<!--============================================================================-->
+	<!--===================================Footer====================================-->
+	<!--============================================================================-->	
+		<footer>
+			<div class="footer-content">
+				<div  class="footer-top">
+					<ul class="flex flex-center flex-ver-center">
+						<li><a href="#"><img src="images/panter01.png"></a></li>
+						<li><a href="#"><img src="images/panter02.png"></a></li>
+						<li><a href="#"><img src="images/panter03.png"></a></li>
+						<li><a href="#"><img src="images/panter04.png"></a></li>
+						<li><a href="#"><img src="images/panter05.png"></a></li>
+					</ul>
+				</div>
+				<div class="footer-main flex">
+					<div class="footer-logo">
+						<div class="footer-img">
+							<img src="images/footer-logo.png">
+						</div>
+						<p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Nullam nibh nibh, tincidunt eget diam quis, mattis tempor urna. Suspendisse potenti. Proin eget aliquet quam. Curabitur in sagittis leo, nec auctor velit.</p>
+						<h4>FOLLOW US</h4>
+						<ul class="flex">
+							<li><a href="#"><img src="images/solical-fb.png"></a></li>
+							<li><a href="#"><img src="images/solical-youtube.png"></a></li>
+							<li><a href="#"><img src="images/solical-in.png"></a></li>
+							<li><a href="#"><img src="images/solical-tw.png"></a></li>
+						</ul>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>WHO ARE WE?</h4>
+							<ul>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Success Stories</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Legal</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>SUPPORT</h4>
+							<ul>
+								<li><a href="#">How it works</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Video</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-payment">
+						<div>
+							<ul class="security flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/security.png"></a></li>
+								<li><a href="#"><img src="images/security01.png"></a></li>
+								<li><a href="#"><img src="images/security02.png"></a></li>
+							</ul>
+							<ul class="bank flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/bank01.png"></a></li>
+								<li><a href="#"><img src="images/bank02.png"></a></li>
+								<li><a href="#"><img src="images/bank03.png"></a></li>
+								<li><a href="#"><img src="images/bank04.png"></a></li>
+							</ul>
+						</div>
+						<p>We accept Paypal, authorize.net, Braintree ...</p>
+					</div>
+				</div>
+				<div class="company">
+					<p>Copyright © 2003 - 2016 Fundraisingsoft.com All Rights Reserved.</p>
+				</div>
+		</footer>
+	</div>
+</body>
+</html>

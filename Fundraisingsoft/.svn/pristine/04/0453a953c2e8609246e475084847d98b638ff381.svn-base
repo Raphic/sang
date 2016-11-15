@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Dashboard Share</title>
+	<meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="blabla" />
+    <meta name="msnbot" content="Load noi dung cua Description">
+    <meta name="keywords" content="key, key2" />
+    <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+	<div id="wrap" class="wrap">
+	<!--============================================================================-->
+	<!--===================================Header===================================-->
+	<!--============================================================================-->
+		<header class="top-header">
+			<div class="box01 flex flex-between flex-ver-center">
+				<div class="logo flex flex-between flex-ver-center">
+					<img src="images/logo.png">
+				</div>
+				<div class="top-menu">
+					<nav>
+						<ul class="menu flex">
+							<li><a href="#">Dashboard</a></li>
+							<li><a href="#">Share</a></li>
+							<li><a href="#">Edit</a></li>
+							<li><a href="#">Withdraw</a></li>
+							<li><a href="#">More<span class="icon-dropdown"></span></a></li>
+							<button class="btn btn-profile">
+							    <a href="#" class="icon-profile">
+							        <img src="images/icon-profile.png">
+							    </a>
+							    <span>David</span>
+							    <span class="icon-dropdown"></span>
+                            </button>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	<!--============================================================================-->
+	<!--===================================Content===================================-->
+	<!--============================================================================-->	
+		<section class="wrap-content">
+			<article class="content">
+                <div class="dashboard">
+                    <section class="middle flex flex-between">
+                        <div class="left02">
+                            <nav class="menu-left">
+                                <div class="list-item">
+									<div class="item-img">
+										<img src="images/item-img.png">
+									</div>
+									<div class="icon-like"></div>
+									<h4>Baby (active/mouse hover)</h4>
+									<p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+									<p class="money">$35,899<span>of $45k</span></p>
+									<div class="loading-bar"></div>
+									<a class="local" href="#"><span></span>Traverse City , USA</a>
+								</div>
+                               <div class="flex flex-center">
+                               		<span class="icon-share-fb"></span>
+                               		<span class="icon-share-tw">
+                               </div>
+                               <br>
+                                <ul>
+                                    <li><a href="#">View Campaign</a></li>
+                                    <li><a href="#">Edit your campaign</a></li>
+                                    <li><a href="#">Share Campaign</a></li>
+                                    <li><a href="#">Withdraw</a></li>
+                                    <li><a href="#">Transfer Money to Someone Else</a></li>
+                                    <li><a href="#">Log out</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right02a">
+                            <h3 class="title01 bg-blue">Setting Campaign Link</h3>
+                            <div class="dash-content flex flex-between">
+                            	<div class="left04 border-right01">
+                            		<h1>Share via Social</h1>
+                            		<div class="share-social">
+                            			<input class="solical-input" type="text" value="abc.com">
+                            			<center>
+                            				<ul class="solical flex flex-center">
+												<li><a href="#"><img src="images/solical-fb.png"></a></li>
+												<li><a href="#"><img src="images/solical-tw.png"></a></li>
+												<li><a href="#"><img src="images/solical-pinter.png"></a></li>
+												<li><a href="#"><img src="images/solical-g.png"></a></li>
+												<li><a href="#"><img src="images/solical-man.png"></a></li>
+												<li><a href="#"><img src="images/solical-in.png"></a></li>
+												<li><a href="#"><img src="images/solical-instagram.png"></a></li>
+												<li><a href="#"><img src="images/solical-rss.png"></a></li>
+											</ul>
+                            			</center>
+                            		</div>
+                            		<div class="action-panels">
+										<div class="tab-page">
+											<div id="container">
+												<input id="tab-1" type="radio" name="tab-group" checked="checked">
+												<label for="tab-1"><p>Embed</p></label>
+												<div id="content">
+													<div id="content-1">
+														<p class="text03">Copy & paste the code into your website!</p>
+														<input class="solical-input" type="text" value="abc.com">
+													</div>
+													<div id="content-2">
+														<p>2</p>
+													</div>
+													<div id="content-3">
+														<p>3</p>
+													</div>
+													<div id="content-4">
+														<p>4</p>
+													</div>
+												</div>
+											</div>		
+										</div>
+									</div>
+                            	</div>
+                            	<div class="right04">
+                            		<h1>Invite your contacts</h1>
+                            		<div class="invi-contact-text bg-blue">
+                            			<p>Before you can withdraw money, a unique code will be sent to the phone number you enter below. You will need this phone any time you want to access withdrawals. This code will be an extra layer of protection for your account. Stay safe! </p>
+                            		</div>
+                            		<div class="invi-contact-mail">
+										<center>
+											<a href="#"><img src="images/img-gmail.png"></a>
+											<a href="#"><img src="images/img-yahoo.png"></a>
+											<a href="#"><img src="images/img-hotm.png"></a>
+										</center>
+                            		</div>
+                            	</div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+				
+			</article>
+		</section>
+	<!--============================================================================-->
+	<!--===================================Footer====================================-->
+	<!--============================================================================-->	
+		<footer>
+			<div class="footer-content">
+				<div  class="footer-top">
+					<ul class="flex flex-center flex-ver-center">
+						<li><a href="#"><img src="images/panter01.png"></a></li>
+						<li><a href="#"><img src="images/panter02.png"></a></li>
+						<li><a href="#"><img src="images/panter03.png"></a></li>
+						<li><a href="#"><img src="images/panter04.png"></a></li>
+						<li><a href="#"><img src="images/panter05.png"></a></li>
+					</ul>
+				</div>
+				<div class="footer-main flex">
+					<div class="footer-logo">
+						<div class="footer-img">
+							<img src="images/footer-logo.png">
+						</div>
+						<p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Nullam nibh nibh, tincidunt eget diam quis, mattis tempor urna. Suspendisse potenti. Proin eget aliquet quam. Curabitur in sagittis leo, nec auctor velit.</p>
+						<h4>FOLLOW US</h4>
+						<ul class="flex">
+							<li><a href="#"><img src="images/solical-fb.png"></a></li>
+							<li><a href="#"><img src="images/solical-youtube.png"></a></li>
+							<li><a href="#"><img src="images/solical-in.png"></a></li>
+							<li><a href="#"><img src="images/solical-tw.png"></a></li>
+						</ul>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>WHO ARE WE?</h4>
+							<ul>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Success Stories</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Legal</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>SUPPORT</h4>
+							<ul>
+								<li><a href="#">How it works</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Video</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-payment">
+						<div>
+							<ul class="security flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/security.png"></a></li>
+								<li><a href="#"><img src="images/security01.png"></a></li>
+								<li><a href="#"><img src="images/security02.png"></a></li>
+							</ul>
+							<ul class="bank flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/bank01.png"></a></li>
+								<li><a href="#"><img src="images/bank02.png"></a></li>
+								<li><a href="#"><img src="images/bank03.png"></a></li>
+								<li><a href="#"><img src="images/bank04.png"></a></li>
+							</ul>
+						</div>
+						<p>We accept Paypal, authorize.net, Braintree ...</p>
+					</div>
+				</div>
+				<div class="company">
+					<p>Copyright © 2003 - 2016 Fundraisingsoft.com All Rights Reserved.</p>
+				</div>
+		</footer>
+	</div>
+</body>
+</html>

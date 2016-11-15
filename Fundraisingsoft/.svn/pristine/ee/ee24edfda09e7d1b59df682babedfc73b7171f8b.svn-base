@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Update</title>
+	<meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="blabla" />
+    <meta name="msnbot" content="Load noi dung cua Description">
+    <meta name="keywords" content="key, key2" />
+    <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+	<div id="wrap" class="wrap">
+	<!--============================================================================-->
+	<!--===================================Header===================================-->
+	<!--============================================================================-->
+		<header class="top-header">
+			<div class="box01 flex flex-between flex-ver-center">
+				<div class="logo flex flex-between flex-ver-center">
+					<img src="images/logo.png">
+				</div>
+				<div class="top-menu">
+					<nav>
+						<ul class="menu flex">
+							<li><a href="#">Dashboard</a></li>
+							<li><a href="#">Share</a></li>
+							<li><a href="#">Edit</a></li>
+							<li><a href="#">Withdraw</a></li>
+							<li><a href="#">More<span class="icon-dropdown"></span></a></li>
+							<button class="btn btn-profile">
+							    <a href="#" class="icon-profile">
+							        <img src="images/icon-profile.png">
+							    </a>
+							    <span>David</span>
+							    <span class="icon-dropdown"></span>
+                            </button>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	<!--============================================================================-->
+	<!--===================================Content===================================-->
+	<!--============================================================================-->	
+		<section class="wrap-content">
+			<article class="content">
+                <div class="dashboard">
+                    <section class="middle flex flex-between">
+                        <div class="left02">
+                            <nav class="menu-left">
+                                <div class="list-item">
+									<div class="item-img">
+										<img src="images/item-img.png">
+									</div>
+									<div class="icon-like"></div>
+									<h4>Baby (active/mouse hover)</h4>
+									<p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+									<p class="money">$35,899<span>of $45k</span></p>
+									<div class="loading-bar"></div>
+									<a class="local" href="#"><span></span>Traverse City , USA</a>
+								</div>
+                               <div class="flex flex-center">
+                               		<span class="icon-share-fb"></span>
+                               		<span class="icon-share-tw">
+                               </div>
+                               <br>
+                                <ul>
+                                    <li><a href="#">View Campaign</a></li>
+                                    <li><a href="#">Edit your campaign</a></li>
+                                    <li><a href="#">Share Campaign</a></li>
+                                    <li><a href="#">Withdraw</a></li>
+                                    <li><a href="#">Transfer Money to Someone Else</a></li>
+                                    <li><a href="#">Log out</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="update-warp">
+                        	<div class="right02a">
+								<h3 class="title01 bg-blue">Updates (2)</h3>
+								<div class="update">
+									<div class="flex flex-vertical">
+										<div>
+											<a href="#" class="icon-profile">
+												<img src="images/icon-profile.png">
+											</a>
+										</div>
+										<div>
+											<p class="profile-name">David</p>
+											<a href="#" class="comment-time color5">8 hours ago</a>
+										</div>
+									</div>
+									<div class="update-content">
+										<p class="text03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis sagittis purus. Nam bibendum sapien fermentum interdum ultrices. Aenean laoreet dolor sagittis, porta dolor porttitor, aliquam elit. Aliquam commodo tempus porta. Duis iaculis lectus id cursus tempor. Nulla ultrices magna a enim lobortis feugiat. Duis quis mi sagittis, porta sem quis, maximus ante. Etiam lectus mi, tempus quis quam at, ullamcorper rutrum nisi. In hac habitasse platea dictumst. Pellentesque cursus, tellus quis suscipit lobortis, velit justo imperdiet nibh, sed feugiat massa est sed sapien. </p>
+									</div>
+								</div>
+								<div class="update">
+									<div class="flex flex-vertical">
+										<div>
+											<a href="#" class="icon-profile">
+												<img src="images/icon-profile.png">
+											</a>
+										</div>
+										<div>
+											<p class="profile-name">David</p>
+											<a href="#" class="comment-time color5">8 hours ago</a>
+										</div>
+									</div>
+									<div class="update-content">
+										<p class="text03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis sagittis purus. Nam bibendum sapien fermentum interdum ultrices. Aenean laoreet dolor sagittis, porta dolor porttitor, aliquam elit. Aliquam commodo tempus porta. Duis iaculis lectus id cursus tempor. Nulla ultrices magna a enim lobortis feugiat. Duis quis mi sagittis, porta sem quis, maximus ante. Etiam lectus mi, tempus quis quam at, ullamcorper rutrum nisi. In hac habitasse platea dictumst. Pellentesque cursus, tellus quis suscipit lobortis, velit justo imperdiet nibh, sed feugiat massa est sed sapien. </p>
+										<a href="#"><img src="images/item-img.png"></a>
+										<a href="#"><img src="images/item-img.png"></a>
+										<a href="#"><img src="images/item-img.png"></a>
+									</div>
+								</div>
+								<button class="btn loadmore02"><a href="#">POST AN UPDATE</a></button>
+							</div>
+							<div class="right02a">
+								<div class="update-comment">
+									<button class="btn btn-close"></button>
+									<h1 class="update-title-comment">Hi Minh,post an update</h1>
+									<div class="update-box-comment">
+										<textarea class="input-comment"  placeholder="Update your supporters and attract new donors..."></textarea>
+										<div class="flex flex-between flex-ver-center">
+											<div>
+												<input class="attach-file" type="file" name="file-1[]" id="file-1">
+												<label class="attach-file-label"  for="file-1"><span class="icon-attach"></span>Attach Photo/Video</label>
+											</div>
+											<ul class="post-to flex">
+												<li class="text03">Also post to</li>
+												<li><a class="text03" href="#"><span class="icon-share-fb02"></span>Facebook</a></li>
+												<li><a class="text03" href="#"><span class="icon-share-tw"></span>Twitter</a></li>
+												<li><a class="text03" href="#"><span class="icon-share-in"></span>Linkedin</a></li>
+											</ul>
+										</div>
+									</div>
+									<center>
+										<button class="btn btn-continue">POST AN UPDATE</button>
+									</center>
+								</div>
+							</div>
+                        </div>
+                    </section>
+                </div>
+			</article>
+		</section>
+	<!--============================================================================-->
+	<!--===================================Footer====================================-->
+	<!--============================================================================-->	
+		<footer>
+			<div class="footer-content">
+				<div  class="footer-top">
+					<ul class="flex flex-center flex-ver-center">
+						<li><a href="#"><img src="images/panter01.png"></a></li>
+						<li><a href="#"><img src="images/panter02.png"></a></li>
+						<li><a href="#"><img src="images/panter03.png"></a></li>
+						<li><a href="#"><img src="images/panter04.png"></a></li>
+						<li><a href="#"><img src="images/panter05.png"></a></li>
+					</ul>
+				</div>
+				<div class="footer-main flex">
+					<div class="footer-logo">
+						<div class="footer-img">
+							<img src="images/footer-logo.png">
+						</div>
+						<p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Nullam nibh nibh, tincidunt eget diam quis, mattis tempor urna. Suspendisse potenti. Proin eget aliquet quam. Curabitur in sagittis leo, nec auctor velit.</p>
+						<h4>FOLLOW US</h4>
+						<ul class="flex">
+							<li><a href="#"><img src="images/solical-fb.png"></a></li>
+							<li><a href="#"><img src="images/solical-youtube.png"></a></li>
+							<li><a href="#"><img src="images/solical-in.png"></a></li>
+							<li><a href="#"><img src="images/solical-tw.png"></a></li>
+						</ul>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>WHO ARE WE?</h4>
+							<ul>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Success Stories</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Legal</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-link">
+						<div>
+							<h4>SUPPORT</h4>
+							<ul>
+								<li><a href="#">How it works</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Video</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-payment">
+						<div>
+							<ul class="security flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/security.png"></a></li>
+								<li><a href="#"><img src="images/security01.png"></a></li>
+								<li><a href="#"><img src="images/security02.png"></a></li>
+							</ul>
+							<ul class="bank flex flex-ver-center flex-end">
+								<li><a href="#"><img src="images/bank01.png"></a></li>
+								<li><a href="#"><img src="images/bank02.png"></a></li>
+								<li><a href="#"><img src="images/bank03.png"></a></li>
+								<li><a href="#"><img src="images/bank04.png"></a></li>
+							</ul>
+						</div>
+						<p>We accept Paypal, authorize.net, Braintree ...</p>
+					</div>
+				</div>
+				<div class="company">
+					<p>Copyright © 2003 - 2016 Fundraisingsoft.com All Rights Reserved.</p>
+				</div>
+		</footer>
+	</div>
+</body>
+</html>

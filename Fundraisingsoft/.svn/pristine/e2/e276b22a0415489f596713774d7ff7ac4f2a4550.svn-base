@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Sign In</title>
+	<meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="blabla" />
+    <meta name="msnbot" content="Load noi dung cua Description">
+    <meta name="keywords" content="key, key2" />
+    <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="login">
+		<button class="btn btn-close01"></button>
+		<h1 class="login-title">
+			<img src="images/footer-logo.png"/>
+		</h1>
+		<div class="login-content">
+			<h2>Retrieve Password</h2>
+			<form class="donate-frm no-border">
+				<label class="text-red">All Fields are required</label>
+				<input class="email field-error" type="email" required placeholder="Enter Your Email">
+			</form>
+			<p class="color5">Your Password will be sent to the registered E-mail account. Your E-mail security settings may send it into your Junkbox. Please check for it there also.</p>
+			<hr class="dotted">
+			<button class="btn btn-login-sub">SUBMIT</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+
+<head>
+	<title>Dashboard Withdraw</title>
+	<meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="blabla" />
+    <meta name="msnbot" content="Load noi dung cua Description">
+    <meta name="keywords" content="key, key2" />
+    <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+	<div id="wrap" class="wrap">
+	<!--============================================================================-->
+	<!--===================================Header===================================-->
+	<!--============================================================================-->
+		
+	<!--============================================================================-->
+	<!--===================================Content===================================-->
+	<!--============================================================================-->	
+		<section class="wrap-content no-bg">
+			<article class="content">
+                <div class="benefitcary">
+                    <div class="benefitcary-top">
+                        <img src="images/footer-logo.png">
+                    </div>
+                    <div class="benefitcary-content flex flex-between">
+                       <div class="left05">
+                           <h1>Hi Sáng,</h1>
+                           <div>
+                               <h3>Login Information</h3>
+                               <p class="text03">Thông tin login để giúp bạn quản lý những campaign được đề xuất nhận tiền</p>
+                               <form class="donate-frm">
+                                    <label class="text02">Email</label>
+                                    <input class="email" type="text" required="" placeholder="doanngocsang@gmail.com">
+                                    <label class="text02">Password</label>
+                                    <div class="double flex flex-between">
+                                        <input class="paw-frs" type="text" required placeholder="Password">
+                                        <input class="paw-comfirm" type="text" required placeholder="Confirm Password">
+                                    </div>
+                                </form>
+                           </div> 
+                           <div>
+                               <h3>Personal Information</h3>
+                               <form class="donate-frm no-border">
+                                    <label class="text02">Your Name</label>
+                                    <div class="double flex flex-between">
+                                        <input class="name-frs" type="text" required="" placeholder="First Name">
+                                        <input class="name-last" type="text" required="" placeholder="First Name">
+                                    </div>
+                                    <label class="text02">US social security number</label>
+                                    <input class="text" type="text" required="" placeholder="">
+                                    <label class="text02">US mailing address (in one of the 50 US states)*</label>
+                                    <input class="text" type="text" required="" placeholder="">
+                                    <label class="text02">US bank account (issued in one of the 50 US states)</label>
+                                    <input class="text" type="text" required="" placeholder="">
+                                    <label class="text02">US phone number (in one of the 50 US states)</label>
+                                    <input class="text" type="text" required="" placeholder="">
+                                    <h3>Paypal Account</h3>
+                                    <label class="text02">Email Paypal (optional)</label>
+                                    <input class="text" type="text" required="" placeholder="">
+                                </form>
+                           </div>                                                  
+                       </div>
+                    </div>
+                    <div class="benefitcary-bottom">
+                        <button class="btn btn-continue">SUBMIT</button>
+                    </div>
+                </div>
+			</article>
+		</section>
+	<!--============================================================================-->
+	<!--===================================Footer====================================-->
+	<!--============================================================================-->	
+	</div>
+</body>
+</html>
