@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 	
 	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
 </head>
 
 <body>
@@ -34,13 +35,26 @@
 							<li><a href="#">Share</a></li>
 							<li><a href="#">Edit</a></li>
 							<li><a href="#">Withdraw</a></li>
-							<li><a href="#">More<span class="icon-dropdown"></span></a></li>
-							<button class="btn btn-profile">
+							<li class="drop-show"><a href="#">More<span class="icon-dropdown"></span></a>
+								<ul class="profile-drop-show">
+									<li><a href="#">Donations</a></li>
+									<li><a href="#">Updates</a></li>
+									<li><a href="#">Transfer Money to Someone Else</a></li>
+								</ul>
+							</li>
+							<button class="btn btn-profile drop-show">
 							    <a href="#" class="icon-profile">
 							        <img src="images/icon-profile.png">
 							    </a>
 							    <span>David</span>
 							    <span class="icon-dropdown"></span>
+							   	<div class="profile-drop-show">
+									<li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
+									<li><a href="#">Account Setting</a></li>
+									<li><a href="#">My Campaigns</a></li>
+									<li><a href="#">Ask a Question</a></li>
+									<li><a href="#">Logout</a></li>
+								</div>
                             </button>
 						</ul>
 					</nav>
