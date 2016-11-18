@@ -8,13 +8,6 @@
     -ms-transition: 0s!important;
     transition: 0s!important;
 }
-
-.tinner *{
-     -webkit-transition: 0s!important;
-    -ms-transition: 0s!important;
-    transition: 0s!important;
-}
-
 *{
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1036,20 +1029,8 @@ input{
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
-.comment-top .comment-content-box{
-	cursor: pointer;
-	max-height: 100px;
-	text-overflow: ellipsis; 
-	overflow: hidden;
-}
-.comment-top.active .comment-content-box{
-	max-height: 300px;
-}
-.comment-top.active  .loadmore01{
-	opacity: 0;
-}
 .loadmore01{
-	display:block;
+	display: block;
 	text-align: right;
 	font-weight: bold;
 	font-size: 12px;
@@ -1354,34 +1335,6 @@ a.icon-profile{
     border-bottom: solid 1px  #e6e6e6;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-.drop-show{
-	position: relative;
-}
-.profile-drop-show{
-	max-height: 0;
-	overflow: hidden;
-	width: 160px;
-	background:  #ffffff;
-	right: 0;
-	top: 40px;
-	position: absolute;
-	z-index: 99;
-}
-.drop-show.active .profile-drop-show{
-	max-height: 1000px;
-	border-radius: 2px;
-	border: solid 1px  #e6e6e6;
-	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.43);
-}
-.profile-drop-show a{
-	padding: 0px;
-	font-weight: 400;
-	display: block;
-	padding: 5px 15px;
-}
-.profile-drop-show a:hover{
-	text-transform: none;
 }
 /**********************Dash Board********************/
 .dashboard-main{

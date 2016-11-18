@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" class="desktop">
 
 <head>
@@ -11,25 +11,11 @@
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
-    
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/tbox.css"><!--using for Popup-->
 
     <script src="js/jquery.js"></script>
-    <script src="js/camera.js"></script>
-    <script src="js/jquery.ehighteasing.1.3.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
-    <script>
-		$(document).ready(function(){
-			jQuery('.camera_wrap').camera({
-					fx:"random",
-					time:3000,
-					height:'330px',
-					hover: false,
-				});
-		});
-	</script>
+    
     <script src="js/tinybox.js"></script> <!--using for Popup-->
     <script src="js/common.js"></script> <!--custom function by coder-->
     
@@ -87,149 +73,48 @@
 		<section class="wrap-content">
 			<article class="content">
 				<header>
-                    <div class="slider">  
-                        <div class="camera_wrap">
-                            <div data-src="images/slider.png">
-                                <div class="camera-caption fadeIn">
-                                    <div class="flex flex-between">
-                                        <div class="left01">
-                                            <h1>4 Easy Steps in Creating Your Fundraising Campaign:</h1>
-                                            <div class="top-text flex flex-between">
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">1</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Create Campaign</h2>
-                                                            <p class="text01">So you've got an idea? Draft your appealing Campaign & submit.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">2</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Launch Campaign</h2>
-                                                            <p class="text01">Allow us some time to review/moderate your Campaign or let us provide feedback.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">3</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Promote to Network</h2>
-                                                            <p class="text01">Tell your crowd about Campaign and share via social networking channels.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">4</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Collect Your Funds</h2>
-                                                            <p class="text01">Encourage your crowd with rewards, hit your target & collect your funds.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="right01">
-                                            <img src="images/heart.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-src="images/slider.png">
-                                <div class="camera-caption moveFromTop">
-                                    <div class="flex flex-between">
-                                        <div class="left01">
-                                            <h1>4 Easy Steps in Creating Your Fundraising Campaign 1:</h1>
-                                            <div class="top-text flex flex-between">
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">1</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Create Campaign</h2>
-                                                            <p class="text01">So you've got an idea? Draft your appealing Campaign & submit.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">2</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Launch Campaign</h2>
-                                                            <p class="text01">Allow us some time to review/moderate your Campaign or let us provide feedback.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">3</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Promote to Network</h2>
-                                                            <p class="text01">Tell your crowd about Campaign and share via social networking channels.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">4</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Collect Your Funds</h2>
-                                                            <p class="text01">Encourage your crowd with rewards, hit your target & collect your funds.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="right01">
-                                            <img src="images/heart.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-src="images/slider.png">
-                                <div class="camera-caption fadeFromBottom">
-                                    <div class="flex flex-between">
-                                        <div class="left01">
-                                            <h1>4 Easy Steps in Creating Your Fundraising Campaign 2:</h1>
-                                            <div class="top-text flex flex-between">
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">1</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Create Campaign</h2>
-                                                            <p class="text01">So you've got an idea? Draft your appealing Campaign & submit.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">2</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Launch Campaign</h2>
-                                                            <p class="text01">Allow us some time to review/moderate your Campaign or let us provide feedback.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">3</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Promote to Network</h2>
-                                                            <p class="text01">Tell your crowd about Campaign and share via social networking channels.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li class="flex flex-between">
-                                                        <span class="number">4</span>
-                                                        <div class="box-w-90">
-                                                            <h2>Collect Your Funds</h2>
-                                                            <p class="text01">Encourage your crowd with rewards, hit your target & collect your funds.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="right01">
-                                            <img src="images/heart.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					
+					<div class="flex flex-between">
+						<div class="left01">
+							<h1>4 Easy Steps in Creating Your Fundraising Campaign:</h1>
+							<div class="top-text flex flex-between">
+								<ul>
+									<li class="flex flex-between">
+										<span class="number">1</span>
+										<div class="box-w-90">
+											<h2>Create Campaign</h2>
+											<p class="text01">So you've got an idea? Draft your appealing Campaign & submit.</p>
+										</div>
+									</li>
+									<li class="flex flex-between">
+										<span class="number">2</span>
+										<div class="box-w-90">
+											<h2>Launch Campaign</h2>
+											<p class="text01">Allow us some time to review/moderate your Campaign or let us provide feedback.</p>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li class="flex flex-between">
+										<span class="number">3</span>
+										<div class="box-w-90">
+											<h2>Promote to Network</h2>
+											<p class="text01">Tell your crowd about Campaign and share via social networking channels.</p>
+										</div>
+									</li>
+									<li class="flex flex-between">
+										<span class="number">4</span>
+										<div class="box-w-90">
+											<h2>Collect Your Funds</h2>
+											<p class="text01">Encourage your crowd with rewards, hit your target & collect your funds.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right01">
+							<img src="images/heart.png">
+						</div>
+					</div>
 					<div class="search01">
 						<form class="midd-search">
 							<a href="#" class="search-title text-underline">Browse all categories</a>
