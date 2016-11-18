@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+@import "../css/mobile-menu.css";
+/*========================================================
+										              1200
+=========================================================*/
+@media only screen and (max-width: 1200px){
+	
+}
+/*========================================================
+										              1024
+=========================================================*/
+@media only screen and (max-width: 1024px){
+	.content, .left02, .right02, .box01, .right01, .left01,.right02, right02a, .left02, .list-style01, .easy-setup:after, .login, loadmore02, .loadmore03, .change-withdraw, .benefitcary {
+		width: 100%;
+	}
+	.flex{
+		display: block;
+	}
+	.search01 input{
+		width: 315px;
+	}
+	footer {
+
+	}
+}
