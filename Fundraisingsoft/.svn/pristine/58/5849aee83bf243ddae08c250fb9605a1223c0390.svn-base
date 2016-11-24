@@ -1,0 +1,40 @@
+﻿<body style="background:#f7f6f6; text-align:center;padding:35px 0 70px; margin:0; font-family:Arial; color:#666666; font-size:14px; font-weight: 400;">
+
+	
+	<!-- Lay tu day -->
+	<div>
+        <img style="margin-bottom:15px" src="img/logo.png">
+	    <article style="border-radius:10px; text-align:left; border:1px #dadada solid; background:#ffffff; width: 500px; margin:auto; padding:10px 20px 30px;">
+<!--===================================Header===================================-->       
+	        <header>
+
+	            
+		            <p>Dear [First Last]</p>
+		            <p>Congratulation!  Your new account has been successfully registered at [www.domainame.com]</p>
+		            <p>
+		            Your Username is: [        ]<br>
+		            Your Password is: [        ]
+					</p>
+
+
+					<p>Please keep your login credential safe, private and confidential. Click here to Login to your account.</p>
+
+
+					<p>Sincerely,</p>
+
+
+					<p>[www.domainname.com] Staff</p>
+
+	            
+	        </header>
+       
+	        <footer>
+	        	<hr>
+	            <p style="color:#c9c9c9; font-weight:400;">Don't want these emails?</p>
+	            <a href="#" style="color:#053957; font-weight:400; text-decoration:none;">Unsubscribe</a>
+	        </footer>
+	    </article>
+	</div>
+	<!-- Lay tu day -->
+	
+</body>

@@ -1,6 +1,6 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+﻿@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
-@import "../css/color/color.css";
+@import url("../css/color/color.css");
 @charset "utf-8";
 /* CSS Document */
 .tinner{
@@ -157,6 +157,7 @@ p {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    outline:0;
 }
 .btn:after {
  content: '';
@@ -796,7 +797,6 @@ input{
 	-moz-box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
 	box-shadow: inset 0px 0px 10px 0px rgba(223,0,36,0.5);
 	background-color:  #f3f1f1;
-	height: 35px;
 	width: 100%;
 }
 .login-content p{
@@ -1232,9 +1232,7 @@ input{
 .donate-frm{
     padding: 25px 20px;
 }
-.donate-frm input:not([type=checkbox]),
-.donate-frm select,
-.donate-frm textarea{
+.donate-frm input:not([type=radio]),.donate-frm select,.donate-frm textarea{
     width: 100%;
     border-radius: 4px;
     border: solid 1px #e6e6e6;
@@ -1246,10 +1244,10 @@ input{
     display: block;
     margin: 5px 0px;
 }
-.donate-frm .double input:not([type=checkbox]){
+.donate-frm .double input:not([type=checkbox]), .donate-frm .double input:not([type=checkbox]){
     width: 48%;
 }
-input[type=checkbox]{
+input[type=checkbox], input[type=radio]{
     vertical-align: middle;
 }
 .text-checkbox{
@@ -1558,7 +1556,7 @@ p.profile-name{
 .campaign-type {
 	margin: 20px 0px;
 }
-.campaign-type input[type=checkbox]{
+.campaign-type input[type=checkbox], .campaign-type input[type=radio]{
 	margin-right: 5px;
 }
 .checkbox{
@@ -1585,6 +1583,12 @@ p.profile-name{
 .font-36{
     font-size: 36px;
 }
+
+
+.boxlistphotoupload {
+    background: #f6f7f8!important; padding:15px; display:block; margin:0!important;
+}
+
 /**********************WithDraw********************/
 .change-withdraw{
 	padding: 20px 30px;
@@ -1739,6 +1743,7 @@ footer{
 	border-top: 1px solid #e1e1e1;
 	font-size: 12px;
 	padding: 0px 40px;
+    margin-top:30px;
 }
 footer p{
 	font-size: 12px;
@@ -1788,3 +1793,4 @@ footer p{
 .company{
 	padding: 10px 0;
 }
+.floatright{float:right}
