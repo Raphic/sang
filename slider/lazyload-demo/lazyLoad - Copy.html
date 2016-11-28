@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Owl Carousel - Lazy Load</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    
+    <script src="js/jquery.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $("#owl-demo").owlCarousel({
+            items : 4,
+            lazyLoad : true,
+            navigation : true
+          });
+        });
+    </script>
+  </head>
+  <body>
+    <div id="owl-demo" class="owl-carousel">
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl1.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl2.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl3.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl4.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl5.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl6.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl7.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl1.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl2.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl3.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl4.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl5.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl6.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl7.jpg" alt="Lazy Owl Image"></div>
+        <div class="owl-box"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>
+    </div>
+  </body>
+</html>
