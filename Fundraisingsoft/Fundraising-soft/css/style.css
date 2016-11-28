@@ -1004,7 +1004,7 @@ input{
 	-o-transition: .1s;
 	-ms-transition: .1s;
 }
-.tab-page #content-tab {
+.tab-page #content {
 	min-height: 40px;
 	position: relative;
 	width: 100%;
@@ -1012,16 +1012,16 @@ input{
 	padding:10px 0px 5px;
 	clear: both;
 }
-.tab-page #content-tab>div {
+.tab-page #content>div {
 	opacity: 0;
 	text-align: justify;
 	display: none;
 	transition: all linear 0.1s;
 }
-.tab-page #container input#tab-1:checked ~ #content-tab #content-1,
-.tab-page #container input#tab-2:checked ~ #content-tab #content-2,
-.tab-page #container input#tab-3:checked ~ #content-tab #content-3,
-.tab-page #container input#tab-4:checked ~ #content-tab #content-4{
+.tab-page #container input#tab-1:checked ~ #content #content-1,
+.tab-page #container input#tab-2:checked ~ #content #content-2,
+.tab-page #container input#tab-3:checked ~ #content #content-3,
+.tab-page #container input#tab-4:checked ~ #content #content-4{
     opacity: 1;
 	display: block;
 }

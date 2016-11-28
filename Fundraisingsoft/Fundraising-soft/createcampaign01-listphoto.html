@@ -12,7 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    
 	<link rel="stylesheet" href="css/touchTouch.css">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 	
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
@@ -20,7 +23,17 @@
 	<script>
         $(function(){
             // Initialize the gallery
-            $('.thumbs a').touchTouch();
+            $('.owl-box a').touchTouch();
+        });
+    </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $("#owl-demo").owlCarousel({
+            items : 4,
+            lazyLoad : true,
+            navigation : true
+          });
         });
     </script>
 </head>
@@ -115,6 +128,16 @@
                                                                <li class="thumbs">
                                                                    <a href="http://farm8.staticflickr.com/7276/6886626710_047cd03acb_z.jpg" data-gallery="two" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" data-gallery="three" title="Album 3"></a>
                                                                </li>
+                                                            </ul>
+                                                            <ul id="owl-demo" class="owl-carousel">
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="two" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" data-gallery="three" title="Album 3"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 1</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 2</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 3</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 4</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 5</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 6</span></a></li>
+                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 7</span></a></li>
+                                                                <!--<div class="owl-box"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>-->
                                                             </ul>
                                                         </figure>
 													</div>
