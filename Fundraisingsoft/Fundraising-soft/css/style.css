@@ -363,7 +363,7 @@ a.current02,
 	margin: auto;
 }
 .logo{
-	height: 64px;
+	height: 58px;
 }
 input{
 	padding: 0 10px;
@@ -417,12 +417,16 @@ input{
 }
 .left01{
 	margin-top: 40px;
+    width: 750px;
 }
 .right01{
     width: 344px;
 }
 .top-text{
 	margin-top: 40px;
+}
+.top-text ul{
+    width: 48%;
 }
 .number{
 	border-radius: 50%;
