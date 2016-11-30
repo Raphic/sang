@@ -11,23 +11,28 @@
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
-    
     <link rel="stylesheet" href="css/style.css">
     
-    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/touchTouch.css">
+	<link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
 	
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
-	
+	<script src="js/touchTouch.jquery.js"></script>
+	<script>
+        $(function(){
+            // Initialize the gallery
+            $('.owl-box a').touchTouch();
+        });
+    </script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
           $("#owl-demo").owlCarousel({
             items : 4,
             lazyLoad : true,
-            navigation : true,
-            responsive: true,
+            navigation : true
           });
         });
     </script>
@@ -113,19 +118,18 @@
 												<div id="content">
 													<div id="content-1">
                                                         <figure class="boxlistphotoupload">
-                                                           <ul id="owl-demo" class="owl-carousel">
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 1</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 2</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 3</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 4</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 5</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 6</span></a></li>
-                                                                <li class="owl-box"><a  href="#"><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"><span class="posted">Album 7</span></a></li>
+                                                            <ul id="owl-demo" class="owl-carousel">
+                                                                <!-- Group data-gallery one-->
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="one" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="one" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="one" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="one" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="one" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
+                                                                <!-- Group data-gallery two-->
+                                                                <li class="owl-box"><a href="http://farm8.staticflickr.com/7042/6895252645_45f5dfffaa_z.jpg" data-gallery="two" style="background-image:url(http://farm8.staticflickr.com/7042/6895252645_45f5dfffaa_z.jpg)" title=""><img class="lazyOwl" data-src="http://farm8.staticflickr.com/7042/6895252645_45f5dfffaa_z.jpg" alt="Owl Image"></a></li>
+                                                                <li class="owl-box"><a href="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" data-gallery="two" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title=""><img class="lazyOwl" data-src="https://scontent.xx.fbcdn.net/t31.0-8/s720x720/1890412_10208481459181104_4803600226094903625_o.jpg" alt="Owl Image"></a></li>
                                                                 <!--<div class="owl-box"><img class="lazyOwl" data-src="assets/owl8.jpg" alt="Lazy Owl Image"></div>-->
                                                             </ul>
-                                                            <center>
-                                                                <button class="btn btn-cancel">CANCEL</button>
-                                                            </center>
                                                         </figure>
 													</div>
 													<div id="content-2">
@@ -144,13 +148,11 @@
 										</div>
 									</div>
 								</div>
-<!--
 								<div class="update flex flex-between flex-vertical no-border">
                                     <a class="back" href="#">Go Back</a>
                                     <button class="btn btn-continue">SUBMIT</button>
                                     <a class="need-contact text-blue" href="#"></a>
                                 </div>
--->
 							</div>
                     </section>
                 </div>
