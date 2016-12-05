@@ -120,7 +120,8 @@ footer{
 .btn-login-sub,
 .btn-donate-now,
 .btn-continue,
-.btn-profile{
+.btn-profile,
+.btn-search02{
 	background-color:  #dbdd22;
 	color: #fff;
 }
