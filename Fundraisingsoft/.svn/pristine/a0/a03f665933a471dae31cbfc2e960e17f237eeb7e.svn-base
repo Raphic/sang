@@ -1,0 +1,48 @@
+﻿<body style="background:#f7f6f6; text-align:center;padding:35px 0 70px; margin:0; font-family:Arial; color:#666666; font-size:14px; font-weight: 400;">
+
+	
+	<!-- Lay tu day -->
+	<div>
+        <img style="margin-bottom:15px" src="img/logo.png">
+	    <article style="border-radius:10px; text-align:left; border:1px #dadada solid; background:#ffffff; width: 500px; margin:auto; padding:10px 20px 30px;">
+<!--===================================Header===================================-->       
+	        <header>
+
+	            
+		            <p>Dear [First Last]</p>
+		            <p>Congratulation!  Your new account has been successfully registered at [www.domainame.com]</p>
+		            <p>
+		            Your Username is: [        ]<br>
+		            Your Password is: [        ]
+					</p>
+
+
+					<p>Please keep your login credential safe, private and confidential. Click here to Login to your account.</p>
+
+
+					<p>Sincerely,</p>
+
+
+					<p>[www.domainname.com] Staff</p>
+
+	            
+	        </header>
+       
+	        <footer>
+	        	<hr>
+	            <p style="color:#c9c9c9; font-weight:400;">Don't want these emails?</p>
+	            <a href="#" style="color:#053957; font-weight:400; text-decoration:none;">Unsubscribe</a>
+	        </footer>
+	    </article>
+	</div>
+	<!-- Lay tu day -->
+	
+</body>
+
+<thead>
+						<tr>
+							<th width="10" class="itemchk"></th>
+							<th width="30" class="sorting<?php if($_data['order']=='itemid'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('itemid','<?php if($_data['order']=='itemid'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">ID</th>
+							<th class="sorting<?php if($_data['order']=='title'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('title','<?php if($_data['order']=='title'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">Tiêu đề</th>
+							<th width="40" class="sorting<?php if($_data['order']=='ordering'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('ordering','<?php if($_data['order']=='ordering'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">Thứ tự</th>
+							<th width="55">Ngày tạo</th>

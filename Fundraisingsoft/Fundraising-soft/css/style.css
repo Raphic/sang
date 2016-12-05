@@ -1,4 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+﻿@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
 @import url("../css/color/color.css");
 @charset "utf-8";
@@ -592,6 +592,7 @@ input{
     margin-bottom: 10px;
     position: relative;
 }
+
 .list-item p{
     margin: 0 !important;
 }
@@ -1350,6 +1351,8 @@ a.icon-profile{
     height: 35px;
     vertical-align: middle;
 }
+a.icon-profile IMG{width:100%}
+
 .btn-profile span{
     vertical-align: middle;
 }
