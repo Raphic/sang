@@ -1,0 +1,36 @@
+﻿<body style="background:#f7f6f6; text-align:center;padding:35px 0 70px; margin:0; font-family:Arial; color:#666666; font-size:14px; font-weight: 400;">
+
+
+
+
+
+	<div>
+        <img style="margin-bottom:15px" src="img/logo.png">
+	    <article style="border-radius:10px; border:1px #dadada solid; background:#ffffff; width: 500px; margin:auto; padding:10px 0 30px;">
+<!--===================================Header===================================-->       
+	            <p>[First Name],</p>
+                <p>[Kim Nguyen] has created a campaign <b>[name of campaign]</b> to raise fund for you at [www.domainname.com] </p>
+<!--===================================Content===================================-->	        
+                <div style="margin:30px 10px 15px; border-top:1px #dadada solid; border-bottom:1px #dadada solid">
+                    <p>To accept this money, click <b>Accept Money</b> or to decline it by clicking on <b>Decline Money</b></p>
+                    <button style="width:200px; height:50px; line-height:50px; background:#e5e676;border:none;border-bottom: 3px solid #c5c65c; margin-top:15px; cursor:pointer">
+                        <a style="font-family:'Roboto', sans-serif; color:#686927; font-size: 18px; font-weight:500; text-transform:uppercase; text-decoration:none; display:block" href="#">Accept Money</a>
+                    </button>
+                    <p><a href="#" style="color:#333; text-decoration:none">Decline Money</a></p>
+                </div>
+                <img style="margin:10px 0; width:100%" src="img/img-content.png">
+<!--===================================Footer===================================-->	        
+	            <p style="color:#c9c9c9; font-weight:400;">Don't want these emails?</p>
+	            <a href="#" style="color:#053957; font-weight:400; text-decoration:none;">Unsubscribe</a>
+	    </article>
+
+
+        <p>Sent from [www.domainname.com]</p>
+        <p>8336 Thornapple River Dr. S.E. Caledonia, MI 49316 (key này trong cms)</p>
+
+	</div>
+
+
+
+
+</body>

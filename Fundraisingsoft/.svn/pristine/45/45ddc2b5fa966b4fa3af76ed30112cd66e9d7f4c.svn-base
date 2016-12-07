@@ -83,15 +83,14 @@
                             </nav>
                         </div>
                         <div class="right02a">
-                            <h3 class="title01 bg-blue">Withdraw Status</h3>
+                            <h3 class="title01 bg-blue">Withdraw</h3>
                             <div class="update no-border">
-                                <h1>Hi Sáng,</h1>
-                                <p class="font-24">Request withdraw: $2,000  at 10/19/2016 23:22:12</p>
-                                <p class="text-green01">Yêu cầu của bạn đã được hệ thống và campaigner approved!</p>
-                                <p class="text03 border-yellow bg-yellow">Chúng tôi đang hoàn tất việc chuyển tiền. Mong Sáng chờ kết quả</p>
-                            </div>
-                            <div class="update no-border">
-                                <a class="text-blue" href="#">Contact to Adminstrator</a><span class="text-red">
+                                <p>Your fund của bạn là $2,000</p>
+                                <p>Chọn phương pháp rút tiền: Bằng thông tin cá nhân / ngân hàng hay Tài khoản Paypal</p>
+                                <div>
+                                    <button class="btn btn-continue no-margin">Bank</button>
+                                    <button class="btn btn-continue no-margin">Paypal</button>
+                                </div>
                             </div>
                         </div>
 
