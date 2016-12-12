@@ -38,11 +38,3 @@
 	<!-- Lay tu day -->
 	
 </body>
-
-<thead>
-						<tr>
-							<th width="10" class="itemchk"></th>
-							<th width="30" class="sorting<?php if($_data['order']=='itemid'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('itemid','<?php if($_data['order']=='itemid'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">ID</th>
-							<th class="sorting<?php if($_data['order']=='title'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('title','<?php if($_data['order']=='title'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">Tiêu đề</th>
-							<th width="40" class="sorting<?php if($_data['order']=='ordering'){ echo ($_data['orderby']=='ASC'? '_desc' : '_asc'); }else{ echo '';}?>" onclick="filterChange('ordering','<?php if($_data['order']=='ordering'){ echo ($_data['orderby']=='ASC'? 'DESC' : 'ASC'); }else{ echo 'DESC';}?>');">Thứ tự</th>
-							<th width="55">Ngày tạo</th>
