@@ -2,29 +2,135 @@
 /* CSS Document */
 @import "../css/mobile-menu.css";
 /*========================================================
-										              1200
+										              320
 =========================================================*/
-@media only screen and (max-width: 1200px){
-	
-}
-/*========================================================
-										              1024
-=========================================================*/
-@media only screen and (max-width: 1024px){
-	.content, .left02, .right02, .box01, .right01, .left01,.right02, right02a, .left02, .list-style01, .easy-setup:after, .login, loadmore02, .loadmore03, .change-withdraw, .benefitcary {
-		width: 100%;
-	}
-	.flex{
-		display: block;
-	}
-	.search01 input{
-		width: 315px;
-	}
-	footer {
-
-	}
-}
-@media only screen and (max-width: 911px){
+@media only screen and (min-width: 320px) and (max-width: 980px){
+    #wrap{
+        position: relative;
+    }
+    .content, .left02, .right02, .box01, .right01, .left01,.right02, .right02a, .left02, .list-style01, .easy-setup:after, .login, .loadmore02, .loadmore03, .change-withdraw, .benefitcary {
+        width: 100%;
+    }
+    .wrap-content{
+        margin-top: 1em;
+    }
+    .content,
+    footer{
+        padding: 0px 1em;
+    }
+    .create-campaign{
+        position: fixed;
+        top: 1em;
+        right: 0.5em;
+        z-index: 99999999;
+        height: 30px;
+        border-radius: 0;
+        padding: 0 10px;
+    }
+    .left02,
+    .top-search,
+    .search-title,
+/*    .camera_pag_ul,*/
+    .content header .slider .top-text ul li p,
+    #mb{
+        display: none;
+    }
+    #pc{
+        display: block;
+    }
+    .search01 input{
+        width: 100%;
+    }
+    .midd-search{
+        padding: 25px 1em;
+    }
+    .midd-search input{
+        height: 35px;
+        font-size: 16px;
+    }
+    .midd-search .btn-search01{
+        top: 25px;
+        right: 0.7em;
+    }
+    .slider {
+        padding: 1em;
+    }
+    .slider h1{
+        font-size: 22px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .content header{
+        padding-top: 0;
+        margin: -1em;
+    }
+    .content header .slider .top-text ul{
+        width: 100%;
+        display: flex;
+	    display: -ms-flex;
+	    display: -moz-flex;
+	    display: -webkit-flex;
+        justify-content:space-between;
+        margin-bottom: 10px;
+    }
+    .content header .slider .top-text ul li{
+        width: 48%;
+        height: 70px;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color:  #e3e3e3;
+        background-color:  #f6f7f8;
+    }
+    .number{
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .content header .slider .top-text ul li .box-w-90{
+        margin:0 auto;
+    }
+     .content header .slider .top-text ul li h2{
+        font-size: 12px;
+    }
+    .content header .slider .right01 img{
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+    }
+    .tabs-menu li{
+        width: 100%;
+    }
+    .list-box{
+        -webkit-justify-content: space-around;  
+        justify-content: space-around;  
+    }
+    .list-item{
+        margin: 0 0 10px;
+    }
+    .easy-setup:after{
+        background-size: contain;
+        margin: 30px auto 0;
+    }
+    .easy-setup ul,
+    .easy-setup ul:nth-child(2){
+        margin-left: 1em;
+    }
+    .easy-setup ul li{
+        font-size: 14px;
+        margin-bottom: 1em;
+    }
+    .easy-setup ul li:before{
+        width: 25px;
+        height: 23px;
+        background-size: contain;
+    }
+    .easy-setup ul:nth-child(2) li:last-child{
+        margin-bottom: 30px;
+    }
+/*==========================Footer===========================*/
+    footer {
+        text-align: center;
+    }
     footer .flex{
         display: flex;
         display: -ms-flex;
@@ -34,5 +140,32 @@
         flex-direction: row;
         -webkit-flex-wrap: wrap; 
         flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
     }
+    .footer-logo,
+    .footer-payment{
+        width: 100%;
+    }
+     .footer-logo p{
+        text-align: justify;
+    }
+    .footer-link{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 911px){
+   
+}
+/*========================================================
+										              1024
+=========================================================*/
+@media only screen and (max-width: 1024px){
+	
+}
+/*========================================================
+										              1200
+=========================================================*/
+@media only screen and (max-width: 1200px){
+	
 }

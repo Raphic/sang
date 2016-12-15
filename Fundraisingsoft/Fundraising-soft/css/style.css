@@ -1,4 +1,4 @@
-﻿@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
 @import url("../css/color/color.css");
 @charset "utf-8";
@@ -108,6 +108,12 @@ border-spacing:0;
 .clear{
 	clear: both;
 	display: block;
+}
+#pc{
+    display: none;
+}
+#mb{
+    display: block;
 }
 /**********************Text********************/
 h1{
@@ -725,7 +731,7 @@ input{
     background-color:  #ffffff;
     width: 130px;
     height: 35px;
-    line-height: 35px;
+/*    line-height: 35px;*/
     border-radius: 18px;
     margin: 10px auto 25px;
 }

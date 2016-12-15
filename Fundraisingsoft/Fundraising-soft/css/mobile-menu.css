@@ -24,7 +24,7 @@
   width: 240px;
   padding: 132px 0 76px;
   color: #FFF;
-  background: #055e68;
+  background: #38a0a3;
   font-size: 14px;
   line-height: 20px;
   overflow: auto;
@@ -54,15 +54,16 @@
 }
 .rd-mobilemenu_ul li.active a {
   background: #FFF;
-  color: #055e68;
+  color: #38a0a3;
 }
 .rd-mobilemenu_ul a {
   display: block;
   padding: 14px 25px 16px;
+  color: #fff;
 }
 .rd-mobilemenu_ul a:hover {
   background: #FFF;
-  color: #055e68;
+  color: #38a0a3;
 }
 .rd-mobilemenu_ul a .rd-submenu-toggle {
   position: absolute;
@@ -88,7 +89,7 @@
   content: '\f078';
 }
 .rd-mobilemenu_ul a .rd-submenu-toggle:hover {
-  background: #055e68;
+  background: #38a0a3;
   color: #FFF;
 }
 .rd-mobilemenu_ul a.rd-with-ul {
@@ -120,7 +121,7 @@
   left: 0;
   right: 0;
   height: 56px;
-  background: #055e68;
+  background: #38a0a3;
   color: #FFF;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -148,6 +149,7 @@
   left: 8px;
   width: 48px;
   height: 48px;
+    background: transparent;
 }
 .rd-mobilepanel_toggle span {
   position: relative;
@@ -235,5 +237,6 @@
 @media (max-width: 359px) {
   .rd-mobilepanel_title {
     font-size: 18px;
+    display: none;
   }
 }

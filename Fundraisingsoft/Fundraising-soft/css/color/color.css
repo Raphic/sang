@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 .color0{
 	color: #fff !important;
@@ -38,7 +38,7 @@ footer p,
 	color: #b7b7b7;
 }
 .btn-signup{
-    color: #fff;
+    color: #fff !important;
     background:  #594b40;
 }
 .number{
@@ -121,7 +121,8 @@ footer{
 .btn-donate-now,
 .btn-continue,
 .btn-profile,
-.btn-search02{
+.btn-search02,
+.create-campaign{
 	background-color:  #dbdd22;
 	color: #fff;
 }
