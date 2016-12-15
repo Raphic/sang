@@ -1,4 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+﻿@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
 @import url("../css/color/color.css");
 @charset "utf-8";
@@ -23,7 +23,9 @@
   	margin: 0;
   	padding: 0;
   	border: 0;
-
+     -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
 }
 body,div,p,form,input,select,option,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,address{
 	margin:0;
@@ -34,7 +36,6 @@ body,div,p,form,input,select,option,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,address{
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
 	border: none;
-
 }
 body{
 	font-family: Roboto;
@@ -107,12 +108,6 @@ border-spacing:0;
 .clear{
 	clear: both;
 	display: block;
-}
-#pc{
-    display: none;
-}
-#mb{
-    display: block;
 }
 /**********************Text********************/
 h1{
@@ -309,18 +304,11 @@ p {
 /**********************Warp setting********************/
 #wrap{
 	background: #ffffff;
-    -webkit-transition: 0s!important;
-    -ms-transition: 0s!important;
-    transition: 0s!important;
 }
-.current{
-	background: #dbdd22;
-	text-transform: uppercase;
-	overflow: hidden;
-	box-sizing: border-box;
-}
+.current,
 .menu a:hover{
 	background: #dbdd22;
+	text-transform: uppercase;
 	overflow: hidden;
 	box-sizing: border-box;
 }
@@ -699,8 +687,6 @@ input{
     margin: 6px auto;
     position: relative;
     border-radius: 4px;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-
 }
 .loading-pjbar{
     position: absolute;
@@ -739,7 +725,7 @@ input{
     background-color:  #ffffff;
     width: 130px;
     height: 35px;
-/*    line-height: 35px;*/
+    line-height: 35px;
     border-radius: 18px;
     margin: 10px auto 25px;
 }
@@ -750,7 +736,6 @@ input{
     font-size: 18px;
     text-align: center;
     border-radius: 2px;
-    color:#fff;
 }
 /**********************EASY SetUp********************/
 .easy-setup{
@@ -782,7 +767,7 @@ input{
 }
 .easy-setup ul li{
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .easy-setup ul li:before{
     content: "";

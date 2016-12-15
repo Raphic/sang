@@ -83,7 +83,7 @@
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.1);
+/*  background: rgba(0, 0, 0, 0.1);*/
 }
 .rd-mobilemenu_ul a .rd-submenu-toggle:after {
   content: '\f078';
@@ -237,6 +237,5 @@
 @media (max-width: 359px) {
   .rd-mobilepanel_title {
     font-size: 18px;
-    display: none;
   }
 }

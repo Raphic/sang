@@ -8,15 +8,25 @@
     #wrap{
         position: relative;
     }
-    .content, .left02, .right02, .box01, .right01, .left01,.right02, .right02a, .left02, .list-style01, .easy-setup:after, .login, .loadmore02, .loadmore03, .change-withdraw, .benefitcary {
+    .content, .left02, .right02, .box01, .right01, .left01,.right02, .right02a, .left02, .list-style01, .easy-setup:after, .login, .loadmore02, .loadmore03, .change-withdraw, .benefitcary , .campaign {
         width: 100%;
     }
-    .wrap-content{
+    .right02a{
+        border: none;
+        border-radius: 0;
+    }
+    .wrap-content.index{
         margin-top: 1em;
     }
     .content,
     footer{
         padding: 0px 1em;
+    }
+    .rd-mobilemenu_ul .icon-dropdown{
+        display: none
+    }
+    .btn-profile{
+        display: block;
     }
     .create-campaign{
         position: fixed;
@@ -126,6 +136,31 @@
     }
     .easy-setup ul:nth-child(2) li:last-child{
         margin-bottom: 30px;
+    }
+/*==========================Campaign===========================*/
+    .donate-detail-input{
+        padding: 0px 15px;
+        line-height: inherit;
+        height: 60px;
+    }
+    .nav{
+        position: fixed;
+        top: 9px;
+        right: 5px;
+        z-index: 99999999;
+    }
+    .donate-detail-input input{
+        max-width: 85%;     
+    }
+    .donate-detail-input input,
+    .donate-detail-input label{
+        font-size: 40px;
+    }
+    .donate-frm{
+        padding: 0px;
+    }
+    .btn-continue, .btn-cancel{
+        padding: 10px 0;
     }
 /*==========================Footer===========================*/
     footer {
