@@ -11,9 +11,12 @@
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
+    
     <link rel="stylesheet" href="css/style.css">
-	
-	<script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/reponsive.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.rd-navbar.js"></script>
 	<script src="js/script.js"></script>
 </head>
 
@@ -27,33 +30,38 @@
 				<div class="logo flex flex-between flex-ver-center">
 					<img src="images/logo.png">
 				</div>
-				<div class="top-menu">
-					<nav>
-						<ul class="menu flex">
-							<button class="btn btn-profile drop-show">
-							    <a href="#" class="icon-profile">
-							        <img src="images/icon-profile.png">
-							    </a>
-							    <span>David</span>
-							    <span class="icon-dropdown"></span>
-							   	<div class="profile-drop-show">
-									<li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
-									<li><a href="#">Account Setting</a></li>
-									<li><a href="#">My Campaigns</a></li>
-									<li><a href="#">Ask a Question</a></li>
-									<li><a href="#">Logout</a></li>
-								</div>
-                            </button>
+				<div class="top-menu pc-mb">
+					<nav class="nav"data-type="navbar">
+						<ul class="menu flex" data-type="navbar">
+							
 						</ul>
 					</nav>
 				</div>
+                <nav class="nav">
+                   <ul class="menu flex">
+                    <button class="btn btn-profile drop-show">
+                        <a href="#" class="icon-profile">
+                            <img src="images/icon-profile.png">
+                        </a>
+                        <span>David</span>
+                        <span class="icon-dropdown"></span>
+                        <div class="profile-drop-show">
+                            <li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
+                            <li><a href="#">Account Setting</a></li>
+                            <li><a href="#">My Campaigns</a></li>
+                            <li><a href="#">Ask a Question</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </div>
+                    </button>
+                    </ul>
+                </nav>
 			</div>
 		</header>
 	<!--============================================================================-->
 	<!--===================================Content===================================-->
 	<!--============================================================================-->	
 		<section class="wrap-content">
-			<article class="content">
+            <article class="content">
                 <div class="dashboard">
                     <section class="middle flex flex-between">
                         <div class="left02">
@@ -67,51 +75,74 @@
                             </nav>
                         </div>
                         <div class="update-warp">
-                        	<div class="right02a">
-								<h3 class="title01 bg-blue">List Campaigns</h3>
-								<div class="update no-border flex">
-									<div class="list-item">
-                                        <div class="item-img">
-                                            <img src="images/item-img.png">
+                            <div class="right02a">
+                                <h3 class="title01 bg-blue">List Campaigns</h3>
+                                <div class="update flex no-border">
+                                    <div class="list-box flex">
+                                        <div class="list-item">
+                                            <div class="item-img"> <img src="images/item-img.png"> </div>
+                                            <div class="icon-like"></div>
+                                            <h4>Baby (active/mouse hover)</h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:60%"></div>
+                                            </div> <a class="local" href="#"><span></span>Traverse City , USA</a>
+                                            <div class="withdraw-view flex flex-between"> <a href="#">Withdraw</a> <a href="#">View</a> </div>
                                         </div>
-                                        <div class="icon-like"></div>
-                                        <h4>Baby (active/mouse hover)</h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:60%"></div>
+                                       <div class="list-item">
+                                            <div class="item-img"> <img src="images/item-img.png"> </div>
+                                            <div class="icon-like"></div>
+                                            <h4>Baby (active/mouse hover)</h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:60%"></div>
+                                            </div> <a class="local" href="#"><span></span>Traverse City , USA</a>
+                                            <div class="withdraw-view flex flex-between"> <a href="#">Withdraw</a> <a href="#">View</a></div>
                                         </div>
-                                        <a class="local" href="#"><span></span>Traverse City , USA</a>
-                                        <div class="withdraw-view flex flex-between">
-                                            <a href="#">Withdraw</a>
-                                            <a href="#">View</a>
+                                        <div class="list-item">
+                                            <div class="item-img"> <img src="images/item-img.png"> </div>
+                                            <div class="icon-like"></div>
+                                            <h4>Baby (active/mouse hover)</h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:60%"></div>
+                                            </div> <a class="local" href="#"><span></span>Traverse City , USA</a>
+                                            <div class="withdraw-view flex flex-between"> <a href="#">Withdraw</a> <a href="#">View</a></div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item-img"> <img src="images/item-img.png"> </div>
+                                            <div class="icon-like"></div>
+                                            <h4>Baby (active/mouse hover)</h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:60%"></div>
+                                            </div> <a class="local" href="#"><span></span>Traverse City , USA</a>
+                                            <div class="withdraw-view flex flex-between"> <a href="#">Withdraw</a> <a href="#">View</a></div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item-img"> <img src="images/item-img.png"> </div>
+                                            <div class="icon-like"></div>
+                                            <h4>Baby (active/mouse hover)</h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:60%"></div>
+                                            </div> <a class="local" href="#"><span></span>Traverse City , USA</a>
+                                            <div class="withdraw-view flex flex-between"> <a href="#">Withdraw</a> <a href="#">View</a></div>
                                         </div>
                                     </div>
-                                    <div class="list-item">
-                                        <div class="item-img">
-                                            <img src="images/item-img.png">
-                                        </div>
-                                        <div class="icon-like"></div>
-                                        <h4>Baby (active/mouse hover)</h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:60%"></div>
-                                        </div>
-                                        <a class="local" href="#"><span></span>Traverse City , USA</a>
-                                        <div class="withdraw-view flex flex-between">
-                                            <a href="#">Withdraw</a>
-                                            <a href="#">View</a>
-                                        </div>
-                                    </div>
-								</div>
-								<br>
-							</div>
+                                    <br>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>
-			</article>
-		</section>
+            </article>
+        </section>
 	<!--============================================================================-->
 	<!--===================================Footer====================================-->
 	<!--============================================================================-->	

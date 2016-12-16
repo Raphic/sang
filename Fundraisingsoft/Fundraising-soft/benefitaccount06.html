@@ -11,9 +11,12 @@
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
+    
     <link rel="stylesheet" href="css/style.css">
-	
-	<script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/reponsive.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.rd-navbar.js"></script>
 	<script src="js/script.js"></script>
 </head>
 
@@ -27,26 +30,31 @@
 				<div class="logo flex flex-between flex-ver-center">
 					<img src="images/logo.png">
 				</div>
-				<div class="top-menu">
-					<nav>
-						<ul class="menu flex">
-							<button class="btn btn-profile drop-show">
-							    <a href="#" class="icon-profile">
-							        <img src="images/icon-profile.png">
-							    </a>
-							    <span>David</span>
-							    <span class="icon-dropdown"></span>
-							   	<div class="profile-drop-show">
-									<li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
-									<li><a href="#">Account Setting</a></li>
-									<li><a href="#">My Campaigns</a></li>
-									<li><a href="#">Ask a Question</a></li>
-									<li><a href="#">Logout</a></li>
-								</div>
-                            </button>
+				<div class="top-menu pc-mb">
+					<nav class="nav"data-type="navbar">
+						<ul class="menu flex" data-type="navbar">
+							
 						</ul>
 					</nav>
 				</div>
+                <nav class="nav">
+                   <ul class="menu flex">
+                    <button class="btn btn-profile drop-show">
+                        <a href="#" class="icon-profile">
+                            <img src="images/icon-profile.png">
+                        </a>
+                        <span>David</span>
+                        <span class="icon-dropdown"></span>
+                        <div class="profile-drop-show">
+                            <li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
+                            <li><a href="#">Account Setting</a></li>
+                            <li><a href="#">My Campaigns</a></li>
+                            <li><a href="#">Ask a Question</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </div>
+                    </button>
+                    </ul>
+                </nav>
 			</div>
 		</header>
 	<!--============================================================================-->
@@ -71,7 +79,7 @@
 								<h3 class="title01 bg-blue">History Withdraw</h3>
 								<div class="update no-border">
                                    <div class="withdraw-request">
-                                        <table>
+                                       <table class="rps-table">
                                             <tbody>
                                                 <tr>
                                                     <th>Request Date</th>

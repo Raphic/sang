@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="desktop">
 
 <head>
@@ -11,9 +11,12 @@
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#" type="image/x-icon">
+    
     <link rel="stylesheet" href="css/style.css">
-	
-	<script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/reponsive.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.rd-navbar.js"></script>
 	<script src="js/script.js"></script>
 </head>
 
@@ -27,26 +30,31 @@
 				<div class="logo flex flex-between flex-ver-center">
 					<img src="images/logo.png">
 				</div>
-				<div class="top-menu">
-					<nav>
-						<ul class="menu flex">
-							<button class="btn btn-profile drop-show">
-							    <a href="#" class="icon-profile">
-							        <img src="images/icon-profile.png">
-							    </a>
-							    <span>David</span>
-							    <span class="icon-dropdown"></span>
-							   	<div class="profile-drop-show">
-									<li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
-									<li><a href="#">Account Setting</a></li>
-									<li><a href="#">My Campaigns</a></li>
-									<li><a href="#">Ask a Question</a></li>
-									<li><a href="#">Logout</a></li>
-								</div>
-                            </button>
+				<div class="top-menu pc-mb">
+					<nav class="nav"data-type="navbar">
+						<ul class="menu flex" data-type="navbar">
+							
 						</ul>
 					</nav>
 				</div>
+                <nav class="nav">
+                   <ul class="menu flex">
+                    <button class="btn btn-profile drop-show">
+                        <a href="#" class="icon-profile">
+                            <img src="images/icon-profile.png">
+                        </a>
+                        <span>David</span>
+                        <span class="icon-dropdown"></span>
+                        <div class="profile-drop-show">
+                            <li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
+                            <li><a href="#">Account Setting</a></li>
+                            <li><a href="#">My Campaigns</a></li>
+                            <li><a href="#">Ask a Question</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </div>
+                    </button>
+                    </ul>
+                </nav>
 			</div>
 		</header>
 	<!--============================================================================-->
@@ -58,7 +66,7 @@
                     <section class="middle flex flex-between">
                         <div class="left02">
                             <nav class="menu-left">
-                               <h3 class="title01 bg-blue">ACCOUNT SETTINGS</h3>
+                                <h3 class="title01 bg-blue">ACCOUNT SETTINGS</h3>
                                 <ul>
                                     <li><a href="#">Basic settings</a></li>
                                     <li><a href="#">Change Password</a></li>
@@ -70,84 +78,70 @@
                             </nav>
                         </div>
                         <div class="update-warp">
-                        	<div class="right02a">
+                            <div class="right02a">
                                 <div class="update">
-                                    <h1>My Campaigns</h1>
-                                </div>
-
+                                    <h1>My Campaigns</h1> </div>
                                 <div class="update">
                                     <p class="text03">Manage your campaigns below. </p>
                                 </div>
-
-								
                                 <div class="update flex no-border">
-                                    <div class="list-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="images/item-img.png"></a>
+                                    <div class="list-box flex">
+                                        <div class="list-item">
+                                            <div class="item-img">
+                                                <a href="#"><img src="images/item-img.png"></a>
+                                            </div>
+                                            <div class="icon-like"></div>
+                                            <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:30%"></div>
+                                            </div> <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Pause</a> <a href="#" class="floatright">Delete</a> 
                                         </div>
-                                        <div class="icon-like"></div>
-                                        <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:30%"></div>
+                                        <div class="list-item">
+                                            <div class="item-img">
+                                                <a href="#"><img src="images/item-img.png"></a>
+                                            </div>
+                                            <div class="icon-like"></div>
+                                            <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:30%"></div>
+                                            </div> <a href="#" class="color3">Edit</a> | Are you sure? <a href="#" class="color2">Yes</a> <a href="#" class="floatright">Delete</a> 
                                         </div>
-                                        <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Pause</a>  <a href="#" class="floatright">Delete</a>
-                                    </div>
-
-                                    <div class="list-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="images/item-img.png"></a>
+                                        <div class="list-item">
+                                            <div class="item-img">
+                                                <a href="#"><img src="images/item-img.png"></a>
+                                            </div>
+                                            <div class="icon-like"></div>
+                                            <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:30%"></div>
+                                            </div> <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Turn On</a> <a href="#" class="floatright">Delete</a> 
                                         </div>
-                                        <div class="icon-like"></div>
-                                        <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:30%"></div>
+                                        <div class="list-item">
+                                            <div class="item-img">
+                                                <a href="#"><img src="images/item-img.png"></a>
+                                            </div>
+                                            <div class="icon-like"></div>
+                                            <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
+                                            <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
+                                            <p class="money">$35,899<span>of $45k</span></p>
+                                            <div class="loading-bar">
+                                                <div class="loading-pjbar" style="width:30%"></div>
+                                            </div> <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Turn On</a> <span class="floatright">are you sure?<a href="#" class="color2">Yes</a></span> 
                                         </div>
-                                        <a href="#" class="color3">Edit</a> | Are you sure? <a href="#" class="color2">Yes</a>  <a href="#" class="floatright">Delete</a>
-</div>
-
-                                    <div class="list-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="images/item-img.png"></a>
+                                        <div class="list-item">
+                                            <div class="item-img-add"> <img src="images/img-add.png"> </div>
+                                            <center>
+                                                <h4>Create a New Campaign</h4></center>
                                         </div>
-                                        <div class="icon-like"></div>
-                                        <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:30%"></div>
-                                        </div>
-                                        <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Turn On</a>  <a href="#" class="floatright">Delete</a>
-                                    </div>
-
-                                    <div class="list-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="images/item-img.png"></a>
-                                        </div>
-                                        <div class="icon-like"></div>
-                                        <h4><a href="#">Baby 1(active/mouse hover)</a></h4>
-                                        <p class="text02">We are of the belief that 80% of crowdfunding campaigns</p>
-                                        <p class="money">$35,899<span>of $45k</span></p>
-                                        <div class="loading-bar">
-                                            <div class="loading-pjbar" style="width:30%"></div>
-                                        </div>
-                                        <a href="#" class="color3">Edit</a> | <a href="#" class="color5">Turn On</a> <span class="floatright">are you sure?<a href="#" class="color2">Yes</a></span>
-</div>
-
-                                    <div class="list-item">
-                                        <div class="item-img-add">
-                                            <img src="images/img-add.png">
-                                        </div>
-                                        <center><h4>Create a New Campaign</h4></center>
                                     </div>
                                 </div>
-
-
-
-							</div>
+                            </div>
                         </div>
                     </section>
                 </div>

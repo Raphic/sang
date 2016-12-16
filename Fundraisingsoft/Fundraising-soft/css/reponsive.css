@@ -4,21 +4,24 @@
 /*========================================================
 										              320
 =========================================================*/
-@media only screen and (min-width: 320px) and (max-width: 980px){
+@media only screen and (min-width: 320px) and (max-width: 880px){
     #wrap{
         position: relative;
     }
-    .content, .left02, .right02, .box01, .right01, .left01,.right02, .right02a, .left02, .list-style01, .easy-setup:after, .login, .loadmore02, .loadmore03, .change-withdraw, .benefitcary , .campaign {
+    .content, .left02, .box01, .right01, .left01,.right02, .right02a, .right04, .left02, .list-style01, .easy-setup:after, .login, .loadmore02, .loadmore03, .change-withdraw, .benefitcary , .campaign, .update-warp, .campaign-warp {
         width: 100%;
     }
     .right02a{
         border: none;
         border-radius: 0;
     }
+    .content{
+        padding: 0;
+    }
     .wrap-content.index{
         margin-top: 1em;
     }
-    .content,
+     .wrap-content.index,
     footer{
         padding: 0px 1em;
     }
@@ -81,6 +84,7 @@
 	    display: -moz-flex;
 	    display: -webkit-flex;
         justify-content:space-between;
+        -webkit-justify-content:space-between;
         margin-bottom: 10px;
     }
     .content header .slider .top-text ul li{
@@ -116,6 +120,32 @@
     }
     .list-item{
         margin: 0 0 10px;
+    }
+    .dashboard .middle .right02a .update .list-item{
+        margin: 0 auto 10px;
+    }
+    .right04 p{
+        text-align: justify;
+    }
+    .left04>div, .right04>div{
+        display: flex;
+	    display: -ms-flex;
+	    display: -moz-flex;
+	    display: -webkit-flex;
+        justify-content:space-between;
+        -webkit-justify-content:space-between;
+    }
+    .right04>div .w170{
+        width: 48%;
+        height: auto;
+    }
+    .dashboard .middle .right02a .update>.right04,
+    .withdraw-request{
+        display: block !important;
+    }
+    .triple{
+        width: 100%;
+        margin: 1em;
     }
     .easy-setup:after{
         background-size: contain;
@@ -161,9 +191,13 @@
     }
     .btn-continue, .btn-cancel{
         padding: 10px 0;
+        width: 48%;
     }
 /*==========================Footer===========================*/
     footer {
+        text-align: center;
+    }
+    footer p{
         text-align: center;
     }
     footer .flex{
@@ -178,6 +212,9 @@
         justify-content: center;
         -webkit-justify-content: center;
     }
+    .footer-link ul li{
+        margin-top: 20px;
+    }
     .footer-logo,
     .footer-payment{
         width: 100%;
@@ -187,6 +224,16 @@
     }
     .footer-link{
         width: 50%;
+    }
+}
+@media only screen and (min-width: 480px){
+   .easy-setup .right02{
+        display: flex;
+        display: -ms-flex;
+        display: -moz-flex;
+        display: -webkit-flex;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
     }
 }
 @media only screen and (max-width: 911px){
