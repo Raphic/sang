@@ -2,7 +2,7 @@
 <html lang="en" class="desktop">
 
 <head>
-    <title>FAQ</title>
+    <title>FAQ- Contact</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <meta name="description" content="blabla" />
@@ -52,90 +52,42 @@
 	<!--============================================================================-->
 	<!--===================================Content===================================-->
 	<!--============================================================================-->	
-		<section class="wrap-content faq">
+		<section class="wrap-content faq faq-contact">
 		    <header class="faq">
-                <h1 class="color0">FREQUENTLY ASKED QUESTIONS</h1>
-                <h3 class="color0">WANT TO ASK US  QUESTION INSTEAD ?<a class="text-underline color0"> CONTACT US</a></h3>
-                <div class="getting">
-                    <h3>Getting Started</h3>
-                </div>
+                <h1 class="color0">CONTACT US</h1>
+                <h3 class="color0">WEBSITE NAME personal online fundraising websites are perfect for individuals, groups & organizations!</h3>
             </header>
-            <article class="content">
-               <div class="content">
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">How does it work?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">What can I raise money for?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">Is it safe?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">How do I get my money?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">How long do withdrawals take?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <div class="comment-top drop-show">
-                        <div class="comment-content-box">
-                            <a class="faq-question color-text01" href="#">Can I raise money for a friend?</a>
-                            <p class="fq-aws">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
-                        </div>
-                   </div>
-                   <center>
-                       <button class="btn btn-continue">Expand Answers</button>
-                   </center>
-               </div>
-            </article>
-            <article class="content">
-                <div class="faq-signup bg-rose flex flex-between">
-                    <div>
-                       <h2>Didn't find your answer?</h2>
-                       <p>Contact our Happiness team and get an answer in 5 minutes.</p>
-                    </div>
-                    <button class="btn btn-signup">Sign Up Now</button>
+            <article class="faq-contact-content bg-gay">
+              <form class="donate-frm no-border">
+                <div>
+                    <h2>You topic</h2>
+                    <input class="text" type="text" required="" placeholder="Please make a selection...">
+                    <input class="text" type="text" required="" placeholder="Subject">
                 </div>
-            </article>
-			<article class="content">
-				<section class="why-fs bg-rose">
-                    <div class="content">
-                        <h2>Why Fundraising Soft?</h2>
-                        <div class="flex flex-between">
-                           <div class="easy-setup right02 flex flex-between">
-                               <ul class="faq-list">
-                                    <li>Mobile-Friendly Campaigns</li>
-                                    <li>No penalties for missing goal</li>
-                                    <li>Fundraising Soft Mobile App</li>
-                                </ul>
-                                <ul class="faq-list">
-                                    <li>No deadlines or goal requirements</li>
-                                    <li>5-Minute Email Support</li>
-                                    <li>Keep every donation you receive</li>
-                                </ul>
-                            </div>
+                <div>
+                    <div class="flex flex-between flex-ver-center">
+                        <h2>You are?</h2>
+                        <div>
+                            <input type="checkbox" required><span><b>Campaigner</b></span>
                         </div>
-                        <center>
-                            <button class="btn btn-continue">START A CAMPAIGNER</button>
-                        </center>
+                        <div>
+                            <input type="checkbox" required><span><b>Donor</b></span>
+                        </div>
+                        <div>
+                            <input type="checkbox" required><span><b>Beneficiary</b></span>
+                        </div>
+                        <div>
+                            <input type="checkbox" required><span><b>Customer</b></span>
+                        </div>
                     </div>
-                </section>
-			</article>
+                    <input class="text" type="text" required="" placeholder="#Email Address: If You are a member. Please provide your email account">
+                </div>
+                <textarea class="input-comment" placeholder="Your Comment"></textarea>
+                <center>
+                    <button class="btn btn-continue no-margin">SUBMIT</button>
+                </center>
+              </form>
+            </article>
 		</section>
 		
 	<!--============================================================================-->

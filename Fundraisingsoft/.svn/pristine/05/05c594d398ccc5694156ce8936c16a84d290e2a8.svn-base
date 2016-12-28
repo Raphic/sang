@@ -2,7 +2,8 @@
 <html lang="en" class="desktop">
 
 <head>
-	<title>Account Setting</title>
+	<title>Create Campaign</title>
+	<meta charset="utf-8">
 	<meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <meta name="description" content="blabla" />
@@ -10,7 +11,6 @@
     <meta name="keywords" content="key, key2" />
     <meta name="author" content="Digital Marketing Solutions, Penny Auction Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="#" type="image/x-icon">
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reponsive.css">
@@ -18,6 +18,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.rd-navbar.js"></script>
 	<script src="js/script.js"></script>
+   
 </head>
 
 <body>
@@ -31,8 +32,19 @@
 					<img src="images/logo.png">
 				</div>
 				<div class="top-menu pc-mb">
-					<nav class="nav"data-type="navbar">
+					<nav class="nav">
 						<ul class="menu flex" data-type="navbar">
+							<li><a href="#">Dashboard</a></li>
+							<li><a href="#">Share</a></li>
+							<li><a href="#">Edit</a></li>
+							<li><a href="#">Withdraw</a></li>
+							<li class="drop-show"><a href="#">More<span class="icon-dropdown"></span></a>
+								<ul class="profile-drop-show">
+									<li><a href="#">Donations</a></li>
+									<li><a href="#">Updates</a></li>
+									<li><a href="#">Transfer Money to Someone Else</a></li>
+								</ul>
+							</li>
 							
 						</ul>
 					</nav>
@@ -66,35 +78,68 @@
                     <section class="middle flex flex-between">
                         <div class="left02">
                             <nav class="menu-left">
-                               <h3 class="title01 bg-blue">ACCOUNT SETTINGS</h3>
+                                <h3 class="title01 bg-blue">Create a Campaign !</h3>
                                 <ul>
-                                    <li><a href="#">Basic settings</a></li>
-                                    <li><a href="#">Change Password</a></li>
-                                    <li><a href="#">Connect Facebook</a></li>
-                                    <li><a href="#">Connect Twitter</a></li>
-                                    <li><a href="#">Account Status</a></li>
-                                    <li><a href="#">Log Out</a></li>
+                                    <li><a href="#">Title, Goal, Location</a></li>
+                                    <li><a href="#">Photo or Video</a></li>
+                                    <li><a href="#">Description</a></li>
+                                    <li><a href="#">Share</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="update-warp">
+                        <div class="campaign">
                         	<div class="right02a">
-								<div class="update">
-                                    <h1>Account Status</h1>
-								</div>
-								<div class="update">
-                                    <p class="text-blue no-margin">Are you sure you want to delete your entire Domain account?</p>
-								    <p class="text03 no-margin">Click the button to permanently delete your account and campaign.</p>
-                                    <p><button class="btn btn-login-sub">Delete My Account</button></p>
-								</div>
 								<div class="update no-border">
-								    <a class="text-blue" href="#">I don’t want receive anymore email</a>
-								    <span> | </span>
-								    <a class="text-blue" href="#">I want hide Campaing on Search Public</a>
-								    
+									<h1>Campaign settings</h1>
+                                    <p class="text03">These settings affect what visitors will see on your campaign.</p>
 								</div>
+								
+								<div class="update">
+                                    <div class="donate-frm">
+                                        <label class="text02">Select Category:</label>
+                                        <select>
+                                            <option>Medical, Illness & Healing</option>
+                                            <option>Accidents & Emergencies</option>
+                                            <option>Animals & Pets</option>
+                                            <option>Creative Arts, Music & Film</option>
+                                            <option>Non-Profits & Charities</option>
+                                            <option>Celebrations & Events</option>
+                                            <option>Business & Entrepreneurs</option>
+                                        </select>
+                                        <br /><br />
+                                        <label class="text02">ZIP or Postal Code: </label>
+                                        <input class="field-error" type="text" required placeholder="EX : 80000">
+                                        <br /><br />
+                                        <hr style="width:100%" />
+
+                                        <label class="text02">Display on Fundraising Soft? </label>
+                                        <p>Use the setting to control whether or not your campaign will be displayed on Fundraising Soft and our partner websites, such as local newspapers.</p>
+                                        <div class="togglecon selected" style="">
+                                            <div class="togglein"></div>
+                                            <input id="Public_campaign" name="Public_campaign" value="1" type="hidden">
+                                        </div>
+                                        <span class="lbl toggletxt" data-label_on="Yes (others may search for your campaign)" data-label_off="Off">Yes (others may search for your campaign)</span>
+                                        
+                                        <br /><br />
+                                        <hr style="width:100%" />
+
+                                        <label class="text02">Pause? </label>
+                                        <p>Campaign no longer receive donate</p>
+                                        <div class="togglecon" style="">
+                                            <div class="togglein"></div>
+                                            <input id="Pause_campaign" name="Pause_campaign" value="0" type="hidden">
+                                        </div>
+                                        <span class="lbl toggletxt" data-label_on="Yes (Campaign will no longer receive donate)" data-label_off="Off (recommended)">Off (recommended)</span>
+
+
+                                    </div>
+								</div>
+                                <div class="update flex flex-between flex-vertical no-border">
+                                        <a class="back" href="#"></a>
+                                        <button class="btn btn-continue">Save Settings</button>
+                                        <a class="need-contact color5" href="dashboard.htm">Cancel</a>
+                                </div>
 							</div>
-                        </div>
                     </section>
                 </div>
 			</article>
@@ -174,5 +219,6 @@
 				</div>
 		</footer>
 	</div>
+    <script src="js/common.js"></script>
 </body>
 </html>

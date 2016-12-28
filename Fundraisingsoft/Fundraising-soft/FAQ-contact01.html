@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="desktop">
 
 <head>
-	<title>Account Setting</title>
-	<meta charset="utf-8">
+    <title>FAQ- Contact</title>
+    <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <meta name="description" content="blabla" />
     <meta name="msnbot" content="Load noi dung cua Description">
@@ -17,7 +17,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/jquery.rd-navbar.js"></script>
-	<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -28,77 +28,44 @@
 		<header class="top-header">
 			<div class="box01 flex flex-between flex-ver-center">
 				<div class="logo flex flex-between flex-ver-center">
-					<img src="images/logo.png">
+                    <a href="#" title=""><img src="images/logo.png"></a>
+					<div class="search01">
+						<form class="top-search">
+							<input class="_input" type="text" name="s" value="" placeholder="title,city,country"> 
+							<button class="btn btn-search01" type="submit"> <span class="fa fa-search"></span> </button>
+						</form>
+					</div>
 				</div>
+				<button id="pc" class="btn create-campaign"><a class="current" href="#" onclick="OpenpopupLogin()">create a campaign</a></button>
 				<div class="top-menu pc-mb">
-					<nav class="nav"data-type="navbar">
+					<nav class="nav">
 						<ul class="menu flex" data-type="navbar">
-							
+							<li><a href="#">how it works</a></li>
+							<li><a href="#">faqs</a></li>
+							<li><a href="#">help</a></li>
+							<li><a id="mb" class="current" href="#" onclick="OpenpopupLogin()">create a campaign</a></li>
 						</ul>
 					</nav>
 				</div>
-                <nav class="nav">
-                   <ul class="menu flex">
-                    <button class="btn btn-profile drop-show">
-                        <a href="#" class="icon-profile">
-                            <img src="images/icon-profile.png">
-                        </a>
-                        <span>David</span>
-                        <span class="icon-dropdown"></span>
-                        <div class="profile-drop-show">
-                            <li><a href="#">Notifications <span class="text-red">(12)</span></a></li>
-                            <li><a href="#">Account Setting</a></li>
-                            <li><a href="#">My Campaigns</a></li>
-                            <li><a href="#">Ask a Question</a></li>
-                            <li><a href="#">Logout</a></li>
-                        </div>
-                    </button>
-                    </ul>
-                </nav>
 			</div>
 		</header>
 	<!--============================================================================-->
 	<!--===================================Content===================================-->
 	<!--============================================================================-->	
-		<section class="wrap-content">
-			<article class="content">
-                <div class="dashboard">
-                    <section class="middle flex flex-between">
-                        <div class="left02">
-                            <nav class="menu-left">
-                               <h3 class="title01 bg-blue">ACCOUNT SETTINGS</h3>
-                                <ul>
-                                    <li><a href="#">Basic settings</a></li>
-                                    <li><a href="#">Change Password</a></li>
-                                    <li><a href="#">Connect Facebook</a></li>
-                                    <li><a href="#">Connect Twitter</a></li>
-                                    <li><a href="#">Account Status</a></li>
-                                    <li><a href="#">Log Out</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="update-warp">
-                        	<div class="right02a">
-								<div class="update">
-                                    <h1>Account Status</h1>
-								</div>
-								<div class="update">
-                                    <p class="text-blue no-margin">Are you sure you want to delete your entire Domain account?</p>
-								    <p class="text03 no-margin">Click the button to permanently delete your account and campaign.</p>
-                                    <p><button class="btn btn-login-sub">Delete My Account</button></p>
-								</div>
-								<div class="update no-border">
-								    <a class="text-blue" href="#">I don’t want receive anymore email</a>
-								    <span> | </span>
-								    <a class="text-blue" href="#">I want hide Campaing on Search Public</a>
-								    
-								</div>
-							</div>
-                        </div>
-                    </section>
-                </div>
-			</article>
+		<section class="wrap-content faq faq-contact">
+		    <header class="faq">
+                <h1 class="color0">CONTACT US</h1>
+                <h3 class="color0">WEBSITE NAME personal online fundraising websites are perfect for individuals, groups & organizations!</h3>
+            </header>
+            <article class="faq-contact-content bg-gay">
+                <h4 class="title02 text-blue">Thank You</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue blandit bibendum. In felis urna, auctor vel maximus at, hendrerit vitae nibh. Pellentesque sed ultricies tellus, a maximus sem. Donec interdum, risus vitae maximus volutpat, lacus nisl vehicula velit, sit amet lobortis mauris enim id ligula. Vivamus augue massa, lacinia tincidunt purus a, elementum mattis eros. Sed maximus quam vel sapien fringilla, a scelerisque leo faucibus.</p>
+                <center>
+                    <button class="btn btn-continue no-margin">BACK TO HOMEPAGE</button>
+                </center>
+            </article>
 		</section>
+		
 	<!--============================================================================-->
 	<!--===================================Footer====================================-->
 	<!--============================================================================-->	
@@ -174,5 +141,41 @@
 				</div>
 		</footer>
 	</div>
+
+
+    <div id="divlogin" style="display:none">
+
+        <div class="login">
+            <h1 class="login-title">
+                <img src="images/footer-logo.png" />
+            </h1>
+            <div class="login-content">
+                <h2>Sign In</h2>
+                <br>
+                <center>
+                    <h3 class="color5">Sign In with</h3>
+                    <button class="btn btn-continue bg-blue no-margin">
+                        <a class="button-account-fb" href="">
+                            <img src="images/button-account-fb.png">
+                        </a>
+                    </button>
+                    <h3 class="color5">-- Or, use your email --</h3>
+                </center>
+                <form class="donate-frm no-border">
+                    <label class="text-red">All Fields are required</label>
+                    <input class="email" type="email" required placeholder="Your Email Address">
+                    <input class="paw" type="text" required placeholder="Your Password">
+                </form>
+                <hr class="dotted">
+                <button class="btn btn-login-sub">SIGN IN</button>
+                <br>
+                <br>
+                <a class="color5" href="#">Forgot yor password ?</a>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 </html>

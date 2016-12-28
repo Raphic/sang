@@ -1,4 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+﻿@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
 @import url("../css/color/color.css");
 @charset "utf-8";
@@ -166,12 +166,12 @@ p {
     color: #333;
 }
 .btn:after {
-     content: '';
-     position: absolute;
-     z-index: -1;
-     -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     transition: all 0.3s;
+ content: '';
+ position: absolute;
+ z-index: -1;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
 }
 .btn-1 {
     border-radius: 10px;
@@ -758,6 +758,7 @@ input{
 .easy-setup{
     background: url(../images/bg-content-footer.png) no-repeat;
     background-size: 100%;
+    min-height: 400px;
     padding: 40px 0 0;
 }
 .easy-setup:after{
@@ -1079,20 +1080,10 @@ input{
 	height: 105px;
 	text-overflow: ellipsis; 
 	overflow: hidden;
-    transition: all ease-in-out 0.3s;
-    -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
-    -ms-transition: all ease-in-out 0.3s;
 }
 .fullheight{height:auto!important}
 .comment-top.active .comment-content-box{
 	max-height: 300px;
-    transition: all ease-in-out 0.3s;
-    -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
-    -ms-transition: all ease-in-out 0.3s;
 }
 .comment-top.active  .loadmore01{
 	opacity: 0;
@@ -1739,147 +1730,6 @@ p.profile-name{
 .gg-map{
     min-height: 300px;
 }
-/**********************FAQ********************/
-header.faq{
-    width: 1200px;
-    height: 190px;
-    background: url(../images/FAQ.png) no-repeat;
-    text-align: center;
-    padding: 30px 0;
-    margin: auto;
-    display: block;
-}
-header.faq h1{
-    font-family: Roboto;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 1.7em;
-}
-.getting{
-    border-radius: 6px;
-    border: solid 1px #ebebeb;
-    background-color:  #ffffff;
-    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.14);
-    width: 1120px;
-    margin: 25px auto 0;
-    padding: 10px 15px 7px;
-    text-align: left;
-}
-.faq div.content{
-    width: 100%;
-}
-.faq article:nth-child(2){
-    margin-top: 60px;
-}
-.faq-question{
-    font-size: 18px;
-    font-weight: bold;
-}
-.faq-question:after {
-    content: '';
-    background: url(../images/icon-faq.png) no-repeat;
-    width: 10px;
-    height: 9px;
-    float: right;
-    margin-left: 5px;
-    margin-top: 10px;
-     -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
-    -ms-transition: all ease-in-out 0.3s;
-}
-.active .faq-question:after {
-    content: "";
-    -ms-transform: rotate(180deg); 
-    -webkit-transform: rotate(180deg); 
-    transform: rotate(180deg);
-     -webkit-transition: all ease-in-out 0.3s;
-    -moz-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
-    -ms-transition: all ease-in-out 0.3s;
-}
-.faq .comment-top .comment-content-box{
-    max-height: 25px;
-}
-.faq .comment-top.active .comment-content-box{
-    max-height: 200px;
-}
-.faq .comment-top{
-    border-bottom: 1px dotted #888;
-    padding: 5px 5px 12px;
-}
-.faq-signup{
-    padding: 20px;
-}
-.why-fs{
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 2em;
-}
-.why-fs h2{
-    margin-bottom: 1em;
-}
-.why-fs ul{
-    text-align: left;
-}
-.why-fs ul:nth-child(2){
-    margin-left: 0;
-}
-.why-fs .easy-setup{
-    background: transparent;
-    width: 600px;
-    margin: auto;
-    padding: 0;
-}
-.why-fs .easy-setup:after{
-    height: 0px;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-}
-.why-fs .easy-setup ul li:before{
-    width: 15px;
-    height: 20px;
-    margin-right:5px;
-    background-size: contain;
-}
-/**********************FAQ Article********************/
-.title02{
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-.faq-article p{
-    margin-bottom: 1em;
-}
-.faq-article .box-img{
-    margin: 1em auto;
-}
-.faq-article div.content{
-    border-bottom: 1px dotted #999;
-    margin-bottom: 1.5em;
-}
-.faq-article .getting:not(:nth-child(2)){
-    margin-bottom: 1em;
-}
-/**********************FAQ Contact********************/
-.faq-contact header.faq{
-    background: url(../images/faq-conttact.png) no-repeat;
-}
-.faq-contact-content{
-    border-radius: 6px;
-    border: solid 1px #e6e6e6;
-    width: 673px;
-    margin: auto;
-    padding: 40px 60px;
-}
-.faq-contact-content .donate-frm div div span{
-    vertical-align: middle;
-    margin-left: 5px;
-}
-.faq-contact-content .donate-frm>div{
-    margin-bottom: 1em;
-}
 /*************************************************/
 /**********************Footer********************/
 /************************************************/
@@ -1936,22 +1786,6 @@ hr{
     border-bottom: 1px solid #eae9e9;
     padding: 10px 5px;
     margin: 10px;
-}
-::-webkit-input-placeholder {
-    color:  #9b9999;
-    font-size: 14px;
-}
-::-moz-placeholder {
-    color:  #9b9999;
-    font-size: 14px;
-}
-:-ms-input-placeholder { 
-    color:  #9b9999;
-    font-size: 14px;
-}
-:-moz-placeholder {
-    color:  #9b9999;
-    font-size: 14px;
 }
 footer{
 	min-height: 300px;
