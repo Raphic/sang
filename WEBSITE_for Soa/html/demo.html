@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Carousel Evolution Demo</title>
+    
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/include.js"></script>
+    
+    <style>
+        body{
+            padding-top: 10em;
+        }
+    </style>
+    
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                carouselWidth: 930
+                , carouselHeight: 330
+                , directionNav: true
+                , reflection: false
+                , shadow: true
+                , buttonNav: 'bullets'
+                ,autoplay:false
+                ,autoplayTimeout:5000
+                ,autoplayHoverPause:true
+                ,vAlign: 'bottom'
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- BEGIN CONTAINER -->
+        <div class="slides">
+            <!-- BEGIN CAROUSEL -->
+            <div>
+                <!-- SLIDE ITEM -->
+                <a href="#"> <img src="images/slide-1.jpg" /> <p>adas</p> </a>
+            </div>
+            <div>
+                <a href="#"> <img src="images/slide-2.jpg" /> </a>
+            </div>
+            <div>
+                <a href="#"> <img src="images/slide-3.jpg" /> </a>
+            </div>
+            <div>
+                <a href="#"> <img src="images/slide-4.jpg" /> </a>
+            </div>
+            <div>
+                <a href="#"> <img src="images/slide-5.jpg" /> </a>
+            </div>
+            <div>
+                <a href="#"> <img src="images/slide-6.jpg" /> </a>
+            </div>
+            <div> <img src="images/slide-7.jpg" /> </div>
+        </div>
+        <!-- END SLIDES -->
+    </div>
+</body>
+
+</html>
